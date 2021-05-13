@@ -1,0 +1,11 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * JXTX global css variables.
+ */
+
+:root {
+    --gutter: 0 var(--gutter-x);
+    --gutter-x: 32px;
+}

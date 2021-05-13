@@ -11,13 +11,18 @@ import {graphql} from "gatsby"
 import {MDXRenderer} from "gatsby-plugin-mdx";
 import React from "react";
 
+// App dependencies
+import Layout from "../components/layout/layout";
+
 export default function Article({data}) {
 
     const post = data.mdx,
         {body: content} = post;
 
     return (
-        <MDXRenderer>{content}</MDXRenderer>
+        <Layout>
+            <MDXRenderer>{content}</MDXRenderer>
+        </Layout>
     )
 }
 
