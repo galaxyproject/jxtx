@@ -1,0 +1,48 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX button component.
+ */
+
+/* Button. */
+.button {
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/* Button - focus. */
+.button:focus {
+    outline: none;
+}
+
+/* Button outlined, unelevated. */
+.button___outlined, .button___unelevated {
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 20px;
+    padding: 11px 15px; /* TODO review. */
+}
+
+/* Button outlined. */
+.button___outlined {
+    background-color: transparent;
+}
+
+/* Button primary, unelevated. */
+.button___primary.button___unelevated {
+    background-color: var(--accent-orange);
+    color: var(--white);
+}
+
+/* Button white, outlined. */
+.button___white.button___outlined {
+    border: 2px solid var(--white);
+    color: var(--white);
+}

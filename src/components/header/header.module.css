@@ -1,0 +1,81 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX header component.
+ */
+
+/* Composes - flex, align items centered. */
+.f__a--c {
+    align-items: center;
+    display: flex;
+}
+
+/* Header. */
+.header {
+    composes: f__a--c;
+    height: 100px;
+    justify-content: flex-start;
+    margin: var(--gutter);
+}
+
+/* Logo. */
+.header__logo {
+    composes: f__a--c;
+    color: var(--default-text);
+    text-decoration: none;
+}
+
+/* Logo, image. */
+.header__logo__img {
+    margin: 0 16px 0 0;
+    width: 48px;
+}
+
+/* Logo, title. */
+.header__logo__title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+/* Nav. */
+.header__nav {
+    flex: 1; /* Take up all available space. */
+}
+
+/* Nav - all children. */
+.header__nav * {
+    list-style: none; /* Remove all list styles from <ul>. */
+    margin: 0; /* Remove all margin from <ul>, <li>, <button>. */
+}
+
+/* Nav unordered list. */
+.header__nav__list {
+    composes: f__a--c;
+    justify-content: flex-end; /* Flex to end of container. */
+    margin-right: 12px; /* Makes up remaining 44px between last nav item and button. */
+}
+
+/* Nav item. */
+.header__nav__item {
+    margin: 0 16px;
+}
+
+/* Nav link. */
+.header__nav__link {
+    color: var(--default-text);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Nav link - active. */
+.header__nav__link___active {
+    color: var(--accent-orange);
+}

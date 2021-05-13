@@ -1,0 +1,14 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * JXTX core css variables.
+ */
+
+:root {
+    --accent-blue: #2077B3;
+    --accent-orange: #FE7F02;
+    --black: #000000;
+    --default-text: #000000;
+    --white: #FFFFFF;
+}
