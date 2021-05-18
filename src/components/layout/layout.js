@@ -11,6 +11,7 @@ import React from "react";
 
 // App dependencies
 import DocumentMetadata from "../document-metadata/document-metadata";
+import Footer from "../footer/footer";
 import Header from "../header/header";
 
 // Styles
@@ -26,6 +27,7 @@ function Layout(props) {
             <DocumentMetadata/>
             <Header/>
             {children}
+            <Footer/>
         </>
     )
 }

@@ -28,7 +28,7 @@ const donate = "/";
 const events = "/";
 const home = "/";
 const james = "/about-james/bio";
-const news = "/"
+const news = "/";
 const scholarships = "/";
 
 function Header() {
