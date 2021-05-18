@@ -46,3 +46,19 @@
     border: 2px solid var(--white);
     color: var(--white);
 }
+
+/* Button social. */
+.button__social {
+    line-height: 0;
+}
+
+/* Button social oversized "32px". */
+.button__social___oversized {
+    width: 32px;
+}
+
+/* Button social - all children. */
+.button__social > * {
+    margin: 0;
+    width: inherit; /* Inherited width specified by <ButtonSocial/> prop `iconSize`. */
+}
