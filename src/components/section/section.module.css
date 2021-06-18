@@ -24,5 +24,6 @@
 /* Section offset. */
 .section__offset {
     margin: var(--scale___128);
+    overflow: hidden; /* Required to hide overflow from repositioning offsets. */
     position: relative; /* Positions offsets. */
 }
