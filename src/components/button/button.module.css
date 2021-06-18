@@ -62,3 +62,14 @@
     margin: 0;
     width: inherit; /* Inherited width specified by <ButtonSocial/> prop `iconSize`. */
 }
+
+/* Button hero. */
+.button___hero {
+    composes: button___outlined;
+    composes: button___white;
+    font-size: var(--scale___18); /* TODO review. */
+    display: inline-block;
+    line-height: var(--scale___24); /* TODO review. */
+    padding: var(--scale___18) var(--scale___60); /* TODO review. */
+}
+

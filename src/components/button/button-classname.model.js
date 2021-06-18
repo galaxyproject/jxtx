@@ -6,6 +6,7 @@
  */
 
 export const ButtonClassname = {
+    "HERO": "button___hero",
     "OUTLINED": "button___outlined",
     "PRIMARY": "button___primary",
     "SOCIAL": "button__social",

@@ -1,0 +1,11 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX section component.
+ */
+
+/* Section hero. */
+.section__hero {
+    position: relative; /* Positions hero image. */
+}

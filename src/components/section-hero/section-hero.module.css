@@ -1,0 +1,64 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX section hero component.
+ */
+
+/* Hero image. */
+.hero__image {
+    left: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* Hero headline. */
+.hero__headline {
+    box-sizing: content-box;
+    color: var(--white);
+    padding: calc(var(--scale) * 9.5) var(--scale___128) calc(var(--scale) * 7);
+    position: relative;
+    width: calc(var(--scale) * 23.4375); /* TODO review. */
+}
+
+/* Hero headline head. */
+/* Hero headline subhead. */
+.hero__headline__head,
+.hero__headline__subhead {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/* Hero headline head. */
+.hero__headline__head {
+    font-size: var(--scale___72);
+    letter-spacing: 1.14px; /* TODO review. */
+    line-height: var(--scale___84);
+    margin-bottom: var(--scale___24);
+}
+
+/* Hero headline subhead. */
+.hero__headline__subhead {
+    font-size: var(--scale___48);
+    line-height: var(--scale___60);
+    margin-bottom: var(--scale___48);
+}
+
+/** Hero attribution. */
+.hero__attribution {
+    align-items: center;
+    bottom: var(--scale___10);
+    display: inline-flex;
+    font-size: var(--scale___32);
+    line-height: 0; /* Required to maintain correct height of <h2>. */
+    position: relative; /* Required to center position attribution with <h2>. */
+}
+
+/** Hero attribution quote line. */
+.hero__attribution::before {
+    background-color: white;
+    content: "";
+    margin: auto var(--scale___16);
+    padding: var(--scale___2) var(--scale___16);
+}
