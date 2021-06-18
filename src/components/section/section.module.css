@@ -20,3 +20,9 @@
     align-items: stretch;
     display: flex;
 }
+
+/* Section offset. */
+.section__offset {
+    margin: var(--scale___128);
+    position: relative; /* Positions offsets. */
+}

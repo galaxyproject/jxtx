@@ -7,4 +7,5 @@
 
 export const ContentBlockScale = {
     "OVERSIZED": "OVERSIZED",
+    "STANDARD": "STANDARD"
 };
