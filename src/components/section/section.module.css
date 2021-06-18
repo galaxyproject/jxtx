@@ -9,3 +9,14 @@
 .section__hero {
     position: relative; /* Positions hero image. */
 }
+
+/* Section banner. */
+.section__banner {
+    padding: var(--scale___200) var(--scale___128);
+}
+
+/* Section bi-fold. */
+.section__bifold {
+    align-items: stretch;
+    display: flex;
+}

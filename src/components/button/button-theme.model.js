@@ -6,7 +6,7 @@
  */
 
 export const ButtonTheme = {
-    "HERO": "HERO",
     "PRIMARY": "PRIMARY",
+    "SECONDARY": "SECONDARY",
     "WHITE": "WHITE"
 };

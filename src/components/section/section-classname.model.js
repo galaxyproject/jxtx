@@ -6,5 +6,7 @@
  */
 
 export const SectionClassname = {
+    "BANNER": "section__banner",
+    "BIFOLD": "section__bifold",
     "HERO": "section__hero",
 };

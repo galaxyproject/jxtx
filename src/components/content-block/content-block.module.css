@@ -1,0 +1,22 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX content block component.
+ */
+
+/* Content block. */
+.content__block {
+    flex: 1;
+    line-height: 0; /* Required for child images. */
+}
+
+/* Content block oversized. */
+.content__block___oversized {
+    padding: var(--scale___128) var(--scale___60);
+}
+
+/* Content block off white. */
+.content__block___offWhite {
+    background-color: var(--off-white);
+}

@@ -18,10 +18,11 @@ const classNames = require("classnames");
 
 function ButtonCta(props) {
 
-    const {attributeHREF, attributeRel, attributeTarget, buttonTheme, buttonType, children} = props;
+    const {attributeHREF, attributeRel, attributeTarget, buttonScale, buttonTheme, buttonType, children} = props;
+    const classButtonScale = ButtonClassname[buttonScale];
     const classButtonTheme = ButtonClassname[buttonTheme];
     const classButtonType = ButtonClassname[buttonType];
-    const classNamesButton = classNames(buttonStyles.button, buttonStyles[classButtonTheme], buttonStyles[classButtonType]);
+    const classNamesButton = classNames(buttonStyles.button, buttonStyles[classButtonScale], buttonStyles[classButtonTheme], buttonStyles[classButtonType]);
 
     return (
         <a className={classNamesButton}

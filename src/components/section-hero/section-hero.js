@@ -9,6 +9,7 @@
 import React from "react";
 
 // App dependencies
+import {ButtonScale} from "../button/button-scale.model";
 import {ButtonTheme} from "../button/button-theme.model";
 import {ButtonType} from "../button/button-type.model";
 import ButtonCTA from "../button-cta/button-cta";
@@ -41,7 +42,8 @@ function SectionHero() {
                     attributeHREF={donate}
                     attributeRel={Relationship.NOOPENER_NOREFERRER}
                     attributeTarget={Target.BLANK}
-                    buttonTheme={ButtonTheme.HERO}
+                    buttonScale={ButtonScale.OVERSIZED}
+                    buttonTheme={ButtonTheme.WHITE}
                     buttonType={ButtonType.OUTLINED}>
                     Donate
                 </ButtonCTA>

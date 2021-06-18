@@ -15,16 +15,21 @@
     --gutter-x: 32px;
     --scale: calc(100vw / 60);
     --scale___2: calc(var(--scale) * 0.0625); /* 2px at media 1920px. */
+    --scale___4: calc(var(--scale) * 0.125); /* 4px at media 1920px. */
     --scale___10: calc(var(--scale) * 0.3125); /* 10px at media 1920px. */
     --scale___16: calc(var(--scale) * 0.5); /* 16px at media 1920px. */
     --scale___18: calc(var(--scale) * 0.5625); /* 18px at media 1920px. */
     --scale___24: calc(var(--scale) * 0.75); /* 24px at media 1920px. */
     --scale___32: calc(var(--scale) * 1); /* 32px at media 1920px. */
+    --scale___40: calc(var(--scale) * 1.25); /* 40px at medial 1920px. */
     --scale___48: calc(var(--scale) * 1.5); /* 48px at media 1920px. */
     --scale___60: calc(var(--scale) * 1.875);  /* 60px at media 1920px. */
+    --scale___64: calc(var(--scale) * 2);  /* 64px at media 1920px. */
     --scale___72: calc(var(--scale) * 2.25);  /* 72px at media 1920px. */
     --scale___84: calc(var(--scale) * 2.625); /* 84px at media 1920px. */
     --scale___96: calc(var(--scale) * 3); /* 96px at media 1920px. */
-    --scale___128: calc(var(--scale) * 3.875); /* 128px at media 1920px. */
+    --scale___124: calc(var(--scale) * 3.875); /* 124px at media 1920px. */
+    --scale___128: calc(var(--scale) * 4); /* 128px at media 1920px. */
+    --scale___200: calc(var(--scale) * 6.25); /* 200px at media 1920px. */
     --media1920: 1920px;
 }
