@@ -1,0 +1,46 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX content block component.
+ */
+
+/* Content block. */
+.content__block {
+    flex: 1;
+    line-height: 0; /* Required for child images. */
+}
+
+/* Content block position above. */
+.content__block___above {
+    z-index: 1;
+}
+
+/* Content block bottom right. */
+.content__block___bottom___right {
+    margin-bottom: calc(-1 * var(--scale) * 14.375); /* Matches top position. Scoots next section up. */
+    margin-left: auto;
+    top: calc(-1 * var(--scale) * 14.375);
+}
+
+/* Content block offset. */
+.content__block___offset {
+    box-sizing: content-box;
+    position: relative;
+    width: calc(var(--scale) * 33.75);
+}
+
+/* Content block off white. */
+.content__block___offWhite {
+    background-color: var(--off-white);
+}
+
+/* Content block oversized. */
+.content__block___oversized {
+    padding: var(--scale___128) var(--scale___60);
+}
+
+/* Content block standard. */
+.content__block___standard {
+    padding: var(--scale___64) var(--scale___64) var(--scale___90);
+}

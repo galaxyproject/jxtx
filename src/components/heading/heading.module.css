@@ -1,0 +1,45 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX heading component.
+ * Used by section heading and content block heading components.
+ */
+
+/* Compose class ".heading" - heading. */
+.heading {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: var(--scale___48);
+    font-weight: 600;
+    line-height: var(--scale___60);
+    margin-bottom: var(--scale___24);
+}
+
+/* Heading theme "orange". */
+/* Heading theme "blue". */
+.heading___o,
+.heading___b {
+    composes: heading; /* Heading. */
+    position: relative; /* Positions heading accent. */
+}
+
+/* Heading theme "orange". */
+.heading___o::after {
+    background-color: var(--accent-orange-light);
+}
+
+/* Heading theme "blue". */
+.heading___b::after {
+    background-color: var(--accent-blue);
+}
+
+/* Heading theme "orange" and "blue" accent. */
+.heading___o::after,
+.heading___b::after {
+    bottom: calc(-1 * var(--scale___4));
+    content: "";
+    height: var(--scale___4);
+    left: 0;
+    position: absolute;
+    width: var(--scale___124);
+}

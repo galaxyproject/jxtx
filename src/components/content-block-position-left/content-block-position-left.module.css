@@ -1,0 +1,12 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX content block position left component.
+ */
+
+/* Content block position left. */
+.content__block___position_left {
+    margin-right: auto;
+    width: calc(var(--scale) * 15);
+}

@@ -7,5 +7,6 @@
 
 export const ButtonTheme = {
     "PRIMARY": "PRIMARY",
+    "SECONDARY": "SECONDARY",
     "WHITE": "WHITE"
 };

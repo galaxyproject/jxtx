@@ -1,0 +1,27 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX content block body component.
+ */
+
+/* Compose class "c__b__b" - content block body. */
+/* Applies styles to content block body link. */
+.c__b__b a {
+    color: var(--accent-blue);
+    text-decoration: none;
+}
+
+/* Compose class "c__b" - content block body. */
+/* Removes margin to last child of content block body. */
+.c__b__b:last-child {
+    margin: 0;
+}
+
+/* Content block body oversized "48px". */
+.content__body___oversized {
+    composes: c__b__b; /* Content block body. */
+    font-size: var(--scale___48);
+    line-height: var(--scale___60);
+    margin-bottom: var(--scale___64);
+}
