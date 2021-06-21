@@ -16,11 +16,11 @@ import * as compStyles from "./content-block-body.module.css";
 
 function ContentBlockBody(props) {
 
-    const {bodyScale, children} = props;
-    const classBodyScale = ContentBlockBodyClassname[bodyScale];
+    const {children, scale} = props;
+    const classScale = ContentBlockBodyClassname[scale];
 
     return (
-        <p className={compStyles[classBodyScale]}>{children}</p>
+        <p className={compStyles[classScale]}>{children}</p>
     )
 }
 

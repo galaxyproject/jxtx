@@ -42,101 +42,101 @@ function Home() {
     return (
         <main>
             <SectionHero/>
-            <Section sectionType={SectionType.BANNER}>
+            <Section type={SectionType.BANNER}>
                 <ContentBlockHeading
-                    headingTheme={HeadingTheme.ORANGE}>
+                    theme={HeadingTheme.ORANGE}>
                     Our Mission</ContentBlockHeading>
                 <ContentBlockBody
-                    bodyScale={ContentBlockBodyScale.OVERSIZED}>
+                    scale={ContentBlockBodyScale.LARGE}>
                     Organizing and host mentoring sessions between senior and junior faculty members at select
                     high-profile meetings. Organizing and host mentoring sessions between senior and junior faculty
                     members at select high-profile meetings.</ContentBlockBody>
             </Section>
-            <Section sectionType={SectionType.OFFSET}>
+            <Section type={SectionType.OFFSET}>
                 <ContentBlock
-                    blockScale={ContentBlockScale.STANDARD}
-                    blockTheme={ContentBlockTheme.OFF_WHITE}
-                    blockType={ContentBlockType.OFFSET}>
+                    scale={ContentBlockScale.MEDIUM}
+                    theme={ContentBlockTheme.OFF_WHITE}
+                    type={ContentBlockType.OFFSET}>
                     <ContentBlockPositionLeft>
                         <ContentBlockHeading
-                            headingTheme={HeadingTheme.ORANGE}>
+                            theme={HeadingTheme.ORANGE}>
                             Creating Connections
                         </ContentBlockHeading>
                         <ContentBlockBody
-                            bodyScale={ContentBlockBodyScale.OVERSIZED}>
+                            scale={ContentBlockBodyScale.LARGE}>
                             Organizing and host mentoring sessions between senior and junior faculty members at select
                             high-profile meetings.
                         </ContentBlockBody>
                     </ContentBlockPositionLeft>
                 </ContentBlock>
                 <ContentBlock
-                    blockPosition={ContentBlockPosition.BOTTOM_RIGHT}
-                    blockType={ContentBlockType.OFFSET}>
+                    position={ContentBlockPosition.BOTTOM_RIGHT}
+                    type={ContentBlockType.OFFSET}>
                     <img
                         alt={"Creating Connections"}
                         src={connections}
                         style={{margin: 0}}/>
                 </ContentBlock>
             </Section>
-            <Section sectionType={SectionType.OFFSET}>
+            <Section type={SectionType.OFFSET}>
                 <ContentBlock
-                    blockPosition={ContentBlockPosition.ABOVE}
-                    blockType={ContentBlockType.OFFSET}>
+                    position={ContentBlockPosition.ABOVE}
+                    type={ContentBlockType.OFFSET}>
                     <img
                         alt={"Academic Mentorship"}
                         src={mentorship}
                         style={{margin: 0}}/>
                 </ContentBlock>
                 <ContentBlock
-                    blockPosition={ContentBlockPosition.BOTTOM_RIGHT}
-                    blockScale={ContentBlockScale.STANDARD}
-                    blockTheme={ContentBlockTheme.OFF_WHITE}
-                    blockType={ContentBlockType.OFFSET}>
+                    position={ContentBlockPosition.BOTTOM_RIGHT}
+                    scale={ContentBlockScale.MEDIUM}
+                    theme={ContentBlockTheme.OFF_WHITE}
+                    type={ContentBlockType.OFFSET}>
                     <ContentBlockPositionRight>
                         <ContentBlockHeading
-                            headingTheme={HeadingTheme.ORANGE}>
+                            theme={HeadingTheme.ORANGE}>
                             Academic Mentorship
                         </ContentBlockHeading>
                         <ContentBlockBody
-                            bodyScale={ContentBlockBodyScale.OVERSIZED}>
+                            scale={ContentBlockBodyScale.LARGE}>
                             Creating mentoring relationships among the larger computational biology and data science
                             community.
                         </ContentBlockBody>
                     </ContentBlockPositionRight>
                 </ContentBlock>
             </Section>
-            <Section sectionType={SectionType.OFFSET}>
+            <Section type={SectionType.OFFSET}>
                 <ContentBlock
-                    blockScale={ContentBlockScale.STANDARD}
-                    blockTheme={ContentBlockTheme.OFF_WHITE}
-                    blockType={ContentBlockType.OFFSET}>
+                    scale={ContentBlockScale.MEDIUM}
+                    theme={ContentBlockTheme.OFF_WHITE}
+                    type={ContentBlockType.OFFSET}>
                     <ContentBlockPositionLeft>
                         <ContentBlockHeading
-                            headingTheme={HeadingTheme.ORANGE}>
+                            theme={HeadingTheme.ORANGE}>
                             Student Outreach
                         </ContentBlockHeading>
                         <ContentBlockBody
-                            bodyScale={ContentBlockBodyScale.OVERSIZED}>
+                            scale={ContentBlockBodyScale.LARGE}>
                             Attract new scholars to computational biology and data science, particularly for
                             underrepresented minorities.
                         </ContentBlockBody>
                     </ContentBlockPositionLeft>
                 </ContentBlock>
                 <ContentBlock
-                    blockPosition={ContentBlockPosition.BOTTOM_RIGHT}
-                    blockType={ContentBlockType.OFFSET}>
+                    position={ContentBlockPosition.BOTTOM_RIGHT}
+                    type={ContentBlockType.OFFSET}>
                     <img
                         alt={"Student Outreach"}
                         src={outreach}
                         style={{margin: 0}}/>
                 </ContentBlock>
             </Section>
-            <Section sectionType={SectionType.BANNER}>
+            <Section type={SectionType.BANNER}>
                 <ContentBlockHeading
-                    headingTheme={HeadingTheme.ORANGE}>
+                    theme={HeadingTheme.ORANGE}>
                     Our First Scholarships</ContentBlockHeading>
                 <ContentBlockBody
-                    bodyScale={ContentBlockBodyScale.OVERSIZED}>
+                    scale={ContentBlockBodyScale.LARGE}>
                     The JXTX Foundation's first activity is to <Link to={"/"}>sponsor 10 graduate students</Link> to
                     attend the 2020 Biological Data Science Conference at Cold Spring Harbor Laboratory. Awards were
                     competitive and we are delighted with our first round of scholarships.</ContentBlockBody>
@@ -150,7 +150,7 @@ function Home() {
                     Learn More
                 </ButtonCta>
             </Section>
-            <Section sectionType={SectionType.BIFOLD}>
+            <Section type={SectionType.COLLECTION}>
                 <ContentBlock>
                     <img
                         alt={"James Taylor"}
@@ -158,13 +158,13 @@ function Home() {
                         style={{margin: 0}}/>
                 </ContentBlock>
                 <ContentBlock
-                    blockScale={ContentBlockScale.OVERSIZED}
-                    blockTheme={ContentBlockTheme.OFF_WHITE}>
+                    scale={ContentBlockScale.LARGE}
+                    theme={ContentBlockTheme.OFF_WHITE}>
                     <ContentBlockHeading
-                        headingTheme={HeadingTheme.BLUE}>
+                        theme={HeadingTheme.BLUE}>
                         James Taylor</ContentBlockHeading>
                     <ContentBlockBody
-                        bodyScale={ContentBlockBodyScale.OVERSIZED}>
+                        scale={ContentBlockBodyScale.LARGE}>
                         James Taylor started his professional path at the University of Vermont, where he received a BS
                         in Computer Science in 2000. In 2003, after working as a software engineer in the private
                         sector, he found that his real purpose in life was elsewhere.</ContentBlockBody>

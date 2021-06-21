@@ -7,7 +7,7 @@
 
 export const SectionType = {
     "BANNER": "BANNER",
-    "BIFOLD": "BIFOLD",
+    "COLLECTION": "COLLECTION",
     "HERO": "HERO",
     "OFFSET": "OFFSET"
 };

@@ -6,5 +6,5 @@
  */
 
 export const ContentBlockBodyClassname = {
-    "OVERSIZED": "content__body___oversized",
+    "LARGE": "content__body___l",
 };
