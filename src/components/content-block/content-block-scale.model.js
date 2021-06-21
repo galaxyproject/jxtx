@@ -6,6 +6,6 @@
  */
 
 export const ContentBlockScale = {
-    "OVERSIZED": "OVERSIZED",
-    "STANDARD": "STANDARD"
+    "LARGE": "LARGE",
+    "MEDIUM": "MEDIUM"
 };

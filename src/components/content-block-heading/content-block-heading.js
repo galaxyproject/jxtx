@@ -16,11 +16,11 @@ import * as headingStyles from "../heading/heading.module.css";
 
 function ContentBlockHeading(props) {
 
-    const {children, headingTheme} = props;
-    const classHeadingTheme = HeadingClassname[headingTheme];
+    const {children, theme} = props;
+    const classTheme = HeadingClassname[theme];
 
     return (
-        <h3 className={headingStyles[classHeadingTheme]}>{children}</h3>
+        <h3 className={headingStyles[classTheme]}>{children}</h3>
     )
 }
 

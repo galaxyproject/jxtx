@@ -30,7 +30,7 @@ const donate = "/";
 function SectionHero() {
 
     return (
-        <Section sectionType={SectionType.HERO}>
+        <Section type={SectionType.HERO}>
             <img alt={"JXTX"} className={compStyles.hero__image} src={hero}/>
             <div className={compStyles.hero__headline}>
                 <h1 className={compStyles.hero__headline__head}>James P. Taylor Foundation for Open Science.</h1>

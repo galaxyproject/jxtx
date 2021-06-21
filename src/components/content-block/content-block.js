@@ -17,21 +17,21 @@ const classNames = require("classnames");
 
 function ContentBlock(props) {
 
-    const {blockPosition, blockScale, blockTheme, blockType, children} = props;
-    const classBlockPosition = ContentBlockClassname[blockPosition];
-    const classBlockScale = ContentBlockClassname[blockScale];
-    const classBlockTheme = ContentBlockClassname[blockTheme];
-    const classBlockType = ContentBlockClassname[blockType];
-    const classNamesBlock = classNames(
+    const {children, position, scale, theme, type} = props;
+    const classPosition = ContentBlockClassname[position];
+    const classScale = ContentBlockClassname[scale];
+    const classTheme = ContentBlockClassname[theme];
+    const classType = ContentBlockClassname[type];
+    const classNamesContentBlock = classNames(
         compStyles.content__block,
-        compStyles[classBlockPosition],
-        compStyles[classBlockScale],
-        compStyles[classBlockTheme],
-        compStyles[classBlockType]
+        compStyles[classPosition],
+        compStyles[classScale],
+        compStyles[classTheme],
+        compStyles[classType]
     );
 
     return (
-        <div className={classNamesBlock}>{children}</div>
+        <div className={classNamesContentBlock}>{children}</div>
     )
 }
 

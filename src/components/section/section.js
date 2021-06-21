@@ -16,11 +16,11 @@ import * as compStyles from "./section.module.css";
 
 function Section(props) {
 
-    const {children, sectionType} = props;
-    const classNameSection = SectionClassname[sectionType];
+    const {children, type} = props;
+    const classType = SectionClassname[type];
 
     return (
-        <section className={compStyles[classNameSection]}>
+        <section className={compStyles[classType]}>
             {children}
         </section>
     )

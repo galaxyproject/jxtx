@@ -6,5 +6,5 @@
  */
 
 export const ContentBlockBodyScale = {
-    "OVERSIZED": "OVERSIZED",
+    "LARGE": "LARGE",
 };

@@ -7,7 +7,7 @@
 
 export const SectionClassname = {
     "BANNER": "section__banner",
-    "BIFOLD": "section__bifold",
+    "COLLECTION": "section__collection",
     "HERO": "section__hero",
     "OFFSET": "section__offset"
 };

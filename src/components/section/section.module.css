@@ -5,22 +5,26 @@
  * Style definitions specific to JXTX section component.
  */
 
+/* Type. */
 /* Section hero. */
 .section__hero {
     position: relative; /* Positions hero image. */
 }
 
+/* Type. */
 /* Section banner. */
 .section__banner {
     padding: var(--scale___200) var(--scale___128);
 }
 
-/* Section bi-fold. */
-.section__bifold {
+/* Type. */
+/* Section collection. */
+.section__collection {
     align-items: stretch;
     display: flex;
 }
 
+/* Type. */
 /* Section offset. */
 .section__offset {
     margin: var(--scale___128);

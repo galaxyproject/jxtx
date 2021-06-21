@@ -18,8 +18,9 @@
     margin: 0;
 }
 
-/* Content block body oversized "48px". */
-.content__body___oversized {
+/* Scale. */
+/* Content block body large "48px". */
+.content__body___l {
     composes: c__b__b; /* Content block body. */
     font-size: var(--scale___48);
     line-height: var(--scale___60);
