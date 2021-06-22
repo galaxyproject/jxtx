@@ -32,7 +32,15 @@ exports.onCreateNode = ({actions, getNode, node}) => {
 
     if (nodeType === "MDX") {
 
-        const slug = createFilePath({node, getNode, basePath: "pages"});
+        /* Grab the slug from frontmatter, if it is specified. */
+        const {frontmatter} = node;
+        let slug = frontmatter?.slug;
+
+        /* Create the slug from the file path. */
+        if ( !slug ) {
+
+            slug = createFilePath({node, getNode, basePath: "pages"});
+        }
 
         /* Slug. */
         createNodeField({

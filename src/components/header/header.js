@@ -21,6 +21,7 @@ import JXTX from "../../../images/jxtx.png";
 
 // Styles
 import * as compStyles from "./header.module.css";
+const classNames = require("classnames");
 
 // Template variables
 const about = "/foundation/about-the-jxtx-foundation";
@@ -28,13 +29,15 @@ const donate = "/";
 const events = "/";
 const home = "/";
 const james = "/about-james/bio";
-const news = "/";
+const news = "/news";
 const scholarships = "/";
 
-function Header() {
+function Header(props) {
+
+    const {headerMinor} = props;
 
     return (
-        <header className={compStyles.header}>
+        <header className={classNames(compStyles.header, {[compStyles.header___minor]: headerMinor})}>
             <Link className={compStyles.header__logo} to={home}>
                 <img alt={"JXTX"}
                      className={compStyles.header__logo__img}

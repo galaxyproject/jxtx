@@ -8,6 +8,7 @@
 export const SectionClassname = {
     "BANNER": "section__banner",
     "COLLECTION": "section__collection",
+    "HEADLINE": "section__headline",
     "HERO": "section__hero",
     "OFFSET": "section__offset"
 };

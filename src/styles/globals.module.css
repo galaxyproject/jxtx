@@ -29,8 +29,10 @@
     --scale___84: calc(var(--scale) * 2.625); /* 84px at media 1920px. */
     --scale___90: calc(var(--scale) * 2.8125);  /* 90px at media 1920px. */
     --scale___96: calc(var(--scale) * 3); /* 96px at media 1920px. */
+    --scale___112: calc(var(--scale) * 3.5); /* 112px at media 1920px. */
     --scale___124: calc(var(--scale) * 3.875); /* 124px at media 1920px. */
     --scale___128: calc(var(--scale) * 4); /* 128px at media 1920px. */
+    --scale___136: calc(var(--scale) * 4.25); /* 136px at media 1920px. */
     --scale___200: calc(var(--scale) * 6.25); /* 200px at media 1920px. */
     --scale___250: calc(var(--scale) * 7.8125); /* 250px at media 1920px. */
     --media1920: 1920px;

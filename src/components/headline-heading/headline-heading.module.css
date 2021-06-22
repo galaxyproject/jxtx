@@ -1,0 +1,16 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX headline heading component.
+ */
+
+/* Headline heading. */
+.headline__heading {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: var(--scale___112);
+    left: var(--scale___128); /* Positions left from viewport. */
+    line-height: var(--scale___124);
+    margin: var(--scale___136) 0;
+    position: absolute; /* Positions absolute with <main>. */
+}

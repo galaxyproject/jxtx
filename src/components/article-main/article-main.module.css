@@ -1,0 +1,13 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX article main component.
+ */
+
+/* Main. */
+.main {
+    margin: var(--scale___60) 0;
+    padding: var(--gutter);
+    position: relative; /* Positions <HeadlineHeading/>. */
+}

@@ -21,6 +21,11 @@
     margin: var(--gutter);
 }
 
+/* Header minor - backpages. */
+.header___minor {
+    border-bottom: var(--scale___2) solid var(--black12);
+}
+
 /* Logo. */
 .header__logo {
     composes: f__a--c; /* Flex. */

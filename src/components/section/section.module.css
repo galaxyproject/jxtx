@@ -6,6 +6,12 @@
  */
 
 /* Type. */
+/* Section headline. */
+.section__headline {
+    height: calc(var(--scale) *12.375); /* 396px. */
+}
+
+/* Type. */
 /* Section hero. */
 .section__hero {
     position: relative; /* Positions hero image. */
