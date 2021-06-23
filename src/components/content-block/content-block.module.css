@@ -19,15 +19,15 @@
 /* Position. */
 /* Content block bottom right. */
 .content__block___bottom___right {
-    margin-bottom: calc(-1 * var(--scale) * 14.375); /* Matches top position. Scoots next section up. */
+    margin-bottom: calc(-1 * var(--scale___460)); /* Matches top position. Scoots next section up. */
     margin-left: auto;
-    top: calc(-1 * var(--scale) * 14.375);
+    top: calc(-1 * var(--scale___460));
 }
 
 /* Scale. */
 /* Content block medium. */
 .content__block___m {
-    padding: var(--scale___64) var(--scale___64) var(--scale___90);
+    padding: var(--scale___64) var(--scale___64) calc(var(--scale) * 2.8125); /* 64px 64px 90px. */ /* TODO review */
 }
 
 /* Scale. */
@@ -48,7 +48,7 @@
 .content__block___offset {
     box-sizing: content-box;
     position: relative;
-    width: calc(var(--scale) * 33.75);
+    width: var(--scale___1080);
 }
 
 /* Content block - all images. */

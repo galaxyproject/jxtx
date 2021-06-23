@@ -18,9 +18,9 @@
 .hero__headline {
     box-sizing: content-box;
     color: var(--white);
-    padding: calc(var(--scale) * 9.5) var(--scale___124) calc(var(--scale) * 7);
+    padding: var(--scale___304) var(--scale___124) var(--scale___224);
     position: relative;
-    width: calc(var(--scale) * 23.4375); /* TODO review. */
+    width: calc(var(--scale) * 23.4375); /* 750 */ /* TODO review. */
 }
 
 /* Hero headline head. */
@@ -48,7 +48,7 @@
 /** Hero attribution. */
 .hero__attribution {
     align-items: center;
-    bottom: var(--scale___10);
+    bottom: calc(var(--scale) * 0.3125) /* 10px */ /* TODO review */;
     display: inline-flex;
     font-size: var(--scale___32);
     line-height: 0; /* Required to maintain correct height of <h2>. */

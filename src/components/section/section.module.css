@@ -17,7 +17,7 @@
 /* Section headline. */
 .section__headline {
     margin: var(--scale___60) 0;
-    height: calc(var(--scale) *12.375); /* 396px. */
+    height: var(--scale___396);
 }
 
 /* Type. */

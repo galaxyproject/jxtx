@@ -8,5 +8,5 @@
 /* Content block position right. */
 .content__block___position_right {
     margin-left: auto;
-    width: calc(var(--scale) * 15);
+    width: var(--scale___480);
 }
