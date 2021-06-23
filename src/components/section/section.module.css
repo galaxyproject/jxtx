@@ -6,22 +6,38 @@
  */
 
 /* Type. */
+/* Section collection. */
+.section__collection {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Type. */
+/* Section headline. */
+.section__headline {
+    margin: var(--scale___60) 0;
+    height: calc(var(--scale) *12.375); /* 396px. */
+}
+
+/* Type. */
 /* Section hero. */
 .section__hero {
     position: relative; /* Positions hero image. */
 }
 
 /* Type. */
-/* Section banner. */
-.section__banner {
+/* Section hero sub. */
+.section__hero___sub {
     padding: var(--scale___200) var(--scale___128);
 }
 
 /* Type. */
-/* Section collection. */
-.section__collection {
+/* Section hero tile. */
+.section__hero___tile {
     align-items: stretch;
     display: flex;
+    position: relative; /* Positions internal link. */
 }
 
 /* Type. */

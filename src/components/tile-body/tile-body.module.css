@@ -1,0 +1,14 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX tile body component.
+ */
+
+/* Tile body. */
+.tile__body {
+    flex: 1; /* To take up remaining tile content space. */
+    font-size: var(--scale___20);
+    line-height: var(--scale___32);
+    margin: 0;
+}

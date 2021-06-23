@@ -1,0 +1,44 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX grid component.
+ */
+
+/* Grid. */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Grid, first. */
+.grid:first-of-type::after {
+    border-bottom: var(--scale___2) solid var(--off-white);
+    content: "";
+    margin: var(--scale___64) 0;
+    width: 100%;
+}
+
+/* Grid, last. */
+.grid:last-of-type {
+    margin-bottom: var(--scale___64);
+}
+
+/* Grid by 1 - full width. */
+.grid___x1 {
+    composes: grid;
+}
+
+.grid___x1 > * {
+    width: 100%;
+}
+
+/* Grid by 3. */
+.grid___x3 {
+    composes: grid;
+    justify-content: space-between;
+}
+
+.grid___x3 > *:nth-of-type(even) {
+    margin: 0 var(--scale___64);
+}

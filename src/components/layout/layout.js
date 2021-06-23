@@ -20,12 +20,12 @@ import "../../styles/vars.module.css";
 
 function Layout(props) {
 
-    const {children} = props;
+    const {children, headerMinor} = props;
 
     return (
         <>
             <DocumentMetadata/>
-            <Header/>
+            <Header headerMinor={headerMinor}/>
             {children}
             <Footer/>
         </>

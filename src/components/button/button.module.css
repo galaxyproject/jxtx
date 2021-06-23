@@ -57,7 +57,7 @@
 
 /* Button white, outlined. */
 .button___white.button___outlined {
-    border: 2px solid var(--white);
+    border: var(--scale___2) solid var(--white);
     color: var(--white);
 }
 
