@@ -1,0 +1,28 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX tile component.
+ */
+
+/* Tile. */
+.tile {
+    display: flex;
+    flex: 1; /* Evenly allocates width to tiles within <Grid/>. */
+    position: relative; /* Positions <TileLink/>. */
+}
+
+/* Orientation. */
+/* Row. */
+.tile__row {
+    composes: tile;
+    flex-direction: row;
+}
+
+/* Orientation. */
+/* Column. */
+.tile__column {
+    composes: tile;
+    flex-direction: column;
+    min-height: calc(var(--scale) * 28.125); /* 900px. */
+}

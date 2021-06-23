@@ -1,0 +1,34 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX tile content component.
+ */
+
+/* Tile content. */
+.tile__content {
+    display: flex;
+    flex: 1; /* Takes up remaining available <Tile/>. */
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Scale. */
+/* Tile content small. */
+.t___s {
+    composes: tile__content;
+    padding: var(--scale___32);
+}
+
+/* Scale. */
+/* Tile content medium. */
+.t___m {
+    composes: tile__content;
+    padding: var(--scale___64);
+}
+
+/* Theme. */
+/* Tile content off white. */
+.tile__content___offWhite {
+    background-color: var(--off-white);
+}

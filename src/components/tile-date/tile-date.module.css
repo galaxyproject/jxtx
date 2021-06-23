@@ -1,0 +1,11 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX tile date component.
+ */
+
+/* Date. */
+.tile__date {
+    font-size: var(--scale___20);
+}

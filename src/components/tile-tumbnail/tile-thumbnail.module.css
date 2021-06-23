@@ -1,0 +1,24 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX tile thumbnail component.
+ */
+
+/* Tile thumbnail. */
+.tile__thumbnail {
+    width: 100%;
+}
+
+/* Scale. */
+/* Tile thumbnail medium. */
+.tile__thumbnail___m {
+    width: calc((100% - var(--scale___128)) / 3 * 2 + var(--scale___128));
+}
+
+/* Tile thumbnail image. */
+.tile__thumbnail__image {
+    display: block;
+    margin: 0;
+    width: 100%;
+}

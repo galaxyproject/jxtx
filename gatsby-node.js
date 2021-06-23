@@ -92,3 +92,24 @@ exports.createPages = async ({actions, graphql}) => {
         })
     })
 };
+
+/**
+ * Schema customization.
+ *
+ * @param actions
+ * @returns {*}
+ */
+exports.createSchemaCustomization = ({actions}) => {
+
+    const {createTypes} = actions;
+
+    createTypes(`
+    type Mdx implements Node {
+        frontmatter: Frontmatter
+    }
+    type Frontmatter {
+        description: String
+        title: String
+    }
+  `)
+}

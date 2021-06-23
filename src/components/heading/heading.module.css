@@ -15,6 +15,25 @@
     margin-bottom: var(--scale___24);
 }
 
+/* Scale. */
+/* Small. */
+.h___s {
+    composes: heading;
+    font-size: var(--scale___32);
+    line-height: var(--scale___40);
+    margin-bottom: var(--scale___16);
+}
+
+/* Scale. */
+/* Medium. */
+.h___m {
+    composes: heading;
+    font-size: var(--scale___44);
+    line-height: var(--scale___52);
+    margin-bottom: var(--scale___16);
+}
+
+/* Theme. */
 /* Heading theme "orange". */
 /* Heading theme "blue". */
 .heading___o,
@@ -23,16 +42,19 @@
     position: relative; /* Positions heading accent. */
 }
 
+/* Theme. */
 /* Heading theme "orange". */
 .heading___o::after {
     background-color: var(--accent-orange-light);
 }
 
+/* Theme. */
 /* Heading theme "blue". */
 .heading___b::after {
     background-color: var(--accent-blue);
 }
 
+/* Theme. */
 /* Heading theme "orange" and "blue" accent. */
 .heading___o::after,
 .heading___b::after {

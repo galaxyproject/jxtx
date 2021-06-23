@@ -6,9 +6,10 @@
  */
 
 export const SectionClassname = {
-    "BANNER": "section__banner",
     "COLLECTION": "section__collection",
     "HEADLINE": "section__headline",
     "HERO": "section__hero",
+    "HERO_SUB": "section__hero___sub",
+    "HERO_TILE": "section__hero___tile",
     "OFFSET": "section__offset"
 };

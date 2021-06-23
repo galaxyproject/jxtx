@@ -7,7 +7,6 @@
 
 /* Main. */
 .main {
-    margin: var(--scale___60) 0;
     padding: var(--gutter);
     position: relative; /* Positions <HeadlineHeading/>. */
 }

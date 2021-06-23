@@ -14,20 +14,21 @@ import {ButtonScale} from "../button/button-scale.model";
 import {ButtonTheme} from "../button/button-theme.model";
 import {ButtonType} from "../button/button-type.model";
 import ButtonCta from "../button-cta/button-cta";
+import ContentBlockBody from "../content-block-body/content-block-body";
+import {ContentBlockBodyScale} from "../content-block-body/content-block-body-scale.model";
 import ContentBlock from "../content-block/content-block";
 import {ContentBlockPosition} from "../content-block/content-block-position.model";
 import {ContentBlockScale} from "../content-block/content-block-scale.model";
 import {ContentBlockTheme} from "../content-block/content-block-theme.model";
 import {ContentBlockType} from "../content-block/content-block-type.model";
-import ContentBlockBody from "../content-block-body/content-block-body";
-import {ContentBlockBodyScale} from "../content-block-body/content-block-body-scale.model";
 import ContentBlockHeading from "../content-block-heading/content-block-heading";
 import ContentBlockPositionLeft from "../content-block-position-left/content-block-position-left";
 import ContentBlockPositionRight from "../content-block-position-right/content-block-position-right";
 import {HeadingTheme} from "../heading/heading-theme.model";
+import SectionHero from "../section-hero/section-hero";
 import Section from "../section/section";
 import {SectionType} from "../section/section-type.model";
-import SectionHero from "../section-hero/section-hero";
+import TileLink from "../tile-link/tile-link";
 import {Relationship} from "../../utils/anchor/relationship.model";
 import {Target} from "../../utils/anchor/target.model";
 
@@ -37,12 +38,15 @@ import james from "../../../images/james/james.png";
 import mentorship from "../../../images/home/mentorship.png";
 import outreach from "../../../images/home/outreach.png";
 
+// Template variables
+const aboutJames = "/about-james/bio";
+
 function Home() {
 
     return (
         <main>
             <SectionHero/>
-            <Section type={SectionType.BANNER}>
+            <Section type={SectionType.HERO_SUB}>
                 <ContentBlockHeading
                     theme={HeadingTheme.ORANGE}>
                     Our Mission</ContentBlockHeading>
@@ -74,8 +78,7 @@ function Home() {
                     type={ContentBlockType.OFFSET}>
                     <img
                         alt={"Creating Connections"}
-                        src={connections}
-                        style={{margin: 0}}/>
+                        src={connections}/>
                 </ContentBlock>
             </Section>
             <Section type={SectionType.OFFSET}>
@@ -84,8 +87,7 @@ function Home() {
                     type={ContentBlockType.OFFSET}>
                     <img
                         alt={"Academic Mentorship"}
-                        src={mentorship}
-                        style={{margin: 0}}/>
+                        src={mentorship}/>
                 </ContentBlock>
                 <ContentBlock
                     position={ContentBlockPosition.BOTTOM_RIGHT}
@@ -127,11 +129,10 @@ function Home() {
                     type={ContentBlockType.OFFSET}>
                     <img
                         alt={"Student Outreach"}
-                        src={outreach}
-                        style={{margin: 0}}/>
+                        src={outreach}/>
                 </ContentBlock>
             </Section>
-            <Section type={SectionType.BANNER}>
+            <Section type={SectionType.HERO_SUB}>
                 <ContentBlockHeading
                     theme={HeadingTheme.ORANGE}>
                     Our First Scholarships</ContentBlockHeading>
@@ -150,12 +151,12 @@ function Home() {
                     Learn More
                 </ButtonCta>
             </Section>
-            <Section type={SectionType.COLLECTION}>
+            <Section type={SectionType.HERO_TILE}>
+                <TileLink to={aboutJames}/>
                 <ContentBlock>
                     <img
                         alt={"James Taylor"}
-                        src={james}
-                        style={{margin: 0}}/>
+                        src={james}/>
                 </ContentBlock>
                 <ContentBlock
                     scale={ContentBlockScale.LARGE}

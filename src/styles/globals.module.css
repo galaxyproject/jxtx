@@ -19,10 +19,13 @@
     --scale___10: calc(var(--scale) * 0.3125); /* 10px at media 1920px. */
     --scale___16: calc(var(--scale) * 0.5); /* 16px at media 1920px. */
     --scale___18: calc(var(--scale) * 0.5625); /* 18px at media 1920px. */
+    --scale___20: calc(var(--scale) * 0.625); /* 20px at media 1920px. */
     --scale___24: calc(var(--scale) * 0.75); /* 24px at media 1920px. */
     --scale___32: calc(var(--scale) * 1); /* 32px at media 1920px. */
     --scale___40: calc(var(--scale) * 1.25); /* 40px at medial 1920px. */
+    --scale___44: calc(var(--scale) * 1.375); /* 44px at medial 1920px. */
     --scale___48: calc(var(--scale) * 1.5); /* 48px at media 1920px. */
+    --scale___52: calc(var(--scale) * 1.625); /* 52px at medial 1920px. */
     --scale___60: calc(var(--scale) * 1.875);  /* 60px at media 1920px. */
     --scale___64: calc(var(--scale) * 2);  /* 64px at media 1920px. */
     --scale___72: calc(var(--scale) * 2.25);  /* 72px at media 1920px. */

@@ -7,5 +7,7 @@
 
 export const HeadingClassname = {
     "BLUE": "heading___b",
+    "MEDIUM": "h___m",
     "ORANGE": "heading___o",
+    "SMALL": "h___s",
 };
