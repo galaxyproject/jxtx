@@ -6,6 +6,14 @@
  */
 
 /* Type. */
+/* Section article. */
+.section__article {
+    margin: 0 auto;
+    padding: var(--scale___60) 0;
+    width: var(--scale___1052);
+}
+
+/* Type. */
 /* Section collection. */
 .section__collection {
     align-items: stretch;

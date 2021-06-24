@@ -16,9 +16,9 @@
     width: calc((100% - var(--scale___128)) / 3 * 2 + var(--scale___128));
 }
 
-/* Tile thumbnail image. */
-.tile__thumbnail__image {
+/* Tile image. */
+.tile__thumbnail > div,
+.tile__thumbnail___m > div {
     display: block;
-    margin: 0;
     width: 100%;
 }

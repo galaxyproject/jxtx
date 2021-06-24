@@ -9,10 +9,7 @@
 /* Compose class ".heading" - heading. */
 .heading {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: var(--scale___48);
     font-weight: 600;
-    line-height: var(--scale___60);
-    margin-bottom: var(--scale___24);
 }
 
 /* Scale. */
@@ -33,12 +30,20 @@
     margin-bottom: var(--scale___16);
 }
 
+/* Scale. */
+/* Large. */
+.h___l {
+    composes: heading;
+    font-size: var(--scale___48);
+    line-height: var(--scale___60);
+    margin-bottom: var(--scale___24);
+}
+
 /* Theme. */
 /* Heading theme "orange". */
 /* Heading theme "blue". */
 .heading___o,
 .heading___b {
-    composes: heading; /* Heading. */
     position: relative; /* Positions heading accent. */
 }
 

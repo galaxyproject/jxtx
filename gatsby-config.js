@@ -21,6 +21,7 @@ module.exports = {
         "gatsby-plugin-image",
         "gatsby-plugin-react-helmet",
         "gatsby-remark-images",
+        "gatsby-remark-external-links",
         {
             resolve: "gatsby-plugin-mdx",
             options: {
@@ -28,10 +29,10 @@ module.exports = {
                 gatsbyRemarkPlugins: [
                     {
                         resolve: `gatsby-remark-images`,
-                        options: {
-                            maxWidth: 800,
-                        },
                     },
+                    {
+                        resolve: "gatsby-remark-external-links",
+                    }
                 ],
             },
         },

@@ -109,6 +109,9 @@ exports.createSchemaCustomization = ({actions}) => {
     }
     type Frontmatter {
         description: String
+        fullWidth: Boolean
+        images: [File] @fileByRelativePath
+        links: [String]
         title: String
     }
   `)

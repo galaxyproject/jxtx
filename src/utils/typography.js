@@ -13,7 +13,7 @@ const typography = new Typography({
     googleFonts: [
         {
             name: "Source Sans Pro",
-            styles: ["600", "700"]
+            styles: ["400", "600", "700"]
         }
     ]
 });

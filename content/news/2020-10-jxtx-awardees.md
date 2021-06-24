@@ -1,13 +1,18 @@
 ---
-description: ""
-title: ""
+description: "JXTX: The James P. Taylor Foundation for Open Science is pleased to announce the recipients of the 2020 JTech Scholarships."
+images:
+    - _images/jxtx-awardee-shoes.png
+title: "JXTX Foundation Awards First Ten Scholarships"
 ---
+
+<NewsroomDate>October 23rd, 2020</NewsroomDate>
 
 # JXTX Foundation Awards First Ten Scholarships
 
-*Awardees will be attending Biological Data Science 2020*
+<FigureImage alt="JXTX Foundation Awardees" image={props.images[0]}></FigureImage>
+<figcaption>JXTX Foundation Awards First Ten Scholarships</figcaption>
 
-October 23rd 2020
+*Awardees will be attending Biological Data Science 2020*
 
 [JXTX: The James P. Taylor Foundation for Open Science][1] is pleased to announce the recipients of the 2020 JTech Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
 

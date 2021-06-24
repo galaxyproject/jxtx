@@ -6,6 +6,7 @@
  */
 
 export const SectionType = {
+    "ARTICLE": "ARTICLE",
     "COLLECTION": "COLLECTION",
     "HEADLINE": "HEADLINE",
     "HERO": "HERO",

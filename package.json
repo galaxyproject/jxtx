@@ -23,6 +23,7 @@
     "gatsby-plugin-react-helmet": "^4.4.0",
     "gatsby-plugin-sharp": "^3.4.2",
     "gatsby-plugin-typography": "^3.5.0",
+    "gatsby-remark-external-links": "0.0.4",
     "gatsby-remark-images": "^5.1.0",
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-sharp": "^3.4.0",

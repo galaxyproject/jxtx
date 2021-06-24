@@ -6,6 +6,7 @@
  */
 
 export const SectionClassname = {
+    "ARTICLE": "section__article",
     "COLLECTION": "section__collection",
     "HEADLINE": "section__headline",
     "HERO": "section__hero",

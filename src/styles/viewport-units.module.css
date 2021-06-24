@@ -11,6 +11,8 @@
     --scale: calc(100vw / 60);
     --scale___2: calc(var(--scale) * 0.0625); /* 2px. */
     --scale___4: calc(var(--scale) * 0.125); /* 4px. */
+    --scale___8: calc(var(--scale) * 0.25); /* 8px. */
+    --scale___12: calc(var(--scale) * 0.375); /* 12px. */
     --scale___16: calc(var(--scale) * 0.5); /* 16px. */
     --scale___20: calc(var(--scale) * 0.625); /* 20px. */
     --scale___24: calc(var(--scale) * 0.75); /* 24px. */
@@ -35,5 +37,6 @@
     --scale___460: calc(var(--scale) * 14.375); /* 460px. */
     --scale___480: calc(var(--scale) * 15); /* 480px. */
     --scale___900: calc(var(--scale) * 28.125); /* 900px. */
+    --scale___1052: calc(var(--scale) * 32.875); /* 1052px. */
     --scale___1080: calc(var(--scale) * 33.75); /* 1080px. */
 }

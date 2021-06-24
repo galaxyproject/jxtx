@@ -1,0 +1,12 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX article link component.
+ */
+
+/* Link <a/>. */
+.article__link {
+    color: var(--accent-blue);
+    text-decoration: none;
+}
