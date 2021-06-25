@@ -27,6 +27,7 @@ import ContentBlockPositionRight from "../content-block-position-right/content-b
 import {HeadingScale} from "../heading/heading-scale.model";
 import {HeadingTheme} from "../heading/heading-theme.model";
 import SectionHero from "../section-hero/section-hero";
+import SectionNewsroom from "../section-newsroom/section-newsroom";
 import Section from "../section/section";
 import {SectionType} from "../section/section-type.model";
 import TileLink from "../tile-link/tile-link";
@@ -178,6 +179,7 @@ function Home() {
                         sector, he found that his real purpose in life was elsewhere.</ContentBlockBody>
                 </ContentBlock>
             </Section>
+            <SectionNewsroom/>
         </main>
     )
 }
