@@ -6,7 +6,6 @@
  */
 
 // Core dependencies
-import {Link} from "gatsby";
 import React from "react";
 
 // App dependencies
@@ -31,17 +30,15 @@ import SectionNewsroom from "../section-newsroom/section-newsroom";
 import Section from "../section/section";
 import {SectionType} from "../section/section-type.model";
 import TileLink from "../tile-link/tile-link";
-import {Relationship} from "../../utils/anchor/relationship.model";
-import {Target} from "../../utils/anchor/target.model";
 
 // Images
-import connections from "../../../images/home/connections.png";
 import james from "../../../images/james/james.png";
 import mentorship from "../../../images/home/mentorship.png";
 import outreach from "../../../images/home/outreach.png";
 
 // Template variables
 const aboutJames = "/about-james/bio";
+const ourScholarships = "/news/2020-10-jxtx-awardees";
 
 function Home() {
 
@@ -55,9 +52,11 @@ function Home() {
                     Our Mission</ContentBlockHeading>
                 <ContentBlockBody
                     scale={ContentBlockBodyScale.LARGE}>
-                    Organizing and host mentoring sessions between senior and junior faculty members at select
-                    high-profile meetings. Organizing and host mentoring sessions between senior and junior faculty
-                    members at select high-profile meetings.</ContentBlockBody>
+                    In its early stages, the JXTX Foundation will provide support for graduate students to attend
+                    conferences in computational biology and data science, where they can present their work and form
+                    connections with other researchers in the field. Towards the goal of advancing mentorship, JXTX will
+                    organize and host mentoring sessions between senior and junior faculty members at select
+                    high-profile meetings.</ContentBlockBody>
             </Section>
             <Section type={SectionType.OFFSET}>
                 <ContentBlock
@@ -68,12 +67,16 @@ function Home() {
                         <ContentBlockHeading
                             scale={HeadingScale.LARGE}
                             theme={HeadingTheme.ORANGE}>
-                            Creating Connections
+                            Academic Mentorship
                         </ContentBlockHeading>
                         <ContentBlockBody
                             scale={ContentBlockBodyScale.LARGE}>
-                            Organizing and host mentoring sessions between senior and junior faculty members at select
-                            high-profile meetings.
+                            The Foundation will later expand its reach as a platform for academic mentorship. First, it
+                            will operate to spark mentoring relationships among the larger computational biology and
+                            data science community. Faculty and students will have an opportunity to participate in
+                            periodic mentorship meetings (virtually). We expect an enthusiastic response to this
+                            opportunity, and will recruit additional team members to provide organizational structure if
+                            necessary.
                         </ContentBlockBody>
                     </ContentBlockPositionLeft>
                 </ContentBlock>
@@ -81,8 +84,8 @@ function Home() {
                     position={ContentBlockPosition.BOTTOM_RIGHT}
                     type={ContentBlockType.OFFSET}>
                     <img
-                        alt={"Creating Connections"}
-                        src={connections}/>
+                        alt={"Academic Mentorship"}
+                        src={mentorship}/>
                 </ContentBlock>
             </Section>
             <Section type={SectionType.OFFSET}>
@@ -90,8 +93,8 @@ function Home() {
                     position={ContentBlockPosition.ABOVE}
                     type={ContentBlockType.OFFSET}>
                     <img
-                        alt={"Academic Mentorship"}
-                        src={mentorship}/>
+                        alt={"Student Outreach"}
+                        src={outreach}/>
                 </ContentBlock>
                 <ContentBlock
                     position={ContentBlockPosition.BOTTOM_RIGHT}
@@ -102,56 +105,31 @@ function Home() {
                         <ContentBlockHeading
                             scale={HeadingScale.LARGE}
                             theme={HeadingTheme.ORANGE}>
-                            Academic Mentorship
-                        </ContentBlockHeading>
-                        <ContentBlockBody
-                            scale={ContentBlockBodyScale.LARGE}>
-                            Creating mentoring relationships among the larger computational biology and data science
-                            community.
-                        </ContentBlockBody>
-                    </ContentBlockPositionRight>
-                </ContentBlock>
-            </Section>
-            <Section type={SectionType.OFFSET}>
-                <ContentBlock
-                    scale={ContentBlockScale.MEDIUM}
-                    theme={ContentBlockTheme.OFF_WHITE}
-                    type={ContentBlockType.OFFSET}>
-                    <ContentBlockPositionLeft>
-                        <ContentBlockHeading
-                            scale={HeadingScale.LARGE}
-                            theme={HeadingTheme.ORANGE}>
                             Student Outreach
                         </ContentBlockHeading>
                         <ContentBlockBody
                             scale={ContentBlockBodyScale.LARGE}>
-                            Attract new scholars to computational biology and data science, particularly for
-                            underrepresented minorities.
+                            In its later stages, the Foundation will sponsor in-person visits from students (high school
+                            or college age) to its hotspots, which currently include Johns Hopkins and Penn State. These
+                            visits are meant to attract new scholars to computational biology and data science, and in
+                            particular to form connections and opportunities for members of underrepresented minorities.
                         </ContentBlockBody>
-                    </ContentBlockPositionLeft>
-                </ContentBlock>
-                <ContentBlock
-                    position={ContentBlockPosition.BOTTOM_RIGHT}
-                    type={ContentBlockType.OFFSET}>
-                    <img
-                        alt={"Student Outreach"}
-                        src={outreach}/>
+                    </ContentBlockPositionRight>
                 </ContentBlock>
             </Section>
             <Section type={SectionType.HERO_SUB}>
                 <ContentBlockHeading
                     scale={HeadingScale.LARGE}
                     theme={HeadingTheme.ORANGE}>
-                    Our First Scholarships</ContentBlockHeading>
+                    Our Scholarships</ContentBlockHeading>
                 <ContentBlockBody
                     scale={ContentBlockBodyScale.LARGE}>
-                    The JXTX Foundation's first activity is to <Link to={"/"}>sponsor 10 graduate students</Link> to
-                    attend the 2020 Biological Data Science Conference at Cold Spring Harbor Laboratory. Awards were
-                    competitive and we are delighted with our first round of scholarships.</ContentBlockBody>
+                    This Fall The JXTX Foundation will sponsor 10 graduate students to attend Genome Informatics 2021 at
+                    the Cold Spring Harbor Laboratory (CSHL). In 2020 we sponsored 10 graduate students to attend the
+                    2020 Biological Data Science Conference at Cold Spring Harbor Laboratory.
+                </ContentBlockBody>
                 <ButtonCta
-                    attributeHREF={"/"}
-                    attributeRel={Relationship.NOOPENER_NOREFERRER}
-                    attributeTarget={Target.BLANK}
+                    attributeHREF={ourScholarships}
                     buttonScale={ButtonScale.OVERSIZED}
                     buttonTheme={ButtonTheme.SECONDARY}
                     buttonType={ButtonType.UNELEVATED}>
