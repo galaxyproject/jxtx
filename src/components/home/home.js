@@ -24,6 +24,7 @@ import {ContentBlockType} from "../content-block/content-block-type.model";
 import ContentBlockHeading from "../content-block-heading/content-block-heading";
 import ContentBlockPositionLeft from "../content-block-position-left/content-block-position-left";
 import ContentBlockPositionRight from "../content-block-position-right/content-block-position-right";
+import {HeadingScale} from "../heading/heading-scale.model";
 import {HeadingTheme} from "../heading/heading-theme.model";
 import SectionHero from "../section-hero/section-hero";
 import Section from "../section/section";
@@ -48,6 +49,7 @@ function Home() {
             <SectionHero/>
             <Section type={SectionType.HERO_SUB}>
                 <ContentBlockHeading
+                    scale={HeadingScale.LARGE}
                     theme={HeadingTheme.ORANGE}>
                     Our Mission</ContentBlockHeading>
                 <ContentBlockBody
@@ -63,6 +65,7 @@ function Home() {
                     type={ContentBlockType.OFFSET}>
                     <ContentBlockPositionLeft>
                         <ContentBlockHeading
+                            scale={HeadingScale.LARGE}
                             theme={HeadingTheme.ORANGE}>
                             Creating Connections
                         </ContentBlockHeading>
@@ -96,6 +99,7 @@ function Home() {
                     type={ContentBlockType.OFFSET}>
                     <ContentBlockPositionRight>
                         <ContentBlockHeading
+                            scale={HeadingScale.LARGE}
                             theme={HeadingTheme.ORANGE}>
                             Academic Mentorship
                         </ContentBlockHeading>
@@ -114,6 +118,7 @@ function Home() {
                     type={ContentBlockType.OFFSET}>
                     <ContentBlockPositionLeft>
                         <ContentBlockHeading
+                            scale={HeadingScale.LARGE}
                             theme={HeadingTheme.ORANGE}>
                             Student Outreach
                         </ContentBlockHeading>
@@ -134,6 +139,7 @@ function Home() {
             </Section>
             <Section type={SectionType.HERO_SUB}>
                 <ContentBlockHeading
+                    scale={HeadingScale.LARGE}
                     theme={HeadingTheme.ORANGE}>
                     Our First Scholarships</ContentBlockHeading>
                 <ContentBlockBody
@@ -162,6 +168,7 @@ function Home() {
                     scale={ContentBlockScale.LARGE}
                     theme={ContentBlockTheme.OFF_WHITE}>
                     <ContentBlockHeading
+                        scale={HeadingScale.LARGE}
                         theme={HeadingTheme.BLUE}>
                         James Taylor</ContentBlockHeading>
                     <ContentBlockBody

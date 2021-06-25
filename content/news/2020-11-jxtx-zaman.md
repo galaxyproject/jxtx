@@ -1,13 +1,16 @@
 ---
-description: ""
-title: ""
+description: "Discussing my research confidently with experts in the field"
+images:
+    - _images/jxtx-awardee-sumaira.png
+title: "Sumaira Zaman: JXTX Foundation and Unique Opportunities"
 ---
+
+<NewsroomDate>November 25th, 2020</NewsroomDate>
 
 # Sumaira Zaman: JXTX Foundation and Unique Opportunities
 
-*Discussing my research confidently with experts in the field*
-
-November 25th 2020
+<FigureImage alt="Sumaira Zaman" image={props.images[0]}></FigureImage>
+<figcaption>Sumaira Zaman, a scholarship awardee and graduate student at the University of Connecticut.</figcaption>
 
 The [JXTX Foundation's][1] first activity was to [sponsor 10 graduate students to attend the 2020 Biological Data Science Conference][2] at Cold Spring Harbor Laboratory. Awards were competitive and we were delighted with our first round of participants.
 
@@ -19,12 +22,9 @@ The [JXTX Foundation's][1] first activity was to [sponsor 10 graduate students t
 
 Please help further the careers of junior researchers by making a contribution to [JXTX: The James P. Taylor Foundation for Open Science][1].
 
-![Sumaira][7]
-
 [1]: /foundation/about-the-jxtx-foundation
 [2]: /news/2020-10-jxtx-awardees/
 [3]: https://sumairazaman.weebly.com/
 [4]: https://uconn.edu/
 [5]: https://galaxyproject.org/jxtx/
 [6]: https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20
-[7]: ./_images/jxtx-awardee-sumaira.jpg

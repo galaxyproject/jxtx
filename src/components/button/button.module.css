@@ -33,9 +33,9 @@
 
 /* Button oversized. */
 .button___oversized {
-    font-size: var(--scale___18); /* TODO review. */
+    font-size: calc(var(--scale) * 0.5625); /* 18px. */ /* TODO review. */
     line-height: var(--scale___24); /* TODO review. */
-    padding: var(--scale___18) var(--scale___60); /* TODO review. */
+    padding: calc(var(--scale) * 0.5625) var(--scale___60); /* 18px 60px */ /* TODO review. */
 }
 
 /* Button outlined. */

@@ -1,0 +1,15 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX newsroom date component.
+ */
+
+/* Date. */
+.newsroom__date {
+    color: var(--black54);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: var(--scale___20);
+    line-height: var(--scale___32);
+    margin-bottom: var(--scale___16);
+}

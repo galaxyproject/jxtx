@@ -1,13 +1,16 @@
 ---
-description: ""
-title: ""
+description: "David participated in Biological Data Science 2020."
+images:
+    - _images/jxtx-awardee-david.png
+title: "David Twesigomwe on the impact of the JXTX Foundation"
 ---
+
+<NewsroomDate>November 20th, 2020</NewsroomDate>
 
 # David Twesigomwe on the impact of the JXTX Foundation
 
-*David participated in Biological Data Science 2020*
-
-November 20th 2020
+<FigureImage alt="David Twesigomwe" image={props.images[0]}></FigureImage>
+<figcaption>David Twesigomwe, a scholarship awardee and and a PhD candidate in Human Genetics at the University of the Witwatersrand, Johannesburg.</figcaption>
 
 The [JXTX Foundation's][1] first activity was to [sponsor 10 graduate students to attend the 2020 Biological Data Science Conference][2] at Cold Spring Harbor Laboratory. Awards were competitive and we were delighted with our first round of participants.
 
@@ -17,8 +20,6 @@ The [JXTX Foundation's][1] first activity was to [sponsor 10 graduate students t
 
 Please help further the careers of junior researchers by making a contribution to [JXTX: The James P. Taylor Foundation for Open Science][1].
 
-![David][8]
-
 [1]: /foundation/about-the-jxtx-foundation
 [2]: /news/2020-10-jxtx-awardees/
 [3]: https://about.me/twesidave
@@ -26,4 +27,3 @@ Please help further the careers of junior researchers by making a contribution t
 [5]: https://www.wits.ac.za/
 [6]: https://meetings.cshl.edu/meetings.aspx?meet=data&year=20
 [7]: /
-[8]: ./_images/jxtx-awardee-david.jpg

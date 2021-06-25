@@ -24,5 +24,5 @@
 .tile__column {
     composes: tile;
     flex-direction: column;
-    min-height: calc(var(--scale) * 28.125); /* 900px. */
+    min-height: var(--scale___900);
 }

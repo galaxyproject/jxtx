@@ -1,0 +1,14 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX article h1 component.
+ */
+
+/* Heading One <h1/>. */
+.article__h1 {
+    composes: heading___o from "../heading/heading.module.css";
+    font-size: var(--scale___64);
+    line-height: var(--scale___72);
+    margin-bottom: var(--scale___60);
+}

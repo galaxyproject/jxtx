@@ -9,6 +9,7 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 /* Grid, first. */
