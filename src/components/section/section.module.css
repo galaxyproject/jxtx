@@ -9,8 +9,7 @@
 /* Section article. */
 .section__article {
     margin: 0 auto;
-    padding: var(--vu___60) 0;
-    width: var(--vu___1052);
+    padding: var(--vu___36) 0;
 }
 
 /* Type. */
@@ -54,4 +53,17 @@
     margin: var(--vu___128);
     overflow: hidden; /* Required to hide overflow from repositioning offsets. */
     position: relative; /* Positions offsets. */
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Type. */
+    /* Section article. */
+    .section__article {
+        max-width: var(--vu___1052);
+        padding: var(--vu___60) 0;
+    }
 }

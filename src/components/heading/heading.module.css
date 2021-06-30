@@ -6,25 +6,17 @@
  * Used by section heading and content block heading components.
  */
 
-/* Compose class ".heading" - heading. */
-.heading {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
-}
-
 /* Scale. */
 /* Small. */
 .h___s {
-    composes: heading;
     font-size: var(--vu___32);
-    line-height: var(--vu___40);
+    line-height: 1.25; /* TODO review. */
     margin-bottom: var(--vu___16);
 }
 
 /* Scale. */
 /* Medium. */
 .h___m {
-    composes: heading;
     font-size: var(--vu___44);
     line-height: var(--vu___52);
     margin-bottom: var(--vu___16);
@@ -33,9 +25,8 @@
 /* Scale. */
 /* Large. */
 .h___l {
-    composes: heading;
     font-size: var(--vu___48);
-    line-height: var(--vu___60);
+    line-height: 1.25; /* TODO review. */
     margin-bottom: var(--vu___24);
 }
 

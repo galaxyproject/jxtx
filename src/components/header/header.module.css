@@ -59,7 +59,6 @@
 /* Nav - all children. */
 .header__nav * {
     list-style: none; /* Remove all list styles from <ul>. */
-    margin: 0; /* Remove all margin from <ul>, <li>, <button>. */
 }
 
 /* Nav - open */

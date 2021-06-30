@@ -9,7 +9,9 @@
 import Typography from "typography";
 
 const typography = new Typography({
-    baseFontSize: "20px",
+    baseFontSize: "16px",
+    baseLineHeight: 1.5,
+    blockMarginBottom: 1,
     bodyFontFamily: [
         "Noto Serif", "sans-serif"
     ],
@@ -24,6 +26,7 @@ const typography = new Typography({
         }
     ],
     headerFontFamily: ["Source Sans Pro", "sans-serif"],
+    headerLineHeight: 1.25,
     headerWeight: 600,
 });
 

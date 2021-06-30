@@ -15,7 +15,9 @@
     --vu___16: calc(var(--vu___x) * 16);
     --vu___20: calc(var(--vu___x) * 20);
     --vu___24: calc(var(--vu___x) * 24);
+    --vu___28: calc(var(--vu___x) * 28);
     --vu___32: calc(var(--vu___x) * 32);
+    --vu___36: calc(var(--vu___x) * 36);
     --vu___40: calc(var(--vu___x) * 40);
     --vu___44: calc(var(--vu___x) * 44);
     --vu___48: calc(var(--vu___x) * 48);

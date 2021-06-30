@@ -9,7 +9,28 @@
 .newsroom__date {
     color: var(--black54);
     font-family: "Source Sans Pro", sans-serif;
-    font-size: var(--vu___20);
-    line-height: var(--vu___32);
-    margin-bottom: var(--vu___16);
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+/**
+ * 1240px - Medium (laptop).
+ */
+@media screen and (min-width: 1240px) {
+
+    /* Date. */
+    .newsroom__date {
+        font-size: 16px;
+    }
+}
+
+/**
+ * 1920px - Large (desktop).
+ */
+@media screen and (min-width: 1920px) {
+
+    /* Date. */
+    .newsroom__date {
+        font-size: var(--vu___20);
+    }
 }
