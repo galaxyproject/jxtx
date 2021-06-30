@@ -65,7 +65,7 @@
 
 /* Button white, outlined. */
 .button___white.button___outlined {
-    border: var(--vu___2) solid var(--white);
+    border: 1px solid var(--white);
     color: var(--white);
 }
 
@@ -89,6 +89,11 @@
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
+
+    /* Button white, outlined. */
+    .button___white.button___outlined {
+        border: 2px solid var(--white);
+    }
 
     /* Button social oversized "32px". */
     .button__social___oversized {

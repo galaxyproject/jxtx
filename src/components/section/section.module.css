@@ -68,8 +68,29 @@
 
     /* Type. */
     /* Section collection. */
-    .section__collection {
+    /* Section hero. */
+    /* Section hero sub. */
+    /* Section hero tile. */
+    .section__collection,
+    .section__hero,
+    .section__hero___sub,
+    .section__hero___tile {
         margin: 0 auto;
+    }
+
+    /* Type. */
+    /* Section collection. */
+    /* Section headline. */
+    /* Section hero. */
+    /* Section hero sub. */
+    /* Section hero tile. */
+    /* Section offset. */
+    .section__collection,
+    .section__headline,
+    .section__hero,
+    .section__hero___sub,
+    .section__hero___tile,
+    .section__offset {
         max-width: var(--maximum);
     }
 
@@ -78,6 +99,17 @@
     .section__headline {
         height: var(--vu___396);
         margin: var(--vu___60) auto;
-        max-width: var(--maximum);
+    }
+
+    /* Type. */
+    /* Section hero sub. */
+    .section__hero___sub {
+        padding: var(--vu___200) var(--vu___128);
+    }
+
+    /* Type. */
+    /* Section offset. */
+    .section__offset {
+        margin: var(--vu___128) calc(((100vw - var(--maximum)) / 2) + var(--vu___128));
     }
 }
