@@ -8,6 +8,6 @@
 /* Blockquote <blockquote/>. */
 .article__blockquote {
     border-left: 1px solid var(--accent-orange-light);
-    margin: calc(var(--scale) * 0.9375) 0; /* 30px 0px. */
-    padding-left: var(--scale___32); /* TODO review. */
+    margin: calc(var(--vu___x) * 30) 0; /* 30px 0px. */
+    padding-left: var(--vu___32); /* TODO review. */
 }

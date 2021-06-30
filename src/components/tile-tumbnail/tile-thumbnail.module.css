@@ -13,7 +13,7 @@
 /* Scale. */
 /* Tile thumbnail medium. */
 .tile__thumbnail___m {
-    width: calc((100% - var(--scale___128)) / 3 * 2 + var(--scale___128));
+    width: calc((100% - var(--vu___128)) / 3 * 2 + var(--vu___128));
 }
 
 /* Tile image. */

@@ -8,9 +8,9 @@
 /* Headline heading. */
 .headline__heading {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: var(--scale___112);
-    left: var(--scale___128); /* Positions left from viewport. */
-    line-height: var(--scale___124);
-    margin: var(--scale___136) 0;
+    font-size: var(--vu___112);
+    left: var(--vu___128); /* Positions left from viewport. */
+    line-height: var(--vu___124);
+    margin: var(--vu___136) 0;
     position: absolute; /* Positions absolute with <main>. */
 }

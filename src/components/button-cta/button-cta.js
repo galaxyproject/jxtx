@@ -19,7 +19,7 @@ const classNames = require("classnames");
 
 function ButtonCta(props) {
 
-    const {attributeHREF, attributeRel, attributeTarget, buttonScale, buttonTheme, buttonType, children} = props;
+    const {attributeHREF, attributeTarget, buttonScale, buttonTheme, buttonType, children} = props;
     const internalCta = /^\/(?!\/)/.test(attributeTarget); /* See https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-link/#reminder-use-link-only-for-internal-links. */
     const classButtonScale = ButtonClassname[buttonScale];
     const classButtonTheme = ButtonClassname[buttonTheme];
@@ -32,7 +32,6 @@ function ButtonCta(props) {
                   to={attributeHREF}>{children}</Link> :
             <a className={classNamesButton}
                href={attributeHREF}
-               rel={attributeRel}
                target={attributeTarget}>{children}</a>
     )
 }

@@ -22,7 +22,7 @@
 /* Content block body large "48px". */
 .content__body___l {
     composes: c__b__b; /* Content block body. */
-    font-size: var(--scale___48);
-    line-height: var(--scale___60);
-    margin-bottom: var(--scale___64);
+    font-size: var(--vu___48);
+    line-height: var(--vu___60);
+    margin-bottom: var(--vu___64);
 }

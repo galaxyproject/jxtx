@@ -6,6 +6,7 @@
  */
 
 export const ButtonType = {
+    "BURGER": "BURGER",
     "OUTLINED": "OUTLINED",
     "SOCIAL": "SOCIAL",
     "UNELEVATED": "UNELEVATED"

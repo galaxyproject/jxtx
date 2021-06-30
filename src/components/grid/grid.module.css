@@ -14,15 +14,15 @@
 
 /* Grid, first. */
 .grid:first-of-type::after {
-    border-bottom: var(--scale___2) solid var(--off-white);
+    border-bottom: var(--vu___2) solid var(--off-white);
     content: "";
-    margin: var(--scale___64) 0;
+    margin: var(--vu___64) 0;
     width: 100%;
 }
 
 /* Grid, last. */
 .grid:last-of-type {
-    margin-bottom: var(--scale___64);
+    margin-bottom: var(--vu___64);
 }
 
 /* Grid by 1 - full width. */
@@ -41,5 +41,5 @@
 }
 
 .grid___x3 > *:nth-of-type(even) {
-    margin: 0 var(--scale___64);
+    margin: 0 var(--vu___64);
 }

@@ -17,14 +17,14 @@
 /* Tile content small. */
 .t___s {
     composes: tile__content;
-    padding: var(--scale___32);
+    padding: var(--vu___32);
 }
 
 /* Scale. */
 /* Tile content medium. */
 .t___m {
     composes: tile__content;
-    padding: var(--scale___64);
+    padding: var(--vu___64);
 }
 
 /* Theme. */

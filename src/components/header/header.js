@@ -7,16 +7,17 @@
 
 // Core dependencies
 import {Link} from "gatsby";
-import React from "react";
+import React, {useCallback, useEffect, useRef, useState} from "react";
 
 // App dependencies
+import Button from "../button/button";
 import {ButtonTheme} from "../button/button-theme.model";
 import {ButtonType} from "../button/button-type.model";
 import ButtonCTA from "../button-cta/button-cta";
-import {Relationship} from "../../utils/anchor/relationship.model";
 import {Target} from "../../utils/anchor/target.model";
 
 // Images
+import burger from "../../../images/header/burger.svg";
 import JXTX from "../../../images/jxtx.png";
 
 // Styles
@@ -35,6 +36,56 @@ const scholarships = "/";
 function Header(props) {
 
     const {headerMinor} = props;
+    const bodyRef = useRef(null);
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    /**
+     * Closes menu on resize.
+     * @type {(function(*): void)|*}
+     */
+    const onMediaTablet = useCallback(mediaQuery => {
+
+        if ( mediaQuery.matches ) {
+
+            /* Close menu. */
+            setMenuOpen(false);
+        }
+    }, []);
+
+    /* useEffect - componentDidMount/componentWillUnmount. */
+    useEffect(() => {
+
+        bodyRef.current = document.body;
+    }, [])
+
+    /* useEffect - componentDidMount/componentWillUnmount. */
+    /* Listeners - media queries. */
+    useEffect(() => {
+
+        const mediaTablet = "(min-width: 768px)";
+        const mqlTablet = window.matchMedia(mediaTablet);
+        mqlTablet.addEventListener("change", onMediaTablet);
+        onMediaTablet(mqlTablet);
+
+        return () => {
+
+            mqlTablet.removeEventListener("change", onMediaTablet);
+        };
+    }, [onMediaTablet]);
+
+    /* useEffect - componentDidUpdate - menuOpen. */
+    useEffect(() => {
+
+        /* Prevent body scroll. */
+        if ( menuOpen ) {
+
+            bodyRef.current.style.height = "100vh";
+            bodyRef.current.style.overflow = "hidden";
+        } else {
+
+            bodyRef.current.removeAttribute("style");
+        }
+    }, [menuOpen]);
 
     return (
         <header className={classNames(compStyles.header, {[compStyles.header___minor]: headerMinor})}>
@@ -44,7 +95,7 @@ function Header(props) {
                      src={JXTX}/>
                 <span className={compStyles.header__logo__title}>JXTX Foundation</span>
             </Link>
-            <nav className={compStyles.header__nav}>
+            <nav className={classNames(compStyles.header__nav, {[compStyles.header__nav___open]: menuOpen})}>
                 <ul className={compStyles.header__nav__list}>
                     <li className={compStyles.header__nav__item}>
                         <Link activeClassName={compStyles.header__nav__link___active}
@@ -66,13 +117,24 @@ function Header(props) {
                         <Link activeClassName={compStyles.header__nav__link___active}
                               className={compStyles.header__nav__link}
                               to={events}>Events</Link></li>
+                    <li className={compStyles.header__nav__item___cta}>
+                        <Link className={compStyles.header__nav__link}
+                              to={donate}>Donate</Link></li>
                 </ul>
             </nav>
-            <ButtonCTA attributeHREF={donate}
-                       attributeRel={Relationship.NOOPENER_NOREFERRER}
-                       attributeTarget={Target.BLANK}
-                       buttonTheme={ButtonTheme.PRIMARY}
-                       buttonType={ButtonType.UNELEVATED}>Donate</ButtonCTA>
+            <div className={compStyles.header__cta}>
+                <ButtonCTA attributeHREF={donate}
+                           attributeTarget={Target.BLANK}
+                           buttonTheme={ButtonTheme.PRIMARY}
+                           buttonType={ButtonType.UNELEVATED}>Donate</ButtonCTA>
+            </div>
+            <div className={compStyles.header__menu}>
+                <Button
+                    buttonAction={() => setMenuOpen(menuOpen => !menuOpen)}
+                    buttonType={ButtonType.BURGER}>
+                    <img src={burger} alt={"Burger"}/>
+                </Button>
+            </div>
         </header>
     )
 }

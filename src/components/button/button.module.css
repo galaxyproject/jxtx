@@ -20,6 +20,14 @@
     outline: none;
 }
 
+/* Button burger. */
+.button___burger {
+    background-color: transparent;
+    height: 24px;
+    padding: 6px 3px;
+    width: 24px;
+}
+
 /* Button outlined, unelevated. */
 .button___outlined, .button___unelevated {
     display: inline-block;
@@ -28,14 +36,14 @@
     font-weight: 700;
     letter-spacing: 2px;
     line-height: 20px;
-    padding: 11px 15px; /* TODO review. */
+    padding: var(--vu___12) var(--vu___16);
 }
 
 /* Button oversized. */
 .button___oversized {
-    font-size: calc(var(--scale) * 0.5625); /* 18px. */ /* TODO review. */
-    line-height: var(--scale___24); /* TODO review. */
-    padding: calc(var(--scale) * 0.5625) var(--scale___60); /* 18px 60px */ /* TODO review. */
+    font-size: calc(var(--vu___x) * 18); /* 18px. */ /* TODO review. */
+    line-height: var(--vu___24); /* TODO review. */
+    padding: calc(var(--vu___x) * 18) var(--vu___60); /* 18px 60px */ /* TODO review. */
 }
 
 /* Button outlined. */
@@ -57,7 +65,7 @@
 
 /* Button white, outlined. */
 .button___white.button___outlined {
-    border: var(--scale___2) solid var(--white);
+    border: var(--vu___2) solid var(--white);
     color: var(--white);
 }
 

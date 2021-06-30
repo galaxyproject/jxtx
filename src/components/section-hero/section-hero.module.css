@@ -18,9 +18,9 @@
 .hero__headline {
     box-sizing: content-box;
     color: var(--white);
-    padding: var(--scale___304) var(--scale___124) var(--scale___224);
+    padding: var(--vu___304) var(--vu___124) var(--vu___224);
     position: relative;
-    width: calc(var(--scale) * 23.4375); /* 750 */ /* TODO review. */
+    width: calc(var(--vu___x) * 750); /* 750 */ /* TODO review. */
 }
 
 /* Hero headline head. */
@@ -32,25 +32,25 @@
 
 /* Hero headline head. */
 .hero__headline__head {
-    font-size: var(--scale___72);
+    font-size: var(--vu___72);
     letter-spacing: 1.14px; /* TODO review. */
-    line-height: var(--scale___84);
-    margin-bottom: var(--scale___24);
+    line-height: var(--vu___84);
+    margin-bottom: var(--vu___24);
 }
 
 /* Hero headline subhead. */
 .hero__headline__subhead {
-    font-size: var(--scale___48);
-    line-height: var(--scale___60);
-    margin-bottom: var(--scale___48);
+    font-size: var(--vu___48);
+    line-height: var(--vu___60);
+    margin-bottom: var(--vu___48);
 }
 
 /** Hero attribution. */
 .hero__attribution {
     align-items: center;
-    bottom: calc(var(--scale) * 0.3125) /* 10px */ /* TODO review */;
+    bottom: calc(var(--vu___x) * 10) /* 10px */ /* TODO review */;
     display: inline-flex;
-    font-size: var(--scale___32);
+    font-size: var(--vu___32);
     line-height: 0; /* Required to maintain correct height of <h2>. */
     position: relative; /* Required to center position attribution with <h2>. */
 }
@@ -59,6 +59,6 @@
 .hero__attribution::before {
     background-color: white;
     content: "";
-    margin: auto var(--scale___16);
-    padding: var(--scale___2) var(--scale___16);
+    margin: auto var(--vu___16);
+    padding: var(--vu___2) var(--vu___16);
 }

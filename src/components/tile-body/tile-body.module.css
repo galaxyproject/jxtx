@@ -8,7 +8,7 @@
 /* Tile body. */
 .tile__body {
     flex: 1; /* To take up remaining tile content space. */
-    font-size: var(--scale___20);
-    line-height: var(--scale___32);
+    font-size: var(--vu___20);
+    line-height: var(--vu___32);
     margin: 0;
 }
