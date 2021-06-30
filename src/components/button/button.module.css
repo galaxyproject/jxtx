@@ -35,7 +35,7 @@
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 2px;
-    line-height: 20px;
+    line-height: 1.25;
     padding: var(--vu___12) var(--vu___16);
 }
 
@@ -83,4 +83,15 @@
 .button__social > * {
     margin: 0;
     width: inherit; /* Inherited width specified by <ButtonSocial/> prop `iconSize`. */
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Button social oversized "32px". */
+    .button__social___oversized {
+        width: var(--vu___32);
+    }
 }
