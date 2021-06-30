@@ -101,7 +101,7 @@
     font-family: "Source Sans Pro", sans-serif;
     font-size: 16px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 1.25;
     padding: var(--vu___16) 0;
 }
 
@@ -149,7 +149,7 @@
     /* Logo, title. */
     .header__logo__title {
         font-size: var(--vu___32);
-        line-height: var(--vu___48);
+        line-height: 1.5;
     }
 
     /* Nav - always open. */
