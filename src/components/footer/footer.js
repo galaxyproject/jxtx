@@ -27,7 +27,7 @@ const donate = "/";
 const events = "/";
 const facebook = "/";
 const home = "/";
-const instagram = "";
+const instagram = "/";
 const james = "/about-james/bio";
 const news = "/";
 const privacy = "/";
@@ -55,22 +55,22 @@ function Footer() {
             <div className={compStyles.footer__nav}>
                 <ul>
                     <li className={compStyles.footer__nav__item}>
-                        <Link to={about}>About</Link></li>
+                        <Link to={about} className={compStyles.footer__nav__link}>About</Link></li>
                     <li className={compStyles.footer__nav__item}>
-                        <Link to={james}>James</Link></li>
+                        <Link to={james} className={compStyles.footer__nav__link}>James</Link></li>
                     <li className={compStyles.footer__nav__item}>
-                        <Link to={scholarships}>Scholarships</Link></li>
+                        <Link to={scholarships} className={compStyles.footer__nav__link}>Scholarships</Link></li>
                     <li className={compStyles.footer__nav__item}>
-                        <Link to={news}>News</Link></li>
+                        <Link to={news} className={compStyles.footer__nav__link}>News</Link></li>
                     <li className={compStyles.footer__nav__item}>
-                        <Link to={events}>Events</Link></li>
+                        <Link to={events} className={compStyles.footer__nav__link}>Events</Link></li>
                     <li className={compStyles.footer__nav__item}>
-                        <Link to={donate}>Donate</Link></li>
+                        <Link to={donate} className={compStyles.footer__nav__link}>Donate</Link></li>
                 </ul>
             </div>
             <div className={compStyles.footer__legal}>
                 <Link to={privacy}>Privacy</Link>
-                <span>@Copyright 2021</span>
+                <span className={compStyles.footer__legal__copy}>@Copyright 2021</span>
             </div>
         </footer>
     )

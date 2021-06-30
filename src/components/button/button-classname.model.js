@@ -6,6 +6,7 @@
  */
 
 export const ButtonClassname = {
+    "BURGER": "button___burger",
     "OUTLINED": "button___outlined",
     "OVERSIZED": "button___oversized",
     "PRIMARY": "button___primary",

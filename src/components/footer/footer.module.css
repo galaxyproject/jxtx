@@ -16,9 +16,8 @@
 /* Generic font specification for hero logo, navigation and legal. */
 .f__f {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 16px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 1.25;
 }
 
 /* Compose class "f__s" - footer section. */
@@ -26,32 +25,34 @@
 .f__s {
     border-bottom: 2px solid var(--white);
     margin: var(--gutter);
-    padding: 64px 0;
+    padding: var(--vu___60) 0;
 }
 
 /* Footer. */
 .footer {
     background-color: var(--accent-blue-dark);
     color: var(--white);
+    max-width: calc(1px * var(--vu___max));
+    margin: 0 auto;
 }
 
 /* Hero. */
 .footer__hero {
     composes: f__s; /* Section. */
     composes: f__a--c; /* Flex. */
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 /* Logo. */
 .footer__hero__logo {
     composes: f__f; /* Font. */
-    font-size: 32px; /* Overrides f__f font size. */
-    line-height: 40px; /* Overrides f__f line height. */
+    font-size: 32px;
 }
 
 /* Socials. */
 .footer__hero__socials {
     composes: f__a--c; /* Flex. */
+    margin-top: 32px;
 }
 
 /* Social. */
@@ -80,13 +81,25 @@
 /* Nav item. */
 .footer__nav__item {
     composes: f__f; /* Font. */
-    margin-top: 16px;
+    font-size: 16px;
+    text-align: center;
     text-transform: uppercase;
 }
 
 /* Nav item - first. */
 .footer__nav__item:first-of-type {
-    margin-top: 0;
+    margin-top: -16px;
+}
+
+/* Nav item - last. */
+.footer__nav__item:last-of-type {
+    margin-bottom: -16px;
+}
+
+/* Nav item link. */
+.footer__nav__link {
+    display: block;
+    padding: 8px 0;
 }
 
 /* Legal (privacy, copyright). */
@@ -95,8 +108,15 @@
     composes: f__a--c; /* Flex. */
     composes: f__f; /* Font. */
     border-bottom: none; /* Overrides f__s border. */
+    flex-direction: column;
+    font-size: 16px;
     justify-content: space-between;
-    padding: 32px 0; /* Overrides f__s padding. */
+    padding: var(--vu___32) 0; /* Overrides f__s padding. */
+}
+
+/* Legal (copyright). */
+.footer__legal__copy {
+    margin-top: 32px;
 }
 
 /* Logo. */
@@ -107,4 +127,65 @@
 .footer__legal > * {
     color: inherit;
     text-decoration: none;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Compose class "f__s" - footer section. */
+    /* Generic section styles for hero, navigation and legal. */
+    .f__s {
+        padding: var(--vu___64) 0;
+    }
+
+    /* Hero. */
+    .footer__hero {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* Logo. */
+    .footer__hero__logo {
+        font-size: var(--vu___32);
+    }
+
+    /* Socials. */
+    .footer__hero__socials {
+        margin-top: 0;
+    }
+
+    /* Social. */
+    /* Conjoins with <ButtonSocial/> styles. */
+    .footer__hero__socials > a {
+        margin-left: var(--vu___32);
+    }
+
+    /* Nav item. */
+    .footer__nav__item {
+        text-align: left;
+    }
+
+    /* Legal (privacy, copyright). */
+    .footer__legal {
+        flex-direction: row;
+    }
+
+    /* Legal (copyright). */
+    .footer__legal__copy {
+        margin-top: 0;
+    }
+}
+
+/**
+ * 1920px - Large (desktop).
+ */
+@media screen and (min-width: 1920px) {
+
+    /* Compose class "f__s" - footer section. */
+    /* Generic section styles for hero, navigation and legal. */
+    .f__s {
+        margin: 0 32px;
+    }
 }

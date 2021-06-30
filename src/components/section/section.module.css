@@ -9,8 +9,7 @@
 /* Section article. */
 .section__article {
     margin: 0 auto;
-    padding: var(--scale___60) 0;
-    width: var(--scale___1052);
+    padding: var(--vu___36) 0;
 }
 
 /* Type. */
@@ -24,8 +23,7 @@
 /* Type. */
 /* Section headline. */
 .section__headline {
-    margin: var(--scale___60) 0;
-    height: var(--scale___396);
+    margin: var(--vu___36) 0;
 }
 
 /* Type. */
@@ -37,7 +35,7 @@
 /* Type. */
 /* Section hero sub. */
 .section__hero___sub {
-    padding: var(--scale___200) var(--scale___128);
+    padding: var(--vu___200) var(--vu___128);
 }
 
 /* Type. */
@@ -51,7 +49,35 @@
 /* Type. */
 /* Section offset. */
 .section__offset {
-    margin: var(--scale___128);
+    margin: var(--vu___128);
     overflow: hidden; /* Required to hide overflow from repositioning offsets. */
     position: relative; /* Positions offsets. */
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Type. */
+    /* Section article. */
+    .section__article {
+        max-width: var(--vu___1052);
+        padding: var(--vu___60) 0;
+    }
+
+    /* Type. */
+    /* Section collection. */
+    .section__collection {
+        margin: 0 auto;
+        max-width: var(--maximum);
+    }
+
+    /* Type. */
+    /* Section headline. */
+    .section__headline {
+        height: var(--vu___396);
+        margin: var(--vu___60) auto;
+        max-width: var(--maximum);
+    }
 }

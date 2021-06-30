@@ -16,7 +16,7 @@
 /* Row. */
 .tile__row {
     composes: tile;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 /* Orientation. */
@@ -24,5 +24,22 @@
 .tile__column {
     composes: tile;
     flex-direction: column;
-    min-height: var(--scale___900);
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Orientation. */
+    /* Row. */
+    .tile__row {
+        flex-direction: row;
+    }
+
+    /* Orientation. */
+    /* Column. */
+    .tile__column {
+        min-height: var(--vu___900);
+    }
 }

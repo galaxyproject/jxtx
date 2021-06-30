@@ -17,18 +17,36 @@
 /* Tile content small. */
 .t___s {
     composes: tile__content;
-    padding: var(--scale___32);
+    padding: 16px;
 }
 
 /* Scale. */
 /* Tile content medium. */
 .t___m {
     composes: tile__content;
-    padding: var(--scale___64);
+    padding: 16px;
 }
 
 /* Theme. */
 /* Tile content off white. */
 .tile__content___offWhite {
     background-color: var(--off-white);
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Scale. */
+    /* Tile content small. */
+    .t___s {
+        padding: var(--vu___32);
+    }
+
+    /* Scale. */
+    /* Tile content medium. */
+    .t___m {
+        padding: var(--vu___64);
+    }
 }

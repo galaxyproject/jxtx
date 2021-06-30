@@ -15,7 +15,6 @@ import {ButtonType} from "../button/button-type.model";
 import ButtonCTA from "../button-cta/button-cta";
 import Section from "../section/section";
 import {SectionType} from "../section/section-type.model";
-import {Relationship} from "../../utils/anchor/relationship.model";
 import {Target} from "../../utils/anchor/target.model";
 
 // Images
@@ -40,7 +39,6 @@ function SectionHero() {
                 </h2>
                 <ButtonCTA
                     attributeHREF={donate}
-                    attributeRel={Relationship.NOOPENER_NOREFERRER}
                     attributeTarget={Target.BLANK}
                     buttonScale={ButtonScale.OVERSIZED}
                     buttonTheme={ButtonTheme.WHITE}

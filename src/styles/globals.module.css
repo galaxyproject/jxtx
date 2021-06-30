@@ -6,11 +6,53 @@
  *
  * Media query breakpoints.
  * Material Design (https://material.io/design/layout/responsive-layout-grid.html#breakpoints).
+ * 414px - Extra small (phone).
  * 768px - Small (tablet).
+ * 1240px - Medium (laptop).
  * 1920px - Large (desktop).
  */
 
 :root {
+    --bp-desktop: calc(1px * var(--vu___max));
     --gutter: 0 var(--gutter-x);
-    --gutter-x: var(--scale___32);
+    --gutter-x: 16px;
+    --maximum: calc(var(--bp-desktop) - var(--gutter-x) * 2);
+}
+
+html {
+    font-size: 87.5%; /* 14px. */
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    :root {
+        --gutter-x: 32px;
+    }
+
+    html {
+        font-size: 100%; /* 16px. */
+    }
+}
+
+/**
+ * 1240px - Medium (laptop).
+ */
+@media screen and (min-width: 1240px) {
+
+    html {
+        font-size: 125%; /* 20px. */
+    }
+}
+
+/**
+ * 1920px - Large (desktop).
+ */
+@media screen and (min-width: 1920px) {
+
+    :root {
+        --gutter: 0 auto;
+    }
 }

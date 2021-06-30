@@ -8,7 +8,19 @@
 /* Heading One <h1/>. */
 .article__h1 {
     composes: heading___o from "../heading/heading.module.css";
-    font-size: var(--scale___64);
-    line-height: var(--scale___72);
-    margin-bottom: var(--scale___60);
+    font-size: var(--vu___28);
+    margin-bottom: var(--vu___32);
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Heading One <h1/>. */
+    .article__h1 {
+        font-size: var(--vu___64);
+        line-height: 1.125;
+        margin-bottom: var(--vu___60);
+    }
 }

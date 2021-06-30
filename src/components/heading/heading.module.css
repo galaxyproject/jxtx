@@ -6,37 +6,25 @@
  * Used by section heading and content block heading components.
  */
 
-/* Compose class ".heading" - heading. */
-.heading {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
-}
-
 /* Scale. */
 /* Small. */
 .h___s {
-    composes: heading;
-    font-size: var(--scale___32);
-    line-height: var(--scale___40);
-    margin-bottom: var(--scale___16);
+    font-size: var(--vu___24);
+    margin-bottom: var(--vu___16);
 }
 
 /* Scale. */
 /* Medium. */
 .h___m {
-    composes: heading;
-    font-size: var(--scale___44);
-    line-height: var(--scale___52);
-    margin-bottom: var(--scale___16);
+    font-size: var(--vu___32);
+    margin-bottom: var(--vu___16);
 }
 
 /* Scale. */
 /* Large. */
 .h___l {
-    composes: heading;
-    font-size: var(--scale___48);
-    line-height: var(--scale___60);
-    margin-bottom: var(--scale___24);
+    font-size: var(--vu___48);
+    margin-bottom: var(--vu___24);
 }
 
 /* Theme. */
@@ -63,10 +51,28 @@
 /* Heading theme "orange" and "blue" accent. */
 .heading___o::after,
 .heading___b::after {
-    bottom: calc(-1 * var(--scale___4));
+    bottom: calc(-1 * var(--vu___4));
     content: "";
-    height: var(--scale___4);
+    height: var(--vu___4);
     left: 0;
     position: absolute;
-    width: var(--scale___124);
+    width: var(--vu___124);
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Scale. */
+    /* Small. */
+    .h___s {
+        font-size: var(--vu___32);
+    }
+
+    /* Scale. */
+    /* Medium. */
+    .h___m {
+        font-size: var(--vu___44);
+    }
 }

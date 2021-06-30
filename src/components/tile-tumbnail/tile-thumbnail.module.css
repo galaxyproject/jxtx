@@ -13,7 +13,7 @@
 /* Scale. */
 /* Tile thumbnail medium. */
 .tile__thumbnail___m {
-    width: calc((100% - var(--scale___128)) / 3 * 2 + var(--scale___128));
+    width: 100%;
 }
 
 /* Tile image. */
@@ -21,4 +21,16 @@
 .tile__thumbnail___m > div {
     display: block;
     width: 100%;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Scale. */
+    /* Tile thumbnail medium. */
+    .tile__thumbnail___m {
+        width: calc((100% - var(--vu___128)) / 3 * 2 + var(--vu___128));
+    }
 }

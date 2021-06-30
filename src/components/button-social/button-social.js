@@ -12,7 +12,6 @@ import React from "react";
 import {ButtonClassname} from "../button/button-classname.model";
 import {ButtonSize} from "../button/button-size.model";
 import {ButtonType} from "../button/button-type.model";
-import {Relationship} from "../../utils/anchor/relationship.model";
 import {Target} from "../../utils/anchor/target.model";
 
 // Styles
@@ -29,7 +28,6 @@ function ButtonSocial(props) {
     return (
         <a className={classNamesButton}
            href={attributeHREF}
-           rel={Relationship.NOOPENER_NOREFERRER}
            target={Target.BLANK}>{children}
         </a>
     )

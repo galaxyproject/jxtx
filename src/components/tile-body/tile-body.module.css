@@ -8,7 +8,16 @@
 /* Tile body. */
 .tile__body {
     flex: 1; /* To take up remaining tile content space. */
-    font-size: var(--scale___20);
-    line-height: var(--scale___32);
     margin: 0;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Tile body. */
+    .tile__body {
+        font-size: var(--vu___20);
+    }
 }
