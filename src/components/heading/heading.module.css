@@ -9,16 +9,14 @@
 /* Scale. */
 /* Small. */
 .h___s {
-    font-size: var(--vu___32);
-    line-height: 1.25; /* TODO review. */
+    font-size: var(--vu___24);
     margin-bottom: var(--vu___16);
 }
 
 /* Scale. */
 /* Medium. */
 .h___m {
-    font-size: var(--vu___44);
-    line-height: var(--vu___52);
+    font-size: var(--vu___32);
     margin-bottom: var(--vu___16);
 }
 
@@ -26,7 +24,6 @@
 /* Large. */
 .h___l {
     font-size: var(--vu___48);
-    line-height: 1.25; /* TODO review. */
     margin-bottom: var(--vu___24);
 }
 
@@ -60,4 +57,22 @@
     left: 0;
     position: absolute;
     width: var(--vu___124);
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Scale. */
+    /* Small. */
+    .h___s {
+        font-size: var(--vu___32);
+    }
+
+    /* Scale. */
+    /* Medium. */
+    .h___m {
+        font-size: var(--vu___44);
+    }
 }

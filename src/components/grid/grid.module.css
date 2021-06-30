@@ -14,15 +14,15 @@
 
 /* Grid, first. */
 .grid:first-of-type::after {
-    border-bottom: var(--vu___2) solid var(--off-white);
+    border-bottom: 2px solid var(--off-white);
     content: "";
-    margin: var(--vu___64) 0;
+    margin: 32px 0;
     width: 100%;
 }
 
 /* Grid, last. */
 .grid:last-of-type {
-    margin-bottom: var(--vu___64);
+    margin-bottom: 32px;
 }
 
 /* Grid by 1 - full width. */
@@ -30,6 +30,7 @@
     composes: grid;
 }
 
+/* Grid by 1 - children - full width. */
 .grid___x1 > * {
     width: 100%;
 }
@@ -40,6 +41,38 @@
     justify-content: space-between;
 }
 
+/* Grid by 3 - children. */
+.grid___x3 > * {
+    flex-basis: 100% !important;
+}
+
+/* Grid by 3 - children - middle tile. */
 .grid___x3 > *:nth-of-type(even) {
-    margin: 0 var(--vu___64);
+    margin: 32px 0;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Grid, first. */
+    .grid:first-of-type::after {
+        margin: var(--vu___64) 0;
+    }
+
+    /* Grid, last. */
+    .grid:last-of-type {
+        margin-bottom: var(--vu___64);
+    }
+
+    /* Grid by 3 - children. */
+    .grid___x3 > * {
+        flex: 1 !important;
+    }
+
+    /* Grid by 3 - middle tile. */
+    .grid___x3 > *:nth-of-type(even) {
+        margin: 0 var(--vu___64);
+    }
 }

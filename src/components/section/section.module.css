@@ -23,8 +23,7 @@
 /* Type. */
 /* Section headline. */
 .section__headline {
-    margin: var(--vu___60) 0;
-    height: var(--vu___396);
+    margin: var(--vu___36) 0;
 }
 
 /* Type. */
@@ -65,5 +64,20 @@
     .section__article {
         max-width: var(--vu___1052);
         padding: var(--vu___60) 0;
+    }
+
+    /* Type. */
+    /* Section collection. */
+    .section__collection {
+        margin: 0 auto;
+        max-width: var(--maximum);
+    }
+
+    /* Type. */
+    /* Section headline. */
+    .section__headline {
+        height: var(--vu___396);
+        margin: var(--vu___60) auto;
+        max-width: var(--maximum);
     }
 }
