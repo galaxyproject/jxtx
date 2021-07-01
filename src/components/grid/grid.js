@@ -10,15 +10,16 @@ import React from "react";
 
 // Styles
 import * as compStyles from "./grid.module.css";
+const classNames = require("classnames");
 
 function Grid(props) {
 
-    const {children, columns} = props;
+    const {children, columns, grid} = props;
     const x = columns ? columns : 1;
-    const classByX = `grid___x${x}`;
+    const classByX = grid ? null : `grid___x${x}`;
 
     return (
-        <div className={compStyles[classByX]}>
+        <div className={classNames(compStyles[classByX], {[compStyles.grid__container]: grid})}>
             {children}
         </div>
     )

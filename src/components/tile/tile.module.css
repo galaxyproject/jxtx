@@ -23,7 +23,14 @@
 /* Column. */
 .tile__column {
     composes: tile;
+    flex-basis: 100%;
     flex-direction: column;
+}
+
+/* Orientation. */
+/* Column - middle tile. */
+.tile__column:nth-of-type(even) {
+    margin: 32px 0;
 }
 
 /**
@@ -40,6 +47,12 @@
     /* Orientation. */
     /* Column. */
     .tile__column {
+        flex: 1;
         min-height: var(--vu___900);
+    }
+
+    /* Column - middle tile. */
+    .tile__column:nth-of-type(even) {
+        margin: 0 var(--vu___64);
     }
 }

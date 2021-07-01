@@ -5,15 +5,15 @@
  * Style definitions specific to JXTX grid component.
  */
 
-/* Grid. */
+/* Grid (flex). */
 .grid {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
 }
 
-/* Grid, first. */
-.grid:first-of-type::after {
+/* Grid, second. */
+/* TODO review. */
+.grid:nth-of-type(2)::before {
     border-bottom: 2px solid var(--off-white);
     content: "";
     margin: 32px 0;
@@ -25,14 +25,11 @@
     margin-bottom: 32px;
 }
 
-/* Grid by 1 - full width. */
-.grid___x1 {
+/* Grid by 1 (full width). */
+/* Grid by 3. */
+.grid___x1,
+.grid___x3 {
     composes: grid;
-}
-
-/* Grid by 1 - children - full width. */
-.grid___x1 > * {
-    width: 100%;
 }
 
 /* Grid by 3. */
@@ -41,14 +38,11 @@
     justify-content: space-between;
 }
 
-/* Grid by 3 - children. */
-.grid___x3 > * {
-    flex-basis: 100% !important;
-}
-
-/* Grid by 3 - children - middle tile. */
-.grid___x3 > *:nth-of-type(even) {
-    margin: 32px 0;
+/* Grid (container). */
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* TODO review. */
+    grid-gap: 0 32px; /* TODO review. */
 }
 
 /**
@@ -56,23 +50,19 @@
  */
 @media screen and (min-width: 768px) {
 
-    /* Grid, first. */
-    .grid:first-of-type::after {
+    /* Grid (container_. */
+    .grid__container {
+        grid-gap: 0 var(--vu___64); /* TODO review. */
+    }
+
+    /* Grid, second. */
+    /* TODO review. */
+    .grid:nth-of-type(2)::before {
         margin: var(--vu___64) 0;
     }
 
     /* Grid, last. */
     .grid:last-of-type {
         margin-bottom: var(--vu___64);
-    }
-
-    /* Grid by 3 - children. */
-    .grid___x3 > * {
-        flex: 1 !important;
-    }
-
-    /* Grid by 3 - middle tile. */
-    .grid___x3 > *:nth-of-type(even) {
-        margin: 0 var(--vu___64);
     }
 }

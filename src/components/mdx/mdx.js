@@ -13,6 +13,7 @@ import React from "react";
 // App dependencies
 import Date from "../publish-date/publish-date";
 import Grid from "../grid/grid";
+import GridItem from "../grid-item/grid-item";
 import Headline from "../headline/headline";
 import HeadlineHeading from "../headline-heading/headline-heading";
 import Image from "../image/image";
@@ -28,6 +29,7 @@ import TileThumbnail from "../tile-tumbnail/tile-thumbnail";
 const shortcodes = {
     Date,
     Grid,
+    GridItem,
     Headline,
     HeadlineHeading,
     Image,
