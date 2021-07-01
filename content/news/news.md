@@ -21,7 +21,7 @@ title: "Newsroom"
 
 <Newsroom>
 
-<Grid>
+<Grid columns={1}>
 
 <Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[0]}>
 <TileThumbnail alt={"Anoushka"} image={props.images[0]}></TileThumbnail>

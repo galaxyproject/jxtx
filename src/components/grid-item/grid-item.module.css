@@ -1,0 +1,37 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX grid item component.
+ */
+
+/* Grid item - second. */
+.grid__item {
+    position: relative; /* Positions divider. */ /* TODO review. */
+}
+
+/* Grid item - second. */
+.grid__item:nth-of-type(2)::before {
+    content: "";
+    background-color: var(--off-white);
+    height: 100%;
+    position: absolute;
+    right: calc(100% + var(--vu___16) - 1px);
+    width: 2px;
+}
+
+/* Grid item - last child. */
+.grid__item > *:last-child {
+    margin: 0;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Grid item - second. */ /* TODO review. */
+    .grid__item:nth-of-type(2)::before {
+        right: calc(100% + var(--vu___32) - 1px);
+    }
+}
