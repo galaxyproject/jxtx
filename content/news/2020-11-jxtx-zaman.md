@@ -5,11 +5,11 @@ images:
 title: "Sumaira Zaman: JXTX Foundation and Unique Opportunities"
 ---
 
-<NewsroomDate>November 25th, 2020</NewsroomDate>
+<Date>November 25th, 2020</Date>
 
 # Sumaira Zaman: JXTX Foundation and Unique Opportunities
 
-<FigureImage alt="Sumaira Zaman" image={props.images[0]}></FigureImage>
+<Image alt="Sumaira Zaman" image={props.images[0]}></Image>
 <figcaption>Sumaira Zaman, a scholarship awardee and graduate student at the University of Connecticut.</figcaption>
 
 The [JXTX Foundation's][1] first activity was to [sponsor 10 graduate students to attend the 2020 Biological Data Science Conference][2] at Cold Spring Harbor Laboratory. Awards were competitive and we were delighted with our first round of participants.

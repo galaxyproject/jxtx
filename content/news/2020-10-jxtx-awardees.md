@@ -5,11 +5,11 @@ images:
 title: "JXTX Foundation Awards First Ten Scholarships"
 ---
 
-<NewsroomDate>October 23rd, 2020</NewsroomDate>
+<Date>October 23rd, 2020</Date>
 
 # JXTX Foundation Awards First Ten Scholarships
 
-<FigureImage alt="JXTX Foundation Awardees" image={props.images[0]}></FigureImage>
+<Image alt="JXTX Foundation Awardees" image={props.images[0]}></Image>
 <figcaption>JXTX Foundation Awards First Ten Scholarships</figcaption>
 
 *Awardees will be attending Biological Data Science 2020*
