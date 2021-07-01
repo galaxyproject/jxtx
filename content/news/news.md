@@ -6,6 +6,7 @@ images:
     - _images/newsroom-sumaira.png
     - _images/newsroom-placeholder.png
     - _images/newsroom-shoes.png
+    - _images/newsroom-scholarships.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
@@ -67,7 +68,7 @@ David Twesigomwe, a scholarship awardee and a PhD candidate in Human Genetics at
 </Tile>
 
 <Tile tileLink={props.links[3]}>
-<TileThumbnail alt={"Awardees"} image={props.images[3]}></TileThumbnail>
+<TileThumbnail alt={"Awardees"} image={props.images[4]}></TileThumbnail>
 <TileContent>
 <TileHeading>
 JXTX Foundation Awards First Ten Scholarships
