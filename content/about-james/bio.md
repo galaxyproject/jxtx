@@ -1,15 +1,20 @@
 ---
-description: ""
-title: ""
+description: "James Taylor started his professional path at the University of Vermont, where he received a BS in Computer Science in 2000. In 2003, after working as a software engineer in the private sector, he found that his real purpose in life was elsewhere."
+images:
+    - _images/james-at-gcc2019.png
+title: "James Peter Taylor | 1979 - 2020"
 ---
 
+<Date>April 5, 2020</Date>
+
 # James Peter Taylor | 1979 - 2020
-## Good ideas don’t have owners—they belong to everyone (@jxtx)
+
+<Image alt="James Taylor" image={props.images[0]}></Image>
+<figcaption>James Taylor at the Galaxy Community Conference. July 8, 2019. Freiburg, Germany. Photo by Bérénice Batut.</figcaption>
+
+*Good ideas don’t have owners—they belong to everyone (@jxtx)*
 
 James Taylor started his professional path at the University of Vermont, where he received a BS in Computer Science in 2000. In 2003, after working as a software engineer in the private sector, he found that his real purpose in life was elsewhere. That year he began his graduate studies in Computer Science at Penn State and joined the nascent Center for Comparative Genomics and Bioinformatics. He used to refer to the Center as ‘BX’—a contraction of BioinformatiX. The name stuck; ‘BX’ is still a part of many URLs (e.g. the original Galaxy URL at <http://g2.bx.psu.edu>) and is the origin for the name of the [bx-python software package][1]. The interdisciplinary faculty of the Center included Francesca Chiaromonte, Ross Hardison, Kateryna Makova, Webb Miller, and Anton Nekrutenko. This group became the core of James’ academic family, a family that has now lost its most brilliant and prolific child.
-
-![James at the Galaxy Community Conference][2]
-<figure-caption>James Taylor at the Galaxy Community Conference. July 8, 2019. Freiburg, Germany. Photo by Bérénice Batut.</figure-caption>
 
 James concluded his PhD work under the supervision of Webb Miller and Francesca Chiaromointe in just three years—during which he blossomed as a methods developer and as a scientist. He published extensively on comparative genome analysis, gene regulation and molecular evolution—a total of eleven papers<sup>1–11</sup> which were hugely instrumental in advancing the research of the Center. Ross Hardison, former head of the Center, remembers:
 
@@ -23,23 +28,23 @@ James’ move to Emory University as an assistant professor in 2008 coincided wi
 
 From the very beginning, James’ vision for the future of Galaxy was about creating and supporting a community of developers and users. This took shape with the Galaxy Developer Conference held at Cold Spring Harbor Laboratory in the summer of 2010, which has since become a yearly event that draws more than 200 attendees. He believed that to be successful and, most importantly, useful, a project must be open and cannot be owned by a single lab or a PI<sup>16</sup>. He was firmly dedicated to this idea. Today Galaxy is not associated with a particular group or an institution. It is a community effort supported by hundreds of developers worldwide. This, perhaps more than anything else, ensures that James’ legacy will endure.
 
-James once said that he would change his middle name to Reproducibility if it would help move the cause forward. He was an advocate for reproducible science long before it became fashionable, and he made it a central tenet of Galaxy. He could be downright evangelical about it. Martin Morgan of Bioconductor, a collaborator on the AnVIL Project, [shared][3]:
+James once said that he would change his middle name to Reproducibility if it would help move the cause forward. He was an advocate for reproducible science long before it became fashionable, and he made it a central tenet of Galaxy. He could be downright evangelical about it. Martin Morgan of Bioconductor, a collaborator on the AnVIL Project, [shared][2]:
 
 > We in the Bioconductor community knew James as a Galaxy project leader, a strong advocate for open and reproducible science, and an enthusiastic and inspirational colleague. James recognized Bioconductor as a kindred spirit, and bridged the relationship between Galaxy and Bioconductor through his leadership of the NHGRI AnVIL project. James' leadership has had deep consequences for the way Bioconductor now navigates toward large-scale cloud-based computing.
 
 James was particularly concerned with the inadequate state of quantitative education in life sciences. He developed many of the early training materials that became the foundation of the Galaxy Training Network<sup>17</sup>. He continued to make important contributions to biomedical education after he joined the Biology Department at Johns Hopkins University (JHU) in 2014. At JHU he participated in the development of massive open online courses (MOOCs), and he taught data analysis and scientific computing to biologists.
 
-Vince Hilser, chair of the Johns Hopkins Biology department, [describes][4] James as a bedrock of the department:
+Vince Hilser, chair of the Johns Hopkins Biology department, [describes][3] James as a bedrock of the department:
 
 > He came in 2014, and it was transformational. He was this catalyst for change, with a huge positive impact. His presence in the department opened up many areas for research, as he was able to help other faculty members uncover new insights by revealing similarities between the proteins they were studying and those in other organisms.
 
-People who worked for James thought the world of him, and many people in his group followed him from Emory to Johns Hopkins, and are still in his group today. When a new employee asked him and Anton whether it was "better to ask for permission or forgiveness" James's response was "Don't let us be a bottleneck." That was typical—always thinking of a third option where everyone else only saw two. Enis Afgan, [in his memoriam][5], describes James:
+People who worked for James thought the world of him, and many people in his group followed him from Emory to Johns Hopkins, and are still in his group today. When a new employee asked him and Anton whether it was "better to ask for permission or forgiveness" James's response was "Don't let us be a bottleneck." That was typical—always thinking of a third option where everyone else only saw two. Enis Afgan, [in his memoriam][4], describes James:
 
 > He ran his lab not as a boss but as a friend and a colleague that inspired each individual to do their best work. He was an enabler. He was someone you tried your best not to disappoint.
 
 While we celebrate James’ transformative vision of computational biology and bioinformatics, he was also just a lot of fun to be with. He had a finely tuned palate for good beer, he was an energetic and inquisitive conversationalist, and he had an uncanny ability to stay up late talking about science, politics, and all things related, but still be at his best the next morning. James met his future wife, Meredith Greif, when they were graduate students at Penn State. They were married in 2009. They have pursued their careers in a mutually supportive manner, him holding a faculty appointment at Emory University, and Meredith at Georgia State University. Both then moved to Johns Hopkins University. We extend our deepest sympathy to her on this shattering loss.
 
-This memoriam can only hint at how remarkable James was as a human being. We could not capture who he was even if we were given volumes to fill. Comments have come in ([and continue to come in][6] from all over the world, and they touch on both his humanity and his intellect. Melissa Wilson, an associate professor at Arizona State and a fellow PhD student, captures this perfectly:
+This memoriam can only hint at how remarkable James was as a human being. We could not capture who he was even if we were given volumes to fill. Comments have come in ([and continue to come in][5] from all over the world, and they touch on both his humanity and his intellect. Melissa Wilson, an associate professor at Arizona State and a fellow PhD student, captures this perfectly:
 
 > He is leaving a hole that cannot be filled. I met James when I started grad school at Penn State. I had no idea what to expect. We were both students, but he was clearly in a league of his own. James was one of the smartest people I've ever known, in a way that wasn't (as) intimidating. Talking with James was easy and enlightening. He advocated and put in the work for better science, in all aspects. James supported my science and my career in ways I don't think I can ever fully communicate. As a colleague, he believed in me. As a friend, he expected me to do good. He supported my growth, selflessly. Most of all, James was an advocate. He advocated for his students, for trainees, for open science, for open data, for making this world a better place.
 
@@ -67,11 +72,8 @@ Enis Afgan, Dannon Baker, Francesca Chiaromonte, Dave Clements, Nate Coraor, Jer
 1. Grüning, B. et al. Practical Computational Reproducibility in the Life Sciences. Cell Syst 6, 631–635 (2018).
 1. Batut, B. et al. Community-Driven Data Analysis Training for Biology. Cell Syst 6, 752–758.e1 (2018).
 
-April 5, 2020
-
 [1]: https://github.com/bxlab/bx-python
-[2]: ./_images/james-at-gcc2019.jpg
-[3]: https://support.bioconductor.org/p/129652/
+[2]: https://support.bioconductor.org/p/129652/
+[3]: /
 [4]: /
 [5]: /
-[6]: /

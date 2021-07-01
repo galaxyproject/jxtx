@@ -9,7 +9,7 @@
 import React from "react";
 
 // App dependencies
-import FigureImage from "../figure-image/figure-image";
+import Image from "../image/image";
 import {TileThumbnailClassname} from "./tile-thumbnail-classname.model";
 
 // Styles
@@ -24,7 +24,7 @@ function TileThumbnail(props) {
 
     return (
         <div className={classNamesThumbnail}>
-            <FigureImage alt={alt} image={image}/>
+            <Image alt={alt} image={image}/>
         </div>
     )
 }

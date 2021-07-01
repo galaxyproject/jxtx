@@ -2,11 +2,11 @@
  * JXTX Foundation
  * https://www.jxtxfoundation.org
  *
- * Style definitions specific to JXTX newsroom date component.
+ * Style definitions specific to JXTX publish date component.
  */
 
 /* Date. */
-.newsroom__date {
+.publish__date {
     color: var(--black54);
     font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
@@ -19,7 +19,7 @@
 @media screen and (min-width: 1240px) {
 
     /* Date. */
-    .newsroom__date {
+    .publish__date {
         font-size: 16px;
     }
 }
@@ -30,7 +30,7 @@
 @media screen and (min-width: 1920px) {
 
     /* Date. */
-    .newsroom__date {
+    .publish__date {
         font-size: var(--vu___20);
     }
 }

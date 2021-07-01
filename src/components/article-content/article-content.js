@@ -9,19 +9,21 @@
 import React from "react";
 
 // App dependencies
-import ArticleBlockquote from "../article-typography/article-blockquote";
-import ArticleFigcaption from "../article-typography/article-figcaption";
-import ArticleH1 from "../article-typography/article-h1";
-import ArticleLink from "../article-typography/article-link";
+import ArticleA from "../article-elements/article-a";
+import ArticleBlockquote from "../article-elements/article-blockquote";
+import ArticleFigcaption from "../article-elements/article-figcaption";
+import ArticleH1 from "../article-typographies/article-h1";
 import Mdx from "../mdx/mdx";
 import Section from "../section/section";
 import {SectionType} from "../section/section-type.model";
 
 // Template variables
-const typography = {
-    a: ArticleLink,
+const shortcodeElements = {
+    a: ArticleA,
     blockquote: ArticleBlockquote,
     figcaption: ArticleFigcaption,
+}
+const shortcodeTypographies = {
     h1: ArticleH1,
 }
 
@@ -29,12 +31,13 @@ function ArticleContent(props) {
 
     const {content, frontmatter} = props,
         {fullWidth} = frontmatter || {};
+    const articleShortcodes = {...shortcodeElements, ...shortcodeTypographies};
 
     return (
         fullWidth ?
             <Mdx content={content} frontmatter={frontmatter}/> :
             <Section type={SectionType.ARTICLE}>
-                <Mdx content={content} frontmatter={frontmatter} typography={typography}/>
+                <Mdx articleShortcodes={articleShortcodes} content={content} frontmatter={frontmatter}/>
             </Section>
     )
 }

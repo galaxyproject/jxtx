@@ -11,12 +11,12 @@ import {MDXProvider} from "@mdx-js/react";
 import React from "react";
 
 // App dependencies
-import FigureImage from "../figure-image/figure-image";
+import Date from "../publish-date/publish-date";
 import Grid from "../grid/grid";
 import Headline from "../headline/headline";
 import HeadlineHeading from "../headline-heading/headline-heading";
+import Image from "../image/image";
 import Newsroom from "../newsroom/newsroom";
-import NewsroomDate from "../newsroom-date/newsroom-date";
 import Tile from "../tile/tile";
 import TileBody from "../tile-body/tile-body";
 import TileContent from "../tile-content/tile-content";
@@ -26,12 +26,12 @@ import TileThumbnail from "../tile-tumbnail/tile-thumbnail";
 
 // Template variables
 const shortcodes = {
-    FigureImage,
+    Date,
     Grid,
     Headline,
     HeadlineHeading,
+    Image,
     Newsroom,
-    NewsroomDate,
     Tile,
     TileBody,
     TileContent,
@@ -42,9 +42,9 @@ const shortcodes = {
 
 function Mdx(props) {
 
-    const {content, frontmatter, typography} = props;
+    const {articleShortcodes, content, frontmatter} = props;
     const {images, links} = frontmatter || {};
-    Object.assign(shortcodes, typography); /* Merges article typography. */
+    Object.assign(shortcodes, articleShortcodes); /* Merges article shortcodes. */
 
     return (
         <MDXProvider components={shortcodes}>
