@@ -50,6 +50,18 @@ module.exports = {
                 name: "markdown-pages",
                 path: contentPath,
             },
+        },
+        {
+            resolve: "gatsby-plugin-manifest",
+            options: {
+                background_color: "#F8F8F8",
+                display: "standalone",
+                icon: "./images/favicon/favicon.png",
+                name: "JXTX Foundation",
+                short_name: "JXTX",
+                start_url: "/",
+                theme_color: "#2077B3"
+            }
         }
     ],
 };
