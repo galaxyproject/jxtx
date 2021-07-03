@@ -25,11 +25,11 @@ import * as compStyles from "./header.module.css";
 const classNames = require("classnames");
 
 // Template variables
-const about = "/foundation/about-the-jxtx-foundation";
-const donate = "/";
+const about = "/about";
+const donate = "https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i";
 const events = "/events";
 const home = "/";
-const james = "/about-james/bio";
+const james = "/james";
 const news = "/news";
 const scholarships = "/scholarships";
 
@@ -118,8 +118,9 @@ function Header(props) {
                               className={compStyles.header__nav__link}
                               to={events}>Events</Link></li>
                     <li className={compStyles.header__nav__item___cta}>
-                        <Link className={compStyles.header__nav__link}
-                              to={donate}>Donate</Link></li>
+                        <a className={compStyles.header__nav__link}
+                           href={donate}
+                           target={Target.BLANK}>Donate</a></li>
                 </ul>
             </nav>
             <div className={compStyles.header__cta}>

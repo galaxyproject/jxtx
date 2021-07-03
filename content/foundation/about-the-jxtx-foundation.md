@@ -1,5 +1,6 @@
 ---
 description: ""
+slug: "/about"
 title: ""
 ---
 
