@@ -31,7 +31,7 @@ const events = "/events";
 const home = "/";
 const james = "/about-james/bio";
 const news = "/news";
-const scholarships = "/";
+const scholarships = "/scholarships";
 
 function Header(props) {
 
