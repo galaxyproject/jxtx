@@ -37,7 +37,7 @@ import outreach from "../../../images/home/outreach.png";
 // Template variables
 const aboutFoundation = "about";
 const aboutJames = "/james";
-const ourScholarships = "/scholarships";
+const ourScholarships = "/scholarships/2021-genome-informatics";
 
 function Home() {
 
