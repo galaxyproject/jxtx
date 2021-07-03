@@ -7,11 +7,13 @@ images:
     - _images/newsroom-placeholder.png
     - _images/newsroom-shoes.png
     - _images/newsroom-awardees-2020-bds.png
+    - _images/newsroom-jxtx-shoes.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
     - /news/2020-11-jxtx-twesigomwe
     - /news/2020-10-jxtx-awardees
+    - /news/2020-05-jtech
 slug: "/news"
 title: "Newsroom"
 ---
@@ -77,6 +79,19 @@ JXTX Foundation Awards First Ten Scholarships
 JXTX: The James P. Taylor Foundation for Open Science is pleased to announce the recipients of the 2020 JTech Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
 </TileBody>
 <TileDate>October 23, 2020</TileDate>
+</TileContent>
+</Tile>
+
+<Tile tileLink={props.links[4]}>
+<TileThumbnail alt={"Awardees"} image={props.images[5]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JTech, the James Taylor Foundation
+</TileHeading>
+<TileBody>
+The recent passing of Dr. James Taylor, the Ralph S. O’Connor Professor of Biology and Professor of Computer Science at Johns Hopkins University, has left an enormous void in the field of computational biology. To help fill this void and continue James’ efforts, the Galaxy community has established a memorial foundation in James’ name.
+</TileBody>
+<TileDate>May 7th 2020</TileDate>
 </TileContent>
 </Tile>
 
