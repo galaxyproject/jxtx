@@ -49,7 +49,7 @@
 /* Logo, title. */
 .header__logo__title {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: calc(var(--vu___x) * 14); /* 14px. */
+    font-size: 24px;
     font-weight: 600;
     line-height: var(--vu___32);
 }
@@ -145,19 +145,19 @@
 
     /* Header. */
     .header {
-        height: var(--vu___100);
+        height: 72px;
         justify-content: flex-start;
     }
 
     /* Logo, image. */
     .header__logo__img {
         margin: 0 var(--vu___16) 0 0;
-        width: var(--vu___48);
+        width: var(--vu___64);
     }
 
     /* Logo, title. */
     .header__logo__title {
-        font-size: var(--vu___32);
+        font-size: 20px;
         line-height: 1.5;
     }
 
@@ -177,7 +177,7 @@
     /* Nav item. */
     .header__nav__item {
         border-bottom: none;
-        margin: 0 var(--vu___16);
+        margin: 0 var(--vu___12);
         width: unset;
     }
 
@@ -188,9 +188,9 @@
 
     /* Nav link. */
     .header__nav__link {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 700;
-        padding: var(--vu___16);
+        padding: var(--vu___12);
         text-transform: uppercase;
     }
 
@@ -202,5 +202,37 @@
     /* Menu. */
     .header__menu {
         display: none;
+    }
+}
+
+/**
+ * 1240px - Medium (laptop).
+ */
+@media screen and (min-width: 1240px) {
+
+    /* Header. */
+    .header {
+        height: var(--vu___100);
+    }
+
+    /* Logo, image. */
+    .header__logo__img {
+        width: var(--vu___48);
+    }
+
+    /* Logo, title. */
+    .header__logo__title {
+        font-size: var(--vu___32);
+    }
+
+    /* Nav item. */
+    .header__nav__item {
+        margin: 0 var(--vu___16);
+    }
+
+    /* Nav link. */
+    .header__nav__link {
+        font-size: 16px;
+        padding: 16px;
     }
 }
