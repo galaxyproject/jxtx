@@ -1,0 +1,13 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX grid tres component.
+ */
+
+/* Grid tres. */
+.grid___tres {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}

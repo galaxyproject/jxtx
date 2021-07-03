@@ -1,0 +1,11 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX awardees component.
+ */
+
+/* Awardees. */
+.awardees {
+    margin-bottom: var(--vu___48);
+}

@@ -1,0 +1,53 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX awardee content component.
+ */
+
+/* Awardee content. */
+.awardee__content {
+    order: 1;
+    padding: 32px 0;
+}
+
+/* Awardee heading. */
+.awardee__content h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+/* Awardee sub heading. */
+.awardee__content h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Awardee - last child. */
+.awardee__content > *:last-child {
+    margin: 0;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Awardee content. */
+    .awardee__content {
+        order: unset;
+        padding: var(--vu___24) var(--vu___32);
+    }
+
+    /* Awardee heading. */
+    .awardee__content h3 {
+        font-size: var(--vu___32);
+        margin-bottom: var(--vu___16);
+    }
+
+    /* Awardee sub heading. */
+    .awardee__content h4 {
+        font-size: var(--vu___20);
+        margin-bottom: var(--vu___8);
+    }
+}

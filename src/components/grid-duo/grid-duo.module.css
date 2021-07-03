@@ -1,0 +1,13 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX grid duo component.
+ */
+
+/* Grid duo. */
+.grid___duo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}

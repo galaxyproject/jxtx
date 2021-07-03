@@ -11,9 +11,15 @@ import {MDXProvider} from "@mdx-js/react";
 import React from "react";
 
 // App dependencies
+import Awardee from "../awardee/awardee";
+import AwardeeContent from "../awardee-content/awardee-content";
+import Awardees from "../awardees/awardees";
 import Date from "../publish-date/publish-date";
 import Grid from "../grid/grid";
-import GridItem from "../grid-item/grid-item";
+import GridDuo from "../grid-duo/grid-duo";
+import GridItemArticle from "../grid-item-article/grid-item-article";
+import GridTres from "../grid-tres/grid-tres";
+import GridUnus from "../grid-unus/grid-unus";
 import Headline from "../headline/headline";
 import HeadlineHeading from "../headline-heading/headline-heading";
 import Image from "../image/image";
@@ -27,9 +33,15 @@ import TileThumbnail from "../tile-tumbnail/tile-thumbnail";
 
 // Template variables
 const shortcodes = {
+    Awardee,
+    AwardeeContent,
+    Awardees,
     Date,
     Grid,
-    GridItem,
+    GridDuo,
+    GridItemArticle,
+    GridTres,
+    GridUnus,
     Headline,
     HeadlineHeading,
     Image,

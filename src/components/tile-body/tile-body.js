@@ -16,7 +16,7 @@ function TileBody(props) {
     const {children} = props;
 
     return (
-        <p className={compStyles.tile__body}>{children}</p>
+        <div className={compStyles.tile__body}>{children}</div>
     )
 }
 
