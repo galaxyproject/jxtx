@@ -1,0 +1,41 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX grid item article component.
+ */
+
+/* Grid item - odds. */
+.grid__item:nth-of-type(odd) {
+    border-right: 1px solid var(--off-white);
+    grid-column: 1 / 3;
+    padding-right: 16px;
+}
+
+/* Grid item - evens. */
+.grid__item:nth-of-type(even) {
+    border-left: 1px solid var(--off-white);
+    grid-column: 3 / 4;
+    padding-left: 16px;
+}
+
+/* Grid item - last child. */
+.grid__item > *:last-child {
+    margin: 0;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Grid item - odds. */
+    .grid__item:nth-of-type(odd) {
+        padding-right: var(--vu___32);
+    }
+
+    /* Grid item - evens. */
+    .grid__item:nth-of-type(even) {
+        padding-left: var(--vu___32);
+    }
+}

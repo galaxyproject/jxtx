@@ -1,0 +1,42 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX awardee component.
+ */
+
+/* Awardee. */
+.awardee {
+    border-top: 1px solid var(--off-white);
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+}
+
+/* Awardee - last. */
+.awardee:last-of-type {
+    border-bottom: 1px solid var(--off-white);
+}
+
+/* Awardee - children. */
+.awardee > * {
+    margin-bottom: auto;
+    width: 100%;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Awardee. */
+    .awardee {
+        flex-direction: row;
+        padding: var(--vu___32) 0;
+    }
+
+    /* Awardee - children. */
+    .awardee > * {
+        width: 50%;
+    }
+}

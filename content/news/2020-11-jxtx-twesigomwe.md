@@ -5,9 +5,9 @@ images:
 title: "David Twesigomwe on the impact of the JXTX Foundation"
 ---
 
-<Grid grid>
+<GridTres>
 
-<GridItem>
+<GridItemArticle>
 
 <Date>November 20th, 2020</Date>
 
@@ -21,16 +21,16 @@ The [JXTX Foundation's][1] first activity was to [sponsor 10 graduate students t
 
 Please help further the careers of junior researchers by making a contribution to [JXTX: The James P. Taylor Foundation for Open Science][1].
 
-</GridItem>
+</GridItemArticle>
 
-<GridItem>
+<GridItemArticle>
 
 <Image alt="David Twesigomwe" image={props.images[0]}></Image>
 <figcaption>David Twesigomwe, a scholarship awardee and and a PhD candidate in Human Genetics at the University of the Witwatersrand, Johannesburg.</figcaption>
 
-</GridItem>
+</GridItemArticle>
 
-</Grid>
+</GridTres>
 
 [1]: /about
 [2]: /news/2020-10-jxtx-awardees/

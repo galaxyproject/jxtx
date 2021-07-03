@@ -2,24 +2,24 @@
  * JXTX Foundation
  * https://www.jxtxfoundation.org
  *
- * JXTX grid item component.
+ * JXTX awardee content component.
  */
 
 // Core dependencies
 import React from "react";
 
 // Styles
-import * as compStyles from "./grid-item.module.css";
+import * as compStyles from "./awardee-content.module.css";
 
-function GridItem(props) {
+function AwardeeContent(props) {
 
     const {children} = props;
 
     return (
-        <div className={compStyles.grid__item}>
+        <div className={compStyles.awardee__content}>
             {children}
         </div>
     )
 }
 
-export default GridItem;
+export default AwardeeContent;

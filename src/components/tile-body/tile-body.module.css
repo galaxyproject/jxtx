@@ -8,6 +8,10 @@
 /* Tile body. */
 .tile__body {
     flex: 1; /* To take up remaining tile content space. */
+}
+
+/* Tile body - child - last. */
+.tile__body > *:last-child {
     margin: 0;
 }
 

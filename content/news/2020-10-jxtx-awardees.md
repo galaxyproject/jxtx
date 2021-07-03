@@ -2,6 +2,16 @@
 description: "JXTX: The James P. Taylor Foundation for Open Science is pleased to announce the recipients of the 2020 JTech Scholarships."
 images:
     - _images/newsroom-awardees-2020-bds.png
+    - _images/awardee-emily-davis-marcisak.png
+    - _images/awardee-georgia-doing.png
+    - _images/awardee-kwame-forbes.png
+    - _images/awardee-yuhan-hao.png
+    - _images/awardee-anoushka-joglekar.png
+    - _images/awardee-john-lawson.png
+    - _images/awardee-jens-luebeck.png
+    - _images/awardee-david-twesigomwe.png
+    - _images/awardee-loan-vulliard.png
+    - _images/awardee-sumaira-zaman.png
 title: "JXTX Foundation Awards First Ten Scholarships"
 ---
 
@@ -20,7 +30,131 @@ Ten genomics and data sciences graduate students from around the globe were awar
 
 In addition to covering conference registration, awardees will also be paired with senior researchers in the field prior to the conference. Awardees and mentors will meet before and during the conference to establish what we hope will become long term relationships.
 
-** Insert Awardees **
+<Awardees>
+<GridUnus>
+
+<Awardee>
+<Image alt={"Emily"} image={props.images[1]}></Image>
+<AwardeeContent>
+<h3>Emily Davis-Marcisak</h3>
+<h4>Johns Hopkins University</h4>
+
+Matrix factorization of single-cell RNA-sequencing identifies immune cell states that project across species, cancer type, and infectious disease.
+
+</AwardeeContent>
+</Awardee>
+
+<Awardee>
+<AwardeeContent>
+<h3>Georgia Doing</h3>
+<h4>Hogan Lab, Geisel School of Medicine at Dartmouth</h4>
+
+De-noising autoencoder-derived gene expression signatures for Pseudomonas aeruginosa elucidate virulence-promoting characteristics of ex vivo sputum from persons with cystic fibrosis.
+
+<https://sites.dartmouth.edu/hoganlab/>
+
+</AwardeeContent>
+<Image alt={"Georgia"} image={props.images[2]}></Image>
+</Awardee>
+
+<Awardee>
+<Image alt={"Kwame"} image={props.images[3]}></Image>
+<AwardeeContent>
+<h3>Kwame Forbes</h3>
+<h4>University of North Carolina Chapel Hill</h4>
+
+Integration of preprocessed single-cell datasets with bulk differential analysis results for DESeq2.
+
+</AwardeeContent>
+</Awardee>
+
+<Awardee>
+<AwardeeContent>
+<h3>Yuhan Hao</h3>
+<h4>New York Genome Center and New York University</h4>
+
+Multi-modal representation and mapping of single-cell data.
+
+</AwardeeContent>
+<Image alt={"Yuhan"} image={props.images[4]}></Image>
+</Awardee>
+
+<Awardee>
+<Image alt={"Anoushka"} image={props.images[5]}></Image>
+<AwardeeContent>
+<h3>Anoushka Joglekar</h3>
+<h4>Weill Cornell Medicine</h4>
+
+Cell type signatures of brain-region specific splicing in postnatal development.
+
+<https://twitter.com/noush_joglekar>
+
+</AwardeeContent>
+</Awardee>
+
+<Awardee>
+<AwardeeContent>
+<h3>John Lawson</h3>
+<h4>Center for Public Health Genomics and Department of Biomedical Engineering, University of Virginia</h4>
+
+COCOA: coordinate covariation analysis to annotate epigenetic heterogeneity.
+
+<https://j-lawson.github.io/>
+
+</AwardeeContent>
+<Image alt={"John"} image={props.images[6]}></Image>
+</Awardee>
+
+<Awardee>
+<Image alt={"Jens"} image={props.images[7]}></Image>
+<AwardeeContent>
+<h3>Jens Luebeck</h3>
+<h4>Bioinformatics & Systems Biology, University of California, San Diego</h4>
+
+AmpliconReconstructor integrates NGS and optical mapping to resolve the complex structures of focal amplifications.
+<https://jluebeck.github.io/>
+
+</AwardeeContent>
+</Awardee>
+
+<Awardee>
+<AwardeeContent>
+<h3>David Twesigomwe</h3>
+<h4>Sydney Brenner Institute for Molecular Bioscience, University of the Witwatersrand</h4>
+
+CypGen: A Nextflow pipeline for calling star alleles in cytochrome P450 genes.
+
+<https://about.me/twesidave>
+
+</AwardeeContent>
+<Image alt={"David"} image={props.images[8]}></Image>
+</Awardee>
+
+<Awardee>
+<Image alt={"Loan"} image={props.images[9]}></Image>
+<AwardeeContent>
+<h3>Loan Vulliard</h3>
+<h4>Department of Biochemistry and Cell Biology, Max Perutz Labs, University of Vienna</h4>
+
+Understanding Chemical-Genetic Interactions: Morphological screen of combined perturbations.
+
+<http://vulliard.loan/>
+
+</AwardeeContent>
+</Awardee>
+
+<Awardee>
+<AwardeeContent>
+<h3>Sumaira Zaman</h3>
+<h4>University of Connecticut</h4>
+
+EASEL: Efficient, Accurate, Scalable Eukaryotic modeLs for de novo Genome Annotation.
+
+</AwardeeContent>
+<Image alt={"Sumaira"} image={props.images[10]}></Image>
+</Awardee>
+</GridUnus>
+</Awardees>
 
 ## About JXTX: The James P. Taylor Foundation for Open Science
 
