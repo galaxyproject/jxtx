@@ -11,9 +11,9 @@
     flex-wrap: wrap;
 }
 
-/* Grid, second. */
+/* Grid, first. */
 /* TODO review. */
-.grid:nth-of-type(2)::before {
+.grid::after {
     border-bottom: 2px solid var(--off-white);
     content: "";
     margin: 32px 0;
@@ -26,23 +26,23 @@
 }
 
 /* Grid by 1 (full width). */
-/* Grid by 3. */
-.grid___x1,
-.grid___x3 {
+.grid___x1 {
     composes: grid;
 }
 
 /* Grid by 3. */
 .grid___x3 {
-    composes: grid;
-    justify-content: space-between;
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 32px;
 }
 
 /* Grid (container). */
 .grid__container {
     display: grid;
+    grid-gap: 32px; /* TODO review. */
     grid-template-columns: repeat(2, 1fr); /* TODO review. */
-    grid-gap: 0 32px; /* TODO review. */
 }
 
 /**
@@ -50,7 +50,13 @@
  */
 @media screen and (min-width: 768px) {
 
-    /* Grid (container_. */
+    /* Grid by 3. */
+    .grid___x3 {
+        grid-gap: var(--vu___64);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Grid (container). */
     .grid__container {
         grid-gap: 0 var(--vu___64); /* TODO review. */
     }
