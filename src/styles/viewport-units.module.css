@@ -33,6 +33,7 @@
     --vu___120: calc(var(--vu___x) * 120);
     --vu___124: calc(var(--vu___x) * 124);
     --vu___128: calc(var(--vu___x) * 128);
+    --vu___180: calc(var(--vu___x) * 180);
     --vu___200: calc(var(--vu___x) * 200);
     --vu___232: calc(var(--vu___x) * 232);
     --vu___396: calc(var(--vu___x) * 396);
@@ -42,7 +43,6 @@
     --vu___max: 1800; /* Controls the optimization of viewport units. */ /* Media breakpoint for large desktop. */
     --vu___mid: 768; /* Controls the optimization of viewport units. */ /* Media breakpoint for small tablet. */
     --vu___min: 414; /* Controls the optimization of viewport units. */ /* Media breakpoint for extra small phone. */
-    --vu__ratio: calc(var(--vu___min) / var(--vu___max)); /* TODO remove. */
     --vu___x: calc(100vw / var(--vu___min)); /* Scales viewport units. */
 }
 
