@@ -7,5 +7,4 @@
 
 export const ContentBlockScale = {
     "LARGE": "LARGE",
-    "MEDIUM": "MEDIUM"
 };

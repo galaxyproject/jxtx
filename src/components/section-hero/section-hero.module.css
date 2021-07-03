@@ -18,9 +18,9 @@
 .hero__headline {
     box-sizing: content-box;
     color: var(--white);
-    padding: var(--vu___232) var(--vu___128);
+    padding: calc(var(--vu___x) * 264 * var(--vu__ratio)) 16px; /* TODO change to 232px scaled. */
     position: relative;
-    width: calc(var(--vu___x) * 750); /* 750 */ /* TODO review. */
+    width: calc(var(--vu___x) * 750 * var(--vu__ratio)); /* TODO review. */
 }
 
 /* Hero headline head. */
@@ -32,24 +32,24 @@
 
 /* Hero headline head. */
 .hero__headline__head {
-    font-size: var(--vu___72);
+    font-size: calc(var(--vu___72) * var(--vu__ratio));
     letter-spacing: 1.14px; /* TODO review. */
-    line-height: var(--vu___84);
-    margin-bottom: var(--vu___24);
+    line-height: calc(var(--vu___84) * var(--vu__ratio));
+    margin-bottom: calc(var(--vu___24) * var(--vu__ratio));
 }
 
 /* Hero headline subhead. */
 .hero__headline__subhead {
-    font-size: var(--vu___48);
-    margin-bottom: var(--vu___48);
+    font-size: calc(var(--vu___48) * var(--vu__ratio));
+    margin-bottom: calc(var(--vu___48) * var(--vu__ratio));
 }
 
 /** Hero attribution. */
 .hero__attribution {
     align-items: center;
-    bottom: calc(var(--vu___x) * 10) /* 10px */ /* TODO review */;
+    bottom: calc(var(--vu___x) * 10 * var(--vu__ratio)); /* 10px */ /* TODO review */
     display: inline-flex;
-    font-size: var(--vu___32);
+    font-size: calc(var(--vu___32) * var(--vu__ratio));
     line-height: 0; /* Required to maintain correct height of <h2>. */
     position: relative; /* Required to center position attribution with <h2>. */
 }
@@ -58,6 +58,53 @@
 .hero__attribution::before {
     background-color: white;
     content: "";
-    margin: auto var(--vu___16);
-    padding: var(--vu___2) var(--vu___16);
+    margin: auto calc(var(--vu___16)* var(--vu__ratio));
+    padding: calc(var(--vu___2)* var(--vu__ratio)) calc(var(--vu___16)* var(--vu__ratio));
+}
+
+/* TODO remove. */
+.hero__headline a {
+    display: none;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Hero headline. */
+    .hero__headline {
+        padding: var(--vu___232) var(--vu___128);
+        width: calc(var(--vu___x) * 750); /* 750 */
+    }
+
+    /* Hero headline head. */
+    .hero__headline__head {
+        font-size: var(--vu___72);
+        line-height: var(--vu___84);
+        margin-bottom: var(--vu___24);
+    }
+
+    /* Hero headline subhead. */
+    .hero__headline__subhead {
+        font-size: var(--vu___48);
+        margin-bottom: var(--vu___48);
+    }
+
+    /** Hero attribution. */
+    .hero__attribution {
+        bottom: calc(var(--vu___x) * 10) /* 10px */ /* TODO review */;
+        font-size: var(--vu___32);
+    }
+
+    /** Hero attribution quote line. */
+    .hero__attribution::before {
+        margin: auto var(--vu___16);
+        padding: var(--vu___2) var(--vu___16);
+    }
+
+    /* TODO remove. */
+    .hero__headline a {
+        display: inline-block;
+    }
 }
