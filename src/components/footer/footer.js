@@ -31,7 +31,7 @@ const instagram = "/";
 const james = "/about-james/bio";
 const news = "/";
 const privacy = "/";
-const scholarships = "/";
+const scholarships = "/scholarships";
 const slack = "/";
 const twitter = "https://twitter.com/galaxyproject";
 
