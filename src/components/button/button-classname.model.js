@@ -7,6 +7,7 @@
 
 export const ButtonClassname = {
     "BURGER": "button__burger",
+    "HERO": "button__hero",
     "OUTLINED": "button___outlined",
     "OVERSIZED": "button___oversized",
     "PRIMARY": "button___primary",

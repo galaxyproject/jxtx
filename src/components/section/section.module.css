@@ -34,6 +34,7 @@
 /* Type. */
 /* Section hero. */
 .section__hero {
+    background-color: var(--accent-blue-light);
     position: relative; /* Positions hero image. */
 }
 
@@ -90,6 +91,7 @@
     /* Type. */
     /* Section hero. */
     .section__hero {
+        background-color: unset;
         margin: 0 auto;
         max-width: var(--maximum);
     }
