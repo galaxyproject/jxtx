@@ -34,6 +34,7 @@
     color: var(--white);
     max-width: calc(1px * var(--vu___max));
     margin: 0 auto;
+    width: 100%; /* Site flex. */
 }
 
 /* Hero. */
@@ -179,9 +180,9 @@
 }
 
 /**
- * 1920px - Large (desktop).
+ * 1800px - Large (desktop).
  */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1800px) {
 
     /* Compose class "f__s" - footer section. */
     /* Generic section styles for hero, navigation and legal. */

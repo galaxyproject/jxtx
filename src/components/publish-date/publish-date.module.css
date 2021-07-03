@@ -25,9 +25,9 @@
 }
 
 /**
- * 1920px - Large (desktop).
+ * 1800px - Large (desktop).
  */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1800px) {
 
     /* Date. */
     .publish__date {

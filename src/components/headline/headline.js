@@ -9,8 +9,6 @@
 import React from "react";
 
 // App dependencies
-import ContentBlock from "../content-block/content-block";
-import {ContentBlockTheme} from "../content-block/content-block-theme.model";
 import Section from "../section/section";
 import {SectionType} from "../section/section-type.model";
 
@@ -20,9 +18,7 @@ function Headline(props) {
 
     return (
         <Section type={SectionType.HEADLINE}>
-            <ContentBlock theme={ContentBlockTheme.OFF_WHITE}>
-                {children}
-            </ContentBlock>
+            {children}
         </Section>
     )
 }

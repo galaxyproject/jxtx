@@ -18,12 +18,17 @@
     align-items: stretch;
     display: flex;
     flex-wrap: wrap;
+    margin: var(--gutter);
 }
 
 /* Type. */
 /* Section headline. */
 .section__headline {
-    margin: var(--vu___36) 0;
+    align-items: center;
+    background-color: var(--off-white);
+    display: flex;
+    height: var(--vu___128);
+    margin: var(--vu___36) var(--gutter-x);
 }
 
 /* Type. */
@@ -35,7 +40,8 @@
 /* Type. */
 /* Section hero sub. */
 .section__hero___sub {
-    padding: var(--vu___200) var(--vu___128);
+    margin: var(--gutter);
+    padding: var(--vu___200) var(--pos___128);
 }
 
 /* Type. */
@@ -43,6 +49,7 @@
 .section__hero___tile {
     align-items: stretch;
     display: flex;
+    margin: var(--gutter);
     position: relative; /* Positions internal link. */
 }
 
@@ -50,13 +57,13 @@
 /* Section hero tile - children. */
 /* TODO review. */
 .section__hero___tile > * {
-    flex-basis: 50%;
+    flex-basis: 50% !important;
 }
 
 /* Type. */
 /* Section hero tile subsequent. */
 .section__hero___tile + .section__hero___tile {
-    margin-top: var(--vu___128);
+    padding-top: var(--vu___128);
 }
 
 /**
@@ -72,12 +79,40 @@
     }
 
     /* Type. */
-    /* Section collection. */
+    /* Section headline. */
+    .section__headline {
+        height: var(--vu___396);
+        margin: var(--vu___60) var(--gutter-x);
+    }
+
+    /* Type. */
     /* Section hero. */
+    .section__hero {
+        margin: 0 auto;
+        max-width: var(--maximum);
+    }
+}
+
+/**
+ * 1800px - Large (desktop).
+ */
+@media screen and (min-width: 1800px) {
+
+    /* Type. */
+    /* Section collection. */
+    .section__collection {
+        margin: 0 auto;
+    }
+
+    /* Type. */
+    /* Section headline. */
+    .section__headline {
+        margin: var(--vu___60) auto;
+    }
+
+    /* Type. */
     /* Section hero sub. */
     /* Section hero tile. */
-    .section__collection,
-    .section__hero,
     .section__hero___sub,
     .section__hero___tile {
         margin: 0 auto;
@@ -86,27 +121,12 @@
     /* Type. */
     /* Section collection. */
     /* Section headline. */
-    /* Section hero. */
     /* Section hero sub. */
     /* Section hero tile. */
     .section__collection,
     .section__headline,
-    .section__hero,
     .section__hero___sub,
     .section__hero___tile {
-        max-width: var(--maximum);
-    }
-
-    /* Type. */
-    /* Section headline. */
-    .section__headline {
-        height: var(--vu___396);
-        margin: var(--vu___60) auto;
-    }
-
-    /* Type. */
-    /* Section hero sub. */
-    .section__hero___sub {
-        padding: var(--vu___200) var(--vu___128);
+        max-width: calc(var(--maximum) - var(--gutter-x) * 2);
     }
 }

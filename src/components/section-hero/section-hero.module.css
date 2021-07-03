@@ -18,7 +18,7 @@
 .hero__headline {
     box-sizing: content-box;
     color: var(--white);
-    padding: var(--vu___304) var(--vu___124) var(--vu___224);
+    padding: var(--vu___232) var(--vu___128);
     position: relative;
     width: calc(var(--vu___x) * 750); /* 750 */ /* TODO review. */
 }

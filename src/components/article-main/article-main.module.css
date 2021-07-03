@@ -7,6 +7,6 @@
 
 /* Main. */
 .main {
-    padding: var(--gutter);
-    position: relative; /* Positions <HeadlineHeading/>. */
+    flex: 1; /* Site flex. */
+    width: 100%; /* Site flex. */
 }
