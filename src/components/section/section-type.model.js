@@ -12,5 +12,4 @@ export const SectionType = {
     "HERO": "HERO",
     "HERO_SUB": "HERO_SUB",
     "HERO_TILE": "HERO_TILE",
-    "OFFSET": "OFFSET"
 };

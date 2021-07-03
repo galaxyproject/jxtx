@@ -21,15 +21,26 @@
 }
 
 /* Button burger. */
-.button___burger {
+.button__burger {
+    composes: button;
     background-color: transparent;
     height: 24px;
     padding: 6px 3px;
     width: 24px;
 }
 
+/* Button cta. */
+.button__cta {
+    color: var(--accent-orange);
+    font-size: var(--vu___32); /* TODO review. */
+    letter-spacing: 0.111em; /* TODO review. */
+    margin: 0;
+    text-decoration: none;
+}
+
 /* Button outlined, unelevated. */
 .button___outlined, .button___unelevated {
+    composes: button;
     display: inline-block;
     font-family: "Source Sans Pro",sans-serif;
     font-size: 16px;
@@ -41,6 +52,7 @@
 
 /* Button oversized. */
 .button___oversized {
+    composes: button;
     font-size: calc(var(--vu___x) * 18); /* 18px. */ /* TODO review. */
     line-height: var(--vu___24); /* TODO review. */
     padding: calc(var(--vu___x) * 18) var(--vu___60); /* 18px 60px */ /* TODO review. */
@@ -71,6 +83,7 @@
 
 /* Button social. */
 .button__social {
+    composes: button;
     line-height: 0;
 }
 

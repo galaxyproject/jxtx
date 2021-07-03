@@ -13,16 +13,13 @@ import {ButtonScale} from "../button/button-scale.model";
 import {ButtonTheme} from "../button/button-theme.model";
 import {ButtonType} from "../button/button-type.model";
 import ButtonCta from "../button-cta/button-cta";
+import ContentBlockCta from "../content-block-cta/content-block-cta";
 import ContentBlockBody from "../content-block-body/content-block-body";
 import {ContentBlockBodyScale} from "../content-block-body/content-block-body-scale.model";
 import ContentBlock from "../content-block/content-block";
-import {ContentBlockPosition} from "../content-block/content-block-position.model";
 import {ContentBlockScale} from "../content-block/content-block-scale.model";
 import {ContentBlockTheme} from "../content-block/content-block-theme.model";
-import {ContentBlockType} from "../content-block/content-block-type.model";
 import ContentBlockHeading from "../content-block-heading/content-block-heading";
-import ContentBlockPositionLeft from "../content-block-position-left/content-block-position-left";
-import ContentBlockPositionRight from "../content-block-position-right/content-block-position-right";
 import {HeadingScale} from "../heading/heading-scale.model";
 import {HeadingTheme} from "../heading/heading-theme.model";
 import SectionHero from "../section-hero/section-hero";
@@ -30,6 +27,7 @@ import SectionNewsroom from "../section-newsroom/section-newsroom";
 import Section from "../section/section";
 import {SectionType} from "../section/section-type.model";
 import TileLink from "../tile-link/tile-link";
+import {Scale} from "../ui/scale/scale.model";
 
 // Images
 import james from "../../../images/james/james.png";
@@ -37,6 +35,7 @@ import mentorship from "../../../images/home/mentorship.png";
 import outreach from "../../../images/home/outreach.png";
 
 // Template variables
+const aboutFoundation = "/foundation/about-the-jxtx-foundation";
 const aboutJames = "/about-james/bio";
 const ourScholarships = "/news/2020-10-jxtx-awardees";
 
@@ -58,63 +57,61 @@ function Home() {
                     organize and host mentoring sessions between senior and junior faculty members at select
                     high-profile meetings.</ContentBlockBody>
             </Section>
-            <Section type={SectionType.OFFSET}>
+            <Section type={SectionType.HERO_TILE}>
+                <TileLink to={aboutFoundation}/>
                 <ContentBlock
-                    scale={ContentBlockScale.MEDIUM}
-                    theme={ContentBlockTheme.OFF_WHITE}
-                    type={ContentBlockType.OFFSET}>
-                    <ContentBlockPositionLeft>
-                        <ContentBlockHeading
-                            scale={HeadingScale.LARGE}
-                            theme={HeadingTheme.ORANGE}>
-                            Academic Mentorship
-                        </ContentBlockHeading>
-                        <ContentBlockBody
-                            scale={ContentBlockBodyScale.LARGE}>
-                            The Foundation will later expand its reach as a platform for academic mentorship. First, it
-                            will operate to spark mentoring relationships among the larger computational biology and
-                            data science community. Faculty and students will have an opportunity to participate in
-                            periodic mentorship meetings (virtually). We expect an enthusiastic response to this
-                            opportunity, and will recruit additional team members to provide organizational structure if
-                            necessary.
-                        </ContentBlockBody>
-                    </ContentBlockPositionLeft>
+                    scale={ContentBlockScale.LARGE}
+                    theme={ContentBlockTheme.OFF_WHITE}>
+                    <ContentBlockHeading
+                        scale={HeadingScale.LARGE}
+                        theme={HeadingTheme.ORANGE}>
+                        Academic Mentorship
+                    </ContentBlockHeading>
+                    <ContentBlockBody
+                        scale={ContentBlockBodyScale.LARGE}>
+                        The Foundation will later expand its reach as a platform for academic mentorship.
+                    </ContentBlockBody>
+                    <ContentBlockCta scale={Scale.MEDIUM}>
+                        <ButtonCta
+                            attributeHREF={aboutFoundation}
+                            buttonType={ButtonType.TEXT}>
+                            Learn More
+                        </ButtonCta>
+                    </ContentBlockCta>
                 </ContentBlock>
-                <ContentBlock
-                    position={ContentBlockPosition.BOTTOM_RIGHT}
-                    type={ContentBlockType.OFFSET}>
+                <ContentBlock>
                     <img
                         alt={"Academic Mentorship"}
                         src={mentorship}/>
                 </ContentBlock>
             </Section>
-            <Section type={SectionType.OFFSET}>
-                <ContentBlock
-                    position={ContentBlockPosition.ABOVE}
-                    type={ContentBlockType.OFFSET}>
+            <Section type={SectionType.HERO_TILE}>
+                <TileLink to={aboutFoundation}/>
+                <ContentBlock>
                     <img
                         alt={"Student Outreach"}
                         src={outreach}/>
                 </ContentBlock>
                 <ContentBlock
-                    position={ContentBlockPosition.BOTTOM_RIGHT}
-                    scale={ContentBlockScale.MEDIUM}
-                    theme={ContentBlockTheme.OFF_WHITE}
-                    type={ContentBlockType.OFFSET}>
-                    <ContentBlockPositionRight>
-                        <ContentBlockHeading
-                            scale={HeadingScale.LARGE}
-                            theme={HeadingTheme.ORANGE}>
-                            Student Outreach
-                        </ContentBlockHeading>
-                        <ContentBlockBody
-                            scale={ContentBlockBodyScale.LARGE}>
-                            In its later stages, the Foundation will sponsor in-person visits from students (high school
-                            or college age) to its hotspots, which currently include Johns Hopkins and Penn State. These
-                            visits are meant to attract new scholars to computational biology and data science, and in
-                            particular to form connections and opportunities for members of underrepresented minorities.
-                        </ContentBlockBody>
-                    </ContentBlockPositionRight>
+                    scale={ContentBlockScale.LARGE}
+                    theme={ContentBlockTheme.OFF_WHITE}>
+                    <ContentBlockHeading
+                        scale={HeadingScale.LARGE}
+                        theme={HeadingTheme.ORANGE}>
+                        Student Outreach
+                    </ContentBlockHeading>
+                    <ContentBlockBody
+                        scale={ContentBlockBodyScale.LARGE}>
+                        In its later stages, the Foundation will sponsor in-person visits from students (high school
+                        or college age) to its hotspots, which currently include Johns Hopkins and Penn State.
+                    </ContentBlockBody>
+                    <ContentBlockCta scale={Scale.MEDIUM}>
+                        <ButtonCta
+                            attributeHREF={aboutFoundation}
+                            buttonType={ButtonType.TEXT}>
+                            Learn More
+                        </ButtonCta>
+                    </ContentBlockCta>
                 </ContentBlock>
             </Section>
             <Section type={SectionType.HERO_SUB}>
@@ -128,13 +125,15 @@ function Home() {
                     the Cold Spring Harbor Laboratory (CSHL). In 2020 we sponsored 10 graduate students to attend the
                     2020 Biological Data Science Conference at Cold Spring Harbor Laboratory.
                 </ContentBlockBody>
-                <ButtonCta
-                    attributeHREF={ourScholarships}
-                    buttonScale={ButtonScale.OVERSIZED}
-                    buttonTheme={ButtonTheme.SECONDARY}
-                    buttonType={ButtonType.UNELEVATED}>
-                    Learn More
-                </ButtonCta>
+                <ContentBlockCta scale={Scale.LARGE}>
+                    <ButtonCta
+                        attributeHREF={ourScholarships}
+                        buttonScale={ButtonScale.OVERSIZED}
+                        buttonTheme={ButtonTheme.SECONDARY}
+                        buttonType={ButtonType.UNELEVATED}>
+                        Learn More
+                    </ButtonCta>
+                </ContentBlockCta>
             </Section>
             <Section type={SectionType.HERO_TILE}>
                 <TileLink to={aboutJames}/>

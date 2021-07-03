@@ -10,20 +10,6 @@
     flex: 1;
 }
 
-/* Position. */
-/* Content block position above. */
-.content__block___above {
-    z-index: 1;
-}
-
-/* Position. */
-/* Content block bottom right. */
-.content__block___bottom___right {
-    margin-bottom: calc(-1 * var(--vu___460)); /* Matches top position. Scoots next section up. */
-    margin-left: auto;
-    top: calc(-1 * var(--vu___460));
-}
-
 /* Scale. */
 /* Content block medium. */
 .content__block___m {
@@ -41,14 +27,6 @@
 .content__block___offWhite {
     background-color: var(--off-white);
     height: inherit;
-}
-
-/* Type. */
-/* Content block offset. */
-.content__block___offset {
-    box-sizing: content-box;
-    position: relative;
-    width: var(--vu___1080);
 }
 
 /* Content block - all images. */
