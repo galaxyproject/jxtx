@@ -6,7 +6,7 @@ images:
     - _images/newsroom-sumaira.png
     - _images/newsroom-placeholder.png
     - _images/newsroom-shoes.png
-    - _images/newsroom-scholarships.png
+    - _images/newsroom-awardees-2020-bds.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
