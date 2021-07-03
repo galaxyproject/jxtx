@@ -47,11 +47,16 @@
 }
 
 /* Type. */
-/* Section offset. */
-.section__offset {
-    margin: var(--vu___128);
-    overflow: hidden; /* Required to hide overflow from repositioning offsets. */
-    position: relative; /* Positions offsets. */
+/* Section hero tile - children. */
+/* TODO review. */
+.section__hero___tile > * {
+    flex-basis: 50%;
+}
+
+/* Type. */
+/* Section hero tile subsequent. */
+.section__hero___tile + .section__hero___tile {
+    margin-top: var(--vu___128);
 }
 
 /**
@@ -84,13 +89,11 @@
     /* Section hero. */
     /* Section hero sub. */
     /* Section hero tile. */
-    /* Section offset. */
     .section__collection,
     .section__headline,
     .section__hero,
     .section__hero___sub,
-    .section__hero___tile,
-    .section__offset {
+    .section__hero___tile {
         max-width: var(--maximum);
     }
 
@@ -105,11 +108,5 @@
     /* Section hero sub. */
     .section__hero___sub {
         padding: var(--vu___200) var(--vu___128);
-    }
-
-    /* Type. */
-    /* Section offset. */
-    .section__offset {
-        margin: var(--vu___128) calc(((100vw - var(--maximum)) / 2) + var(--vu___128));
     }
 }

@@ -12,5 +12,4 @@ export const SectionClassname = {
     "HERO": "section__hero",
     "HERO_SUB": "section__hero___sub",
     "HERO_TILE": "section__hero___tile",
-    "OFFSET": "section__offset"
 };

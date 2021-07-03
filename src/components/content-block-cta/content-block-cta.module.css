@@ -1,0 +1,24 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX content block cta component.
+ */
+
+/* Scale. */
+/* Small. */
+.scale___s {
+    margin-top: var(--vu___8);
+}
+
+/* Scale. */
+/* Medium. */
+.scale___m {
+    margin-top: var(--vu___32);
+}
+
+/* Scale. */
+/* Large. */
+.scale___l {
+    margin-top: var(--vu___64);
+}
