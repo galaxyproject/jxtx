@@ -15,6 +15,7 @@ import Footer from "../footer/footer";
 import Header from "../header/header";
 
 // Styles
+import * as compStyles from "./layout.module.css";
 import "../../styles/globals.module.css"
 import "../../styles/vars.module.css";
 import "../../styles/viewport-units.module.css";
@@ -26,9 +27,11 @@ function Layout(props) {
     return (
         <>
             <DocumentMetadata/>
-            <Header headerMinor={headerMinor}/>
-            {children}
-            <Footer/>
+            <div className={compStyles.site}>
+                <Header headerMinor={headerMinor}/>
+                {children}
+                <Footer/>
+            </div>
         </>
     )
 }

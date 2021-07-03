@@ -9,14 +9,15 @@
  * 414px - Extra small (phone).
  * 768px - Small (tablet).
  * 1240px - Medium (laptop).
- * 1920px - Large (desktop).
+ * 1800px - Large (desktop).
  */
 
 :root {
     --bp-desktop: calc(1px * var(--vu___max));
     --gutter: 0 var(--gutter-x);
     --gutter-x: 16px;
-    --maximum: calc(var(--bp-desktop) - var(--gutter-x) * 2);
+    --maximum: var(--bp-desktop);
+    --pos___128: calc(var(--vu___128) - var(--gutter-x));
 }
 
 html {
@@ -48,9 +49,9 @@ html {
 }
 
 /**
- * 1920px - Large (desktop).
+ * 1800px - Large (desktop).
  */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1800px) {
 
     :root {
         --gutter: 0 auto;

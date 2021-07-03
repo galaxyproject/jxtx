@@ -7,9 +7,9 @@
 
 /* Headline heading. */
 .headline__heading {
-    font-size: 32px;
+    font-size: var(--vu___32);
     margin: 0;
-    padding: 56px 16px;
+    padding: 0 16px; /* TODO review. */
 }
 
 /**
@@ -20,21 +20,6 @@
     /* Headline heading. */
     .headline__heading {
         font-size: var(--vu___112);
-        left: var(--vu___128); /* Positions left from viewport. */
-        line-height: var(--vu___124);
-        margin: var(--vu___136) 0;
-        padding: 0;
-        position: absolute; /* Positions absolute with <main>. */
-    }
-}
-
-/**
- * 1920px - Large (desktop).
- */
-@media screen and (min-width: 1920px) {
-
-    /* Headline heading. */
-    .headline__heading {
-        left: calc((100vw - (1px * var(--vu___max))) / 2 + var(--vu___128));
+        padding: 0 var(--pos___128);
     }
 }

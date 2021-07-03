@@ -4,7 +4,7 @@
  *
  * JXTX viewport unit css variables.
  * Facilitates viewport sized typography and styles.
- * Styles are sized in relation to the viewport and optimized for media breakpoints at 414px/1920px.
+ * Styles are sized in relation to the viewport and optimized for media breakpoints at 414px/1800px.
  */
 
 :root {
@@ -30,19 +30,15 @@
     --vu___96: calc(var(--vu___x) * 96);
     --vu___100: calc(var(--vu___x) * 100);
     --vu___112: calc(var(--vu___x) * 112);
+    --vu___120: calc(var(--vu___x) * 120);
     --vu___124: calc(var(--vu___x) * 124);
     --vu___128: calc(var(--vu___x) * 128);
-    --vu___136: calc(var(--vu___x) * 136);
     --vu___200: calc(var(--vu___x) * 200);
-    --vu___224: calc(var(--vu___x) * 224);
-    --vu___304: calc(var(--vu___x) * 304);
+    --vu___232: calc(var(--vu___x) * 232);
     --vu___396: calc(var(--vu___x) * 396);
-    --vu___460: calc(var(--vu___x) * 460);
-    --vu___480: calc(var(--vu___x) * 480);
     --vu___900: calc(var(--vu___x) * 900);
     --vu___1052: calc(var(--vu___x) * 1052);
-    --vu___1080: calc(var(--vu___x) * 1080);
-    --vu___max: 1920; /* Controls the optimization of viewport units. */ /* Media breakpoint for large desktop. */
+    --vu___max: 1800; /* Controls the optimization of viewport units. */ /* Media breakpoint for large desktop. */
     --vu___mid: 768; /* Controls the optimization of viewport units. */ /* Media breakpoint for small tablet. */
     --vu___min: 414; /* Controls the optimization of viewport units. */ /* Media breakpoint for extra small phone. */
     --vu___x: calc(100vw / var(--vu___min)); /* Scales viewport units. */
@@ -59,9 +55,9 @@
 }
 
 /**
- * 1920px - Large (desktop).
+ * 1800px - Large (desktop).
  */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1800px) {
 
     :root {
         --vu___x: calc(var(--bp-desktop) / var(--vu___max));

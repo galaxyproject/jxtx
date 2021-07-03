@@ -18,13 +18,21 @@
     color: var(--default-text);
     height: var(--vu___56);
     justify-content: space-between;
-    margin: var(--gutter);
+    margin: 0 auto;
     max-width: var(--maximum);
+    padding: 0 var(--gutter-x);
+    position: relative; /* Positions minor. */
+    width: 100%; /* Required - site flex. */
 }
 
 /* Header minor - backpages. */
-.header___minor {
+.header___minor::after {
+    content: "";
     border-bottom: 2px solid var(--black12);
+    bottom: 0;
+    left: var(--gutter-x);
+    position: absolute;
+    right: var(--gutter-x);
 }
 
 /* Logo. */

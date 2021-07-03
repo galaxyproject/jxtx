@@ -1,0 +1,13 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX layout component.
+ */
+
+/* Site. */
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
