@@ -23,7 +23,7 @@
 /* Scale. */
 /* Large. */
 .h___l {
-    font-size: var(--vu___48);
+    font-size: var(--vu___40);
     margin-bottom: var(--vu___24);
 }
 
@@ -74,5 +74,11 @@
     /* Medium. */
     .h___m {
         font-size: var(--vu___44);
+    }
+
+    /* Scale. */
+    /* Large. */
+    .h___l {
+        font-size: var(--vu___48);
     }
 }

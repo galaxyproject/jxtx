@@ -37,7 +37,7 @@ import outreach from "../../../images/home/outreach.png";
 // Template variables
 const aboutFoundation = "/foundation/about-the-jxtx-foundation";
 const aboutJames = "/about-james/bio";
-const ourScholarships = "/news/2020-10-jxtx-awardees";
+const ourScholarships = "/scholarships";
 
 function Home() {
 

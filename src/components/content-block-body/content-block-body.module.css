@@ -22,12 +22,24 @@
 /* Content block body large "48px". */
 .content__body___l {
     composes: c__b__b; /* Content block body. */
-    font-size: var(--vu___48);
-    line-height: var(--vu___60);
+    font-size: var(--vu___20);
+    line-height: 1.25;
 }
 
 /* Scale. */
 /* Content block body large "48px" - last. */
 .content__body___l:last-of-type {
     margin: 0;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Scale. */
+    /* Content block body large "48px". */
+    .content__body___l {
+        font-size: var(--vu___48);
+    }
 }

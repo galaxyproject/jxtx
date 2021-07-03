@@ -32,7 +32,7 @@
 /* Button cta. */
 .button__cta {
     color: var(--accent-orange);
-    font-size: var(--vu___32); /* TODO review. */
+    font-size: var(--vu___20); /* TODO review. */
     letter-spacing: 0.111em; /* TODO review. */
     margin: 0;
     text-decoration: none;
@@ -53,9 +53,9 @@
 /* Button oversized. */
 .button___oversized {
     composes: button;
-    font-size: calc(var(--vu___x) * 18); /* 18px. */ /* TODO review. */
-    line-height: var(--vu___24); /* TODO review. */
-    padding: calc(var(--vu___x) * 18) var(--vu___60); /* 18px 60px */ /* TODO review. */
+    font-size: var(--vu___16);
+    line-height: 1.5;
+    padding: var(--vu___12) var(--vu___16);
 }
 
 /* Button outlined. */
@@ -103,9 +103,21 @@
  */
 @media screen and (min-width: 768px) {
 
+    /* Button cta. */
+    .button__cta {
+        font-size: var(--vu___32); /* TODO review. */
+    }
+
     /* Button white, outlined. */
     .button___white.button___outlined {
         border: 2px solid var(--white);
+    }
+
+    /* Button oversized. */
+    .button___oversized {
+        font-size: calc(var(--vu___x) * 18); /* 18px. */ /* TODO review. */
+        line-height: var(--vu___24); /* TODO review. */
+        padding: calc(var(--vu___x) * 18) var(--vu___60); /* 18px 60px */ /* TODO review. */
     }
 
     /* Button social oversized "32px". */

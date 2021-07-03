@@ -24,7 +24,7 @@ import hero from "../../../images/hero/hero.png";
 import * as compStyles from "./section-hero.module.css";
 
 // Template variables
-const donate = "/";
+const donate = "https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i";
 
 function SectionHero() {
 

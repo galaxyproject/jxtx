@@ -11,15 +11,9 @@
 }
 
 /* Scale. */
-/* Content block medium. */
-.content__block___m {
-    padding: var(--vu___64) var(--vu___64) calc(var(--vu___x) * 90); /* 64px 64px 90px. */ /* TODO review */
-}
-
-/* Scale. */
 /* Content block large. */
 .content__block___l {
-    padding: var(--vu___120) var(--vu___60);
+    padding: var(--vu___32) 16px;
 }
 
 /* Theme. */
@@ -34,4 +28,16 @@
     display: block;
     margin: 0;
     width: 100%;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+
+    /* Scale. */
+    /* Content block large. */
+    .content__block___l {
+        padding: var(--vu___120) var(--vu___60);
+    }
 }

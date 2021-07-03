@@ -8,7 +8,7 @@
 /* Type. */
 /* Section article. */
 .section__article {
-    margin: 0 auto;
+    margin: 0 var(--gutter-x);
     padding: var(--vu___36) 0;
 }
 
@@ -41,7 +41,7 @@
 /* Section hero sub. */
 .section__hero___sub {
     margin: var(--gutter);
-    padding: var(--vu___200) var(--pos___128);
+    padding: var(--vu___48) 16px;
 }
 
 /* Type. */
@@ -49,6 +49,7 @@
 .section__hero___tile {
     align-items: stretch;
     display: flex;
+    flex-direction: column;
     margin: var(--gutter);
     position: relative; /* Positions internal link. */
 }
@@ -63,7 +64,7 @@
 /* Type. */
 /* Section hero tile subsequent. */
 .section__hero___tile + .section__hero___tile {
-    padding-top: var(--vu___128);
+    padding-top: var(--vu___48);
 }
 
 /**
@@ -74,6 +75,7 @@
     /* Type. */
     /* Section article. */
     .section__article {
+        margin: 0 auto;
         max-width: var(--vu___1052);
         padding: var(--vu___60) 0;
     }
@@ -90,6 +92,24 @@
     .section__hero {
         margin: 0 auto;
         max-width: var(--maximum);
+    }
+
+    /* Type. */
+    /* Section hero sub. */
+    .section__hero___sub {
+        padding: var(--vu___200) var(--pos___128);
+    }
+
+    /* Type. */
+    /* Section hero tile. */
+    .section__hero___tile {
+        flex-direction: row;
+    }
+
+    /* Type. */
+    /* Section hero tile subsequent. */
+    .section__hero___tile + .section__hero___tile {
+        padding-top: var(--vu___128);
     }
 }
 
