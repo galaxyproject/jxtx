@@ -24,7 +24,7 @@ import * as compStyles from "./footer.module.css";
 // Template variables
 const about = "/foundation/about-the-jxtx-foundation";
 const donate = "/";
-const events = "/";
+const events = "/events";
 const facebook = "/";
 const home = "/";
 const instagram = "/";

@@ -27,7 +27,7 @@ const classNames = require("classnames");
 // Template variables
 const about = "/foundation/about-the-jxtx-foundation";
 const donate = "/";
-const events = "/";
+const events = "/events";
 const home = "/";
 const james = "/about-james/bio";
 const news = "/news";
