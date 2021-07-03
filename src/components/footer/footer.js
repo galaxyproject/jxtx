@@ -34,7 +34,7 @@ const news = "/news";
 // const privacy = "/";
 const scholarships = "/scholarships";
 // const slack = "/";
-const twitter = "https://twitter.com/jxtx";
+const twitter = "https://twitter.com/jxtxFoundation";
 
 function Footer() {
 
