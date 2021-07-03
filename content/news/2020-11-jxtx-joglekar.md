@@ -20,7 +20,7 @@ The [JXTX Foundation's][1] first activity was to [sponsor 10 graduate students t
 
 Please help further the careers of junior researchers by making a contribution to [JXTX: The James P. Taylor Foundation for Open Science][1].
 
-[1]: /foundation/about-the-jxtx-foundation
+[1]: /about
 [2]: /news/2020-10-jxtx-awardees/
 [3]: https://twitter.com/noush_joglekar
 [4]: https://weill.cornell.edu/research

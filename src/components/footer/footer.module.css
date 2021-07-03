@@ -149,7 +149,7 @@
 
     /* Logo. */
     .footer__hero__logo {
-        font-size: var(--vu___32);
+        font-size: 28px;
     }
 
     /* Socials. */
@@ -176,6 +176,17 @@
     /* Legal (copyright). */
     .footer__legal__copy {
         margin-top: 0;
+    }
+}
+
+/**
+ * 1240px - Medium (laptop).
+ */
+@media screen and (min-width: 1240px) {
+
+    /* Logo. */
+    .footer__hero__logo {
+        font-size: var(--vu___32);
     }
 }
 

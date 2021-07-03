@@ -32,7 +32,7 @@ Please help further the careers of junior researchers by making a contribution t
 
 </Grid>
 
-[1]: /foundation/about-the-jxtx-foundation
+[1]: /about
 [2]: /news/2020-10-jxtx-awardees/
 [3]: https://about.me/twesidave
 [4]: https://www.wits.ac.za/research/sbimb/

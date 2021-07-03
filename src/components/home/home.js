@@ -35,8 +35,8 @@ import mentorship from "../../../images/home/mentorship.png";
 import outreach from "../../../images/home/outreach.png";
 
 // Template variables
-const aboutFoundation = "/foundation/about-the-jxtx-foundation";
-const aboutJames = "/about-james/bio";
+const aboutFoundation = "about";
+const aboutJames = "/james";
 const ourScholarships = "/scholarships";
 
 function Home() {
@@ -118,7 +118,7 @@ function Home() {
                 <ContentBlockHeading
                     scale={HeadingScale.LARGE}
                     theme={HeadingTheme.ORANGE}>
-                    Our Scholarships</ContentBlockHeading>
+                    Scholarships</ContentBlockHeading>
                 <ContentBlockBody
                     scale={ContentBlockBodyScale.LARGE}>
                     This Fall The JXTX Foundation will sponsor 10 graduate students to attend Genome Informatics 2021 at

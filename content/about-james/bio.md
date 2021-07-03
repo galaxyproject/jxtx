@@ -2,6 +2,7 @@
 description: "James Taylor started his professional path at the University of Vermont, where he received a BS in Computer Science in 2000. In 2003, after working as a software engineer in the private sector, he found that his real purpose in life was elsewhere."
 images:
     - _images/james-at-gcc2019.png
+slug: "/james"
 title: "James Peter Taylor | 1979 - 2020"
 ---
 
