@@ -12,6 +12,8 @@ images:
     - _images/awardee-david-twesigomwe.png
     - _images/awardee-loan-vulliard.png
     - _images/awardee-sumaira-zaman.png
+    - _images/social-twitter.png
+    - _images/social-web.png
 title: "JXTX Foundation Awards First Ten Scholarships"
 ---
 
@@ -51,7 +53,9 @@ Matrix factorization of single-cell RNA-sequencing identifies immune cell states
 
 De-noising autoencoder-derived gene expression signatures for Pseudomonas aeruginosa elucidate virulence-promoting characteristics of ex vivo sputum from persons with cystic fibrosis.
 
-<https://sites.dartmouth.edu/hoganlab/>
+<ButtonSocial attributeHREF={"https://sites.dartmouth.edu/hoganlab/"} iconSize={32}>
+<Image alt={"HoganLab"} image={props.images[12]}></Image>
+</ButtonSocial>
 
 </AwardeeContent>
 <Image alt={"Georgia"} image={props.images[2]}></Image>
@@ -87,7 +91,9 @@ Multi-modal representation and mapping of single-cell data.
 
 Cell type signatures of brain-region specific splicing in postnatal development.
 
-<https://twitter.com/noush_joglekar>
+<ButtonSocial attributeHREF={"https://twitter.com/noush_joglekar"} iconSize={32}>
+<Image alt={"Anoushka"} image={props.images[11]}></Image>
+</ButtonSocial>
 
 </AwardeeContent>
 </Awardee>
@@ -99,7 +105,9 @@ Cell type signatures of brain-region specific splicing in postnatal development.
 
 COCOA: coordinate covariation analysis to annotate epigenetic heterogeneity.
 
-<https://j-lawson.github.io/>
+<ButtonSocial attributeHREF={"https://j-lawson.github.io/"} iconSize={32}>
+<Image alt={"John"} image={props.images[12]}></Image>
+</ButtonSocial>
 
 </AwardeeContent>
 <Image alt={"John"} image={props.images[6]}></Image>
@@ -112,7 +120,10 @@ COCOA: coordinate covariation analysis to annotate epigenetic heterogeneity.
 <h4>Bioinformatics & Systems Biology, University of California, San Diego</h4>
 
 AmpliconReconstructor integrates NGS and optical mapping to resolve the complex structures of focal amplifications.
-<https://jluebeck.github.io/>
+
+<ButtonSocial attributeHREF={"https://jluebeck.github.io/"} iconSize={32}>
+<Image alt={"Jens"} image={props.images[12]}></Image>
+</ButtonSocial>
 
 </AwardeeContent>
 </Awardee>
@@ -124,7 +135,9 @@ AmpliconReconstructor integrates NGS and optical mapping to resolve the complex 
 
 CypGen: A Nextflow pipeline for calling star alleles in cytochrome P450 genes.
 
-<https://about.me/twesidave>
+<ButtonSocial attributeHREF={"https://about.me/twesidave"} iconSize={32}>
+<Image alt={"David"} image={props.images[12]}></Image>
+</ButtonSocial>
 
 </AwardeeContent>
 <Image alt={"David"} image={props.images[8]}></Image>
@@ -138,7 +151,9 @@ CypGen: A Nextflow pipeline for calling star alleles in cytochrome P450 genes.
 
 Understanding Chemical-Genetic Interactions: Morphological screen of combined perturbations.
 
-<http://vulliard.loan/>
+<ButtonSocial attributeHREF={"http://vulliard.loan"} iconSize={32}>
+<Image alt={"Loan"} image={props.images[12]}></Image>
+</ButtonSocial>
 
 </AwardeeContent>
 </Awardee>

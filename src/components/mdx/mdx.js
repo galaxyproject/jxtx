@@ -14,6 +14,7 @@ import React from "react";
 import Awardee from "../awardee/awardee";
 import AwardeeContent from "../awardee-content/awardee-content";
 import Awardees from "../awardees/awardees";
+import ButtonSocial from "../button-social/button-social";
 import Date from "../publish-date/publish-date";
 import Grid from "../grid/grid";
 import GridDuo from "../grid-duo/grid-duo";
@@ -36,6 +37,7 @@ const shortcodes = {
     Awardee,
     AwardeeContent,
     Awardees,
+    ButtonSocial,
     Date,
     Grid,
     GridDuo,
