@@ -2,7 +2,7 @@
 description: "The next Cold Spring Harbor Laboratory conference on Genome Informatics will be held at Cold Spring Harbor, New York."
 images:
     - _images/genome-informatics.png
-title: "Genome Informatics"
+title: "Genome Informatics 2021"
 ---
 
 <Date>November 3rd - 6th, 2021</Date>
