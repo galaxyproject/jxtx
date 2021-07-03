@@ -7,7 +7,7 @@ title: "Genome Informatics"
 
 <Date>November 3rd - 6th, 2021</Date>
 
-# Genome Informatics
+# Genome Informatics 2021
 
 <Image alt="Sumaira Zaman" image={props.images[0]}></Image>
 <figcaption>The next Cold Spring Harbor Laboratory conference on Genome Informatics will be held at Cold Spring Harbor, New York.</figcaption>
