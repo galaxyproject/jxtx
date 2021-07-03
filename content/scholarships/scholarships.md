@@ -3,8 +3,10 @@ description: "JXTX Foundation Scholarships"
 fullWidth: true
 images:
     - _images/scholarships-hero-2021-gi.png
+    - _images/scholarships-2020-bds.png
 links:
     - /scholarships/2021-genome-informatics
+    - /news/2020-10-jxtx-awardees
 slug: "/scholarships"
 title: "Scholarships"
 ---
