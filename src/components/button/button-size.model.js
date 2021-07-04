@@ -7,5 +7,5 @@
  */
 
 export const ButtonSize = {
-    "32": "32",
+  32: "32",
 };

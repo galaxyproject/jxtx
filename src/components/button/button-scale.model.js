@@ -7,5 +7,5 @@
  */
 
 export const ButtonScale = {
-    "OVERSIZED": "OVERSIZED",
+  OVERSIZED: "OVERSIZED",
 };

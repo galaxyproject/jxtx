@@ -6,9 +6,9 @@
  */
 
 export const HeadingClassname = {
-    "BLUE": "heading___b",
-    "LARGE": "h___l",
-    "MEDIUM": "h___m",
-    "ORANGE": "heading___o",
-    "SMALL": "h___s",
+  BLUE: "heading___b",
+  LARGE: "h___l",
+  MEDIUM: "h___m",
+  ORANGE: "heading___o",
+  SMALL: "h___s",
 };

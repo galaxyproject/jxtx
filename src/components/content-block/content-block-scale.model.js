@@ -6,5 +6,5 @@
  */
 
 export const ContentBlockScale = {
-    "LARGE": "LARGE",
+  LARGE: "LARGE",
 };

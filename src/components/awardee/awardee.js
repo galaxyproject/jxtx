@@ -12,14 +12,9 @@ import React from "react";
 import * as compStyles from "./awardee.module.css";
 
 function Awardee(props) {
+  const { children } = props;
 
-    const {children} = props;
-
-    return (
-        <div className={compStyles.awardee}>
-            {children}
-        </div>
-    )
+  return <div className={compStyles.awardee}>{children}</div>;
 }
 
 export default Awardee;

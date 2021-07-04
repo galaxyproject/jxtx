@@ -12,14 +12,9 @@ import React from "react";
 import * as compStyles from "./publish-date.module.css";
 
 function PublishDate(props) {
+  const { children } = props;
 
-    const {children} = props;
-
-    return (
-        <p className={compStyles.publish__date}>
-            {children}
-        </p>
-    )
+  return <p className={compStyles.publish__date}>{children}</p>;
 }
 
 export default PublishDate;

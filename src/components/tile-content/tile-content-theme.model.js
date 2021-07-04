@@ -6,5 +6,5 @@
  */
 
 export const TileContentTheme = {
-    "OFF_WHITE": "OFF_WHITE",
+  OFF_WHITE: "OFF_WHITE",
 };

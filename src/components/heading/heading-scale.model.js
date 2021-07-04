@@ -6,7 +6,7 @@
  */
 
 export const HeadingScale = {
-    "LARGE": "LARGE",
-    "MEDIUM": "MEDIUM",
-    "SMALL": "SMALL",
+  LARGE: "LARGE",
+  MEDIUM: "MEDIUM",
+  SMALL: "SMALL",
 };

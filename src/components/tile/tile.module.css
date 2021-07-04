@@ -7,41 +7,40 @@
 
 /* Tile. */
 .tile {
-    display: flex;
-    flex: 1; /* Evenly allocates width to tiles within <Grid/>. */
-    position: relative; /* Positions <TileLink/>. */
+  display: flex;
+  flex: 1; /* Evenly allocates width to tiles within <Grid/>. */
+  position: relative; /* Positions <TileLink/>. */
 }
 
 /* Orientation. */
 /* Row. */
 .tile__row {
-    composes: tile;
-    flex-direction: column;
+  composes: tile;
+  flex-direction: column;
 }
 
 /* Orientation. */
 /* Column. */
 .tile__column {
-    composes: tile;
-    flex-basis: 100%;
-    flex-direction: column;
+  composes: tile;
+  flex-basis: 100%;
+  flex-direction: column;
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
+  /* Orientation. */
+  /* Row. */
+  .tile__row {
+    flex-direction: row;
+  }
 
-    /* Orientation. */
-    /* Row. */
-    .tile__row {
-        flex-direction: row;
-    }
-
-    /* Orientation. */
-    /* Column. */
-    .tile__column {
-        flex: 1;
-        min-height: var(--vu___900);
-    }
+  /* Orientation. */
+  /* Column. */
+  .tile__column {
+    flex: 1;
+    min-height: var(--vu___900);
+  }
 }

@@ -9,22 +9,22 @@
 /* Scale. */
 /* Small. */
 .h___s {
-    font-size: var(--vu___24);
-    margin-bottom: var(--vu___16);
+  font-size: var(--vu___24);
+  margin-bottom: var(--vu___16);
 }
 
 /* Scale. */
 /* Medium. */
 .h___m {
-    font-size: var(--vu___32);
-    margin-bottom: var(--vu___16);
+  font-size: var(--vu___32);
+  margin-bottom: var(--vu___16);
 }
 
 /* Scale. */
 /* Large. */
 .h___l {
-    font-size: var(--vu___40);
-    margin-bottom: var(--vu___24);
+  font-size: var(--vu___40);
+  margin-bottom: var(--vu___24);
 }
 
 /* Theme. */
@@ -32,53 +32,52 @@
 /* Heading theme "blue". */
 .heading___o,
 .heading___b {
-    position: relative; /* Positions heading accent. */
+  position: relative; /* Positions heading accent. */
 }
 
 /* Theme. */
 /* Heading theme "orange". */
 .heading___o::after {
-    background-color: var(--accent-orange-light);
+  background-color: var(--accent-orange-light);
 }
 
 /* Theme. */
 /* Heading theme "blue". */
 .heading___b::after {
-    background-color: var(--accent-blue);
+  background-color: var(--accent-blue);
 }
 
 /* Theme. */
 /* Heading theme "orange" and "blue" accent. */
 .heading___o::after,
 .heading___b::after {
-    bottom: calc(-1 * var(--vu___4));
-    content: "";
-    height: var(--vu___4);
-    left: 0;
-    position: absolute;
-    width: var(--vu___124);
+  bottom: calc(-1 * var(--vu___4));
+  content: "";
+  height: var(--vu___4);
+  left: 0;
+  position: absolute;
+  width: var(--vu___124);
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
+  /* Scale. */
+  /* Small. */
+  .h___s {
+    font-size: var(--vu___32);
+  }
 
-    /* Scale. */
-    /* Small. */
-    .h___s {
-        font-size: var(--vu___32);
-    }
+  /* Scale. */
+  /* Medium. */
+  .h___m {
+    font-size: var(--vu___44);
+  }
 
-    /* Scale. */
-    /* Medium. */
-    .h___m {
-        font-size: var(--vu___44);
-    }
-
-    /* Scale. */
-    /* Large. */
-    .h___l {
-        font-size: var(--vu___48);
-    }
+  /* Scale. */
+  /* Large. */
+  .h___l {
+    font-size: var(--vu___48);
+  }
 }

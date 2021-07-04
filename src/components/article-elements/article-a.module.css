@@ -7,6 +7,6 @@
 
 /* Link <a/>. */
 .article__link {
-    color: var(--accent-blue);
-    text-decoration: none;
+  color: var(--accent-blue);
+  text-decoration: none;
 }

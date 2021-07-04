@@ -6,15 +6,15 @@
  */
 
 // Core dependencies
-import {Link} from "gatsby";
-import React, {useCallback, useEffect, useRef, useState} from "react";
+import { Link } from "gatsby";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 
 // App dependencies
 import Button from "../button/button";
-import {ButtonTheme} from "../button/button-theme.model";
-import {ButtonType} from "../button/button-type.model";
+import { ButtonTheme } from "../button/button-theme.model";
+import { ButtonType } from "../button/button-type.model";
 import ButtonCTA from "../button-cta/button-cta";
-import {Target} from "../../utils/anchor/target.model";
+import { Target } from "../../utils/anchor/target.model";
 
 // Images
 import burger from "../../../images/header/burger.svg";
@@ -26,7 +26,8 @@ const classNames = require("classnames");
 
 // Template variables
 const about = "/about";
-const donate = "https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i";
+const donate =
+  "https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i";
 const events = "/events";
 const home = "/";
 const james = "/james";
@@ -34,110 +35,142 @@ const news = "/news";
 const scholarships = "/scholarships";
 
 function Header(props) {
+  const { headerMinor } = props;
+  const bodyRef = useRef(null);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-    const {headerMinor} = props;
-    const bodyRef = useRef(null);
-    const [menuOpen, setMenuOpen] = useState(false);
+  /**
+   * Closes menu on resize.
+   * @type {(function(*): void)|*}
+   */
+  const onMediaTablet = useCallback((mediaQuery) => {
+    if (mediaQuery.matches) {
+      /* Close menu. */
+      setMenuOpen(false);
+    }
+  }, []);
 
-    /**
-     * Closes menu on resize.
-     * @type {(function(*): void)|*}
-     */
-    const onMediaTablet = useCallback(mediaQuery => {
+  /* useEffect - componentDidMount/componentWillUnmount. */
+  useEffect(() => {
+    bodyRef.current = document.body;
+  }, []);
 
-        if ( mediaQuery.matches ) {
+  /* useEffect - componentDidMount/componentWillUnmount. */
+  /* Listeners - media queries. */
+  useEffect(() => {
+    const mediaTablet = "(min-width: 768px)";
+    const mqlTablet = window.matchMedia(mediaTablet);
+    mqlTablet.addEventListener("change", onMediaTablet);
+    onMediaTablet(mqlTablet);
 
-            /* Close menu. */
-            setMenuOpen(false);
-        }
-    }, []);
+    return () => {
+      mqlTablet.removeEventListener("change", onMediaTablet);
+    };
+  }, [onMediaTablet]);
 
-    /* useEffect - componentDidMount/componentWillUnmount. */
-    useEffect(() => {
+  /* useEffect - componentDidUpdate - menuOpen. */
+  useEffect(() => {
+    /* Prevent body scroll. */
+    if (menuOpen) {
+      bodyRef.current.style.height = "100vh";
+      bodyRef.current.style.overflow = "hidden";
+    } else {
+      bodyRef.current.removeAttribute("style");
+    }
+  }, [menuOpen]);
 
-        bodyRef.current = document.body;
-    }, [])
-
-    /* useEffect - componentDidMount/componentWillUnmount. */
-    /* Listeners - media queries. */
-    useEffect(() => {
-
-        const mediaTablet = "(min-width: 768px)";
-        const mqlTablet = window.matchMedia(mediaTablet);
-        mqlTablet.addEventListener("change", onMediaTablet);
-        onMediaTablet(mqlTablet);
-
-        return () => {
-
-            mqlTablet.removeEventListener("change", onMediaTablet);
-        };
-    }, [onMediaTablet]);
-
-    /* useEffect - componentDidUpdate - menuOpen. */
-    useEffect(() => {
-
-        /* Prevent body scroll. */
-        if ( menuOpen ) {
-
-            bodyRef.current.style.height = "100vh";
-            bodyRef.current.style.overflow = "hidden";
-        } else {
-
-            bodyRef.current.removeAttribute("style");
-        }
-    }, [menuOpen]);
-
-    return (
-        <header className={classNames(compStyles.header, {[compStyles.header___minor]: headerMinor})}>
-            <Link className={compStyles.header__logo} to={home}>
-                <img alt={"JXTX"}
-                     className={compStyles.header__logo__img}
-                     src={JXTX}/>
-                <span className={compStyles.header__logo__title}>JXTX Foundation</span>
+  return (
+    <header
+      className={classNames(compStyles.header, {
+        [compStyles.header___minor]: headerMinor,
+      })}
+    >
+      <Link className={compStyles.header__logo} to={home}>
+        <img alt={"JXTX"} className={compStyles.header__logo__img} src={JXTX} />
+        <span className={compStyles.header__logo__title}>JXTX Foundation</span>
+      </Link>
+      <nav
+        className={classNames(compStyles.header__nav, {
+          [compStyles.header__nav___open]: menuOpen,
+        })}
+      >
+        <ul className={compStyles.header__nav__list}>
+          <li className={compStyles.header__nav__item}>
+            <Link
+              activeClassName={compStyles.header__nav__link___active}
+              className={compStyles.header__nav__link}
+              to={about}
+            >
+              About
             </Link>
-            <nav className={classNames(compStyles.header__nav, {[compStyles.header__nav___open]: menuOpen})}>
-                <ul className={compStyles.header__nav__list}>
-                    <li className={compStyles.header__nav__item}>
-                        <Link activeClassName={compStyles.header__nav__link___active}
-                              className={compStyles.header__nav__link}
-                              to={about}>About</Link></li>
-                    <li className={compStyles.header__nav__item}>
-                        <Link activeClassName={compStyles.header__nav__link___active}
-                              className={compStyles.header__nav__link}
-                              to={james}>James</Link></li>
-                    <li className={compStyles.header__nav__item}>
-                        <Link activeClassName={compStyles.header__nav__link___active}
-                              className={compStyles.header__nav__link}
-                              to={scholarships}>Scholarships</Link></li>
-                    <li className={compStyles.header__nav__item}>
-                        <Link activeClassName={compStyles.header__nav__link___active}
-                              className={compStyles.header__nav__link}
-                              to={news}>News</Link></li>
-                    <li className={compStyles.header__nav__item}>
-                        <Link activeClassName={compStyles.header__nav__link___active}
-                              className={compStyles.header__nav__link}
-                              to={events}>Events</Link></li>
-                    <li className={compStyles.header__nav__item___cta}>
-                        <a className={compStyles.header__nav__link}
-                           href={donate}
-                           target={Target.BLANK}>Donate</a></li>
-                </ul>
-            </nav>
-            <div className={compStyles.header__cta}>
-                <ButtonCTA attributeHREF={donate}
-                           attributeTarget={Target.BLANK}
-                           buttonTheme={ButtonTheme.PRIMARY}
-                           buttonType={ButtonType.UNELEVATED}>Donate</ButtonCTA>
-            </div>
-            <div className={compStyles.header__menu}>
-                <Button
-                    buttonAction={() => setMenuOpen(menuOpen => !menuOpen)}
-                    buttonType={ButtonType.BURGER}>
-                    <img src={burger} alt={"Burger"}/>
-                </Button>
-            </div>
-        </header>
-    )
+          </li>
+          <li className={compStyles.header__nav__item}>
+            <Link
+              activeClassName={compStyles.header__nav__link___active}
+              className={compStyles.header__nav__link}
+              to={james}
+            >
+              James
+            </Link>
+          </li>
+          <li className={compStyles.header__nav__item}>
+            <Link
+              activeClassName={compStyles.header__nav__link___active}
+              className={compStyles.header__nav__link}
+              to={scholarships}
+            >
+              Scholarships
+            </Link>
+          </li>
+          <li className={compStyles.header__nav__item}>
+            <Link
+              activeClassName={compStyles.header__nav__link___active}
+              className={compStyles.header__nav__link}
+              to={news}
+            >
+              News
+            </Link>
+          </li>
+          <li className={compStyles.header__nav__item}>
+            <Link
+              activeClassName={compStyles.header__nav__link___active}
+              className={compStyles.header__nav__link}
+              to={events}
+            >
+              Events
+            </Link>
+          </li>
+          <li className={compStyles.header__nav__item___cta}>
+            <a
+              className={compStyles.header__nav__link}
+              href={donate}
+              target={Target.BLANK}
+            >
+              Donate
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div className={compStyles.header__cta}>
+        <ButtonCTA
+          attributeHREF={donate}
+          attributeTarget={Target.BLANK}
+          buttonTheme={ButtonTheme.PRIMARY}
+          buttonType={ButtonType.UNELEVATED}
+        >
+          Donate
+        </ButtonCTA>
+      </div>
+      <div className={compStyles.header__menu}>
+        <Button
+          buttonAction={() => setMenuOpen((menuOpen) => !menuOpen)}
+          buttonType={ButtonType.BURGER}
+        >
+          <img src={burger} alt={"Burger"} />
+        </Button>
+      </div>
+    </header>
+  );
 }
 
 export default Header;

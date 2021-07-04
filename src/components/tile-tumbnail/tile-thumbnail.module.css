@@ -7,30 +7,29 @@
 
 /* Tile thumbnail. */
 .tile__thumbnail {
-    width: 100%;
+  width: 100%;
 }
 
 /* Scale. */
 /* Tile thumbnail medium. */
 .tile__thumbnail___m {
-    width: 100%;
+  width: 100%;
 }
 
 /* Tile image. */
 .tile__thumbnail > div,
 .tile__thumbnail___m > div {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
-
-    /* Scale. */
-    /* Tile thumbnail medium. */
-    .tile__thumbnail___m {
-        width: calc((100% - var(--vu___128)) / 3 * 2 + var(--vu___128));
-    }
+  /* Scale. */
+  /* Tile thumbnail medium. */
+  .tile__thumbnail___m {
+    width: calc((100% - var(--vu___128)) / 3 * 2 + var(--vu___128));
+  }
 }

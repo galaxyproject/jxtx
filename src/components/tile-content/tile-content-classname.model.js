@@ -6,7 +6,7 @@
  */
 
 export const TileContentClassname = {
-    "OFF_WHITE": "tile__content___offWhite",
-    "MEDIUM": "t___m",
-    "SMALL": "t___s"
+  OFF_WHITE: "tile__content___offWhite",
+  MEDIUM: "t___m",
+  SMALL: "t___s",
 };
