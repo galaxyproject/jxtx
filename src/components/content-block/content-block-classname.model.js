@@ -6,6 +6,6 @@
  */
 
 export const ContentBlockClassname = {
-    "LARGE": "content__block___l",
-    "OFF_WHITE": "content__block___offWhite"
+  LARGE: "content__block___l",
+  OFF_WHITE: "content__block___offWhite",
 };

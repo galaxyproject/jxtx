@@ -7,30 +7,28 @@
 
 /* Date. */
 .publish__date {
-    color: var(--black54);
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 14px;
-    margin-bottom: 16px;
+  color: var(--black54);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  margin-bottom: 16px;
 }
 
 /**
  * 1240px - Medium (laptop).
  */
 @media screen and (min-width: 1240px) {
-
-    /* Date. */
-    .publish__date {
-        font-size: 16px;
-    }
+  /* Date. */
+  .publish__date {
+    font-size: 16px;
+  }
 }
 
 /**
  * 1800px - Large (desktop).
  */
 @media screen and (min-width: 1800px) {
-
-    /* Date. */
-    .publish__date {
-        font-size: var(--vu___20);
-    }
+  /* Date. */
+  .publish__date {
+    font-size: var(--vu___20);
+  }
 }

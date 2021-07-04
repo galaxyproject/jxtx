@@ -7,46 +7,45 @@
 
 /* Tile content. */
 .tile__content {
-    display: flex;
-    flex: 1; /* Takes up remaining available <Tile/>. */
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex: 1; /* Takes up remaining available <Tile/>. */
+  flex-direction: column;
+  width: 100%;
 }
 
 /* Scale. */
 /* Tile content small. */
 .t___s {
-    composes: tile__content;
-    padding: 16px;
+  composes: tile__content;
+  padding: 16px;
 }
 
 /* Scale. */
 /* Tile content medium. */
 .t___m {
-    composes: tile__content;
-    padding: 16px;
+  composes: tile__content;
+  padding: 16px;
 }
 
 /* Theme. */
 /* Tile content off white. */
 .tile__content___offWhite {
-    background-color: var(--off-white);
+  background-color: var(--off-white);
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
+  /* Scale. */
+  /* Tile content small. */
+  .t___s {
+    padding: var(--vu___32);
+  }
 
-    /* Scale. */
-    /* Tile content small. */
-    .t___s {
-        padding: var(--vu___32);
-    }
-
-    /* Scale. */
-    /* Tile content medium. */
-    .t___m {
-        padding: var(--vu___64);
-    }
+  /* Scale. */
+  /* Tile content medium. */
+  .t___m {
+    padding: var(--vu___64);
+  }
 }

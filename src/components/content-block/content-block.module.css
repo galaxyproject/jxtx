@@ -7,37 +7,36 @@
 
 /* Content block. */
 .content__block {
-    flex: 1;
+  flex: 1;
 }
 
 /* Scale. */
 /* Content block large. */
 .content__block___l {
-    padding: var(--vu___32) 16px;
+  padding: var(--vu___32) 16px;
 }
 
 /* Theme. */
 /* Content block off white. */
 .content__block___offWhite {
-    background-color: var(--off-white);
-    height: inherit;
+  background-color: var(--off-white);
+  height: inherit;
 }
 
 /* Content block - all images. */
 .content__block > img {
-    display: block;
-    margin: 0;
-    width: 100%;
+  display: block;
+  margin: 0;
+  width: 100%;
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
-
-    /* Scale. */
-    /* Content block large. */
-    .content__block___l {
-        padding: var(--vu___120) var(--vu___60);
-    }
+  /* Scale. */
+  /* Content block large. */
+  .content__block___l {
+    padding: var(--vu___120) var(--vu___60);
+  }
 }

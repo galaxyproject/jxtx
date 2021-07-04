@@ -6,6 +6,6 @@
  */
 
 export const TileClassname = {
-    "HORIZONTAL": "tile__row",
-    "VERTICAL": "tile__column",
+  HORIZONTAL: "tile__row",
+  VERTICAL: "tile__column",
 };

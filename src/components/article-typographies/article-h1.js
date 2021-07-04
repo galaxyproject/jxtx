@@ -12,12 +12,9 @@ import React from "react";
 import * as compStyles from "./article-h1.module.css";
 
 function ArticleH1(props) {
+  const { children } = props;
 
-    const {children} = props;
-
-    return (
-        <h1 className={compStyles.article__h1}>{children}</h1>
-    )
+  return <h1 className={compStyles.article__h1}>{children}</h1>;
 }
 
 export default ArticleH1;

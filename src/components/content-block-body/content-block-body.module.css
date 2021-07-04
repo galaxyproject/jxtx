@@ -8,38 +8,37 @@
 /* Compose class "c__b__b" - content block body. */
 /* Applies styles to content block body link. */
 .c__b__b a {
-    color: var(--accent-blue);
-    text-decoration: none;
+  color: var(--accent-blue);
+  text-decoration: none;
 }
 
 /* Compose class "c__b" - content block body. */
 /* Removes margin to last child of content block body. */
 .c__b__b:last-child {
-    margin: 0;
+  margin: 0;
 }
 
 /* Scale. */
 /* Content block body large "48px". */
 .content__body___l {
-    composes: c__b__b; /* Content block body. */
-    font-size: var(--vu___20);
-    line-height: 1.25;
+  composes: c__b__b; /* Content block body. */
+  font-size: var(--vu___20);
+  line-height: 1.25;
 }
 
 /* Scale. */
 /* Content block body large "48px" - last. */
 .content__body___l:last-of-type {
-    margin: 0;
+  margin: 0;
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
-
-    /* Scale. */
-    /* Content block body large "48px". */
-    .content__body___l {
-        font-size: var(--vu___48);
-    }
+  /* Scale. */
+  /* Content block body large "48px". */
+  .content__body___l {
+    font-size: var(--vu___48);
+  }
 }

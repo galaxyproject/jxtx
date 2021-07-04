@@ -6,6 +6,6 @@
  */
 
 export const ScaleClassname = {
-    "MEDIUM": "scale___m",
-    "LARGE": "scale___l"
+  MEDIUM: "scale___m",
+  LARGE: "scale___l",
 };

@@ -12,14 +12,9 @@ import React from "react";
 import * as compStyles from "./grid-item-article.module.css";
 
 function GridItemArticle(props) {
+  const { children } = props;
 
-    const {children} = props;
-
-    return (
-        <div className={compStyles.grid__item}>
-            {children}
-        </div>
-    )
+  return <div className={compStyles.grid__item}>{children}</div>;
 }
 
 export default GridItemArticle;

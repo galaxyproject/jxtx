@@ -7,17 +7,16 @@
 
 /* Date. */
 .tile__date {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
-
-    /* Date. */
-    .tile__date {
-        font-size: var(--vu___20);
-        margin: 0;
-    }
+  /* Date. */
+  .tile__date {
+    font-size: var(--vu___20);
+    margin: 0;
+  }
 }

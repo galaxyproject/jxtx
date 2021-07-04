@@ -13,12 +13,11 @@ import Home from "../components/home/home";
 import Layout from "../components/layout/layout";
 
 function IndexPage() {
-
-    return (
-        <Layout>
-            <Home/>
-        </Layout>
-    )
+  return (
+    <Layout>
+      <Home />
+    </Layout>
+  );
 }
 
 export default IndexPage;

@@ -6,6 +6,6 @@
  */
 
 export const HeadingTheme = {
-    "BLUE": "BLUE",
-    "ORANGE": "ORANGE",
+  BLUE: "BLUE",
+  ORANGE: "ORANGE",
 };

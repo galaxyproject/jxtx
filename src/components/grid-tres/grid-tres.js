@@ -12,14 +12,9 @@ import React from "react";
 import * as compStyles from "./grid-tres.module.css";
 
 function GridTres(props) {
+  const { children } = props;
 
-    const {children} = props;
-
-    return (
-        <div className={compStyles.grid___tres}>
-            {children}
-        </div>
-    )
+  return <div className={compStyles.grid___tres}>{children}</div>;
 }
 
 export default GridTres;

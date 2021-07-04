@@ -8,35 +8,34 @@
 /* Scale. */
 /* Small. */
 .scale___s {
-    margin-top: var(--vu___8);
+  margin-top: var(--vu___8);
 }
 
 /* Scale. */
 /* Medium. */
 .scale___m {
-    margin-top: var(--vu___16);
+  margin-top: var(--vu___16);
 }
 
 /* Scale. */
 /* Large. */
 .scale___l {
-    margin-top: var(--vu___32);
+  margin-top: var(--vu___32);
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
+  /* Scale. */
+  /* Medium. */
+  .scale___m {
+    margin-top: var(--vu___32);
+  }
 
-    /* Scale. */
-    /* Medium. */
-    .scale___m {
-        margin-top: var(--vu___32);
-    }
-
-    /* Scale. */
-    /* Large. */
-    .scale___l {
-        margin-top: var(--vu___64);
-    }
+  /* Scale. */
+  /* Large. */
+  .scale___l {
+    margin-top: var(--vu___64);
+  }
 }

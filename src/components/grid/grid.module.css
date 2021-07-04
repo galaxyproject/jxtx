@@ -7,68 +7,67 @@
 
 /* Grid (flex). */
 .grid {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Grid, first. */
 /* TODO review. */
 .grid::after {
-    border-bottom: 2px solid var(--off-white);
-    content: "";
-    margin: 32px 0;
-    width: 100%;
+  border-bottom: 2px solid var(--off-white);
+  content: "";
+  margin: 32px 0;
+  width: 100%;
 }
 
 /* Grid, last. */
 .grid:last-of-type {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 /* Grid by 1 (full width). */
 .grid___x1 {
-    composes: grid;
+  composes: grid;
 }
 
 /* Grid by 3. */
 .grid___x3 {
-    display: grid;
-    grid-gap: 32px;
-    grid-template-columns: repeat(1, 1fr);
-    margin-bottom: 32px;
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: repeat(1, 1fr);
+  margin-bottom: 32px;
 }
 
 /* Grid (container). */
 .grid__container {
-    display: grid;
-    grid-gap: 32px; /* TODO review. */
-    grid-template-columns: repeat(2, 1fr); /* TODO review. */
+  display: grid;
+  grid-gap: 32px; /* TODO review. */
+  grid-template-columns: repeat(2, 1fr); /* TODO review. */
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
+  /* Grid by 3. */
+  .grid___x3 {
+    grid-gap: var(--vu___64);
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-    /* Grid by 3. */
-    .grid___x3 {
-        grid-gap: var(--vu___64);
-        grid-template-columns: repeat(3, 1fr);
-    }
+  /* Grid (container). */
+  .grid__container {
+    grid-gap: 0 var(--vu___64); /* TODO review. */
+  }
 
-    /* Grid (container). */
-    .grid__container {
-        grid-gap: 0 var(--vu___64); /* TODO review. */
-    }
+  /* Grid, second. */
+  /* TODO review. */
+  .grid:nth-of-type(2)::before {
+    margin: var(--vu___64) 0;
+  }
 
-    /* Grid, second. */
-    /* TODO review. */
-    .grid:nth-of-type(2)::before {
-        margin: var(--vu___64) 0;
-    }
-
-    /* Grid, last. */
-    .grid:last-of-type {
-        margin-bottom: var(--vu___64);
-    }
+  /* Grid, last. */
+  .grid:last-of-type {
+    margin-bottom: var(--vu___64);
+  }
 }

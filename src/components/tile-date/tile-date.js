@@ -12,12 +12,9 @@ import React from "react";
 import * as compStyles from "./tile-date.module.css";
 
 function TileDate(props) {
+  const { children } = props;
 
-    const {children} = props;
-
-    return (
-        <div className={compStyles.tile__date}>{children}</div>
-    )
+  return <div className={compStyles.tile__date}>{children}</div>;
 }
 
 export default TileDate;
