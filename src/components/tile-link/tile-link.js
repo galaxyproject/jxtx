@@ -6,19 +6,16 @@
  */
 
 // Core dependencies
-import {Link} from "gatsby";
+import { Link } from "gatsby";
 import React from "react";
 
 // Styles
 import * as compStyles from "./tile-link.module.css";
 
 function TileLink(props) {
+  const { to } = props;
 
-    const {to} = props;
-
-    return (
-        <Link className={compStyles.tile__link} to={to}/>
-    )
+  return <Link className={compStyles.tile__link} to={to} />;
 }
 
 export default TileLink;

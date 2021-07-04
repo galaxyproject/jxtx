@@ -12,14 +12,13 @@ import React from "react";
 import * as compStyles from "./article-figcaption.module.css";
 
 function ArticleFigcaption(props) {
+  const { children } = props;
 
-    const {children} = props;
-
-    return (
-        <figcaption className={compStyles.article__figcaption}>
-            {children}
-        </figcaption>
-    )
+  return (
+    <figcaption className={compStyles.article__figcaption}>
+      {children}
+    </figcaption>
+  );
 }
 
 export default ArticleFigcaption;

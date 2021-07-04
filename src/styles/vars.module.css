@@ -6,15 +6,15 @@
  */
 
 :root {
-    --accent-blue: #2077B3;
-    --accent-blue-dark: #1D579D;
-    --accent-blue-light: #A3CBDF;
-    --accent-orange: #FE7F02;
-    --accent-orange-light: #FDBF6F;
-    --black: #000000;
-    --black12: rgba(0, 0, 0, 0.12);
-    --black54: rgba(0, 0, 0, 0.54);
-    --default-text: #000000;
-    --off-white: #F8F8F8;
-    --white: #FFFFFF;
+  --accent-blue: #2077b3;
+  --accent-blue-dark: #1d579d;
+  --accent-blue-light: #a3cbdf;
+  --accent-orange: #fe7f02;
+  --accent-orange-light: #fdbf6f;
+  --black: #000000;
+  --black12: rgba(0, 0, 0, 0.12);
+  --black54: rgba(0, 0, 0, 0.54);
+  --default-text: #000000;
+  --off-white: #f8f8f8;
+  --white: #ffffff;
 }

@@ -8,231 +8,229 @@
 /* Compose class "f__a--c". */
 /* Applies flex and align items centered. */
 .f__a--c {
-    align-items: center;
-    display: flex;
+  align-items: center;
+  display: flex;
 }
 
 /* Header. */
 .header {
-    composes: f__a--c; /* Flex. */
-    color: var(--default-text);
-    height: var(--vu___56);
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: var(--maximum);
-    padding: 0 var(--gutter-x);
-    position: relative; /* Positions minor. */
-    width: 100%; /* Required - site flex. */
+  composes: f__a--c; /* Flex. */
+  color: var(--default-text);
+  height: var(--vu___56);
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: var(--maximum);
+  padding: 0 var(--gutter-x);
+  position: relative; /* Positions minor. */
+  width: 100%; /* Required - site flex. */
 }
 
 /* Header minor - backpages. */
 .header___minor::after {
-    content: "";
-    border-bottom: 2px solid var(--black12);
-    bottom: 0;
-    left: var(--gutter-x);
-    position: absolute;
-    right: var(--gutter-x);
+  content: "";
+  border-bottom: 2px solid var(--black12);
+  bottom: 0;
+  left: var(--gutter-x);
+  position: absolute;
+  right: var(--gutter-x);
 }
 
 /* Logo. */
 .header__logo {
-    composes: f__a--c; /* Flex. */
+  composes: f__a--c; /* Flex. */
 }
 
 /* Logo, image. */
 .header__logo__img {
-    margin: 0 var(--vu___8) 0 0;
-    width: var(--vu___32);
+  margin: 0 var(--vu___8) 0 0;
+  width: var(--vu___32);
 }
 
 /* Logo, title. */
 .header__logo__title {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: var(--vu___32);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: var(--vu___32);
 }
 
 /* Nav. */
 .header__nav {
-    flex: 1; /* Take up all available space. */
+  flex: 1; /* Take up all available space. */
 }
 
 /* Nav - closed. */
 .header__nav {
-    display: none;
+  display: none;
 }
 
 /* Nav - all children. */
 .header__nav * {
-    list-style: none; /* Remove all list styles from <ul>. */
+  list-style: none; /* Remove all list styles from <ul>. */
 }
 
 /* Nav - open */
 .header__nav___open {
-    background-color: var(--white);
-    display: block;
-    height: 100vh;
-    left: 0;
-    margin-top: var(--vu___56); /* Matches header height. */
-    overflow-y: auto;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
+  background-color: var(--white);
+  display: block;
+  height: 100vh;
+  left: 0;
+  margin-top: var(--vu___56); /* Matches header height. */
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 /* Nav unordered list. */
 .header__nav__list {
-    composes: f__a--c; /* Flex. */
-    align-items: flex-start;
-    flex-direction: column;
-    margin: var(--gutter);
-    padding: 16px 0;
+  composes: f__a--c; /* Flex. */
+  align-items: flex-start;
+  flex-direction: column;
+  margin: var(--gutter);
+  padding: 16px 0;
 }
 
 /* Nav item. */
 .header__nav__item {
-    border-bottom: 1px solid var(--black12);
-    margin: 0;
-    width: 100%;
+  border-bottom: 1px solid var(--black12);
+  margin: 0;
+  width: 100%;
 }
 
 /* Nav item - call to action - donate. */
 .header__nav__item___cta {
-    composes: header__nav__item;
+  composes: header__nav__item;
 }
 
 /* Nav link. */
 .header__nav__link {
-    display: block;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 1.25;
-    padding: var(--vu___16) 0;
+  display: block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+  padding: var(--vu___16) 0;
 }
 
 /* Nav link - active. */
 .header__nav__link.header__nav__link___active {
-    color: var(--accent-orange);
+  color: var(--accent-orange);
 }
 
 /* Logo. */
 /* Nav link. */
 .header__logo,
 .header__nav__link {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 /* CTA donate. */
 .header__cta {
-    display: none;
+  display: none;
 }
 
 /* Menu - svg. */
 .header__menu img {
-    display: block;
-    margin: 0;
+  display: block;
+  margin: 0;
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
+  /* Header. */
+  .header {
+    height: 72px;
+    justify-content: flex-start;
+  }
 
-    /* Header. */
-    .header {
-        height: 72px;
-        justify-content: flex-start;
-    }
+  /* Logo, image. */
+  .header__logo__img {
+    margin: 0 var(--vu___16) 0 0;
+    width: var(--vu___64);
+  }
 
-    /* Logo, image. */
-    .header__logo__img {
-        margin: 0 var(--vu___16) 0 0;
-        width: var(--vu___64);
-    }
+  /* Logo, title. */
+  .header__logo__title {
+    font-size: 20px;
+    line-height: 1.5;
+  }
 
-    /* Logo, title. */
-    .header__logo__title {
-        font-size: 20px;
-        line-height: 1.5;
-    }
+  /* Nav - always open. */
+  .header__nav {
+    display: block;
+  }
 
-    /* Nav - always open. */
-    .header__nav {
-        display: block;
-    }
+  /* Nav unordered list. */
+  .header__nav__list {
+    flex-direction: row;
+    justify-content: flex-end; /* Flex to end of container. */
+    margin: 0 16px 0 0;
+    padding: 0;
+  }
 
-    /* Nav unordered list. */
-    .header__nav__list {
-        flex-direction: row;
-        justify-content: flex-end; /* Flex to end of container. */
-        margin: 0 16px 0 0;
-        padding: 0;
-    }
+  /* Nav item. */
+  .header__nav__item {
+    border-bottom: none;
+    margin: 0 var(--vu___12);
+    width: unset;
+  }
 
-    /* Nav item. */
-    .header__nav__item {
-        border-bottom: none;
-        margin: 0 var(--vu___12);
-        width: unset;
-    }
+  /* Nav item - donate. */
+  .header__nav__item___cta {
+    display: none;
+  }
 
-    /* Nav item - donate. */
-    .header__nav__item___cta {
-        display: none;
-    }
+  /* Nav link. */
+  .header__nav__link {
+    font-size: 14px;
+    font-weight: 700;
+    padding: var(--vu___12);
+    text-transform: uppercase;
+  }
 
-    /* Nav link. */
-    .header__nav__link {
-        font-size: 14px;
-        font-weight: 700;
-        padding: var(--vu___12);
-        text-transform: uppercase;
-    }
+  /* CTA donate. */
+  .header__cta {
+    display: flex;
+  }
 
-    /* CTA donate. */
-    .header__cta {
-        display: flex;
-    }
-
-    /* Menu. */
-    .header__menu {
-        display: none;
-    }
+  /* Menu. */
+  .header__menu {
+    display: none;
+  }
 }
 
 /**
  * 1240px - Medium (laptop).
  */
 @media screen and (min-width: 1240px) {
+  /* Header. */
+  .header {
+    height: var(--vu___100);
+  }
 
-    /* Header. */
-    .header {
-        height: var(--vu___100);
-    }
+  /* Logo, image. */
+  .header__logo__img {
+    width: var(--vu___48);
+  }
 
-    /* Logo, image. */
-    .header__logo__img {
-        width: var(--vu___48);
-    }
+  /* Logo, title. */
+  .header__logo__title {
+    font-size: var(--vu___32);
+  }
 
-    /* Logo, title. */
-    .header__logo__title {
-        font-size: var(--vu___32);
-    }
+  /* Nav item. */
+  .header__nav__item {
+    margin: 0 var(--vu___16);
+  }
 
-    /* Nav item. */
-    .header__nav__item {
-        margin: 0 var(--vu___16);
-    }
-
-    /* Nav link. */
-    .header__nav__link {
-        font-size: 16px;
-        padding: 16px;
-    }
+  /* Nav link. */
+  .header__nav__link {
+    font-size: 16px;
+    padding: 16px;
+  }
 }

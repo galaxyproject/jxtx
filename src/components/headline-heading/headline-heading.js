@@ -12,14 +12,9 @@ import React from "react";
 import * as compStyles from "./headline-heading.module.css";
 
 function HeadlineHeading(props) {
+  const { children } = props;
 
-    const {children} = props;
-
-    return (
-        <h1 className={compStyles.headline__heading}>
-            {children}
-        </h1>
-    )
+  return <h1 className={compStyles.headline__heading}>{children}</h1>;
 }
 
 export default HeadlineHeading;

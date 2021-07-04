@@ -12,12 +12,9 @@ import React from "react";
 import * as compStyles from "./tile-body.module.css";
 
 function TileBody(props) {
+  const { children } = props;
 
-    const {children} = props;
-
-    return (
-        <div className={compStyles.tile__body}>{children}</div>
-    )
+  return <div className={compStyles.tile__body}>{children}</div>;
 }
 
 export default TileBody;

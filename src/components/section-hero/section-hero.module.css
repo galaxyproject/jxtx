@@ -7,109 +7,108 @@
 
 /* Hero image. */
 .hero__image {
-    display: none;
-    left: 0;
-    margin: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
+  display: none;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 /* Hero headline. */
 .hero__headline {
-    box-sizing: content-box;
-    color: var(--black);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: calc(100vh - var(--vu___56) - 120px);
-    padding: 60px 16px;
-    position: relative;
+  box-sizing: content-box;
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh - var(--vu___56) - 120px);
+  padding: 60px 16px;
+  position: relative;
 }
 
 /* Hero headline head. */
 /* Hero headline subhead. */
 .hero__headline__head,
 .hero__headline__subhead {
-    font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 /* Hero headline head. */
 .hero__headline__head {
-    font-size: var(--vu___48);
-    letter-spacing: 1.14px; /* TODO review. */
-    line-height: 1.25;
-    margin-bottom: var(--vu___32);
+  font-size: var(--vu___48);
+  letter-spacing: 1.14px; /* TODO review. */
+  line-height: 1.25;
+  margin-bottom: var(--vu___32);
 }
 
 /* Hero headline subhead. */
 .hero__headline__subhead {
-    font-size: var(--vu___32);
-    margin-bottom: var(--vu___48);
-    max-width: calc(var(--vu___x) * 348); /* 348px. */
+  font-size: var(--vu___32);
+  margin-bottom: var(--vu___48);
+  max-width: calc(var(--vu___x) * 348); /* 348px. */
 }
 
 /** Hero attribution. */
 .hero__attribution {
-    align-items: center;
-    bottom: var(--vu___8);
-    display: inline-flex;
-    font-size: var(--vu___24);
-    line-height: 0; /* Required to maintain correct height of <h2>. */
-    position: relative; /* Required to center position attribution with <h2>. */
+  align-items: center;
+  bottom: var(--vu___8);
+  display: inline-flex;
+  font-size: var(--vu___24);
+  line-height: 0; /* Required to maintain correct height of <h2>. */
+  position: relative; /* Required to center position attribution with <h2>. */
 }
 
 /** Hero attribution quote line. */
 .hero__attribution::before {
-    background-color: var(--black);
-    content: "";
-    margin: auto var(--vu___16);
-    padding: var(--vu___2) var(--vu___16);
+  background-color: var(--black);
+  content: "";
+  margin: auto var(--vu___16);
+  padding: var(--vu___2) var(--vu___16);
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
+  /* Hero image. */
+  .hero__image {
+    display: block;
+  }
 
-    /* Hero image. */
-    .hero__image {
-        display: block;
-    }
+  /* Hero headline. */
+  .hero__headline {
+    color: var(--white);
+    display: block;
+    min-height: unset;
+    padding: var(--vu___232) var(--vu___128);
+    width: calc(var(--vu___x) * 750); /* 750 */
+  }
 
-    /* Hero headline. */
-    .hero__headline {
-        color: var(--white);
-        display: block;
-        min-height: unset;
-        padding: var(--vu___232) var(--vu___128);
-        width: calc(var(--vu___x) * 750); /* 750 */
-    }
+  /* Hero headline head. */
+  .hero__headline__head {
+    font-size: var(--vu___72);
+    line-height: var(--vu___84);
+    margin-bottom: var(--vu___24);
+  }
 
-    /* Hero headline head. */
-    .hero__headline__head {
-        font-size: var(--vu___72);
-        line-height: var(--vu___84);
-        margin-bottom: var(--vu___24);
-    }
+  /* Hero headline subhead. */
+  .hero__headline__subhead {
+    font-size: var(--vu___48);
+    margin-bottom: var(--vu___48);
+    max-width: unset;
+  }
 
-    /* Hero headline subhead. */
-    .hero__headline__subhead {
-        font-size: var(--vu___48);
-        margin-bottom: var(--vu___48);
-        max-width: unset;
-    }
+  /** Hero attribution. */
+  .hero__attribution {
+    bottom: calc(var(--vu___x) * 10) /* 10px */ /* TODO review */;
+    font-size: var(--vu___32);
+  }
 
-    /** Hero attribution. */
-    .hero__attribution {
-        bottom: calc(var(--vu___x) * 10) /* 10px */ /* TODO review */;
-        font-size: var(--vu___32);
-    }
-
-    /** Hero attribution quote line. */
-    .hero__attribution::before {
-        background-color: var(--white);
-        margin: auto var(--vu___16);
-        padding: var(--vu___2) var(--vu___16);
-    }
+  /** Hero attribution quote line. */
+  .hero__attribution::before {
+    background-color: var(--white);
+    margin: auto var(--vu___16);
+    padding: var(--vu___2) var(--vu___16);
+  }
 }

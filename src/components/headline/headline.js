@@ -10,17 +10,12 @@ import React from "react";
 
 // App dependencies
 import Section from "../section/section";
-import {SectionType} from "../section/section-type.model";
+import { SectionType } from "../section/section-type.model";
 
 function Headline(props) {
+  const { children } = props;
 
-    const {children} = props;
-
-    return (
-        <Section type={SectionType.HEADLINE}>
-            {children}
-        </Section>
-    )
+  return <Section type={SectionType.HEADLINE}>{children}</Section>;
 }
 
 export default Headline;

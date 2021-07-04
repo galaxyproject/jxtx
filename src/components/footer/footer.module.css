@@ -8,116 +8,116 @@
 /* Compose class "f__a--c". */
 /* Applies flex and align items centered. */
 .f__a--c {
-    align-items: center;
-    display: flex;
+  align-items: center;
+  display: flex;
 }
 
 /* Compose class "f__f" - footer font. */
 /* Generic font specification for hero logo, navigation and legal. */
 .f__f {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 700;
-    line-height: 1.25;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 /* Compose class "f__s" - footer section. */
 /* Generic section styles for hero, navigation and legal. */
 .f__s {
-    border-bottom: 2px solid var(--white);
-    margin: var(--gutter);
-    padding: var(--vu___60) 0;
+  border-bottom: 2px solid var(--white);
+  margin: var(--gutter);
+  padding: var(--vu___60) 0;
 }
 
 /* Footer. */
 .footer {
-    background-color: var(--accent-blue-dark);
-    color: var(--white);
-    max-width: calc(1px * var(--vu___max));
-    margin: 0 auto;
-    width: 100%; /* Site flex. */
+  background-color: var(--accent-blue-dark);
+  color: var(--white);
+  max-width: calc(1px * var(--vu___max));
+  margin: 0 auto;
+  width: 100%; /* Site flex. */
 }
 
 /* Hero. */
 .footer__hero {
-    composes: f__s; /* Section. */
-    composes: f__a--c; /* Flex. */
-    flex-direction: column;
+  composes: f__s; /* Section. */
+  composes: f__a--c; /* Flex. */
+  flex-direction: column;
 }
 
 /* Logo. */
 .footer__hero__logo {
-    composes: f__f; /* Font. */
-    font-size: 32px;
+  composes: f__f; /* Font. */
+  font-size: 32px;
 }
 
 /* Socials. */
 .footer__hero__socials {
-    composes: f__a--c; /* Flex. */
-    margin-top: 32px;
+  composes: f__a--c; /* Flex. */
+  margin-top: 32px;
 }
 
 /* Social. */
 /* Conjoins with <ButtonSocial/> styles. */
 .footer__hero__socials > a {
-    margin-left: 32px;
+  margin-left: 32px;
 }
 
 /* Social - first. */
 /* Conjoins with <ButtonSocial/> styles. */
 .footer__hero__socials > a:first-of-type {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 /* Nav. */
 .footer__nav {
-    composes: f__s; /* Section. */
+  composes: f__s; /* Section. */
 }
 
 /* Nav - all children. */
 .footer__nav * {
-    list-style: none; /* Remove all list styles from <ul>. */
-    margin: 0; /* Remove all margin from <ul>, <li>. */
+  list-style: none; /* Remove all list styles from <ul>. */
+  margin: 0; /* Remove all margin from <ul>, <li>. */
 }
 
 /* Nav item. */
 .footer__nav__item {
-    composes: f__f; /* Font. */
-    font-size: 16px;
-    text-align: center;
-    text-transform: uppercase;
+  composes: f__f; /* Font. */
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Nav item - first. */
 .footer__nav__item:first-of-type {
-    margin-top: -16px;
+  margin-top: -16px;
 }
 
 /* Nav item - last. */
 .footer__nav__item:last-of-type {
-    margin-bottom: -16px;
+  margin-bottom: -16px;
 }
 
 /* Nav item link. */
 .footer__nav__link {
-    display: block;
-    padding: 8px 0;
+  display: block;
+  padding: 8px 0;
 }
 
 /* Legal (privacy, copyright). */
 .footer__legal {
-    composes: f__s; /* Section. */
-    composes: f__a--c; /* Flex. */
-    composes: f__f; /* Font. */
-    border-bottom: none; /* Overrides f__s border. */
-    flex-direction: column;
-    font-size: 16px;
-    justify-content: space-between;
-    padding: var(--vu___32) 0; /* Overrides f__s padding. */
+  composes: f__s; /* Section. */
+  composes: f__a--c; /* Flex. */
+  composes: f__f; /* Font. */
+  border-bottom: none; /* Overrides f__s border. */
+  flex-direction: column;
+  font-size: 16px;
+  justify-content: space-between;
+  padding: var(--vu___32) 0; /* Overrides f__s padding. */
 }
 
 /* Legal (copyright). */
 .footer__legal__copy {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 /* Logo. */
@@ -126,78 +126,75 @@
 .footer__hero__logo,
 .footer__nav__item > *,
 .footer__legal > * {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
+  /* Compose class "f__s" - footer section. */
+  /* Generic section styles for hero, navigation and legal. */
+  .f__s {
+    padding: var(--vu___64) 0;
+  }
 
-    /* Compose class "f__s" - footer section. */
-    /* Generic section styles for hero, navigation and legal. */
-    .f__s {
-        padding: var(--vu___64) 0;
-    }
+  /* Hero. */
+  .footer__hero {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    /* Hero. */
-    .footer__hero {
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  /* Logo. */
+  .footer__hero__logo {
+    font-size: 28px;
+  }
 
-    /* Logo. */
-    .footer__hero__logo {
-        font-size: 28px;
-    }
+  /* Socials. */
+  .footer__hero__socials {
+    margin-top: 0;
+  }
 
-    /* Socials. */
-    .footer__hero__socials {
-        margin-top: 0;
-    }
+  /* Social. */
+  /* Conjoins with <ButtonSocial/> styles. */
+  .footer__hero__socials > a {
+    margin-left: var(--vu___32);
+  }
 
-    /* Social. */
-    /* Conjoins with <ButtonSocial/> styles. */
-    .footer__hero__socials > a {
-        margin-left: var(--vu___32);
-    }
+  /* Nav item. */
+  .footer__nav__item {
+    text-align: left;
+  }
 
-    /* Nav item. */
-    .footer__nav__item {
-        text-align: left;
-    }
+  /* Legal (privacy, copyright). */
+  .footer__legal {
+    flex-direction: row;
+  }
 
-    /* Legal (privacy, copyright). */
-    .footer__legal {
-        flex-direction: row;
-    }
-
-    /* Legal (copyright). */
-    .footer__legal__copy {
-        margin-top: 0;
-    }
+  /* Legal (copyright). */
+  .footer__legal__copy {
+    margin-top: 0;
+  }
 }
 
 /**
  * 1240px - Medium (laptop).
  */
 @media screen and (min-width: 1240px) {
-
-    /* Logo. */
-    .footer__hero__logo {
-        font-size: var(--vu___32);
-    }
+  /* Logo. */
+  .footer__hero__logo {
+    font-size: var(--vu___32);
+  }
 }
 
 /**
  * 1800px - Large (desktop).
  */
 @media screen and (min-width: 1800px) {
-
-    /* Compose class "f__s" - footer section. */
-    /* Generic section styles for hero, navigation and legal. */
-    .f__s {
-        margin: 0 32px;
-    }
+  /* Compose class "f__s" - footer section. */
+  /* Generic section styles for hero, navigation and legal. */
+  .f__s {
+    margin: 0 32px;
+  }
 }

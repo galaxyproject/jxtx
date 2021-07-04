@@ -13,47 +13,44 @@
  */
 
 :root {
-    --bp-desktop: calc(1px * var(--vu___max));
-    --gutter: 0 var(--gutter-x);
-    --gutter-x: 16px;
-    --maximum: var(--bp-desktop);
-    --pos___128: calc(var(--vu___128) - var(--gutter-x));
+  --bp-desktop: calc(1px * var(--vu___max));
+  --gutter: 0 var(--gutter-x);
+  --gutter-x: 16px;
+  --maximum: var(--bp-desktop);
+  --pos___128: calc(var(--vu___128) - var(--gutter-x));
 }
 
 html {
-    font-size: 100%; /* 16px. */
+  font-size: 100%; /* 16px. */
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
+  :root {
+    --gutter-x: 32px;
+  }
 
-    :root {
-        --gutter-x: 32px;
-    }
-
-    html {
-        font-size: 100%; /* 16px. */
-    }
+  html {
+    font-size: 100%; /* 16px. */
+  }
 }
 
 /**
  * 1240px - Medium (laptop).
  */
 @media screen and (min-width: 1240px) {
-
-    html {
-        font-size: 125%; /* 20px. */
-    }
+  html {
+    font-size: 125%; /* 20px. */
+  }
 }
 
 /**
  * 1800px - Large (desktop).
  */
 @media screen and (min-width: 1800px) {
-
-    :root {
-        --gutter: 0 auto;
-    }
+  :root {
+    --gutter: 0 auto;
+  }
 }

@@ -7,19 +7,18 @@
 
 /* Headline heading. */
 .headline__heading {
-    font-size: var(--vu___32);
-    margin: 0;
-    padding: 0 16px; /* TODO review. */
+  font-size: var(--vu___32);
+  margin: 0;
+  padding: 0 16px; /* TODO review. */
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
-
-    /* Headline heading. */
-    .headline__heading {
-        font-size: var(--vu___112);
-        padding: 0 var(--pos___128);
-    }
+  /* Headline heading. */
+  .headline__heading {
+    font-size: var(--vu___112);
+    padding: 0 var(--pos___128);
+  }
 }

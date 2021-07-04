@@ -6,15 +6,14 @@
  */
 
 // Core dependencies
-import * as React from "react"
+import * as React from "react";
 
 function NotFoundPage() {
-
-    return (
-        <main>
-            <h1>Page Not Found</h1>
-        </main>
-    )
+  return (
+    <main>
+      <h1>Page Not Found</h1>
+    </main>
+  );
 }
 
-export default NotFoundPage
+export default NotFoundPage;

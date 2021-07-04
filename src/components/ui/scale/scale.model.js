@@ -6,6 +6,6 @@
  */
 
 export const Scale = {
-    "MEDIUM": "MEDIUM",
-    "LARGE": "LARGE"
+  MEDIUM: "MEDIUM",
+  LARGE: "LARGE",
 };

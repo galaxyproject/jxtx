@@ -6,6 +6,6 @@
  */
 
 export const TileOrientation = {
-    "HORIZONTAL": "HORIZONTAL",
-    "VERTICAL": "VERTICAL",
+  HORIZONTAL: "HORIZONTAL",
+  VERTICAL: "VERTICAL",
 };

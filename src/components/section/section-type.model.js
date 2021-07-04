@@ -6,10 +6,10 @@
  */
 
 export const SectionType = {
-    "ARTICLE": "ARTICLE",
-    "COLLECTION": "COLLECTION",
-    "HEADLINE": "HEADLINE",
-    "HERO": "HERO",
-    "HERO_SUB": "HERO_SUB",
-    "HERO_TILE": "HERO_TILE",
+  ARTICLE: "ARTICLE",
+  COLLECTION: "COLLECTION",
+  HEADLINE: "HEADLINE",
+  HERO: "HERO",
+  HERO_SUB: "HERO_SUB",
+  HERO_TILE: "HERO_TILE",
 };

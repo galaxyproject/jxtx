@@ -12,14 +12,13 @@ import React from "react";
 import * as compStyles from "./article-blockquote.module.css";
 
 function ArticleBlockquote(props) {
+  const { children } = props;
 
-    const {children} = props;
-
-    return (
-        <blockquote className={compStyles.article__blockquote} {...props}>
-            {children}
-        </blockquote>
-    )
+  return (
+    <blockquote className={compStyles.article__blockquote} {...props}>
+      {children}
+    </blockquote>
+  );
 }
 
 export default ArticleBlockquote;

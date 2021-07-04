@@ -10,13 +10,12 @@ import React from "react";
 import Helmet from "react-helmet";
 
 function DocumentMetadata() {
-
-    return (
-        <Helmet>
-            <title>JXTX Foundation</title>
-            <html lang="en"/>
-        </Helmet>
-    )
+  return (
+    <Helmet>
+      <title>JXTX Foundation</title>
+      <html lang="en" />
+    </Helmet>
+  );
 }
 
 export default DocumentMetadata;

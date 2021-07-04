@@ -7,141 +7,141 @@
 
 /* Button. */
 .button {
-    border: none;
-    cursor: pointer;
-    margin: 0;
-    text-decoration: none;
-    text-transform: uppercase;
-    white-space: nowrap;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 /* Button - focus. */
 .button:focus {
-    outline: none;
+  outline: none;
 }
 
 /* Button burger. */
 .button__burger {
-    composes: button;
-    background-color: transparent;
-    height: 24px;
-    padding: 6px 3px;
-    width: 24px;
+  composes: button;
+  background-color: transparent;
+  height: 24px;
+  padding: 6px 3px;
+  width: 24px;
 }
 
 /* Button cta. */
 .button__cta {
-    color: var(--accent-orange);
-    font-size: var(--vu___20); /* TODO review. */
-    letter-spacing: 0.111em; /* TODO review. */
-    margin: 0;
-    text-decoration: none;
+  color: var(--accent-orange);
+  font-size: var(--vu___20); /* TODO review. */
+  letter-spacing: 0.111em; /* TODO review. */
+  margin: 0;
+  text-decoration: none;
 }
 
 /* Button outlined, unelevated. */
-.button___outlined, .button___unelevated {
-    composes: button;
-    display: inline-block;
-    font-family: "Source Sans Pro",sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    line-height: 1.25;
-    padding: var(--vu___12) var(--vu___16);
+.button___outlined,
+.button___unelevated {
+  composes: button;
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.25;
+  padding: var(--vu___12) var(--vu___16);
 }
 
 /* Button hero. */
 .button__hero {
-    composes: button___outlined;
-    border: 1px solid var(--black);
-    color: var(--black);
+  composes: button___outlined;
+  border: 1px solid var(--black);
+  color: var(--black);
 }
 
 /* Button hero. */
 /* Button oversized. */
 .button___oversized {
-    composes: button;
-    font-size: var(--vu___16);
-    line-height: 1.5;
-    max-width: fit-content;
-    padding: var(--vu___12) var(--vu___16);
-    width: -moz-fit-content; /* ff. */
+  composes: button;
+  font-size: var(--vu___16);
+  line-height: 1.5;
+  max-width: fit-content;
+  padding: var(--vu___12) var(--vu___16);
+  width: -moz-fit-content; /* ff. */
 }
 
 /* Button hero. */
 /* Button outlined. */
 .button__hero,
 .button___outlined {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 /* Button primary, unelevated. */
 .button___primary.button___unelevated {
-    background-color: var(--accent-orange);
-    color: var(--white);
+  background-color: var(--accent-orange);
+  color: var(--white);
 }
 
 /* Button secondary, unelevated. */
 .button___secondary.button___unelevated {
-    background-color: var(--accent-blue);
-    color: var(--white);
+  background-color: var(--accent-blue);
+  color: var(--white);
 }
 
 /* Button white, outlined. */
 .button___white.button___outlined {
-    border: 1px solid var(--white);
-    color: var(--white);
+  border: 1px solid var(--white);
+  color: var(--white);
 }
 
 /* Button social. */
 .button__social {
-    composes: button;
-    line-height: 0;
+  composes: button;
+  line-height: 0;
 }
 
 /* Button social oversized "32px". */
 .button__social___oversized {
-    width: 32px;
+  width: 32px;
 }
 
 /* Button social - all children. */
 .button__social > * {
-    margin: 0;
-    width: inherit; /* Inherited width specified by <ButtonSocial/> prop `iconSize`. */
+  margin: 0;
+  width: inherit; /* Inherited width specified by <ButtonSocial/> prop `iconSize`. */
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
+  /* Button cta. */
+  .button__cta {
+    font-size: var(--vu___32); /* TODO review. */
+  }
 
-    /* Button cta. */
-    .button__cta {
-        font-size: var(--vu___32); /* TODO review. */
-    }
+  /* Button hero. */
+  .button__hero {
+    border: 1px solid var(--white);
+    color: var(--white);
+  }
 
-    /* Button hero. */
-    .button__hero {
-        border: 1px solid var(--white);
-        color: var(--white);
-    }
+  /* Button white, outlined. */
+  .button___white.button___outlined {
+    border: 2px solid var(--white);
+  }
 
-    /* Button white, outlined. */
-    .button___white.button___outlined {
-        border: 2px solid var(--white);
-    }
+  /* Button hero. */
+  /* Button oversized. */
+  .button__hero,
+  .button___oversized {
+    font-size: calc(var(--vu___x) * 18); /* 18px. */ /* TODO review. */
+    line-height: var(--vu___24); /* TODO review. */
+    padding: calc(var(--vu___x) * 18) var(--vu___60); /* 18px 60px */ /* TODO review. */
+  }
 
-    /* Button hero. */
-    /* Button oversized. */
-    .button__hero,
-    .button___oversized {
-        font-size: calc(var(--vu___x) * 18); /* 18px. */ /* TODO review. */
-        line-height: var(--vu___24); /* TODO review. */
-        padding: calc(var(--vu___x) * 18) var(--vu___60); /* 18px 60px */ /* TODO review. */
-    }
-
-    /* Button social oversized "32px". */
-    .button__social___oversized {
-        width: var(--vu___32);
-    }
+  /* Button social oversized "32px". */
+  .button__social___oversized {
+    width: var(--vu___32);
+  }
 }

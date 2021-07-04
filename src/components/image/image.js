@@ -6,16 +6,13 @@
  */
 
 // Core dependencies
-import {GatsbyImage, getImage} from "gatsby-plugin-image";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import React from "react";
 
 function Image(props) {
+  const { alt, image } = props;
 
-    const {alt, image} = props;
-
-    return (
-        <GatsbyImage alt={alt} image={getImage(image)}/>
-    )
+  return <GatsbyImage alt={alt} image={getImage(image)} />;
 }
 
 export default Image;

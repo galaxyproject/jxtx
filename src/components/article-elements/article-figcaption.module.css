@@ -7,33 +7,32 @@
 
 /* Fig Caption <figcaption/>. */
 .article__figcaption {
-    display: inline-block;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 13px;
-    line-height: 20px;
-    margin-bottom: var(--vu___20);
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: var(--vu___20);
 }
 
 /* Fig caption leading line. */
 .article__figcaption::before {
-    background-color: var(--accent-orange);
-    content: "";
-    display: inline-block;
-    height: 1px;
-    left: 0;
-    margin-right: 8px;
-    position: relative;
-    width: 16px;
-    vertical-align: middle;
+  background-color: var(--accent-orange);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  left: 0;
+  margin-right: 8px;
+  position: relative;
+  width: 16px;
+  vertical-align: middle;
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
-
-    /* Fig Caption <figcaption/>. */
-    .article__figcaption {
-        margin-bottom: var(--vu___48);
-    }
+  /* Fig Caption <figcaption/>. */
+  .article__figcaption {
+    margin-bottom: var(--vu___48);
+  }
 }

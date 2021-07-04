@@ -6,10 +6,10 @@
  */
 
 export const ButtonType = {
-    "BURGER": "BURGER",
-    "HERO": "HERO",
-    "OUTLINED": "OUTLINED",
-    "SOCIAL": "SOCIAL",
-    "TEXT": "TEXT",
-    "UNELEVATED": "UNELEVATED"
+  BURGER: "BURGER",
+  HERO: "HERO",
+  OUTLINED: "OUTLINED",
+  SOCIAL: "SOCIAL",
+  TEXT: "TEXT",
+  UNELEVATED: "UNELEVATED",
 };

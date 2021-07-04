@@ -12,14 +12,9 @@ import React from "react";
 import * as compStyles from "./grid-duo.module.css";
 
 function GridDuo(props) {
+  const { children } = props;
 
-    const {children} = props;
-
-    return (
-        <div className={compStyles.grid___duo}>
-            {children}
-        </div>
-    )
+  return <div className={compStyles.grid___duo}>{children}</div>;
 }
 
 export default GridDuo;

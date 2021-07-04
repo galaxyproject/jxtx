@@ -6,6 +6,6 @@
  */
 
 export const TileContentScale = {
-    "MEDIUM": "MEDIUM",
-    "SMALL": "SMALL"
+  MEDIUM: "MEDIUM",
+  SMALL: "SMALL",
 };

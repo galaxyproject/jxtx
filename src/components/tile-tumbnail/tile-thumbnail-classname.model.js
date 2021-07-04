@@ -6,5 +6,5 @@
  */
 
 export const TileThumbnailClassname = {
-    "MEDIUM": "tile__thumbnail___m",
+  MEDIUM: "tile__thumbnail___m",
 };

@@ -7,30 +7,28 @@
 
 /* Blockquote <blockquote/>. */
 .article__blockquote {
-    border-left: 1px solid var(--accent-orange-light);
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 16px;
+  border-left: 1px solid var(--accent-orange-light);
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 16px;
 }
 
 /**
  * 768px - Small (tablet).
  */
 @media screen and (min-width: 768px) {
-
-    /* Blockquote <blockquote/>. */
-    .article__blockquote {
-        padding-left: 20px;
-    }
+  /* Blockquote <blockquote/>. */
+  .article__blockquote {
+    padding-left: 20px;
+  }
 }
 
 /**
  * 1240px - Medium (laptop).
  */
 @media screen and (min-width: 1240px) {
-
-    /* Blockquote <blockquote/>. */
-    .article__blockquote {
-        padding-left: 24px;
-    }
+  /* Blockquote <blockquote/>. */
+  .article__blockquote {
+    padding-left: 24px;
+  }
 }
