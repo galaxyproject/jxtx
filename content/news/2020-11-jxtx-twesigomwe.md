@@ -1,5 +1,6 @@
 ---
 description: "David participated in Biological Data Science 2020."
+image: ../_images/seo/newsroom.png
 images:
     - _images/jxtx-awardee-david.png
 title: "David Twesigomwe on the impact of the JXTX Foundation"

@@ -1,6 +1,7 @@
 ---
-description: ""
-title: ""
+description: "Stories about James from people who know him well."
+image: ../_images/seo/james.png
+title: "James Peter Taylor | 1979 - 2020"
 ---
 
 # James Peter Taylor | 1979 - 2020

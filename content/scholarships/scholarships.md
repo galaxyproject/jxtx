@@ -1,6 +1,7 @@
 ---
-description: "JXTX Foundation Scholarships"
+description: "JXTX Foundation Scholarships."
 fullWidth: true
+image: ../_images/seo/scholarships.png
 images:
     - _images/scholarships-hero-2021-gi.png
     - _images/scholarships-hero-2020-bds.png

@@ -1,6 +1,7 @@
 ---
-description: ""
-title: ""
+description: "A small sample of what's been shared about James online, from his community."
+image: ../_images/seo/james.png
+title: "James Peter Taylor | 1979 - 2020"
 ---
 
 # James Peter Taylor | 1979 - 2020

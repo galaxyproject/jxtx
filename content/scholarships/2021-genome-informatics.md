@@ -1,5 +1,6 @@
 ---
-description: "JXTX 2021 Genome Informatics Scholarship"
+description: "JXTX 2021 Genome Informatics Scholarship."
+image: ../_images/seo/scholarships.png
 images:
     - _images/scholarships-hero-2021-gi.png
 title: "JXTX 2021 Genome Informatics Scholarship"

@@ -1,6 +1,7 @@
 ---
 description: "Check out upcoming events."
 fullWidth: true
+image: ../_images/seo/events.png
 images:
     - _images/events-hero-genome-informatics.png
 links:

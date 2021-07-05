@@ -1,5 +1,6 @@
 ---
-description: "Discussing my research confidently with experts in the field"
+description: "Discussing my research confidently with experts in the field."
+image: ../_images/seo/newsroom.png
 images:
     - _images/jxtx-awardee-sumaira.png
 title: "Sumaira Zaman: JXTX Foundation and Unique Opportunities"
