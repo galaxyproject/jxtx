@@ -1,6 +1,7 @@
 ---
 description: "Check out the latest news and stories about our work."
 fullWidth: true
+image: ../_images/seo/newsroom.png
 images:
     - _images/newsroom-hero-anoushka.png
     - _images/newsroom-sumaira.png

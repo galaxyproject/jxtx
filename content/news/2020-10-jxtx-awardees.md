@@ -1,5 +1,6 @@
 ---
 description: "JXTX: The James P. Taylor Foundation for Open Science is pleased to announce the recipients of the 2020 JTech Scholarships."
+image: ../_images/seo/newsroom.png
 images:
     - _images/newsroom-awardees-2020-bds.png
     - _images/awardee-emily-davis-marcisak.png

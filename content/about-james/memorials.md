@@ -1,6 +1,7 @@
 ---
-description: ""
-title: ""
+description: "Memorials to James from the Web."
+image: ../_images/seo/james.png
+title: "James Peter Taylor | 1979 - 2020"
 ---
 
 # James Peter Taylor | 1979 - 2020

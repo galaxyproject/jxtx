@@ -20,7 +20,7 @@ export default function Article({ data }) {
     { body: content, frontmatter } = post || {};
 
   return (
-    <Layout headerMinor>
+    <Layout frontmatter={frontmatter} headerMinor>
       <ArticleMain>
         <ArticleContent content={content} frontmatter={frontmatter} />
       </ArticleMain>
@@ -35,6 +35,13 @@ export const query = graphql`
       frontmatter {
         description
         fullWidth
+        image {
+          childImageSharp {
+            resize {
+              src
+            }
+          }
+        }
         images {
           childImageSharp {
             gatsbyImageData

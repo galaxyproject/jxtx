@@ -1,6 +1,7 @@
 ---
-description: ""
-title: ""
+description: "JTech and Biological Data Science 2020. JTech and CSHL will provide support to 10 outstanding graduate students in genomics and data sciences to attend the 2020 CSHL Biological Data Science Conference."
+image: ../_images/seo/newsroom.png
+title: "Call for Scholarship Applications"
 ---
 
 # Call for Scholarship Applications

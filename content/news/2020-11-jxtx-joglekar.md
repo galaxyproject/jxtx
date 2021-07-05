@@ -1,5 +1,6 @@
 ---
-description: "Making Connections via the JXTX Foundation"
+description: "Making Connections via the JXTX Foundation."
+image: ../_images/seo/newsroom.png
 images:
     - _images/jxtx-awardee-anoushka.png
 title: "Scholarship Awardee: Anoushka Joglekar"

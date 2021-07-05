@@ -15,7 +15,13 @@ const contentPath = "./content";
  */
 module.exports = {
   siteMetadata: {
-    title: "jxtx",
+    author: "JXTX",
+    description: "James P. Taylor Foundation for Open Science.",
+    image: "/images/hero.png",
+    title: "JXTX Foundation",
+    titleTemplate: "%s · James P. Taylor Foundation for Open Science.",
+    twitterUsername: "@jxtxFoundation",
+    url: "https://jxtxfoundation.org/",
   },
   plugins: [
     "gatsby-plugin-image",

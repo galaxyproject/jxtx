@@ -1,7 +1,8 @@
 ---
-description: ""
+description: "In its early stages, the JXTX Foundation will provide support for graduate students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field."
+image: ../_images/seo/about.png
 slug: "/about"
-title: ""
+title: "About the JXTX Foundation"
 ---
 
 # About the JXTX Foundation

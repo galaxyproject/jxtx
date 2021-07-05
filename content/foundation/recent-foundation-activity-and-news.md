@@ -1,6 +1,7 @@
 ---
-description: ""
-title: ""
+description: "Recent foundation activity and news."
+image: ../_images/seo/about.png
+title: "Foundation Activity and News"
 ---
 
 # Recent Foundation Activity and News
