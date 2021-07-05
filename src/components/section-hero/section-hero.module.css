@@ -23,7 +23,7 @@
   flex-direction: column;
   justify-content: center;
   min-height: calc(100vh - var(--vu___56) - 120px);
-  padding: 60px 16px;
+  padding: 60px var(--gutter-x);
   position: relative;
 }
 

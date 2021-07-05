@@ -34,6 +34,9 @@ import james from "../../../images/james/james.png";
 import mentorship from "../../../images/home/mentorship.png";
 import outreach from "../../../images/home/outreach.png";
 
+// Styles
+import * as compStyles from "./home.module.css";
+
 // Template variables
 const aboutFoundation = "about";
 const aboutJames = "/james";
@@ -41,7 +44,7 @@ const ourScholarships = "/scholarships/2021-genome-informatics";
 
 function Home() {
   return (
-    <main>
+    <main className={compStyles.main}>
       <SectionHero />
       <Section type={SectionType.HERO_SUB}>
         <ContentBlockHeading

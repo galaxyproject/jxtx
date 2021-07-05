@@ -5,30 +5,33 @@
  * Style definitions specific to JXTX section component.
  */
 
+/* Compose class "section". */
+/* Applies margin styles. */
+.section {
+  margin: 0 auto;
+  width: calc(100vw - var(--gutter-x) * 2);
+}
+
 /* Type. */
 /* Section article. */
 .section__article {
-  margin: 0 var(--gutter-x);
   padding: var(--vu___36) 0;
 }
 
 /* Type. */
 /* Section collection. */
 .section__collection {
+  composes: section; /* Section. */
   align-items: stretch;
   display: flex;
   flex-wrap: wrap;
-  margin: var(--gutter);
 }
 
 /* Type. */
 /* Section headline. */
 .section__headline {
-  align-items: center;
-  background-color: var(--off-white);
-  display: flex;
-  height: var(--vu___128);
-  margin: var(--vu___36) var(--gutter-x);
+  composes: section; /* Section. */
+  padding: var(--vu___36) 0;
 }
 
 /* Type. */
@@ -41,17 +44,17 @@
 /* Type. */
 /* Section hero sub. */
 .section__hero___sub {
-  margin: var(--gutter);
-  padding: var(--vu___48) 16px;
+  composes: section; /* Section. */
+  padding: var(--vu___48) 0;
 }
 
 /* Type. */
 /* Section hero tile. */
 .section__hero___tile {
+  composes: section; /* Section. */
   align-items: stretch;
   display: flex;
   flex-direction: column;
-  margin: var(--gutter);
   position: relative; /* Positions internal link. */
 }
 
@@ -83,16 +86,13 @@
   /* Type. */
   /* Section headline. */
   .section__headline {
-    height: var(--vu___396);
-    margin: var(--vu___60) var(--gutter-x);
+    padding: var(--vu___60) 0;
   }
 
   /* Type. */
   /* Section hero. */
   .section__hero {
     background-color: unset;
-    margin: 0 auto;
-    max-width: var(--maximum);
   }
 
   /* Type. */
@@ -118,35 +118,8 @@
  * 1800px - Large (desktop).
  */
 @media screen and (min-width: 1800px) {
-  /* Type. */
-  /* Section collection. */
-  .section__collection {
-    margin: 0 auto;
-  }
-
-  /* Type. */
-  /* Section headline. */
-  .section__headline {
-    margin: var(--vu___60) auto;
-  }
-
-  /* Type. */
-  /* Section hero sub. */
-  /* Section hero tile. */
-  .section__hero___sub,
-  .section__hero___tile {
-    margin: 0 auto;
-  }
-
-  /* Type. */
-  /* Section collection. */
-  /* Section headline. */
-  /* Section hero sub. */
-  /* Section hero tile. */
-  .section__collection,
-  .section__headline,
-  .section__hero___sub,
-  .section__hero___tile {
-    max-width: calc(var(--maximum) - var(--gutter-x) * 2);
+  /* Section. */
+  .section {
+    width: calc(var(--maximum) - var(--gutter-x) * 2);
   }
 }
