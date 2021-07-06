@@ -30,7 +30,7 @@
 
 /* Footer. */
 .footer {
-  background-color: var(--accent-blue-dark);
+  background-color: var(--accent-blue);
   color: var(--white);
   max-width: calc(1px * var(--vu___max));
   margin: 0 auto;

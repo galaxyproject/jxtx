@@ -56,7 +56,7 @@ function Home() {
           data science, where they can present their work and form connections
           with other researchers in the field. Towards the goal of advancing
           mentorship, JXTX will organize and host mentoring sessions between
-          senior and junior faculty members at select high-profile meetings.
+          senior and junior faculty members at select meetings.
         </ContentBlockBody>
       </Section>
       <Section type={SectionType.HERO_TILE}>
@@ -72,7 +72,7 @@ function Home() {
             Academic Mentorship
           </ContentBlockHeading>
           <ContentBlockBody scale={ContentBlockBodyScale.LARGE}>
-            The Foundation will later expand its reach as a platform for
+            The Foundation will expand its reach as a platform for
             academic mentorship.
           </ContentBlockBody>
           <ContentBlockCta scale={Scale.MEDIUM}>
