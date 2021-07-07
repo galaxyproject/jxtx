@@ -43,7 +43,7 @@ The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2021 Genome I
 JXTX 2020 Biological Data Science Scholarship
 </TileHeading>
 <TileBody>
-The JTech Foundation and Cold Spring Harbor Laboratory announce the JTech 2020 Scholarship. JTech and CSHL will provide support to 10 outstanding graduate students in genomics and data sciences to attend the 2020 CSHL Biological Data Science Conference.
+The JTech Foundation and Cold Spring Harbor Laboratory announce the JTech 2020 Scholarship.
 </TileBody>
 <TileDate>July 8, 2020</TileDate>
 </TileContent>
