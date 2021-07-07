@@ -10,7 +10,7 @@
   display: none;
   left: 0;
   margin: 0;
-  position: absolute;
+  position: absolute !important; /* TODO revisit precedence of gatsby-image-wrapper on build */
   top: 0;
   width: 100%;
 }
