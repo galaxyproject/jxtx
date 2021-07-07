@@ -29,6 +29,22 @@ module.exports = {
     "gatsby-remark-images",
     "gatsby-remark-external-links",
     {
+      resolve: "gatsby-plugin-google-gtag",
+      options: {
+        trackingIds: [
+          "G-FJCM7HH4RT" // Google Analytics / GA
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: false,
+          respectDNT: true
+        },
+      },
+    },
+    {
       resolve: "gatsby-plugin-mdx",
       options: {
         extensions: [".md", ".mdx"],
