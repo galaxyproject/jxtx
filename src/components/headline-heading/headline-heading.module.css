@@ -7,7 +7,7 @@
 
 /* Headline heading. */
 .headline__heading {
-  font-size: var(--vu___32);
+  font-size: var(--vu___40);
   margin: 0;
   padding: 0 16px; /* TODO review. */
 }

@@ -87,7 +87,9 @@ function Home() {
             <ContentBlockCta scale={Scale.MEDIUM}>
               <ButtonCta
                 attributeHREF={aboutFoundation}
-                buttonType={ButtonType.TEXT}
+                buttonScale={ButtonScale.OVERSIZED}
+                buttonTheme={ButtonTheme.SECONDARY}
+                buttonType={ButtonType.UNELEVATED}
               >
                 Learn More
               </ButtonCta>
@@ -124,7 +126,9 @@ function Home() {
             <ContentBlockCta scale={Scale.MEDIUM}>
               <ButtonCta
                 attributeHREF={aboutFoundation}
-                buttonType={ButtonType.TEXT}
+                buttonScale={ButtonScale.OVERSIZED}
+                buttonTheme={ButtonTheme.SECONDARY}
+                buttonType={ButtonType.UNELEVATED}
               >
                 Learn More
               </ButtonCta>

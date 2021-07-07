@@ -17,6 +17,6 @@
   /* Date. */
   .tile__date {
     font-size: var(--vu___20);
-    margin: 0;
+    margin-top: 24px;
   }
 }
