@@ -21,7 +21,7 @@ module.exports = {
     title: "JXTX Foundation",
     titleTemplate: "%s · James P. Taylor Foundation for Open Science.",
     twitterUsername: "@jxtxFoundation",
-    url: "https://jxtxfoundation.org/",
+    url: "https://jxtxfoundation.org",
   },
   plugins: [
     "gatsby-plugin-image",

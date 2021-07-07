@@ -107,6 +107,7 @@ exports.createSchemaCustomization = ({ actions }) => {
         image: File @fileByRelativePath
         images: [File] @fileByRelativePath
         links: [String]
+        slug: String
         title: String
     }
   `);
