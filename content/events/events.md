@@ -27,7 +27,7 @@ Genome Informatics 2021
 <TileBody>
 The next Cold Spring Harbor Laboratory conference on Genome Informatics will be held at Cold Spring Harbor, New York.
 </TileBody>
-<TileDate>November 24, 2020</TileDate>
+<TileDate>November 3rd - 6th, 2021</TileDate>
 </TileContent>
 </Tile>
 

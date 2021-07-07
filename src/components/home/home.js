@@ -144,7 +144,7 @@ function Home() {
           Scholarships
         </ContentBlockHeading>
         <ContentBlockBody scale={ContentBlockBodyScale.LARGE}>
-          This Fall The JXTX Foundation will sponsor 10 graduate students to
+          This Fall, the JXTX Foundation will sponsor 10 graduate students to
           attend Genome Informatics 2021 at the Cold Spring Harbor Laboratory
           (CSHL). In 2020 we sponsored 10 graduate students to attend the 2020
           Biological Data Science Conference at Cold Spring Harbor Laboratory.
