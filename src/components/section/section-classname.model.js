@@ -10,6 +10,6 @@ export const SectionClassname = {
   COLLECTION: "section__collection",
   HEADLINE: "section__headline",
   HERO: "section__hero",
+  HERO_DUO: "section__hero___duo",
   HERO_SUB: "section__hero___sub",
-  HERO_TILE: "section__hero___tile",
 };

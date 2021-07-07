@@ -1,0 +1,73 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX grid item component.
+ */
+
+/* Grid item - positions left. */
+.grid__item {
+  grid-column: 1;
+}
+
+/* Grid area block. */
+.grid__area__block {
+  grid-area: block;
+  grid-column: 1;
+}
+
+/* Grid area link. */
+.grid__area__link {
+  grid-column: 1;
+  grid-row: 1 / 3 span;
+  z-index: 2;
+}
+
+/* Grid area thumbnail. */
+.grid__area__thumbnail {
+  grid-area: thumbnail;
+  grid-column: 1;
+  line-height: 0;
+}
+
+/* Grid area block. */
+/* Grid area thumbnail. */
+.grid__area__block,
+.grid__area__thumbnail {
+  composes: grid__item;
+  z-index: 1;
+}
+
+/* Grid area link - <a/>. */
+.grid__area__link > * {
+  display: block;
+  height: 100%;
+}
+
+/* Grid area thumbnail image. */
+.grid__area__thumbnail > * {
+  margin: 0;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+  /* Grid item - position right - last. */
+  .grid__item:last-of-type {
+    grid-column: 2 / 3;
+  }
+
+  /* Grid area link. */
+  .grid__area__link {
+    grid-column: 1 / 3 span;
+    grid-row: 1;
+  }
+
+  /* Grid area block. */
+  /* Grid area thumbnail. */
+  .grid__area__block,
+  .grid__area__thumbnail {
+    grid-row: 1;
+  }
+}

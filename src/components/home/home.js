@@ -6,6 +6,8 @@
  */
 
 // Core dependencies
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 
 // App dependencies
@@ -20,19 +22,15 @@ import ContentBlock from "../content-block/content-block";
 import { ContentBlockScale } from "../content-block/content-block-scale.model";
 import { ContentBlockTheme } from "../content-block/content-block-theme.model";
 import ContentBlockHeading from "../content-block-heading/content-block-heading";
+import GridItem from "../grid-item/grid-item";
 import { HeadingScale } from "../heading/heading-scale.model";
 import { HeadingTheme } from "../heading/heading-theme.model";
 import SectionHero from "../section-hero/section-hero";
 import SectionNewsroom from "../section-newsroom/section-newsroom";
 import Section from "../section/section";
 import { SectionType } from "../section/section-type.model";
-import TileLink from "../tile-link/tile-link";
+import { GridArea } from "../ui/grid-area/grid-area.model";
 import { Scale } from "../ui/scale/scale.model";
-
-// Images
-import james from "../../../images/james/james.png";
-import mentorship from "../../../images/home/mentorship.png";
-import outreach from "../../../images/home/outreach.png";
 
 // Styles
 import * as compStyles from "./home.module.css";
@@ -40,6 +38,9 @@ import * as compStyles from "./home.module.css";
 // Template variables
 const aboutFoundation = "about";
 const aboutJames = "/james";
+const imgJames = "../../../images/james/james.png";
+const imgMentorship = "../../../images/home/mentorship.png";
+const imgOutreach = "../../../images/home/outreach.png";
 const ourScholarships = "/scholarships/2021-genome-informatics";
 
 function Home() {
@@ -62,64 +63,74 @@ function Home() {
           senior and junior faculty members at select meetings.
         </ContentBlockBody>
       </Section>
-      <Section type={SectionType.HERO_TILE}>
-        <TileLink to={aboutFoundation} />
-        <ContentBlock
-          scale={ContentBlockScale.LARGE}
-          theme={ContentBlockTheme.OFF_WHITE}
-        >
-          <ContentBlockHeading
-            scale={HeadingScale.LARGE}
-            theme={HeadingTheme.ORANGE}
+      <Section type={SectionType.HERO_DUO}>
+        <GridItem gridArea={GridArea.LINK}>
+          <Link to={aboutFoundation} />
+        </GridItem>
+        <GridItem gridArea={GridArea.BLOCK}>
+          <ContentBlock
+            scale={ContentBlockScale.LARGE}
+            theme={ContentBlockTheme.OFF_WHITE}
           >
-            Academic Mentorship
-          </ContentBlockHeading>
-          <ContentBlockBody scale={ContentBlockBodyScale.LARGE}>
-            The Foundation will expand its reach as a platform for
-            academic mentorship.
-          </ContentBlockBody>
-          <ContentBlockCta scale={Scale.MEDIUM}>
-            <ButtonCta
-              attributeHREF={aboutFoundation}
-              buttonType={ButtonType.TEXT}
+            <ContentBlockHeading
+              scale={HeadingScale.LARGE}
+              theme={HeadingTheme.ORANGE}
             >
-              Learn More
-            </ButtonCta>
-          </ContentBlockCta>
-        </ContentBlock>
-        <ContentBlock>
-          <img alt={"Academic Mentorship"} src={mentorship} />
-        </ContentBlock>
+              Academic Mentorship
+            </ContentBlockHeading>
+            <ContentBlockBody scale={ContentBlockBodyScale.LARGE}>
+              The Foundation will expand its reach as a platform for academic
+              mentorship. First, it will operate to spark mentoring
+              relationships among the larger computational biology and data
+              science community.
+            </ContentBlockBody>
+            <ContentBlockCta scale={Scale.MEDIUM}>
+              <ButtonCta
+                attributeHREF={aboutFoundation}
+                buttonType={ButtonType.TEXT}
+              >
+                Learn More
+              </ButtonCta>
+            </ContentBlockCta>
+          </ContentBlock>
+        </GridItem>
+        <GridItem gridArea={GridArea.THUMBNAIL}>
+          <StaticImage alt={"Academic Mentorship"} src={imgMentorship} />
+        </GridItem>
       </Section>
-      <Section type={SectionType.HERO_TILE}>
-        <TileLink to={aboutFoundation} />
-        <ContentBlock>
-          <img alt={"Student Outreach"} src={outreach} />
-        </ContentBlock>
-        <ContentBlock
-          scale={ContentBlockScale.LARGE}
-          theme={ContentBlockTheme.OFF_WHITE}
-        >
-          <ContentBlockHeading
-            scale={HeadingScale.LARGE}
-            theme={HeadingTheme.ORANGE}
+      <Section type={SectionType.HERO_DUO}>
+        <GridItem gridArea={GridArea.LINK}>
+          <Link to={aboutFoundation} />
+        </GridItem>
+        <GridItem gridArea={GridArea.THUMBNAIL}>
+          <StaticImage alt={"Student Outreach"} src={imgOutreach} />
+        </GridItem>
+        <GridItem gridArea={GridArea.BLOCK}>
+          <ContentBlock
+            scale={ContentBlockScale.LARGE}
+            theme={ContentBlockTheme.OFF_WHITE}
           >
-            Student Outreach
-          </ContentBlockHeading>
-          <ContentBlockBody scale={ContentBlockBodyScale.LARGE}>
-            In its later stages, the Foundation will sponsor in-person visits
-            from students (high school or college age) to its hotspots, which
-            currently include Johns Hopkins and Penn State.
-          </ContentBlockBody>
-          <ContentBlockCta scale={Scale.MEDIUM}>
-            <ButtonCta
-              attributeHREF={aboutFoundation}
-              buttonType={ButtonType.TEXT}
+            <ContentBlockHeading
+              scale={HeadingScale.LARGE}
+              theme={HeadingTheme.ORANGE}
             >
-              Learn More
-            </ButtonCta>
-          </ContentBlockCta>
-        </ContentBlock>
+              Student Outreach
+            </ContentBlockHeading>
+            <ContentBlockBody scale={ContentBlockBodyScale.LARGE}>
+              In its later stages, the Foundation will sponsor in-person visits
+              from students (high school or college age) to its hotspots, which
+              currently include Johns Hopkins and Penn State.
+            </ContentBlockBody>
+            <ContentBlockCta scale={Scale.MEDIUM}>
+              <ButtonCta
+                attributeHREF={aboutFoundation}
+                buttonType={ButtonType.TEXT}
+              >
+                Learn More
+              </ButtonCta>
+            </ContentBlockCta>
+          </ContentBlock>
+        </GridItem>
       </Section>
       <Section type={SectionType.HERO_SUB}>
         <ContentBlockHeading
@@ -145,28 +156,32 @@ function Home() {
           </ButtonCta>
         </ContentBlockCta>
       </Section>
-      <Section type={SectionType.HERO_TILE}>
-        <TileLink to={aboutJames} />
-        <ContentBlock>
-          <img alt={"James Taylor"} src={james} />
-        </ContentBlock>
-        <ContentBlock
-          scale={ContentBlockScale.LARGE}
-          theme={ContentBlockTheme.OFF_WHITE}
-        >
-          <ContentBlockHeading
-            scale={HeadingScale.LARGE}
-            theme={HeadingTheme.BLUE}
+      <Section type={SectionType.HERO_DUO}>
+        <GridItem gridArea={GridArea.LINK}>
+          <Link to={aboutJames} />
+        </GridItem>
+        <GridItem gridArea={GridArea.THUMBNAIL}>
+          <StaticImage alt={"James Taylor"} src={imgJames} />
+        </GridItem>
+        <GridItem gridArea={GridArea.BLOCK}>
+          <ContentBlock
+            scale={ContentBlockScale.LARGE}
+            theme={ContentBlockTheme.OFF_WHITE}
           >
-            James Taylor
-          </ContentBlockHeading>
-          <ContentBlockBody scale={ContentBlockBodyScale.LARGE}>
-            James Taylor started his professional path at the University of
-            Vermont, where he received a BS in Computer Science in 2000. In
-            2003, after working as a software engineer in the private sector, he
-            found that his real purpose in life was elsewhere.
-          </ContentBlockBody>
-        </ContentBlock>
+            <ContentBlockHeading
+              scale={HeadingScale.LARGE}
+              theme={HeadingTheme.BLUE}
+            >
+              James Taylor
+            </ContentBlockHeading>
+            <ContentBlockBody scale={ContentBlockBodyScale.LARGE}>
+              James Taylor started his professional path at the University of
+              Vermont, where he received a BS in Computer Science in 2000. In
+              2003, after working as a software engineer in the private sector,
+              he found that his real purpose in life was elsewhere.
+            </ContentBlockBody>
+          </ContentBlock>
+        </GridItem>
       </Section>
       <SectionNewsroom />
     </main>
