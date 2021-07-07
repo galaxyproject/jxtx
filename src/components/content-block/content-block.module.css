@@ -20,7 +20,7 @@
 /* Content block off white. */
 .content__block___offWhite {
   background-color: var(--off-white);
-  height: inherit;
+  height: 100%;
 }
 
 /* Content block - all images. */

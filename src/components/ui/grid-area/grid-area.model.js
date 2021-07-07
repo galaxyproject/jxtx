@@ -7,6 +7,8 @@
 
 export const GridArea = {
   ARTICLE: "ARTICLE",
+  BLOCK: "BLOCK",
   HEADING: "HEADING",
+  LINK: "LINK",
   THUMBNAIL: "THUMBNAIL",
 };

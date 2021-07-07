@@ -31,7 +31,7 @@
 /* Section headline. */
 .section__headline {
   composes: section; /* Section. */
-  padding: var(--vu___36) 0;
+  padding: var(--vu___32) 0;
 }
 
 /* Type. */
@@ -42,33 +42,23 @@
 }
 
 /* Type. */
+/* Section hero duo. */
+.section__hero___duo {
+  composes: section; /* Section. */
+  composes: grid___duo from "../grid-duo/grid-duo.module.css";
+}
+
+/* Type. */
 /* Section hero sub. */
 .section__hero___sub {
   composes: section; /* Section. */
-  padding: var(--vu___48) 0;
+  padding: var(--vu___32) 0;
 }
 
 /* Type. */
-/* Section hero tile. */
-.section__hero___tile {
-  composes: section; /* Section. */
-  align-items: stretch;
-  display: flex;
-  flex-direction: column;
-  position: relative; /* Positions internal link. */
-}
-
-/* Type. */
-/* Section hero tile - children. */
-/* TODO review. */
-.section__hero___tile > * {
-  flex-basis: 50% !important;
-}
-
-/* Type. */
-/* Section hero tile subsequent. */
-.section__hero___tile + .section__hero___tile {
-  padding-top: var(--vu___48);
+/* Section hero duo subsequent. */
+.section__hero___duo + .section__hero___duo {
+  padding-top: var(--vu___32);
 }
 
 /**
@@ -98,19 +88,13 @@
   /* Type. */
   /* Section hero sub. */
   .section__hero___sub {
-    padding: var(--vu___200) var(--pos___128);
+    padding: var(--vu___128) var(--pos___128);
   }
 
   /* Type. */
-  /* Section hero tile. */
-  .section__hero___tile {
-    flex-direction: row;
-  }
-
-  /* Type. */
-  /* Section hero tile subsequent. */
-  .section__hero___tile + .section__hero___tile {
-    padding-top: var(--vu___128);
+  /* Section hero duo subsequent. */
+  .section__hero___duo + .section__hero___duo {
+    padding-top: var(--vu___84);
   }
 }
 
