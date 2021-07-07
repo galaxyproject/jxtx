@@ -15,6 +15,7 @@
 /* Header. */
 .header {
   composes: f__a--c; /* Flex. */
+  background-color: var(--white);
   color: var(--default-text);
   height: var(--vu___56);
   justify-content: space-between;

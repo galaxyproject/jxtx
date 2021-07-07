@@ -1,0 +1,24 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX headline component.
+ */
+
+/* Headline. */
+.headline {
+  align-items: center;
+  background-color: var(--off-white);
+  display: flex;
+  height: var(--vu___128);
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+  /* Headline. */
+  .headline {
+    height: var(--vu___396);
+  }
+}

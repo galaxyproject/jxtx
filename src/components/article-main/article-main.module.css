@@ -7,6 +7,10 @@
 
 /* Main. */
 .main {
+  background-color: var(--white);
   flex: 1; /* Site flex. */
+  margin: 0 auto;
+  max-width: var(--maximum);
+  padding: 0 var(--gutter-x);
   width: 100%; /* Site flex. */
 }

@@ -1,0 +1,14 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX home component.
+ */
+
+/* Home main. */
+.main {
+  background-color: var(--white);
+  margin: 0 auto;
+  max-width: var(--maximum);
+  width: 100%;
+}

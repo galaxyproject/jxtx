@@ -21,6 +21,7 @@
 }
 
 html {
+  background-color: var(--background);
   font-size: 100%; /* 16px. */
 }
 
