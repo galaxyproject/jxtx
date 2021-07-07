@@ -7,7 +7,7 @@
 
 /* Fig Caption <figcaption/>. */
 .article__figcaption {
-  display: inline-block;
+  display: block;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 13px;
   line-height: 20px;

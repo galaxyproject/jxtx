@@ -39,7 +39,7 @@ html {
  */
 @media screen and (min-width: 1240px) {
   html {
-    font-size: 150%; /* 24px. */
+    font-size: 125%; /* 20px. */
   }
 }
 
