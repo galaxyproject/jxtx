@@ -22,7 +22,7 @@
 
 html {
   background-color: var(--background);
-  font-size: 100%; /* 16px. */
+  font-size: 112.5%; /* 18px. */
 }
 
 /**
@@ -31,10 +31,6 @@ html {
 @media screen and (min-width: 768px) {
   :root {
     --gutter-x: 32px;
-  }
-
-  html {
-    font-size: 100%; /* 16px. */
   }
 }
 

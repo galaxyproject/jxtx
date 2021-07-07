@@ -21,6 +21,6 @@
 @media screen and (min-width: 768px) {
   /* Tile body. */
   .tile__body {
-    font-size: var(--vu___20);
+    font-size: var(--vu___28);
   }
 }

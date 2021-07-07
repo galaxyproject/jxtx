@@ -22,8 +22,8 @@
 /* Content block body large "48px". */
 .content__body___l {
   composes: c__b__b; /* Content block body. */
-  font-size: var(--vu___20);
-  line-height: 1.25;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 /* Scale. */
@@ -37,8 +37,8 @@
  */
 @media screen and (min-width: 768px) {
   /* Scale. */
-  /* Content block body large "48px". */
+  /* Content block body large "32px". */
   .content__body___l {
-    font-size: var(--vu___48);
+    font-size: var(--vu___32);
   }
 }

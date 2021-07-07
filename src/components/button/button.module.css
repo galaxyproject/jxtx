@@ -32,6 +32,7 @@
 /* Button cta. */
 .button__cta {
   color: var(--accent-orange);
+  font-family: "Source Sans Pro", sans-serif;
   font-size: var(--vu___20); /* TODO review. */
   letter-spacing: 0.111em; /* TODO review. */
   margin: 0;
