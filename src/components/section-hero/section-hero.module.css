@@ -73,7 +73,7 @@
 @media screen and (min-width: 768px) {
   /* Hero image. */
   .hero__image {
-    display: block;
+    display: block !important; /* TODO revisit - required for overriding mobile-first */
   }
 
   /* Hero headline. */
