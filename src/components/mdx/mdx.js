@@ -17,6 +17,7 @@ import Awardees from "../awardees/awardees";
 import ButtonSocial from "../button-social/button-social";
 import Date from "../publish-date/publish-date";
 import Grid from "../grid/grid";
+import GridArticle from "../grid-article/grid-article";
 import GridDuo from "../grid-duo/grid-duo";
 import GridItemArticle from "../grid-item-article/grid-item-article";
 import GridTres from "../grid-tres/grid-tres";
@@ -40,6 +41,7 @@ const shortcodes = {
   ButtonSocial,
   Date,
   Grid,
+  GridArticle,
   GridDuo,
   GridItemArticle,
   GridTres,

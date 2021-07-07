@@ -1,0 +1,23 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX grid article component.
+ */
+
+/* Grid. */
+.grid {
+  display: grid;
+  grid-template-rows: [heading] auto [thumbnail] auto [article] auto;
+  width: 100%;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+  /* Grid. */
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

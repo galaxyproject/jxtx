@@ -5,36 +5,54 @@
  * Style definitions specific to JXTX grid item article component.
  */
 
-/* Grid item - odds. */
-.grid__item:nth-of-type(odd) {
-  border-right: 1px solid var(--off-white);
-  grid-column: 1 / 3;
-  padding-right: 16px;
+/* Grid area article. */
+.grid__area__article {
+  grid-area: article;
 }
 
-/* Grid item - evens. */
-.grid__item:nth-of-type(even) {
-  border-left: 1px solid var(--off-white);
-  grid-column: 3 / 4;
-  padding-left: 16px;
+/* Grid area heading. */
+.grid__area__heading {
+  grid-area: heading;
 }
 
-/* Grid item - last child. */
-.grid__item > *:last-child {
-  margin: 0;
+/* Grid area thumbnail. */
+.grid__area__thumbnail {
+  grid-area: thumbnail;
 }
 
 /**
- * 768px - Small (tablet).
+ * 1240px - Medium (laptop).
  */
-@media screen and (min-width: 768px) {
-  /* Grid item - odds. */
-  .grid__item:nth-of-type(odd) {
+@media screen and (min-width: 1240px) {
+  /* Grid area article. */
+  /* Grid area heading. */
+  .grid__area__article,
+  .grid__area__heading {
+    border-right: 1px solid var(--off-white);
+    grid-column: 1 / 3;
     padding-right: var(--vu___32);
   }
 
-  /* Grid item - evens. */
-  .grid__item:nth-of-type(even) {
+  /* Grid area heading. */
+  .grid__area__article {
+    grid-row: 2 / 3;
+  }
+
+  /* Grid area heading. */
+  .grid__area__heading {
+    grid-row: 1 / 2;
+  }
+
+  /* Grid area thumbnail. */
+  .grid__area__thumbnail {
+    border-left: 1px solid var(--off-white);
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
     padding-left: var(--vu___32);
+  }
+
+  /* Grid area article - last child. */
+  .grid__area__article > *:last-child {
+    margin: 0;
   }
 }

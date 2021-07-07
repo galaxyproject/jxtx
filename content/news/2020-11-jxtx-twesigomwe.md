@@ -6,13 +6,17 @@ images:
 title: "David Twesigomwe on the impact of the JXTX Foundation"
 ---
 
-<GridTres>
+<GridArticle>
 
-<GridItemArticle>
+<GridItemArticle gridArea="HEADING">
 
 <Date>November 20th, 2020</Date>
 
 # David Twesigomwe on the impact of the JXTX Foundation
+
+</GridItemArticle>
+
+<GridItemArticle gridArea="ARTICLE">
 
 The [JXTX Foundation's][1] first activity was to [sponsor 10 graduate students to attend the 2020 Biological Data Science Conference][2] at Cold Spring Harbor Laboratory. Awards were competitive and we were delighted with our first round of participants.
 
@@ -24,14 +28,14 @@ Please help further the careers of junior researchers by making a contribution t
 
 </GridItemArticle>
 
-<GridItemArticle>
+<GridItemArticle gridArea="THUMBNAIL">
 
 <Image alt="David Twesigomwe" image={props.images[0]}></Image>
 <figcaption>David Twesigomwe, a scholarship awardee and and a PhD candidate in Human Genetics at the University of the Witwatersrand, Johannesburg.</figcaption>
 
 </GridItemArticle>
 
-</GridTres>
+</GridArticle>
 
 [1]: /about
 [2]: /news/2020-10-jxtx-awardees/
