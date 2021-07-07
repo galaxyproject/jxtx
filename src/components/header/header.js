@@ -7,6 +7,7 @@
 
 // Core dependencies
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 
 // App dependencies
@@ -18,7 +19,6 @@ import { Target } from "../../utils/anchor/target.model";
 
 // Images
 import burger from "../../../images/header/burger.svg";
-import JXTX from "../../../images/jxtx.png";
 
 // Styles
 import * as compStyles from "./header.module.css";
@@ -31,6 +31,7 @@ const donate =
 const events = "/events";
 const home = "/";
 const james = "/james";
+const jxtx = "../../../images/jxtx.png";
 const news = "/news";
 const scholarships = "/scholarships";
 
@@ -86,7 +87,12 @@ function Header(props) {
       })}
     >
       <Link className={compStyles.header__logo} to={home}>
-        <img alt={"JXTX"} className={compStyles.header__logo__img} src={JXTX} />
+        <StaticImage
+          alt={"JXTX"}
+          className={compStyles.header__logo__img}
+          placeholder={"NONE"}
+          src={jxtx}
+        />
         <span className={compStyles.header__logo__title}>JXTX Foundation</span>
       </Link>
       <nav
