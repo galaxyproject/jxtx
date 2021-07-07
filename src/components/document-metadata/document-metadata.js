@@ -6,7 +6,6 @@
  */
 
 // Core dependencies
-import { useLocation } from "@reach/router";
 import React from "react";
 import Helmet from "react-helmet";
 
@@ -14,25 +13,27 @@ import Helmet from "react-helmet";
 import { SeoStaticQuery } from "../../hooks/seo-query";
 
 function DocumentMetadata(props) {
-  const { frontmatter } = props || {},
+  const { frontmatter, slug } = props || {},
     { description, image, title } = frontmatter || {},
     { childImageSharp } = image || {},
     { resize } = childImageSharp || {},
     { src } = resize || {};
-  const { origin, href } = useLocation();
   const { siteMetadata } = SeoStaticQuery(),
     {
       description: siteDescription,
       image: siteImage,
       title: siteTitle,
       twitterUsername,
+      url: siteURL,
     } = siteMetadata || {};
+  const seoImg = `${siteURL}${src || siteImage}`;
+  const seoURL = slug ? `${siteURL}${slug}` : siteURL;
   const seo = {
     description: description || siteDescription,
-    image: `${origin}${src || siteImage}`,
+    image: seoImg,
     title: title || siteTitle,
     twitterUsername: twitterUsername,
-    url: href,
+    url: seoURL,
   };
 
   return (
@@ -40,41 +41,43 @@ function DocumentMetadata(props) {
       <title>{seo.title}</title>
       <html lang="en" />
       {/*<meta name="robots" content="noindex" />*/}
-      <meta content={seo.description} key="description" name="description" />
-      {seo.image && <meta content={seo.image} key="image" name="image" />}
-      <meta content={seo.url} key="og:url" property="og:url" />
+      <meta name="description" content={seo.description} key="description" />
+      <meta property="og:type" content="website" key="og:type" />
+      <meta property="og:title" content={seo.title} key="og:title" />
       <meta
-        content={"JXTX Foundation"}
-        key="og:site_name"
-        property="og:site_name"
-      />
-      <meta content="website" key="og:type" property="og:type" />
-      <meta content={seo.title} key="og:title" property="og:title" />
-      <meta
+        property="og:description"
         content={seo.description}
         key="og:description"
-        property="og:description"
+      />
+      <meta property="og:url" content={seo.url} key="og:url" />
+      <meta
+        property="og:site_name"
+        content={"JXTX Foundation"}
+        key="og:site_name"
       />
       {seo.image && (
-        <meta content={seo.image} key="og:image" property="og:image" />
+        <meta property="og:image" content={seo.image} key="og:image" />
       )}
+      <meta property="og:image:width" content="1000" key="og:image:width" />
+      <meta property="og:image:height" content="500" key="og:image:height" />
       <meta
+        name="twitter:card"
         content={"summary_large_image"}
         key="twitter:card"
-        name="twitter:card"
       />
+      <meta name="twitter:title" content={seo.title} key="twitter:title" />
       <meta
-        content={seo.twitterUsername}
-        key="twitter:site"
-        name="twitter:site"
-      />
-      <meta content={seo.title} key="twitter:title" name="twitter:title" />
-      <meta
+        name="twitter:description"
         content={seo.description}
         key="twitter:description"
-        name="twitter:description"
       />
-      <meta content={seo.image} key="twitter:image" name="twitter:image" />
+      <meta name="twitter:image" content={seo.image} key="twitter:image" />
+      <meta
+        name="twitter:site"
+        content={seo.twitterUsername}
+        key="twitter:site"
+      />
+      {seo.image && <meta name="image" content={seo.image} key="image" />}
     </Helmet>
   );
 }

@@ -21,11 +21,11 @@ import "../../styles/vars.module.css";
 import "../../styles/viewport-units.module.css";
 
 function Layout(props) {
-  const { children, frontmatter, headerMinor } = props;
+  const { children, frontmatter, headerMinor, slug } = props;
 
   return (
     <>
-      <DocumentMetadata frontmatter={frontmatter} />
+      <DocumentMetadata frontmatter={frontmatter} slug={slug} />
       <div className={compStyles.site}>
         <Header headerMinor={headerMinor} />
         {children}

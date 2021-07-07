@@ -17,10 +17,11 @@ import Layout from "../components/layout/layout";
 
 export default function Article({ data }) {
   const post = data.mdx,
-    { body: content, frontmatter } = post || {};
+    { body: content, fields, frontmatter } = post || {},
+    { slug } = fields;
 
   return (
-    <Layout frontmatter={frontmatter} headerMinor>
+    <Layout frontmatter={frontmatter} headerMinor slug={slug}>
       <ArticleMain>
         <ArticleContent content={content} frontmatter={frontmatter} />
       </ArticleMain>
@@ -32,6 +33,9 @@ export const query = graphql`
   query ($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
       body
+      fields {
+        slug
+      }
       frontmatter {
         description
         fullWidth
@@ -50,7 +54,6 @@ export const query = graphql`
         links
         title
       }
-      slug
     }
   }
 `;
