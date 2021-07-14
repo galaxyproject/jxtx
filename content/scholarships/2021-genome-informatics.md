@@ -19,7 +19,10 @@ The deadline for applying is the end of Sunday, August 1.  You will be notified 
 
 Applicants should be planning to present your work at the conference, either as a talk or as a poster.
 
-<button>
-     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfl5PPEG30Gi59-ZvLejj_2oiXv67og51L7yAJvJfa_6jpTbg/viewform">Apply Now</a>
-</button>
-
+<ButtonCta
+    attributeHREF={"https://docs.google.com/forms/d/e/1FAIpQLSfl5PPEG30Gi59-ZvLejj_2oiXv67og51L7yAJvJfa_6jpTbg/viewform"}
+    buttonScale={"OVERSIZED"}
+    buttonTheme={"SECONDARY"}
+    buttonType={"UNELEVATED"}>
+Apply Now
+</ButtonCta>
