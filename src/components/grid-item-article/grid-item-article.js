@@ -9,7 +9,7 @@
 import React from "react";
 
 // App dependencies
-import {GridArea} from "../ui/grid-area/grid-area.model";
+import { GridArea } from "../ui/grid-area/grid-area.model";
 import { GridAreaClassname } from "../ui/grid-area/grid-area-classname.model";
 
 // Styles
