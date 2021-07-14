@@ -7,7 +7,7 @@
 
 // Core dependencies
 import React from "react";
-import {StaticImage} from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image";
 
 // App dependencies
 import { ButtonScale } from "../button/button-scale.model";
