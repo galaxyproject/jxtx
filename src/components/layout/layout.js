@@ -10,6 +10,7 @@
 import React from "react";
 
 // App dependencies
+import CookiesBanner from "../banner-cookies/banner-cookies";
 import DocumentMetadata from "../document-metadata/document-metadata";
 import Footer from "../footer/footer";
 import Header from "../header/header";
@@ -29,6 +30,7 @@ function Layout(props) {
       <div className={compStyles.site}>
         <Header headerMinor={headerMinor} />
         {children}
+        <CookiesBanner />
         <Footer />
       </div>
     </>

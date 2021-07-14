@@ -1,0 +1,51 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX banner cookies component.
+ */
+
+/* Banner. */
+.banner {
+  align-items: flex-start;
+  background-color: var(--accent-pink);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  margin: 0 auto;
+  max-width: var(--maximum);
+  padding: 40px;
+  position: sticky;
+  width: 100vw;
+  z-index: 10;
+}
+
+/* Banner text. */
+.banner__text {
+  margin: 0;
+  padding: 20px 0;
+}
+
+/* Banner link. */
+.banner__link {
+  color: inherit;
+  white-space: nowrap;
+}
+
+/**
+ * 1240px - Medium (laptop).
+ */
+@media screen and (min-width: 1240px) {
+  /* Banner. */
+  .banner {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* Banner text. */
+  .banner__text {
+    margin-right: var(--vu___60);
+  }
+}
