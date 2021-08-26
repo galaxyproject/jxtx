@@ -12,7 +12,7 @@ images:
     - _images/awardee-cait-harrigan.jpg
     - _images/awardee-ali-sajid-imami.jpg
     - _images/awardee-raquel-reisinger.jpg
-    - _images/awardee-vitória-samartin-botezelli.jpg
+    - _images/awardee-vitoria-samartin-botezelli.jpg
     - _images/awardee-andreu-sanchez.jpg 
     - _images/awardee-tara-yankee.jpg 
     - _images/awardee-haowen-zhang.jpg 
