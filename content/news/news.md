@@ -9,7 +9,8 @@ images:
     - _images/newsroom-shoes.png
     - _images/newsroom-awardees-2020-bds.png
     - _images/newsroom-jxtx-shoes.png
-    - _images/newsroom-hero-scholarships-2021-gi.png
+    - _images/newsroom-scholarships-2021-gi.png
+    - _images/newsroom-hero-awardees-2021-gi.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
@@ -17,6 +18,7 @@ links:
     - /news/2020-10-jxtx-awardees
     - /news/2020-05-jtech
     - /news/2021-06-gi-scholarships
+    - /news/2021-08-jxtx-awardees
 slug: "/news"
 title: "Newsroom"
 ---
@@ -29,7 +31,25 @@ title: "Newsroom"
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[5]}>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[6]}>
+<TileThumbnail alt={"2021 GI Scholarship Awardees"} image={props.images[7]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX 2021 Genome Informatics Scholarship
+</TileHeading>
+<TileBody>
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2021 Genome Informatics Scholarship Awardees.
+</TileBody>
+<TileDate>August 26th, 2021</TileDate>
+</TileContent>
+</Tile>
+
+
+</Grid>
+
+<Grid columns={3}>
+
+<Tile tileLink={props.links[5]}>
 <TileThumbnail alt={"2021 GI Scholarships"} image={props.images[6]}></TileThumbnail>
 <TileContent>
 <TileHeading>
@@ -41,10 +61,6 @@ The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2021 Genome I
 <TileDate>July 6, 2021</TileDate>
 </TileContent>
 </Tile>
-
-</Grid>
-
-<Grid columns={3}>
 
 <Tile tileLink={props.links[0]}>
 <TileThumbnail alt={"Anoushka"} image={props.images[0]}></TileThumbnail>
