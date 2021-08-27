@@ -60,6 +60,10 @@ Identifying predictive gene signatures of sepsis severity
 
 Marker-assisted mapping enables forward genetic analysis in <em>Aedes aegypti</em>, an arboviral vector with vast recombination deserts.
 
+<ButtonSocial attributeHREF={"https://twitter.com/CChujia"} iconSize={32}>
+<Image alt={"Viki"} image={props.images[2]}></Image>
+</ButtonSocial>
+
 </AwardeeContent>
 <Image alt={"Chujia"} image={props.images[5]}></Image>
 </Awardee>
@@ -72,7 +76,7 @@ Marker-assisted mapping enables forward genetic analysis in <em>Aedes aegypti</e
 <h3>Viktoria Haghani </h3>
 <h4>University of California, Davis</h4>
 
-Submission: Rocketchip: A comprehensive bioinformatics workflow for ChIP-seq data analysis
+Rocketchip: A comprehensive bioinformatics workflow for ChIP-seq data analysis
 
 <ButtonSocial attributeHREF={"https://github.com/vhaghani26"} iconSize={32}>
 <Image alt={"Viki"} image={props.images[1]}></Image>
