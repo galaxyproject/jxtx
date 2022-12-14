@@ -21,6 +21,38 @@ title: "Scholarships"
 <Grid columns={1}>
 
 <Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[0]}>
+<TileThumbnail alt={"JXTX 2023 Biology of Genomes Scholarship"} image={props.images[0]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX 2023 Biology of Genomes Scholarship
+</TileHeading>
+<TileBody>
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Biology of Genomes Scholarship. Information about application and logistics will be posted on December 16.
+</TileBody>
+</TileContent>
+</Tile>
+
+</Grid>
+
+<Grid columns={1}>
+
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[0]}>
+<TileThumbnail alt={"JXTX 2023 Genome Informatics Scholarship"} image={props.images[0]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX 2023 Genome Informatics Scholarship
+</TileHeading>
+<TileBody>
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Genome Informatics Scholarship. Information about application and logistics will be posted on April 1st, 2023
+</TileBody>
+</TileContent>
+</Tile>
+
+</Grid>
+
+<Grid columns={1}>
+
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[0]}>
 <TileThumbnail alt={"JXTX 2021 Genome Informatics Scholarship"} image={props.images[0]}></TileThumbnail>
 <TileContent>
 <TileHeading>
