@@ -5,6 +5,8 @@ image: ../_images/seo/scholarships.png
 images:
     - _images/scholarships-hero-2021-gi.png
     - _images/scholarships-hero-2020-bds.png
+    - _images/scholarships-hero-2023-gi.png
+    - _images/scholarships-hero-2023-bog.png
 links:
     - /scholarships/2021-genome-informatics
     - /news/2020-10-jxtx-awardees
@@ -20,8 +22,8 @@ title: "Scholarships"
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[0]}>
-<TileThumbnail alt={"JXTX 2023 Biology of Genomes Scholarship"} image={props.images[0]}></TileThumbnail>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[3]}>
+<TileThumbnail alt={"JXTX 2023 Biology of Genomes Scholarship"} image={props.images[3]}></TileThumbnail>
 <TileContent>
 <TileHeading>
 JXTX 2023 Biology of Genomes Scholarship
@@ -36,8 +38,8 @@ The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Biology 
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[0]}>
-<TileThumbnail alt={"JXTX 2023 Genome Informatics Scholarship"} image={props.images[0]}></TileThumbnail>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[2]}>
+<TileThumbnail alt={"JXTX 2023 Genome Informatics Scholarship"} image={props.images[2]}></TileThumbnail>
 <TileContent>
 <TileHeading>
 JXTX 2023 Genome Informatics Scholarship
