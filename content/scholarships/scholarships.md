@@ -30,7 +30,7 @@ title: "Scholarships"
 JXTX 2023 The Biology of Genomes Scholarship
 </TileHeading>
 <TileBody>
-The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 The Biology of Genomes Scholarship. Information about application and logistics will be posted on December 16.
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 The Biology of Genomes Scholarship. Information about application and logistics will be posted on Monday, December 19.
 </TileBody>
 </TileContent>
 </Tile>
