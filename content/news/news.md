@@ -11,6 +11,7 @@ images:
     - _images/newsroom-jxtx-shoes.png
     - _images/newsroom-scholarships-2021-gi.png
     - _images/newsroom-hero-awardees-2021-gi.png
+    - ../scholarships/_images/scholarships-hero-2023-bog.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
@@ -19,6 +20,7 @@ links:
     - /news/2020-05-jtech
     - /news/2021-06-gi-scholarships
     - /news/2021-08-jxtx-awardees
+    - /news/2022-12-16-bg
 slug: "/news"
 title: "Newsroom"
 ---
@@ -31,16 +33,16 @@ title: "Newsroom"
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[6]}>
-<TileThumbnail alt={"2021 GI Scholarship Awardees"} image={props.images[7]}></TileThumbnail>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[7]}>
+<TileThumbnail alt={"JXTX 2023 The Biology of Genomes Scholarship"} image={props.images[8]}></TileThumbnail>
 <TileContent>
 <TileHeading>
-JXTX 2021 Genome Informatics Scholarship
+JXTX 2023 The Biology of Genomes Scholarship
 </TileHeading>
 <TileBody>
-The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2021 Genome Informatics Scholarship Awardees.
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Biology of Genomes Scholarships. Application deadline is February 6, 2023.
 </TileBody>
-<TileDate>August 26th, 2021</TileDate>
+<TileDate>December 16, 2022</TileDate>
 </TileContent>
 </Tile>
 

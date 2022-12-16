@@ -5,15 +5,42 @@ slug: "/about"
 title: "About the JXTX Foundation"
 ---
 
-# About the JXTX Foundation
+# Mission and supported activities
+“*The most important job of senior faculty is to mentor junior faculty and students.*” These are the words that Professor James P. Taylor, the Ralph S. O’Connor Professor at the Departments of Biology and Computer Science at Johns Hopkins University, said and lived by. This, he believed, was imperative to advance science, and in a way that facilitated diversity and inclusion. The mission of this foundation is to continue his legacy, through a multifaceted approach which will be unrolled across several stages.
 
-In its early stages, the JXTX Foundation will provide support for graduate students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field. Towards the goal of advancing mentorship, JXTX will organize and host mentoring sessions between senior and junior faculty members at select high-profile meetings.
+## Graduate student scholarships
+The Foundation provides support for graduate students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field. Initially the foundation provided support for students and postdocs attending Biological Data Science (2020) and Genome Informatics (2021) meetings at the Cold Spring Harbor Laboratory (CSHL). As meetings were virtual we postponed offering scholarships in 2022. For 2023 we are resuming this program by offering [scholarships](/scholarships) for attending [The Biology of Genomes](https://meetings.cshl.edu/meetings.aspx?meet=GENOME&year=23) and [Genome Informatics](https://meetings.cshl.edu/meetings.aspx?meet=INFO&year=23) meetings. 
 
 ## Academic Mentorship
-The Foundation will later expand its reach as a platform for academic mentorship. First, it will operate to spark mentoring relationships among the larger computational biology and data science community. As part of membership, faculty and students will have an opportunity to participate in periodic mentorship meetings (virtually). We expect an enthusiastic response to this opportunity, and will recruit additional team members to provide organizational structure if necessary.
+The Foundation will later expand its reach as a platform for academic mentorship. First, it will operate to spark mentoring relationships among the larger computational biology and data science community. As part of membership, faculty and students will have an opportunity to participate in periodic mentorship meetings. We expect an enthusiastic response to this opportunity, and will recruit additional team members to provide organizational structure if necessary.
 
 ## Student Outreach
 In its later stages, the Foundation will sponsor in-person visits from students (high school or college age) to its hotspots, which currently include Johns Hopkins and Penn State. These visits are meant to attract new scholars to computational biology and data science, and in particular to form connections and opportunities for members of underrepresented minorities.
+
+-----
+
+# Foundation board and governance
+
+The objectives and activities of the foundation are governed by the foundation board. The current board includes the following members:
+
+
+| Name	| Affiliation	| Role
+|-----|-------------|--------
+| [Dannon Baker](https://github.com/dannon)	| Johns Hopkins University |	communication officer |
+| [Dan Blankenberg](https://www.lerner.ccf.org/gmi/blankenberg/)	| Cleveland Clinic |	member |
+| [Dave Clements](https://www.linkedin.com/in/clements)	| anaconda.com	| member |
+| [Jeremy Goecks](https://www.ohsu.edu/people/jeremy-goecks-phd) |	Oregon Health and Science University	| member |
+| [Meredith Greif](https://soc.jhu.edu/directory/meredith-greif/) | Johns Hopkins University |	member |
+| [Björn Grüning](https://github.com/bgruening)	| University of Freiburg | member |
+| [Ross Hardison](https://science.psu.edu/bmb/people/rch8)	| Penn State | member |
+| [Ross Lazarus](https://www.linkedin.com/in/rosslazarus/?originalSubdomain=au)	| galaxyproject.org	| member |
+| [Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/) | University of Melbourne	| member |
+| [Anton Nekrutenko](https://nekrut.github.io/lab_site/)	| Penn State University |	member |
+| [Francis Ouellette](https://www.linkedin.com/in/francisouellette/?originalSubdomain=ca) |  bioinformatics.ca | member |
+| [Michael Schatz](https://schatz-lab.org/) | Johns Hopkins	University | member |
+| [Jenn Vessio](https://www.linkedin.com/in/jennifer-vessio-0a240888/) |	Johns Hopkins	University | financial officer |
+
+
 
 **Please consider [contributing][1] to continue James Taylor's legacy.**
 
