@@ -23,23 +23,22 @@ In its later stages, the Foundation will sponsor in-person visits from students 
 
 The objectives and activities of the foundation are governed by the foundation board. The current board includes the following members:
 
-| Name | Affiliation
 
-Name	| Affiliation	| Role
------|-------------|--------
-Dannon Baker	| Johns Hopkins University |	communication officer
-Dan Blankenberg	| Cleveland Clinic |	member
-Dave Clements	| anaconda.com	| member
-Jeremy Goecks |	Oregon Health and Science University	| member
-Meredith Greif | Johns Hopkins University |	member
-Björn Grüning	| University of Freiburg | member
-Ross Hardison	| Penn State | member
-Ross Lazarus	| galaxyproject.org	| member
-Andrew Lonie | University of Melbourne	| member
-Anton Nekrutenko	| Penn State University |	member
-Francis Ouellette |  bioinformatics.ca | member
-Michaek Schatz| Johns Hopkins	University | member
-Jenn Vessio |	Johns Hopkins	University | financial officer
+| Name	| Affiliation	| Role
+|-----|-------------|--------
+| Dannon Baker	| Johns Hopkins University |	communication officer |
+| Dan Blankenberg	| Cleveland Clinic |	member |
+| Dave Clements	| anaconda.com	| member |
+| Jeremy Goecks |	Oregon Health and Science University	| member |
+| Meredith Greif | Johns Hopkins University |	member |
+| Björn Grüning	| University of Freiburg | member |
+| Ross Hardison	| Penn State | member |
+| Ross Lazarus	| galaxyproject.org	| member |
+| Andrew Lonie | University of Melbourne	| member |
+| Anton Nekrutenko	| Penn State University |	member |
+| Francis Ouellette |  bioinformatics.ca | member |
+| Michaek Schatz| Johns Hopkins	University | member |
+| Jenn Vessio |	Johns Hopkins	University | financial officer |
 
 The board that has the following responsibilities:
 
