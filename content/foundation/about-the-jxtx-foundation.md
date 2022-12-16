@@ -26,28 +26,19 @@ The objectives and activities of the foundation are governed by the foundation b
 
 | Name	| Affiliation	| Role
 |-----|-------------|--------
-| Dannon Baker	| Johns Hopkins University |	communication officer |
-| Dan Blankenberg	| Cleveland Clinic |	member |
-| Dave Clements	| anaconda.com	| member |
-| Jeremy Goecks |	Oregon Health and Science University	| member |
-| Meredith Greif | Johns Hopkins University |	member |
-| Björn Grüning	| University of Freiburg | member |
-| Ross Hardison	| Penn State | member |
-| Ross Lazarus	| galaxyproject.org	| member |
-| Andrew Lonie | University of Melbourne	| member |
-| Anton Nekrutenko	| Penn State University |	member |
-| Francis Ouellette |  bioinformatics.ca | member |
-| Michaek Schatz| Johns Hopkins	University | member |
-| Jenn Vessio |	Johns Hopkins	University | financial officer |
-
-The board that has the following responsibilities:
-
-- fundraising: increasing community awareness and promoting the goals of the foundation
-- outreach: overseeing website, twitter, and other communication channels
-- scholarships: identification of conferences and scholarship opportunities
-- application review: identifying potential referees and soliciting reviews
-- 
-A board member will be expected to serve in this capacity for two years. 
+| [Dannon Baker](https://github.com/dannon)	| Johns Hopkins University |	communication officer |
+| [Dan Blankenberg](https://www.lerner.ccf.org/gmi/blankenberg/)	| Cleveland Clinic |	member |
+| [Dave Clements](https://www.linkedin.com/in/clements)	| anaconda.com	| member |
+| [Jeremy Goecks](https://www.ohsu.edu/people/jeremy-goecks-phd) |	Oregon Health and Science University	| member |
+| [Meredith Greif](https://soc.jhu.edu/directory/meredith-greif/) | Johns Hopkins University |	member |
+| [Björn Grüning](https://github.com/bgruening)	| University of Freiburg | member |
+| [Ross Hardison](https://science.psu.edu/bmb/people/rch8)	| Penn State | member |
+| [Ross Lazarus](https://www.linkedin.com/in/rosslazarus/?originalSubdomain=au)	| galaxyproject.org	| member |
+| [Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/) | University of Melbourne	| member |
+| [Anton Nekrutenko](https://nekrut.github.io/lab_site/)	| Penn State University |	member |
+| [Francis Ouellette](https://www.linkedin.com/in/francisouellette/?originalSubdomain=ca) |  bioinformatics.ca | member |
+| [Michael Schatz](https://schatz-lab.org/) | Johns Hopkins	University | member |
+| [Jenn Vessio](https://www.linkedin.com/in/jennifer-vessio-0a240888/) |	Johns Hopkins	University | financial officer |
 
 
 
