@@ -65,7 +65,7 @@ function Home() {
       </Section>
       <Section type={SectionType.HERO_DUO}>
         <GridItem gridArea={GridArea.LINK}>
-          <Link to={aboutFoundation} />
+          <Link to={ourScholarships} />
         </GridItem>
         <GridItem gridArea={GridArea.BLOCK}>
           <ContentBlock
