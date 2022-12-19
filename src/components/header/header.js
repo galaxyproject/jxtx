@@ -137,15 +137,6 @@ function Header(props) {
               News
             </Link>
           </li>
-          <li className={compStyles.header__nav__item}>
-            <Link
-              activeClassName={compStyles.header__nav__link___active}
-              className={compStyles.header__nav__link}
-              to={events}
-            >
-              Events
-            </Link>
-          </li>
           <li className={compStyles.header__nav__item___cta}>
             <a
               className={compStyles.header__nav__link}

@@ -79,11 +79,6 @@ function Footer() {
             </Link>
           </li>
           <li className={compStyles.footer__nav__item}>
-            <Link to={events} className={compStyles.footer__nav__link}>
-              Events
-            </Link>
-          </li>
-          <li className={compStyles.footer__nav__item}>
             <a
               href={donate}
               className={compStyles.footer__nav__link}
