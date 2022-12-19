@@ -28,7 +28,6 @@ const classNames = require("classnames");
 const about = "/about";
 const donate =
   "https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i";
-const events = "/events";
 const home = "/";
 const james = "/james";
 const jxtx = "../../../images/jxtx.png";

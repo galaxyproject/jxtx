@@ -14,6 +14,7 @@ import { TileContentTheme } from "./tile-content-theme.model";
 
 // Styles
 import * as compStyles from "./tile-content.module.css";
+
 const classNames = require("classnames");
 
 function TileContent(props) {
