@@ -9,8 +9,8 @@
 import React from "react";
 
 // App dependencies
-import Home from "../components/home/home";
 import Layout from "../components/layout/layout";
+import Home from "../components/home/home";
 
 function IndexPage() {
   return (

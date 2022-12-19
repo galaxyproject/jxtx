@@ -11,9 +11,9 @@ import { graphql } from "gatsby";
 import React from "react";
 
 // App dependencies
+import Layout from "../components/layout/layout";
 import ArticleContent from "../components/article-content/article-content";
 import ArticleMain from "../components/article-main/article-main";
-import Layout from "../components/layout/layout";
 
 export default function Article({ data }) {
   const post = data.mdx,

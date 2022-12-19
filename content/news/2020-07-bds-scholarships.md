@@ -12,8 +12,6 @@ title: "Call for Scholarship Applications"
 
 The [JTech Foundation][1] and [Cold Spring Harbor Laboratory][2] announce the **JTech 2020 Scholarship**. JTech and CSHL will provide support to 10 outstanding graduate students in genomics and data sciences to attend the [2020 CSHL Biological Data Science Conference][3]. Applications are due August 1, 2020 ([Midnight EST][4]).
 
-[Apply Now][5]
-
 ![CSHL JTech][6]
 
 [1]: https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9

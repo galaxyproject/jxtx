@@ -41,7 +41,7 @@ const aboutJames = "/james";
 const imgJames = "../../../images/james/james.png";
 const imgMentorship = "../../../images/home/mentorship.png";
 const imgOutreach = "../../../images/home/outreach.png";
-const ourScholarships = "/scholarships/2021-genome-informatics";
+const ourScholarships = "/scholarships";
 
 function Home() {
   return (
@@ -65,7 +65,7 @@ function Home() {
       </Section>
       <Section type={SectionType.HERO_DUO}>
         <GridItem gridArea={GridArea.LINK}>
-          <Link to={aboutFoundation} />
+          <Link to={ourScholarships} />
         </GridItem>
         <GridItem gridArea={GridArea.BLOCK}>
           <ContentBlock
@@ -76,17 +76,16 @@ function Home() {
               scale={HeadingScale.LARGE}
               theme={HeadingTheme.ORANGE}
             >
-              Academic Mentorship
+              Scholarships
             </ContentBlockHeading>
             <ContentBlockBody scale={ContentBlockBodyScale.LARGE}>
-              The Foundation will expand its reach as a platform for academic
-              mentorship. First, it will operate to spark mentoring
-              relationships among the larger computational biology and data
-              science community.
+          In 2023, the JXTX Foundation will sponsor graduate students attending
+          The Biology of Genomes and Genome Informatics conferences at the Cold Spring Harbor Laboratory
+          (CSHL).
             </ContentBlockBody>
             <ContentBlockCta scale={Scale.MEDIUM}>
               <ButtonCta
-                attributeHREF={aboutFoundation}
+                attributeHREF={ourScholarships}
                 buttonScale={ButtonScale.OVERSIZED}
                 buttonTheme={ButtonTheme.SECONDARY}
                 buttonType={ButtonType.UNELEVATED}
@@ -135,30 +134,6 @@ function Home() {
             </ContentBlockCta>
           </ContentBlock>
         </GridItem>
-      </Section>
-      <Section type={SectionType.HERO_SUB}>
-        <ContentBlockHeading
-          scale={HeadingScale.LARGE}
-          theme={HeadingTheme.ORANGE}
-        >
-          Scholarships
-        </ContentBlockHeading>
-        <ContentBlockBody scale={ContentBlockBodyScale.LARGE}>
-          This Fall, the JXTX Foundation will sponsor 10 graduate students to
-          attend Genome Informatics 2021 at the Cold Spring Harbor Laboratory
-          (CSHL). In 2020 we sponsored 10 graduate students to attend the 2020
-          Biological Data Science Conference at Cold Spring Harbor Laboratory.
-        </ContentBlockBody>
-        <ContentBlockCta scale={Scale.LARGE}>
-          <ButtonCta
-            attributeHREF={ourScholarships}
-            buttonScale={ButtonScale.OVERSIZED}
-            buttonTheme={ButtonTheme.SECONDARY}
-            buttonType={ButtonType.UNELEVATED}
-          >
-            Learn More
-          </ButtonCta>
-        </ContentBlockCta>
       </Section>
       <Section type={SectionType.HERO_DUO}>
         <GridItem gridArea={GridArea.LINK}>

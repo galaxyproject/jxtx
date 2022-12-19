@@ -26,7 +26,6 @@ import * as compStyles from "./footer.module.css";
 const about = "/about";
 const donate =
   "https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i";
-const events = "/events";
 // const facebook = "/";
 const home = "/";
 // const instagram = "/";
@@ -76,11 +75,6 @@ function Footer() {
           <li className={compStyles.footer__nav__item}>
             <Link to={news} className={compStyles.footer__nav__link}>
               News
-            </Link>
-          </li>
-          <li className={compStyles.footer__nav__item}>
-            <Link to={events} className={compStyles.footer__nav__link}>
-              Events
             </Link>
           </li>
           <li className={compStyles.footer__nav__item}>
