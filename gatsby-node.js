@@ -23,29 +23,29 @@ const templateComponent = "./src/templates/article.js";
  * @param node
  */
 exports.onCreateNode = ({ actions, getNode, node }) => {
-  const { createNodeField } = actions;
+    const { createNodeField } = actions;
 
-  const { internal } = node,
-    { type } = internal || {};
-  const nodeType = type.toUpperCase();
+    const { internal } = node,
+        { type } = internal || {};
+    const nodeType = type.toUpperCase();
 
-  if (nodeType === "MDX") {
-    /* Grab the slug from frontmatter, if it is specified. */
-    const { frontmatter } = node;
-    let slug = frontmatter?.slug;
+    if (nodeType === "MDX") {
+        /* Grab the slug from frontmatter, if it is specified. */
+        const { frontmatter } = node;
+        let slug = frontmatter?.slug;
 
-    /* Create the slug from the file path. */
-    if (!slug) {
-      slug = createFilePath({ node, getNode, basePath: "pages" });
+        /* Create the slug from the file path. */
+        if (!slug) {
+            slug = createFilePath({ node, getNode, basePath: "pages" });
+        }
+
+        /* Slug. */
+        createNodeField({
+            node,
+            name: "slug",
+            value: slug,
+        });
     }
-
-    /* Slug. */
-    createNodeField({
-      node,
-      name: "slug",
-      value: slug,
-    });
-  }
 };
 
 /**
@@ -56,36 +56,36 @@ exports.onCreateNode = ({ actions, getNode, node }) => {
  * @returns {Promise.<void>}
  */
 exports.createPages = async ({ actions, graphql }) => {
-  const { createPage } = actions;
+    const { createPage } = actions;
 
-  /* Query the qraphql. */
-  const result = await graphql(`
-    query {
-      allMdx {
-        edges {
-          node {
-            fields {
-              slug
+    /* Query the qraphql. */
+    const result = await graphql(`
+        query {
+            allMdx {
+                edges {
+                    node {
+                        fields {
+                            slug
+                        }
+                    }
+                }
             }
-          }
         }
-      }
-    }
-  `);
+    `);
 
-  /* For each MDX node type, create a page. */
-  result.data.allMdx.edges.forEach(({ node }) => {
-    const { fields } = node,
-      { slug } = fields;
+    /* For each MDX node type, create a page. */
+    result.data.allMdx.edges.forEach(({ node }) => {
+        const { fields } = node;
+        const { slug } = fields;
 
-    createPage({
-      path: slug,
-      component: path.resolve(templateComponent),
-      context: {
-        slug: slug,
-      },
+        createPage({
+            path: slug,
+            component: path.resolve(templateComponent),
+            context: {
+                slug: slug,
+            },
+        });
     });
-  });
 };
 
 /**
@@ -95,9 +95,9 @@ exports.createPages = async ({ actions, graphql }) => {
  * @returns {*}
  */
 exports.createSchemaCustomization = ({ actions }) => {
-  const { createTypes } = actions;
+    const { createTypes } = actions;
 
-  createTypes(`
+    createTypes(`
     type Mdx implements Node {
         frontmatter: Frontmatter
     }
