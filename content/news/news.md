@@ -34,10 +34,10 @@ title: "Newsroom"
 <Grid columns={1}>
 
 <Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[7]}>
-<TileThumbnail alt={"JXTX 2023 The Biology of Genomes Scholarship"} image={props.images[8]}></TileThumbnail>
+<TileThumbnail alt={"JXTX + CSHL 2023 Biology of Genomes Scholarship"} image={props.images[8]}></TileThumbnail>
 <TileContent>
 <TileHeading>
-JXTX 2023 The Biology of Genomes Scholarship
+JXTX + CSHL 2023 Biology of Genomes Scholarship
 </TileHeading>
 <TileBody>
 The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Biology of Genomes Scholarships. Application deadline is February 6, 2023.

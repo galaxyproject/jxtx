@@ -25,7 +25,7 @@ title: "Scholarships"
 <Grid columns={1}>
 
 <Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[3]}>
-<TileThumbnail alt={"JXTX 2023 Biology of Genomes Scholarship"} image={props.images[3]}></TileThumbnail>
+<TileThumbnail alt={"JXTX + CSHL 2023 Biology of Genomes Scholarship"} image={props.images[3]}></TileThumbnail>
 <TileContent>
 <TileHeading>
 JXTX + CSHL 2023 Biology of Genomes Scholarship
@@ -41,7 +41,7 @@ The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Biology 
 <Grid columns={1}>
 
 <Tile orientation={"HORIZONTAL"} scale={"MEDIUM"}>
-<TileThumbnail alt={"JXTX 2023 Genome Informatics Scholarship"} image={props.images[2]}></TileThumbnail>
+<TileThumbnail alt={"JXTX + CSHL 2023 Genome Informatics Scholarship"} image={props.images[2]}></TileThumbnail>
 <TileContent>
 <TileHeading>
 JXTX + CSHL 2023 Genome Informatics Scholarship
