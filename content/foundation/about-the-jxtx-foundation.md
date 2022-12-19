@@ -24,8 +24,8 @@ In its later stages, the Foundation will sponsor in-person visits from students 
 The objectives and activities of the foundation are governed by the foundation board. The current board includes the following members:
 
 
-| Name	| Affiliation	| Role
-|-----|-------------|--------
+| Name	| Affiliation	| Role |
+|:-----|:-------------|:-------- |
 | [Dannon Baker](https://github.com/dannon)	| Johns Hopkins University |	Communication officer |
 | [Dan Blankenberg](https://www.lerner.ccf.org/gmi/blankenberg/)	| Cleveland Clinic |	Member |
 | [Dave Clements](https://www.linkedin.com/in/clements)	| anaconda.com	| Member |
