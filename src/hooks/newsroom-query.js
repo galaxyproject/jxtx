@@ -17,7 +17,9 @@ export const NewsroomStaticQuery = () => {
             links
             title
           }
-          slug
+          fields {
+            slug
+          }
         }
       }
     `
