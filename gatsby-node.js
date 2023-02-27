@@ -24,12 +24,10 @@ const templateComponent = "./src/templates/article.js";
  */
 exports.onCreateNode = ({ actions, getNode, node }) => {
     const { createNodeField } = actions;
+    const { internal } = node;
+    const { type } = internal || {};
 
-    const { internal } = node,
-        { type } = internal || {};
-    const nodeType = type.toUpperCase();
-
-    if (nodeType === "MDX") {
+    if (type === "Mdx") {
         /* Grab the slug from frontmatter, if it is specified. */
         const { frontmatter } = node;
         let slug = frontmatter?.slug;
