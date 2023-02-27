@@ -60,11 +60,13 @@ exports.createPages = async ({ actions, graphql }) => {
     const result = await graphql(`
         query {
             allMdx {
-                edges {
-                    node {
-                        fields {
-                            slug
-                        }
+                nodes {
+                    id
+                    fields {
+                        slug
+                    }
+                    internal {
+                        contentFilePath
                     }
                 }
             }
@@ -72,15 +74,13 @@ exports.createPages = async ({ actions, graphql }) => {
     `);
 
     /* For each MDX node type, create a page. */
-    result.data.allMdx.edges.forEach(({ node }) => {
-        const { fields } = node;
-        const { slug } = fields;
+    result.data.allMdx.nodes.forEach((node) => {
 
         createPage({
-            path: slug,
-            component: path.resolve(templateComponent),
+            path: node.fields.slug,
+            component: `${path.resolve(templateComponent)}?__contentFilePath=${node.internal.contentFilePath}`,
             context: {
-                slug: slug,
+                slug: node.fields.slug,
             },
         });
     });
