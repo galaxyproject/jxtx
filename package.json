@@ -13,7 +13,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "format": "prettier --write src/**/*.{js,css}",
-    "lint": "eslint --ext .mdx content"
+    "lint": "eslint --ext .js,.md,.mdx content"
   },
   "dependencies": {
     "@mdx-js/mdx": "^2.2.1",
