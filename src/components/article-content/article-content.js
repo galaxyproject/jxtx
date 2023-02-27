@@ -19,30 +19,28 @@ import { SectionType } from "../section/section-type.model";
 
 // Template variables
 const shortcodeElements = {
-  a: ArticleA,
-  blockquote: ArticleBlockquote,
-  figcaption: ArticleFigcaption,
+    a: ArticleA,
+    blockquote: ArticleBlockquote,
+    figcaption: ArticleFigcaption,
 };
 const shortcodeTypographies = {
-  h1: ArticleH1,
+    h1: ArticleH1,
 };
 
 function ArticleContent(props) {
-  const { content, frontmatter } = props,
-    { fullWidth } = frontmatter || {};
-  const articleShortcodes = { ...shortcodeElements, ...shortcodeTypographies };
+    console.debug("ArticleContent");
+    console.debug(props);
+    const { children, frontmatter } = props;
+    const { fullWidth } = frontmatter || {};
+    const articleShortcodes = { ...shortcodeElements, ...shortcodeTypographies };
 
-  return fullWidth ? (
-    <Mdx content={content} frontmatter={frontmatter} />
-  ) : (
-    <Section type={SectionType.ARTICLE}>
-      <Mdx
-        articleShortcodes={articleShortcodes}
-        content={content}
-        frontmatter={frontmatter}
-      />
-    </Section>
-  );
+    return fullWidth ? (
+        <Mdx children={children} frontmatter={frontmatter} />
+    ) : (
+        <Section type={SectionType.ARTICLE}>
+            <Mdx articleShortcodes={articleShortcodes} children={children} frontmatter={frontmatter} />
+        </Section>
+    );
 }
 
 export default ArticleContent;

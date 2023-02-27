@@ -15,15 +15,16 @@ import Layout from "../components/layout/layout";
 import ArticleContent from "../components/article-content/article-content";
 import ArticleMain from "../components/article-main/article-main";
 
-export default function Article({ data }) {
-  const post = data.mdx,
-    { body: content, fields, frontmatter } = post || {},
-    { slug } = fields;
-
+export default function Article(props) {
+  const children = props.children;
+  const mdx = props.data.mdx;
+  const frontmatter = mdx.frontmatter;
+  const { slug } = mdx.fields;
+  
   return (
     <Layout frontmatter={frontmatter} headerMinor slug={slug}>
       <ArticleMain>
-        <ArticleContent content={content} frontmatter={frontmatter} />
+        <ArticleContent children={children} frontmatter={frontmatter} />
       </ArticleMain>
     </Layout>
   );
@@ -32,7 +33,6 @@ export default function Article({ data }) {
 export const query = graphql`
   query ($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
-      body
       fields {
         slug
       }
