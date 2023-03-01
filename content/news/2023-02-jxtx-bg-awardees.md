@@ -9,7 +9,7 @@ images:
     - ../_images/2023-bog-awardees/awardee-robin-aguilar.png
     - ../_images/2023-bog-awardees/awardee-laura-luebbert.png
     - ../_images/2023-bog-awardees/awardee-chang-su.png
-title: "JXTX Foundation Awards Scholarships for Genome Informatics 2021"
+title: "JXTX Foundation Awards Scholarships for Biology of Genomes 2023"
 ---
 
 <Date>February 27th, 2023</Date>
