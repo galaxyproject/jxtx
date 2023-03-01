@@ -30,15 +30,16 @@ In addition to covering conference registration, awardees will also be paired wi
 <GridUnus>
 
 <Awardee>
-<Image alt={"Dongyuan"} image={props.images[1]}></Image>
+<Image alt={"Robin"} image={props.images[4]}></Image>
 <AwardeeContent>
-<h3>Dongyuan Song</h3>
-<h4>UCLA</h4>
+<h3>Robin Aguilar</h3>
+<h4>UW</h4>
 
-Dongyuan is a Ph.D. candidate in Bioinformatics, UCLA, under the supervision of Dr. Jingyi Jessica Li. He obtained his B.S. in Biological Sciences, from Fudan University and his M.S. in Computational Biology, from Harvard HSPH. He is currently visiting the Harvard Department of Statistics. Dongyuan is interested in developing statistical methods in single-cell and spatial genomics.
+Robin Aguilar is a PhD candidate and technology developer at the University of Washington in the Department of Genome Sciences. Through their research in the Beliveau and Noble labs, they develop tools and microscopy techniques that will allow researchers to understand the contributions of highly repetitive DNA in the context of global 3D genome organization, human and model organism evolution, and human disease. As they navigate their experiences in science as a queer and trans, first-gen, Latinx researcher, they are passionate about making STEM spaces more accessible and equitable for marginalized trainees. Separately, they also develop science communication workshops, curricula, and art centered on research and diverse storytelling within and beyond STEM.
 
 </AwardeeContent>
 </Awardee>
+
 
 <Awardee>
 <AwardeeContent>
@@ -51,26 +52,7 @@ Kasia Kedzierska is a computational biologist specializing in data science and m
 <Image alt={"Kasia"} image={props.images[2]}></Image>
 </Awardee>
 
-<Awardee>
-<Image alt={"Brianah"} image={props.images[3]}></Image>
-<AwardeeContent>
-<h3>Brianah Mccoy</h3>
-<h4>ASU</h4>
 
-Brianah (Bri) McCoy is a 3rd year Molecular and Cellular Biology PhD Candidate at Arizona State University in the lab of Dr. Noah Snyder-Mackler. Bri is a trainee at The Dog Aging Project where her research is focused on understanding social environmental effects on gene regulation and aging in companion dogs.
-</AwardeeContent>
-</Awardee>
-
-<Awardee>
-<AwardeeContent>
-<h3>Robin Aguilar</h3>
-<h4>UW</h4>
-
-Robin Aguilar is a PhD candidate and technology developer at the University of Washington in the Department of Genome Sciences. Through their research in the Beliveau and Noble labs, they develop tools and microscopy techniques that will allow researchers to understand the contributions of highly repetitive DNA in the context of global 3D genome organization, human and model organism evolution, and human disease. As they navigate their experiences in science as a queer and trans, first-gen, Latinx researcher, they are passionate about making STEM spaces more accessible and equitable for marginalized trainees. Separately, they also develop science communication workshops, curricula, and art centered on research and diverse storytelling within and beyond STEM.
-
-</AwardeeContent>
-<Image alt={"Robin"} image={props.images[4]}></Image>
-</Awardee>
 
 <Awardee>
 <Image alt={"Laura"} image={props.images[5]}></Image>
@@ -80,6 +62,27 @@ Robin Aguilar is a PhD candidate and technology developer at the University of W
 <h4>CalTech</h4>
 
 Laura is a German-Catalan Biology Ph.D. candidate at Caltech. After earning her bachelor’s and master’s degrees in microbiology and biotechnology at Leiden University in The Netherlands, she followed her passion for genetics and entered the world of computational biology. Currently, she is developing a pipeline for the detection of viral sequences in next-generation sequencing data in the laboratory of Prof. Lior Pachter. She is passionate about bridging the gap between biology and bioinformatics, having worked in both wet lab and computer science roles. Her most recently published program ‘gget’ facilitates access to large genomic databases and has been downloaded over 30,000 times. When she is not busy detecting bugs, you can find her hiking in the San Gabriel Mountains.
+
+</AwardeeContent>
+</Awardee>
+
+<Awardee>
+<AwardeeContent>
+<h3>Brianah Mccoy</h3>
+<h4>ASU</h4>
+
+Brianah (Bri) McCoy is a 3rd year Molecular and Cellular Biology PhD Candidate at Arizona State University in the lab of Dr. Noah Snyder-Mackler. Bri is a trainee at The Dog Aging Project where her research is focused on understanding social environmental effects on gene regulation and aging in companion dogs.
+</AwardeeContent>
+<Image alt={"Brianah"} image={props.images[3]}></Image>
+</Awardee>
+
+<Awardee>
+<Image alt={"Dongyuan"} image={props.images[1]}></Image>
+<AwardeeContent>
+<h3>Dongyuan Song</h3>
+<h4>UCLA</h4>
+
+Dongyuan is a Ph.D. candidate in Bioinformatics, UCLA, under the supervision of Dr. Jingyi Jessica Li. He obtained his B.S. in Biological Sciences, from Fudan University and his M.S. in Computational Biology, from Harvard HSPH. He is currently visiting the Harvard Department of Statistics. Dongyuan is interested in developing statistical methods in single-cell and spatial genomics.
 
 </AwardeeContent>
 </Awardee>
