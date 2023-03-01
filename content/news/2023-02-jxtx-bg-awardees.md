@@ -18,13 +18,11 @@ title: "JXTX Foundation Awards Scholarships for Genome Informatics 2021"
 
 <Image alt="JXTX Foundation Awardees" image={props.images[0]}></Image>
 
-<figcaption>JXTX Foundation Awards Scholarships for 2021 Genome Informatics</figcaption>
+<figcaption>JXTX Foundation Awards Scholarships for 2023 Biology of Genomes</figcaption>
 
-[JXTX: The James P. Taylor Foundation for Open Science][1] is pleased to announce the recipients of the 2022 JXTX Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
+[JXTX: The James P. Taylor Foundation for Open Science][1] is pleased to announce the recipients of the 2023 JXTX+CSHL Biology of Genomes Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
 
-Ten genomics and data sciences graduate students from around the globe were awarded the second set of JXTX scholarships. These awardees will present their work at the [Cold Spring Harbor Laboratory (CSHL) Genome Informatics Conference][2] being held November 3-6. Awardees represent ten institutions and are presenting a wide range of research at the meeting.
-
-In addition to covering conference registration, awardees will also be paired with senior researchers in the field prior to the conference. Awardees and mentors will meet before and during the conference to establish what we hope will become long term relationships.
+Six genomics and data sciences graduate students from around the globe were awarded this set of JXTX+CSHL scholarships. These awardees will present their work at the [Cold Spring Harbor Laboratory (CSHL) Biology of Genomes Conference][2] being held May 9-13. Awardees represent six institutions and are presenting a wide range of research at the meeting.
 
 <Awardees>
 <GridUnus>
@@ -112,6 +110,6 @@ According to his colleagues, James hated self-promotion. But the community would
 Please consider [making a donation][4] to support James Taylor’s legacy.
 
 [1]: /about
-[2]: https://meetings.cshl.edu/meetings.aspx?meet=info&year=21
+[2]: https://meetings.cshl.edu/meetings.aspx?meet=GENOME&year=23
 [3]: https://galaxyproject.org/jxtx/
 [4]: https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i
