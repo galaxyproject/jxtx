@@ -12,6 +12,7 @@ images:
     - _images/newsroom-scholarships-2021-gi.png
     - _images/newsroom-hero-awardees-2021-gi.png
     - ../scholarships/_images/scholarships-hero-2023-bog.png
+    - _images/2023-bog-awardees.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
@@ -21,6 +22,7 @@ links:
     - /news/2021-06-gi-scholarships
     - /news/2021-08-jxtx-awardees
     - /news/2022-12-16-bg
+    - /news/2023-02-jxtx-bg-awardees
 slug: "/news"
 title: "Newsroom"
 ---
@@ -33,7 +35,24 @@ title: "Newsroom"
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[7]}>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[8]}>
+<TileThumbnail alt={"JXTX + CSHL 2023 Biology of Genomes Scholarship"} image={props.images[9]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + CSHL 2023 Biology of Genomes Awardees
+</TileHeading>
+<TileBody>
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the recipients of the 2023 Biology of Genomes Scholarships.
+</TileBody>
+<TileDate>December 16, 2022</TileDate>
+</TileContent>
+</Tile>
+
+</Grid>
+
+<Grid columns={3}>
+
+<Tile tileLink={props.links[7]}>
 <TileThumbnail alt={"JXTX + CSHL 2023 Biology of Genomes Scholarship"} image={props.images[8]}></TileThumbnail>
 <TileContent>
 <TileHeading>
@@ -45,11 +64,6 @@ The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Biology 
 <TileDate>December 16, 2022</TileDate>
 </TileContent>
 </Tile>
-
-
-</Grid>
-
-<Grid columns={3}>
 
 <Tile tileLink={props.links[5]}>
 <TileThumbnail alt={"2021 GI Scholarships"} image={props.images[6]}></TileThumbnail>
