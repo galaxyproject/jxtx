@@ -44,7 +44,7 @@ JXTX + CSHL 2023 Biology of Genomes Awardees
 <TileBody>
 The JXTX Foundation and Cold Spring Harbor Laboratory announce the recipients of the 2023 Biology of Genomes Scholarships.
 </TileBody>
-<TileDate>December 16, 2022</TileDate>
+<TileDate>February 6, 2023</TileDate>
 </TileContent>
 </Tile>
 
