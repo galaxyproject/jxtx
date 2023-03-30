@@ -90,7 +90,7 @@ function Footer() {
       </div>
       <div className={compStyles.footer__legal}>
         {/*<Link to={privacy}>Privacy</Link>*/}
-        <span className={compStyles.footer__legal__copy}>@Copyright 2021</span>
+        <span className={compStyles.footer__legal__copy}>@Copyright 2023</span>
       </div>
     </footer>
   );
