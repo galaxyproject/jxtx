@@ -47,7 +47,7 @@ The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Biology 
 JXTX + CSHL 2023 Genome Informatics Scholarship
 </TileHeading>
 <TileBody>
-The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Genome Informatics Scholarship. Information about application and logistics will be posted on April 1st, 2023
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Genome Informatics Scholarship. Information about application and logistics will be posted on April 7th, 2023
 </TileBody>
 </TileContent>
 </Tile>
