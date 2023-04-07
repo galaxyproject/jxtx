@@ -79,9 +79,9 @@ function Home() {
               Scholarships
             </ContentBlockHeading>
             <ContentBlockBody scale={ContentBlockBodyScale.LARGE}>
-          In 2023, the JXTX Foundation will sponsor graduate students attending
-          The Biology of Genomes and Genome Informatics conferences at the Cold Spring Harbor Laboratory
-          (CSHL).
+              In 2023, the JXTX Foundation will sponsor graduate students
+              attending The Biology of Genomes and Genome Informatics
+              conferences at the Cold Spring Harbor Laboratory (CSHL).
             </ContentBlockBody>
             <ContentBlockCta scale={Scale.MEDIUM}>
               <ButtonCta

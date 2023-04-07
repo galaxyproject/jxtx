@@ -59,7 +59,7 @@ function Footer() {
         <ul>
           <li className={compStyles.footer__nav__item}>
             <Link to={about} className={compStyles.footer__nav__link}>
-              About
+              Vision &amp; Values
             </Link>
           </li>
           <li className={compStyles.footer__nav__item}>
