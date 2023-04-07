@@ -9,7 +9,7 @@ title: "About the JXTX Foundation"
 
 ## Inspiration
 
-"The most important job of senior faculty is to mentor junior faculty and students." These are the words that Professor James P. Taylor, the Ralph S. O'Connor Professor at the Departments of Biology and Computer Science at Johns Hopkins University, said and lived by. This, he believed, was imperative to advance science in a way that facilitated diversity and inclusion. The mission of this foundation is to continue his legacy through a multifaceted approach.
+“_The most important job of senior faculty is to mentor junior faculty and students._” These are the words that Professor James P. Taylor, the Ralph S. O'Connor Professor at the Departments of Biology and Computer Science at Johns Hopkins University, said and lived by. This, he believed, was imperative to advance science in a way that facilitated diversity and inclusion. The mission of this foundation is to continue his legacy through a multifaceted approach.
 
 ## Mission
 
