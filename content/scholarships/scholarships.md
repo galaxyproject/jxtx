@@ -12,6 +12,7 @@ links:
     - /news/2020-10-jxtx-awardees
     - /news/2021-08-jxtx-awardees
     - /news/2022-12-16-bg
+    - /news/2023-04-07-gi
 slug: "/scholarships"
 title: "Scholarships"
 ---
@@ -21,6 +22,27 @@ title: "Scholarships"
 </Headline>
 
 <Newsroom>
+
+
+<Grid columns={1}>
+
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[4]}>
+<TileThumbnail alt={"JXTX + CSHL 2023 Genome Informatics Scholarship"} image={props.images[2]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + CSHL 2023 Genome Informatics Scholarship
+</TileHeading>
+<TileBody>
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Genome Informatics Scholarship. Application deadline is September 15, 2023.
+</TileBody>
+</TileContent>
+</Tile>
+
+</Grid>
+
+<!--
+Past Scholarships
+-->
 
 <Grid columns={1}>
 
@@ -38,25 +60,6 @@ The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Biology 
 
 </Grid>
 
-<Grid columns={1}>
-
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"}>
-<TileThumbnail alt={"JXTX + CSHL 2023 Genome Informatics Scholarship"} image={props.images[2]}></TileThumbnail>
-<TileContent>
-<TileHeading>
-JXTX + CSHL 2023 Genome Informatics Scholarship
-</TileHeading>
-<TileBody>
-The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Genome Informatics Scholarship. Information about application and logistics will be posted on April 7th, 2023
-</TileBody>
-</TileContent>
-</Tile>
-
-</Grid>
-
-<!--
-Past Scholarships
--->
 
 <Grid columns={1}>
 
