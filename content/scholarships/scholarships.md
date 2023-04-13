@@ -33,7 +33,7 @@ title: "Scholarships"
 JXTX + CSHL 2023 Genome Informatics Scholarship
 </TileHeading>
 <TileBody>
-The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Genome Informatics Scholarship. Application deadline is September 15, 2023. The application site will become live on James Taylor’s birthday, May 18.
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Genome Informatics Scholarship. Application deadline is September 15, 2023.
 </TileBody>
 </TileContent>
 </Tile>
