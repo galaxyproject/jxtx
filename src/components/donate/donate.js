@@ -53,16 +53,20 @@ function Home() {
           Donate to JXTX
         </ContentBlockHeading>
         <ContentBlockBody scale={ContentBlockBodyScale.MEDIUM}>
-        Your contribution will support the foundation's efforts providing graduate student scholarships, academic mentorship, and sponsoring student outreach.
-        <br/>
-        <br/>
-        Join us in making a difference today!
-        <br/>
-        <br/>
-        The JXTX Foundation 501(c)(3) application is pending, but as a temporary measure we have partnered with GalaxyWorks, co-founded by James Taylor, to accept donations at https://donate.stripe.com/cN29CbbYYbq16GIaEE.
-        <br/>
-        <br/>
-        If you'd prefer to wait until the JXTX Foundation can accept your donation directly, simply make a pledge today with the following form and we will reach out when the foundation is ready to directly accept contributions.
+        <p>Your contribution will support the foundation's efforts providing graduate student scholarships, academic mentorship, and sponsoring student outreach.
+        </p>
+        <p>
+        The JXTX Foundation 501(c)(3) application is pending, but as a temporary measure we have partnered with GalaxyWorks, co-founded by James Taylor, to accept donations.
+        </p>
+        If you'd prefer to wait until the JXTX Foundation can accept your donation directly, please provide your contact details below and we will reach out when the foundation is able to directly accept contributions.
+        <ContentBlockCta scale={Scale.MEDIUM}>
+        <ButtonCta
+          attributeHREF={"https://donate.stripe.com/cN29CbbYYbq16GIaEE"}
+          buttonTheme={ButtonTheme.PRIMARY}
+          buttonType={ButtonType.UNELEVATED}
+        >
+          Donate Now
+        </ButtonCta></ContentBlockCta>
         </ContentBlockBody>
       </Section>
       <Section type={SectionType.HERO_DUO}>
@@ -78,7 +82,7 @@ function Home() {
               Make a Pledge
             </ContentBlockHeading>
             <ContentBlockBody scale={ContentBlockBodyScale.MEDIUM}>
-            <form name="pledge" method="POST" data-netlify="true">
+            <form className="contactform" name="pledge" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" value="pledge" />
               <p>
                 <label>Name: <input type="text" name="name" /></label>
@@ -87,13 +91,15 @@ function Home() {
                 <label>Email: <input type="email" name="email" /></label>
               </p>
               <p>
-                <label>Pledge: <input name="pledge" />(optional)</label>
-
+                <label>Pledge: <input name="pledge" />  <sub>(optional)</sub></label>
               </p>
               <p>
                 <button type="submit">Submit</button>
               </p>
             </form>
+            <p>
+              We will only use your contact information to reach out when the JXTX Foundation is able to directly accept donations.
+            </p>
             </ContentBlockBody>
             { /* }
             <ContentBlockCta scale={Scale.MEDIUM}>
@@ -112,6 +118,9 @@ function Home() {
         <GridItem gridArea={GridArea.THUMBNAIL}>
           <StaticImage alt={"Academic Mentorship"} src={imgMentorship} />
         </GridItem>
+      </Section>
+      <Section>
+        <ContentBlock><ContentBlockBody></ContentBlockBody></ContentBlock>
       </Section>
     </main>
   );
