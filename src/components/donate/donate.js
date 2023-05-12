@@ -57,9 +57,6 @@ function Home() {
                     <p>
                         The JXTX Foundation 501(c)(3) application is pending, but as a temporary measure we have
                         partnered with GalaxyWorks, co-founded by James Taylor, to accept donations using the 'Donate Now' button below.
-                    </p>
-                    If you'd prefer to wait until the JXTX Foundation can accept your donation directly, please fill out
-                    the form below and we will notify you when the foundation donation platform is available.
                     <ContentBlockCta scale={Scale.MEDIUM}>
                         <ButtonCta
                             attributeHREF={"https://donate.stripe.com/cN29CbbYYbq16GIaEE"}
@@ -68,6 +65,11 @@ function Home() {
                             Donate Now
                         </ButtonCta>
                     </ContentBlockCta>
+                    </p>
+                    <p>
+                    Or, if you'd prefer to wait until the JXTX Foundation can accept your donation directly, please fill out
+                    the form below and we will notify you when the foundation donation platform is available.
+                    </p>
                 </ContentBlockBody>
             </Section>
             <Section type={SectionType.HERO_DUO}>
