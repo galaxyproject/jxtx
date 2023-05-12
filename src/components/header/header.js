@@ -26,8 +26,8 @@ const classNames = require("classnames");
 
 // Template variables
 const about = "/about";
-const donate =
-  "https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i";
+const donate = "/donate";
+  // "https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i";
 const home = "/";
 const james = "/james";
 const jxtx = "../../../images/jxtx.png";

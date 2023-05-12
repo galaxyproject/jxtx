@@ -24,8 +24,8 @@ import * as compStyles from "./footer.module.css";
 
 // Template variables
 const about = "/about";
-const donate =
-  "https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i";
+const donate = "/donate";
+  // "https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i";
 // const facebook = "/";
 const home = "/";
 // const instagram = "/";

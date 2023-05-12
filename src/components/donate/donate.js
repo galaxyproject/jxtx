@@ -58,7 +58,7 @@ function Home() {
         <p>
         The JXTX Foundation 501(c)(3) application is pending, but as a temporary measure we have partnered with GalaxyWorks, co-founded by James Taylor, to accept donations.
         </p>
-        If you'd prefer to wait until the JXTX Foundation can accept your donation directly, please provide your contact details below and we will reach out when the foundation is able to directly accept contributions.
+        If you'd prefer to wait until the JXTX Foundation can accept your donation directly, please fill out the form below and we will reach out when the foundation is able to directly accept contributions.
         <ContentBlockCta scale={Scale.MEDIUM}>
         <ButtonCta
           attributeHREF={"https://donate.stripe.com/cN29CbbYYbq16GIaEE"}
@@ -85,13 +85,13 @@ function Home() {
             <form className="contactform" name="pledge" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" value="pledge" />
               <p>
-                <label>Name: <input type="text" name="name" /></label>
+                <label>Name: <input type="text" name="name" placeholder="Your Name"/></label>
               </p>
               <p>
-                <label>Email: <input type="email" name="email" /></label>
+                <label>Email: <input type="email" name="email" placeholder="name@example.com"/></label>
               </p>
               <p>
-                <label>Pledge: <input name="pledge" />  <sub>(optional)</sub></label>
+                <label>Pledge: <input name="pledge" placeholder="$10.00"/>  <sub>(optional)</sub></label>
               </p>
               <p>
                 <button type="submit">Submit</button>
