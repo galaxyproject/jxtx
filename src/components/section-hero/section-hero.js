@@ -22,7 +22,6 @@ import * as compStyles from "./section-hero.module.css";
 
 // Template variables
 const donate = "/donate"
-  // "https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i";
 const hero = "../../../images/hero/hero.png";
 
 function SectionHero() {

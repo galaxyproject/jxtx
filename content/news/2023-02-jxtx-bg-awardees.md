@@ -112,4 +112,4 @@ Please consider [making a donation][4] to support James Taylor’s legacy.
 [1]: /about
 [2]: https://meetings.cshl.edu/meetings.aspx?meet=GENOME&year=23
 [3]: https://galaxyproject.org/jxtx/
-[4]: https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i
+[4]: /donate

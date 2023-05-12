@@ -23,4 +23,4 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 [4]: /news/2020-10-jxtx-awardees/
 [5]: /news/2020-07-bds-scholarships/
 [6]: /news/2020-05-jtech/
-[7]: https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i
+[7]: /donate

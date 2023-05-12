@@ -14,7 +14,7 @@ The [JTech Foundation][1] and [Cold Spring Harbor Laboratory][2] announce the **
 
 ![CSHL JTech][6]
 
-[1]: https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9
+[1]: /donate
 [2]: https://www.cshl.edu/
 [3]: https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20
 [4]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSHL+JTech+Deadline&iso=20200801T00&p1=3705

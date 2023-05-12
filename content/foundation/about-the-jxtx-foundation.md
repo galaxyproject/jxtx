@@ -55,4 +55,4 @@ The objectives and activities of the foundation are governed by the foundation b
 
 **Please consider [contributing][1] to continue James Taylor's legacy.**
 
-[1]: https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i
+[1]: /donate
