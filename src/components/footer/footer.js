@@ -81,7 +81,6 @@ function Footer() {
             <a
               href={donate}
               className={compStyles.footer__nav__link}
-              target={Target.BLANK}
             >
               Donate
             </a>

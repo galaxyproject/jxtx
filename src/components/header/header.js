@@ -140,7 +140,6 @@ function Header(props) {
             <a
               className={compStyles.header__nav__link}
               href={donate}
-              target={Target.BLANK}
             >
               Donate
             </a>
@@ -150,7 +149,6 @@ function Header(props) {
       <div className={compStyles.header__cta}>
         <ButtonCTA
           attributeHREF={donate}
-          attributeTarget={Target.BLANK}
           buttonTheme={ButtonTheme.PRIMARY}
           buttonType={ButtonType.UNELEVATED}
         >
