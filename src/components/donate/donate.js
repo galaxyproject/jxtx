@@ -78,7 +78,8 @@ function Home() {
               Make a Pledge
             </ContentBlockHeading>
             <ContentBlockBody scale={ContentBlockBodyScale.MEDIUM}>
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="pledge" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="pledge" />
               <p>
                 <label>Name: <input type="text" name="name" /></label>
               </p>
@@ -87,6 +88,7 @@ function Home() {
               </p>
               <p>
                 <label>Pledge: <input name="pledge" />(optional)</label>
+
               </p>
               <p>
                 <button type="submit">Submit</button>
