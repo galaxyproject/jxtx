@@ -43,45 +43,52 @@ const imgMentorship = "../../../images/home/mentorship.png";
 const imgShoes = "../../../images/logo-jxtx-sticker-square.png";
 
 function Home() {
-    return (
-        <main className={compStyles.main}>
-            <Section type={SectionType.HERO_DUO}>
-                <GridItem gridArea={GridArea.BLOCK}>
-                    <ContentBlock scale={ContentBlockScale.LARGE} >
-                <ContentBlockHeading scale={HeadingScale.LARGE} theme={HeadingTheme.ORANGE}>
-                    Donate to JXTX
-                </ContentBlockHeading>
-                <ContentBlockBody scale={ContentBlockBodyScale.MEDIUM}>
-                    <p>
-                        Your contribution will support the foundation's efforts providing graduate student scholarships,
-                        academic mentorship, and sponsoring student outreach.
-                    </p>
-                    <p>
-                        The JXTX Foundation 501(c)(3) application is pending, but as a temporary measure we have
-                        partnered with GalaxyWorks, co-founded by James Taylor, to accept donations using the 'Donate Now' button below.
-                    <ContentBlockCta scale={Scale.MEDIUM}>
-                        <ButtonCta
-                            attributeHREF={"https://www.zeffy.com/en-US/fundraising/588f76f8-0986-4b34-a86a-bbd4da352096"}
-                            buttonTheme={ButtonTheme.PRIMARY}
-                            buttonType={ButtonType.UNELEVATED}>
-                            Donate Now
-                        </ButtonCta>
-                    </ContentBlockCta>
-                    </p>
-                </ContentBlockBody>
-                    </ContentBlock>
-                </GridItem>
-                <GridItem gridArea={GridArea.THUMBNAIL}>
-                    <StaticImage alt={"Academic Mentorship"} src={imgMentorship} />
-                </GridItem>
-            </Section>
-            <Section>
-                <ContentBlock>
-                    <ContentBlockBody></ContentBlockBody>
-                </ContentBlock>
-            </Section>
-        </main>
-    );
+  return (
+    <main className={compStyles.main}>
+      <Section type={SectionType.HERO_DUO}>
+        <GridItem gridArea={GridArea.BLOCK}>
+          <ContentBlock scale={ContentBlockScale.LARGE}>
+            <ContentBlockHeading
+              scale={HeadingScale.LARGE}
+              theme={HeadingTheme.ORANGE}
+            >
+              Donate to JXTX
+            </ContentBlockHeading>
+            <ContentBlockBody scale={ContentBlockBodyScale.MEDIUM}>
+              <p>
+                Your contribution will support the foundation's efforts
+                providing graduate student scholarships, academic mentorship,
+                and sponsoring student outreach.
+              </p>
+              <p>
+                The JXTX Foundation 501(c)(3) application is still pending, but
+                you can donate through Zeffy now, using the button below.
+                <ContentBlockCta scale={Scale.MEDIUM}>
+                  <ButtonCta
+                    attributeHREF={
+                      "https://www.zeffy.com/en-US/fundraising/588f76f8-0986-4b34-a86a-bbd4da352096"
+                    }
+                    buttonTheme={ButtonTheme.PRIMARY}
+                    buttonType={ButtonType.UNELEVATED}
+                  >
+                    Donate Now
+                  </ButtonCta>
+                </ContentBlockCta>
+              </p>
+            </ContentBlockBody>
+          </ContentBlock>
+        </GridItem>
+        <GridItem gridArea={GridArea.THUMBNAIL}>
+          <StaticImage alt={"Academic Mentorship"} src={imgMentorship} />
+        </GridItem>
+      </Section>
+      <Section>
+        <ContentBlock>
+          <ContentBlockBody></ContentBlockBody>
+        </ContentBlock>
+      </Section>
+    </main>
+  );
 }
 
 export default Home;
