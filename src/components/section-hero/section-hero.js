@@ -21,7 +21,7 @@ import { Target } from "../../utils/anchor/target.model";
 import * as compStyles from "./section-hero.module.css";
 
 // Template variables
-const donate = "/donate"
+const donate = "/donate";
 const hero = "../../../images/hero/hero.png";
 
 function SectionHero() {

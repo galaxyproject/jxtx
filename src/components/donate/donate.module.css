@@ -7,23 +7,23 @@
 
 /* Home main. */
 .main {
-    background-color: var(--white);
-    margin: 0 auto;
-    max-width: var(--maximum);
-    width: 100%;
+  background-color: var(--white);
+  margin: 0 auto;
+  max-width: var(--maximum);
+  width: 100%;
 }
 
 label {
-    display: block;
-    position: relative;
-    width: 6em;
+  display: block;
+  position: relative;
+  width: 6em;
 }
 input {
-    position: absolute;
-    left: 7em;
-    width: 16em;
+  position: absolute;
+  left: 7em;
+  width: 16em;
 }
 
 div.inline-donate-button {
-    float: right;
+  float: right;
 }

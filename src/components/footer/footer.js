@@ -77,10 +77,7 @@ function Footer() {
             </Link>
           </li>
           <li className={compStyles.footer__nav__item}>
-            <a
-              href={donate}
-              className={compStyles.footer__nav__link}
-            >
+            <a href={donate} className={compStyles.footer__nav__link}>
               Donate
             </a>
           </li>

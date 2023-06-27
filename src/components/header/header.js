@@ -136,10 +136,7 @@ function Header(props) {
             </Link>
           </li>
           <li className={compStyles.header__nav__item___cta}>
-            <a
-              className={compStyles.header__nav__link}
-              href={donate}
-            >
+            <a className={compStyles.header__nav__link} href={donate}>
               Donate
             </a>
           </li>
