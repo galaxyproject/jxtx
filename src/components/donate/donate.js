@@ -45,7 +45,9 @@ const imgShoes = "../../../images/logo-jxtx-sticker-square.png";
 function Home() {
     return (
         <main className={compStyles.main}>
-            <Section type={SectionType.HERO_SUB}>
+            <Section type={SectionType.HERO_DUO}>
+                <GridItem gridArea={GridArea.BLOCK}>
+                    <ContentBlock scale={ContentBlockScale.LARGE} >
                 <ContentBlockHeading scale={HeadingScale.LARGE} theme={HeadingTheme.ORANGE}>
                     Donate to JXTX
                 </ContentBlockHeading>
@@ -59,53 +61,14 @@ function Home() {
                         partnered with GalaxyWorks, co-founded by James Taylor, to accept donations using the 'Donate Now' button below.
                     <ContentBlockCta scale={Scale.MEDIUM}>
                         <ButtonCta
-                            attributeHREF={"https://donate.stripe.com/cN29CbbYYbq16GIaEE"}
+                            attributeHREF={"https://www.zeffy.com/en-US/fundraising/588f76f8-0986-4b34-a86a-bbd4da352096"}
                             buttonTheme={ButtonTheme.PRIMARY}
                             buttonType={ButtonType.UNELEVATED}>
                             Donate Now
                         </ButtonCta>
                     </ContentBlockCta>
                     </p>
-                    <p>
-                    Or, if you'd prefer to wait until the JXTX Foundation can accept your donation directly, please fill out
-                    the form below and we will notify you when the foundation donation platform is available.
-                    </p>
                 </ContentBlockBody>
-            </Section>
-            <Section type={SectionType.HERO_DUO}>
-                <GridItem gridArea={GridArea.BLOCK}>
-                    <ContentBlock scale={ContentBlockScale.LARGE} theme={ContentBlockTheme.OFF_WHITE}>
-                        <ContentBlockHeading scale={HeadingScale.LARGE} theme={HeadingTheme.ORANGE}>
-                            Make a Pledge
-                        </ContentBlockHeading>
-                        <ContentBlockBody scale={ContentBlockBodyScale.MEDIUM}>
-                            <form className="contactform" name="pledge" method="POST" data-netlify="true">
-                                <input type="hidden" name="form-name" value="pledge" />
-                                <p>
-                                    <label>
-                                        Name: <input type="text" name="name" placeholder="Your Name" />
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        Email: <input type="email" name="email" placeholder="name@example.com" />
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        Pledge: <input name="pledge" placeholder="$10.00" /> <sub>(optional)</sub>
-                                    </label>
-                                </p>
-                                <p>
-                                    <button type="submit">Submit</button>
-                                </p>
-                            </form>
-                            <sub>
-                                We will only use your contact information to notify you when the JXTX Foundation is able
-                                to directly accept donations. Any pledge amount is appreciated, but note that pledges
-                                are not binding.
-                            </sub>
-                        </ContentBlockBody>
                     </ContentBlock>
                 </GridItem>
                 <GridItem gridArea={GridArea.THUMBNAIL}>
