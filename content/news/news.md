@@ -46,9 +46,9 @@ title: "Newsroom"
 JXTX + CSHL 2024 Biology of Genomes Scholarship
 </TileHeading>
 <TileBody>
-The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Genome Informatics Scholarship. Application deadline is February 2, 2024.
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2024 Biology of Genomes Scholarship. Application deadline is February 2, 2024.
 </TileBody>
-<TileDate>May 16, 2023</TileDate>
+<TileDate>November 27, 2023</TileDate>
 </TileContent>
 </Tile>
 
