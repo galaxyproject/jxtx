@@ -61,8 +61,10 @@ function Home() {
                 and sponsoring student outreach.
               </p>
               <p>
-                The JXTX Foundation 501(c)(3) application is still pending, but
-                you can donate through Zeffy now, using the button below.
+                As a registered 501(c)(3) non-profit organization, your
+                donations are tax-deductible to the fullest extent permitted by
+                law. Your support helps us continue our mission, and we are
+                grateful for your generosity and commitment to our cause.
                 <ContentBlockCta scale={Scale.MEDIUM}>
                   <ButtonCta
                     attributeHREF={
