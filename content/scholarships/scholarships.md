@@ -7,12 +7,14 @@ images:
     - _images/scholarships-hero-2020-bds.png
     - _images/scholarships-hero-2023-gi.png
     - _images/scholarships-hero-2023-bog.png
+    - _images/scholarships-hero-2024-bog.png
 links:
     - /scholarships/2021-genome-informatics
     - /news/2020-10-jxtx-awardees
     - /news/2021-08-jxtx-awardees
     - /news/2022-12-16-bg
     - /news/2023-04-07-gi
+    - /news/2023-11-27-bg
 slug: "/scholarships"
 title: "Scholarships"
 ---
@@ -22,6 +24,26 @@ title: "Scholarships"
 </Headline>
 
 <Newsroom>
+
+<Grid columns={1}>
+
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[5]}>
+<TileThumbnail alt={"JXTX + CSHL 2024 Biology of Genomes Scholarship"} image={props.images[4]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + CSHL 2024 Biology of Genomes Scholarship
+</TileHeading>
+<TileBody>
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2024 Biology of Genomes Scholarship. Application deadline is February 2, 2024.
+</TileBody>
+</TileContent>
+</Tile>
+
+</Grid>
+
+<!--
+Past Scholarships
+-->
 
 
 <Grid columns={1}>
@@ -39,10 +61,6 @@ The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2023 Genome I
 </Tile>
 
 </Grid>
-
-<!--
-Past Scholarships
--->
 
 <Grid columns={1}>
 
