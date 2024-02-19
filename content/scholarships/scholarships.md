@@ -8,6 +8,7 @@ images:
     - _images/scholarships-hero-2023-gi.png
     - _images/scholarships-hero-2023-bog.png
     - _images/scholarships-hero-2024-bog.png
+    - ../_images/gcc2024-banner.png
 links:
     - /scholarships/2021-genome-informatics
     - /news/2020-10-jxtx-awardees
@@ -15,6 +16,7 @@ links:
     - /news/2022-12-16-bg
     - /news/2023-04-07-gi
     - /news/2023-11-27-bg
+    - /news/2024-2-19-gcc
 slug: "/scholarships"
 title: "Scholarships"
 ---
@@ -24,6 +26,23 @@ title: "Scholarships"
 </Headline>
 
 <Newsroom>
+
+<Grid columns={1}>
+
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[6]}>
+<TileThumbnail alt={"JXTX + GCC 2024 Scholarship"} image={props.images[5]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + GCC 2024 Scholarship
+</TileHeading>
+<TileBody>
+The JXTX Foundation and Galaxy Project announce the 2024 GCC Scholarship. Application deadline is March 31, 2024.
+</TileBody>
+</TileContent>
+</Tile>
+
+</Grid>
+
 
 <Grid columns={1}>
 
