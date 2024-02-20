@@ -15,6 +15,7 @@ images:
     - _images/2023-bog-awardees.png
     - ../scholarships/_images/scholarships-hero-2023-gi.png
     - ../scholarships/_images/scholarships-hero-2024-bog.png
+    - _images/2024-bog-awardees.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
@@ -27,6 +28,7 @@ links:
     - /news/2023-02-jxtx-bg-awardees
     - /news/2023-04-07-gi
     - /news/2023-11-27-bg
+    - /news/2024-02-21-bg
 slug: "/news"
 title: "Newsroom"
 ---
@@ -39,7 +41,24 @@ title: "Newsroom"
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[10]}>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[11]}>
+<TileThumbnail alt={"JXTX + CSHL 2024 Biology of Genomes Scholarship Awards"} image={props.images[12]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + CSHL 2024 Biology of Genomes Scholarship Awards
+</TileHeading>
+<TileBody>
+Meet the six recipients of the JXTX Foundation and Cold Spring Harbor Laboratory Scholarships for the 2024 Biology of Genomes conference.
+</TileBody>
+<TileDate>Febraru 21, 2024</TileDate>
+</TileContent>
+</Tile>
+
+
+</Grid>
+
+<Grid columns={3}>
+<Tile tileLink={props.links[10]}>
 <TileThumbnail alt={"JXTX + CSHL 2024 Biology of Genomes Scholarship"} image={props.images[11]}></TileThumbnail>
 <TileContent>
 <TileHeading>
@@ -52,10 +71,6 @@ The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2024 Biology 
 </TileContent>
 </Tile>
 
-
-</Grid>
-
-<Grid columns={3}>
 
 <Tile tileLink={props.links[9]}>
 <TileThumbnail alt={"JXTX + CSHL 2023 Genome Informatics Scholarship"} image={props.images[10]}></TileThumbnail>
