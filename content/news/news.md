@@ -50,7 +50,7 @@ JXTX + CSHL 2024 Biology of Genomes Scholarship Awards
 <TileBody>
 Meet the six recipients of the JXTX Foundation and Cold Spring Harbor Laboratory Scholarships for the 2024 Biology of Genomes conference.
 </TileBody>
-<TileDate>Febraru 21, 2024</TileDate>
+<TileDate>February 21, 2024</TileDate>
 </TileContent>
 </Tile>
 
