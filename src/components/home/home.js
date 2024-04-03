@@ -121,7 +121,7 @@ function Home() {
             <ContentBlockBody scale={ContentBlockBodyScale.LARGE}>
               In its later stages, the Foundation will sponsor in-person visits
               from students (high school or college age) to its hotspots, which
-              currently include Johns Hopkins and Penn State.
+              currently include Johns Hopkins and Penn State University.
             </ContentBlockBody>
             <ContentBlockCta scale={Scale.MEDIUM}>
               <ButtonCta

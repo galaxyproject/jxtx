@@ -29,7 +29,7 @@ The Foundation will later expand its reach as a platform for academic mentorship
 
 ## Student Outreach
 
-In its later stages, the Foundation will sponsor in-person visits from students (high school or college age) to its hotspots, which currently include Johns Hopkins and Penn State. These visits are meant to attract new scholars to computational biology and data science, and in particular to form connections and opportunities for members of underrepresented minorities.
+In its later stages, the Foundation will sponsor in-person visits from students (high school or college age) to its hotspots, which currently include Johns Hopkins and Penn State University. These visits are meant to attract new scholars to computational biology and data science, and in particular to form connections and opportunities for members of underrepresented minorities.
 
 ---
 
@@ -48,7 +48,7 @@ The objectives and activities of the foundation are governed by the foundation b
 | [Ross Hardison](https://science.psu.edu/bmb/people/rch8)                                | Penn State                           | Member                |
 | [Ross Lazarus](https://www.linkedin.com/in/rosslazarus/?originalSubdomain=au)           | galaxyproject.org                    | Member                |
 | [Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/)         | University of Melbourne              | Member                |
-| [Anton Nekrutenko](https://nekrut.github.io/lab_site/)                                  | Penn State University                | Member                |
+| [Anton Nekrutenko](https://nekrut.github.io/lab_site/)                                  | Penn State University                | Director              |
 | [Francis Ouellette](https://www.linkedin.com/in/francisouellette/?originalSubdomain=ca) | bioinformatics.ca                    | Member                |
 | [Michael Schatz](https://schatz-lab.org/)                                               | Johns Hopkins University             | Member                |
 | [Jenn Vessio](https://www.linkedin.com/in/jennifer-vessio-00498014/)                    | Johns Hopkins University             | Financial officer     |
