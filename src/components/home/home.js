@@ -56,11 +56,11 @@ function Home() {
         </ContentBlockHeading>
         <ContentBlockBody scale={ContentBlockBodyScale.LARGE}>
           In its early stages, the JXTX Foundation will provide support for
-          graduate students to attend conferences in computational biology and
-          data science, where they can present their work and form connections
-          with other researchers in the field. Towards the goal of advancing
-          mentorship, JXTX will organize and host mentoring sessions between
-          senior and junior faculty members at select meetings.
+          students and trainees to attend conferences in computational biology
+          and data science, where they can present their work and form
+          connections with other researchers in the field. With the goal of
+          advancing mentorship, The JXTX Foundation will support initiatives
+          where students will get mentoring and hands on research.
         </ContentBlockBody>
       </Section>
       <Section type={SectionType.HERO_DUO}>
