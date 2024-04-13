@@ -59,8 +59,8 @@ function Home() {
           students and trainees to attend conferences in computational biology
           and data science, where they can present their work and form
           connections with other researchers in the field. With the goal of
-          advancing mentorship, The JXTX Foundation will support initiatives
-          where students will get mentoring and hands on research.
+          advancing mentorship, the JXTX Foundation will support initiatives
+          where students recieve mentoring and engage in hands on research.
         </ContentBlockBody>
       </Section>
       <Section type={SectionType.HERO_DUO}>
