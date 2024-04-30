@@ -39,19 +39,19 @@ The objectives and activities of the foundation are governed by the foundation b
 
 | Name                                                                                    | Affiliation                          | Role                  |
 | :-------------------------------------------------------------------------------------- | :----------------------------------- | :-------------------- |
-| [Dannon Baker](https://github.com/dannon)                                               | Johns Hopkins University             | Communication officer |
-| [Dan Blankenberg](https://www.lerner.ccf.org/gmi/blankenberg/)                          | Cleveland Clinic                     | Member                |
+| [Dannon Baker](https://www.linkedin.com/in/dannonbaker/)                                | Johns Hopkins University             | Communication officer |
+| [Dan Blankenberg](https://www.lerner.ccf.org/computational-medicine/blankenberg/)       | Cleveland Clinic                     | Member                |
 | [Dave Clements](https://www.linkedin.com/in/clements)                                   | galaxyproject.org                    | Member                |
 | [Jeremy Goecks](https://www.goeckslab.org/)                                             | Moffitt Cancer Center                | Member                |
 | [Meredith Greif](https://soc.jhu.edu/directory/meredith-greif/)                         | Johns Hopkins University             | Member                |
 | [Björn Grüning](https://github.com/bgruening)                                           | University of Freiburg               | Member                |
 | [Ross Hardison](https://science.psu.edu/bmb/people/rch8)                                | Penn State                           | Member                |
 | [Ross Lazarus](https://www.linkedin.com/in/rosslazarus/?originalSubdomain=au)           | galaxyproject.org                    | Member                |
-| [Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/)         | University of Melbourne              | Member                |
+| [Andrew Lonie](https://www.biocommons.org.au/lb-andrew)                                 | University of Melbourne              | Member                |
 | [Anton Nekrutenko](https://nekrut.github.io/lab_site/)                                  | Penn State University                | Director              |
 | [Francis Ouellette](https://www.linkedin.com/in/francisouellette/?originalSubdomain=ca) | bioinformatics.ca                    | Member                |
 | [Michael Schatz](https://schatz-lab.org/)                                               | Johns Hopkins University             | Member                |
-| [Jenn Vessio](https://www.linkedin.com/in/jennifer-vessio-00498014/)                    | Johns Hopkins University             | Financial officer     |
+| [Jenn Vessio](https://www.linkedin.com/in/jennifer-vessio-a67522244/)                   | Johns Hopkins University             | Financial officer     |
 
 **Please consider [contributing][1] to continue James Taylor's legacy.**
 
