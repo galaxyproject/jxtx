@@ -41,7 +41,7 @@ The objectives and activities of the foundation are governed by the foundation b
 | :-------------------------------------------------------------------------------------- | :----------------------------------- | :-------------------- |
 | [Dannon Baker](https://github.com/dannon)                                               | Johns Hopkins University             | Communication officer |
 | [Dan Blankenberg](https://www.lerner.ccf.org/gmi/blankenberg/)                          | Cleveland Clinic                     | Member                |
-| [Dave Clements](https://www.linkedin.com/in/clements)                                   | anaconda.com                         | Member                |
+| [Dave Clements](https://www.linkedin.com/in/clements)                                   | galaxyproject.org                    | Member                |
 | [Jeremy Goecks](https://www.goeckslab.org/)                                             | Moffitt Cancer Center                | Member                |
 | [Meredith Greif](https://soc.jhu.edu/directory/meredith-greif/)                         | Johns Hopkins University             | Member                |
 | [Björn Grüning](https://github.com/bgruening)                                           | University of Freiburg               | Member                |
