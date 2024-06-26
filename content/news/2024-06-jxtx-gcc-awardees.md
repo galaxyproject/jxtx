@@ -18,11 +18,10 @@ title: "JXTX Foundation Awards Scholarships for GCC2024"
 
 <Image alt="JXTX Foundation Awardees" image={props.images[0]}></Image>
 
-<figcaption>JXTX Foundation Awards Scholarships for 2023 Biology of Genomes</figcaption>
+<figcaption>JXTX + GCC 2024 Scholarship</figcaption>
 
-[JXTX: The James P. Taylor Foundation for Open Science][1] is pleased to announce the recipients of the 2023 JXTX+CSHL Biology of Genomes Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
+[JXTX: The James P. Taylor Foundation for Open Science][1] is pleased to announce the recipients of the 2024 GCC Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
 
-Six genomics and data sciences graduate students from around the globe were awarded this set of JXTX+CSHL scholarships. These awardees will present their work at the [Cold Spring Harbor Laboratory (CSHL) Biology of Genomes Conference][2] being held May 9-13. Awardees represent six institutions and are presenting a wide range of research at the meeting.
 
 <Awardees>
 <GridUnus>
