@@ -16,6 +16,7 @@ images:
     - ../scholarships/_images/scholarships-hero-2023-gi.png
     - ../scholarships/_images/scholarships-hero-2024-bog.png
     - _images/2024-bog-awardees.png
+    - ../_images/gcc2024-banner.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
@@ -29,6 +30,7 @@ links:
     - /news/2023-04-07-gi
     - /news/2023-11-27-bg
     - /news/2024-02-21-bg
+    - /news/2024-06-jxtx-gcc-awardees
 slug: "/news"
 title: "Newsroom"
 ---
@@ -41,7 +43,25 @@ title: "Newsroom"
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[11]}>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[12]}>
+<TileThumbnail alt={"JXTX + GCC 2024 Scholarship"} image={props.images[13]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + GCC 2024 Scholarship Recipients
+</TileHeading>
+<TileBody>
+Meet the six recipients of the JXTX Foundation 2024 Galaxy Community Conference.
+</TileBody>
+<TileDate>June 26, 2024</TileDate>
+</TileContent>
+</Tile>
+
+
+</Grid>
+
+<Grid columns={3}>
+
+<Tile tileLink={props.links[11]}>
 <TileThumbnail alt={"JXTX + CSHL 2024 Biology of Genomes Scholarship Awards"} image={props.images[12]}></TileThumbnail>
 <TileContent>
 <TileHeading>
@@ -55,9 +75,6 @@ Meet the six recipients of the JXTX Foundation and Cold Spring Harbor Laboratory
 </Tile>
 
 
-</Grid>
-
-<Grid columns={3}>
 <Tile tileLink={props.links[10]}>
 <TileThumbnail alt={"JXTX + CSHL 2024 Biology of Genomes Scholarship"} image={props.images[11]}></TileThumbnail>
 <TileContent>
