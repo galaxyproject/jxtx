@@ -9,6 +9,7 @@ images:
     - _images/scholarships-hero-2023-bog.png
     - _images/scholarships-hero-2024-bog.png
     - ../_images/gcc2024-banner.png
+    - _images/scholarships-hero-2024-bds.png
 links:
     - /scholarships/2021-genome-informatics
     - /news/2020-10-jxtx-awardees
@@ -17,6 +18,7 @@ links:
     - /news/2023-04-07-gi
     - /news/2023-11-27-bg
     - /news/2024-2-19-gcc
+    - /news/2024-07-26-bds
 slug: "/scholarships"
 title: "Scholarships"
 ---
@@ -26,6 +28,23 @@ title: "Scholarships"
 </Headline>
 
 <Newsroom>
+
+
+<Grid columns={1}>
+
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[7]}>
+<TileThumbnail alt={"JXTX + CSHL BDS 2024 Scholarship"} image={props.images[6]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + CSHL Biological Data Science 2024 Scholarship
+</TileHeading>
+<TileBody>
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2024 Biological Data Science Scholarship.
+</TileBody>
+</TileContent>
+</Tile>
+
+</Grid>
 
 <Grid columns={1}>
 
