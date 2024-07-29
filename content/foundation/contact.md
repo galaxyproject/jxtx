@@ -9,8 +9,8 @@ title: "Contact the JXTX Foundation"
 
 Whether you are interested in learning more about the JXTX Foundation, have a question, or would like to get involved, we would love to hear from you.  Please fill out the form below, or simply email [contact@jxtxfoundation.org](mailto:contact@jxtxfoundation.org) and we will get back to you as soon as possible.
 
-<form name="pledge" method="POST" data-netlify="true">
-    <input type="hidden" name="form-name" value="pledge" />
+<form name="contact" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact" />
     <p>
         <label>Name: <input type="text" name="name" /></label>
     </p>
