@@ -18,10 +18,11 @@ label {
   position: relative;
   width: 6em;
 }
-input {
+
+input, textarea {
   position: absolute;
   left: 7em;
-  width: 16em;
+  width: 20em;
 }
 
 div.inline-donate-button {
