@@ -25,6 +25,7 @@ import * as compStyles from "./footer.module.css";
 // Template variables
 const about = "/about";
 const donate = "/donate";
+const contact = "/contact";
 // const facebook = "/";
 const home = "/";
 // const instagram = "/";
@@ -79,6 +80,11 @@ function Footer() {
           <li className={compStyles.footer__nav__item}>
             <a href={donate} className={compStyles.footer__nav__link}>
               Donate
+            </a>
+          </li>
+          <li className={compStyles.footer__nav__item}>
+            <a href={contact} className={compStyles.footer__nav__link}>
+              Contact
             </a>
           </li>
         </ul>
