@@ -19,7 +19,8 @@ label {
   width: 6em;
 }
 
-input, textarea {
+input,
+textarea {
   position: absolute;
   left: 7em;
   width: 20em;
