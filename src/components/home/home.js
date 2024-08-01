@@ -60,7 +60,7 @@ function Home() {
           and data science, where they can present their work and form
           connections with other researchers in the field. With the goal of
           advancing mentorship, the JXTX Foundation will support initiatives
-          where students recieve mentoring and engage in hands on research.
+          where students receive mentoring and engage in hands on research.
         </ContentBlockBody>
       </Section>
       <Section type={SectionType.HERO_DUO}>
