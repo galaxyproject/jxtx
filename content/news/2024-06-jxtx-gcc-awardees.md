@@ -85,7 +85,7 @@ Morgan Howells is a third year BSc student studying Computing & IT at The Open U
 <Awardee>
 <AwardeeContent>
 <h3>Drielli Canal</h3>
-<h4>UCLA</h4>
+<h4>State University of Campinas, São Paulo</h4>
 
 Drielli graduated from Federal University of Espírito Santo, Southeast Brazil, in Biological Sciences which enabled her to go into the fields of genetics and plant breeding. Consequently, she did her masters project looking into guava genomics via the use of bioinformatics and molecular analyses. Driven by a passion for species conservation, her Ph.D at the Federal University of Rio Grande do Sul, Southern Brazil, focused on investigating the genetic foundations of essential oil biosynthesis in native Brazilian species. During the PhD, she spent 6 months at Cardiff University in Wales, enhancing the knowledge in gene cloning and enzymatic assays. Currently, Drielli is working as a guest researcher at the State University of Campinas, São Paulo, studying an Amazonian ground-herb which is adapted to water flooded environments by looking into its genomic regulation in a flooding gradient.
 
