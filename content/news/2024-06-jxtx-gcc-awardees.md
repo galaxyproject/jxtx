@@ -59,7 +59,7 @@ Natalia is a 2nd year Genetics and Genomics PhD student in the Ryan Lab at Unive
 <AwardeeContent>
 
 <h3>Luca Degradi</h3>
-<h4>CalTech</h4>
+<h4>Università degli Studi di Milano</h4>
 
 Luca Degradi is an Italian researcher and educator who is passionate about molecular biology and bioinformatics. He obtained a Bachelor&#39;s degree in Agricultural Science and Technology from the Università degli Studi di Milano in 2018. His thesis on GMO perception in Italy reflects his dedication to exploring scientific frontiers and their societal implications.
 <!-- Luca obtained a Master&#39;s degree in Biotechnology for the Bioeconomy, achieving an outstanding mark of 110/110 with honors. During his master&#39;s, he conducted groundbreaking research on fungal genomics, with a particular focus on Fusarium species, under the guidance of Prof. M. Pasquali. His work led to the publication of several groundbreaking papers, including the first telomere-to- telomere genome assembly of Fusarium musae, a pathogen that affects both bananas and humans. 
