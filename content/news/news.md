@@ -18,7 +18,7 @@ images:
     - _images/2024-bog-awardees.png
     - ../_images/gcc2024-banner.png
     - ../scholarships/_images/scholarships-hero-2024-bds.png
-    - ../scholarships/_images/scholarships-hero-2024-bds.png
+    - _images/bds2024-awardees.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
@@ -48,7 +48,7 @@ title: "Newsroom"
 <Grid columns={1}>
 
 <Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[14]}>
-<TileThumbnail alt={"JXTX + GCC 2024 Awardees"} image={props.images[14]}></TileThumbnail>
+<TileThumbnail alt={"JXTX + GCC 2024 Awardees"} image={props.images[15]}></TileThumbnail>
 <TileContent>
 <TileHeading>
 JXTX + CSHL 2024 Biological Data Science Scholarship Awardees

@@ -2,7 +2,7 @@
 description: "JXTX: The James P. Taylor Foundation for Open Science is pleased to announce the 2024 GCC scholarship recipients."
 image: ../_images/seo/newsroom.png
 images:
-    - ../scholarships/_images/scholarships-hero-2024-bds.png
+    - _images/bds2024-awardees.png
     - _images/awardee-kambhampati.jpg
     - _images/awardee-arab.jpg
     - _images/awardee-shinder.jpg
