@@ -19,6 +19,7 @@ images:
     - ../_images/gcc2024-banner.png
     - ../scholarships/_images/scholarships-hero-2024-bds.png
     - _images/bds2024-awardees.png
+    - ../scholarships/_images/scholarships-hero-2025-bog.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
@@ -35,6 +36,7 @@ links:
     - /news/2024-06-jxtx-gcc-awardees
     - /news/2024-07-26-bds
     - /news/2024-11-jxtx-bds-awardees
+    - /news/2025-2-4-bg
 slug: "/news"
 title: "Newsroom"
 ---
@@ -47,7 +49,24 @@ title: "Newsroom"
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[14]}>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[15]}>
+<TileThumbnail alt={"JXTX + CSHL 2025 Biology of Genomes Scholarship"} image={props.images[16]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + CSHL 2025 Biology of Genomes Scholarship
+</TileHeading>
+<TileBody>
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2025 Biology of Genomes Scholarship.
+</TileBody>
+<TileDate>February 4, 2025</TileDate>
+</TileContent>
+</Tile>
+
+</Grid>
+
+<Grid columns={3}>
+
+<Tile tileLink={props.links[14]}>
 <TileThumbnail alt={"JXTX + GCC 2024 Awardees"} image={props.images[15]}></TileThumbnail>
 <TileContent>
 <TileHeading>
@@ -59,11 +78,6 @@ Meet the six recipients of the JXTX Foundation and Cold Spring Harbor Laboratory
 <TileDate>November 11, 2024</TileDate>
 </TileContent>
 </Tile>
-
-
-</Grid>
-
-<Grid columns={3}>
 
 <Tile tileLink={props.links[13]}>
 <TileThumbnail alt={"JXTX + GCC 2024 Scholarship"} image={props.images[14]}></TileThumbnail>
