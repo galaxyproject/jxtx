@@ -33,6 +33,21 @@ title: "Scholarships"
 
 <Grid columns={1}>
 
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[9]}>
+<TileThumbnail alt={"JXTX + GCC GBCC 2025 Scholarship"} image={props.images[8]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + CSHL 2025 Biology of Genomes Scholarship
+</TileHeading>
+<TileBody>
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2025 Biology of Genomes Scholarship.
+</TileBody>
+</TileContent>
+</Tile>
+
+</Grid>
+<Grid columns={1}>
+
 <Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[8]}>
 <TileThumbnail alt={"JXTX + CSHL BDS 2024 Scholarship"} image={props.images[7]}></TileThumbnail>
 <TileContent>
