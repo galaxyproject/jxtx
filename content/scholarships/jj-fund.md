@@ -23,9 +23,13 @@ JJ’s accomplishments are many and these fellowships highlight what he brought 
 
 James Johnson, or JJ as he was better known, worked as a senior software developer at the Minnesota Supercomputing Institute at the University of Minnesota. JJ was one of the earliest software developers to start using Galaxy. He contributed in many ways to the growth of Galaxy, which is now used by thousands of people worldwide to advance a wide variety of research projects, with many Galaxy users running the software that JJ developed. JJ always had a heart for training and mentoring students and other researchers who were new to Galaxy.
 
-<div style="display: flex; flex-direction: row; gap: 20px;">
-    <Image alt="James (JJ) Johnson" image={props.images[0]} style={{ height: '200px', objectFit: 'contain' }} />
-    <Image alt="James (JJ) Johnson" image={props.images[1]} style={{ height: '200px', objectFit: 'contain' }} />
+<div style={{display: 'flex', flexDirection: 'row', gap: '30px', marginLeft: 'auto', marginRight: 'auto', maxWidth: '80%', marginBottom: '2rem' }}>
+    <div style={{width: '50%'}}>
+        <Image alt="James (JJ) Johnson" image={props.images[0]} style={{objectFit: 'contain', width: '100%', height: '100%'}}/>
+    </div>
+    <div style={{width: '50%'}}>
+        <Image alt="James (JJ) Johnson" image={props.images[1]} style={{objectFit: 'contain', width: '100%', height: '100%'}}/>
+    </div>
 </div>
 
 ## Travel Fellowships
