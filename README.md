@@ -69,6 +69,7 @@ I was unable to get this to build with npm and it was *difficult* with yarn, but
   GATSBY_CPU_COUNT=1 yarn build
   yarn serve
 ```
+Solution distilled from this long discussion of the initial error relating to the `yoga-layout-prebuilt` package: https://github.com/gatsbyjs/gatsby/issues/24577.
 
 ## Deployment
 
