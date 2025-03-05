@@ -57,6 +57,19 @@ The built version can be viewed at:
 
 `localhost:9000`
 
+### Notes from @scottcain
+
+I was unable to get this to build with npm and it was *difficult* with yarn, but this appeared to be the magic incationation on my M4 Mac:
+
+```
+  nvm use 18
+  rm package-lock.json
+  rm -rf node_modules
+  yarn install
+  GATSBY_CPU_COUNT=1 yarn build
+  yarn serve
+```
+
 ## Deployment
 
 The application is auto deployed on Netlify by pushing changes to the `main` branch. 
