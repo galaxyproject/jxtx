@@ -114,7 +114,7 @@ William is an undergraduate student at Rutgers, The State University of New Jers
 
 Towards the goal of advancing mentorship, the JXTX Foundation will organize and host mentoring sessions between senior and junior faculty members at select high-profile meetings. The Foundation also aims to attract new scholars, including high school and undergrad students, to computational biology and data science, and to form connections and opportunities for members of underrepresented minority populations.
 
-According to his colleagues, James hated self-promotion. But the community would be done a grave disservice if the seeds planted by Dr.Taylor were not nourished to grow and flourish. Thank you to those who have generously contributed.
+According to his colleagues, James hated self-promotion. But the community would be done a grave disservice if the seeds planted by Dr. Taylor were not nourished to grow and flourish. Thank you to those who have generously contributed.
 
 Please consider [making a donation][4] to support James Taylor's legacy.
 
