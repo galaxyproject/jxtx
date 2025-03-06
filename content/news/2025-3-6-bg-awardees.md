@@ -31,9 +31,11 @@ Six genomics and data sciences graduate students from around the globe were awar
 <Image alt={"Maria"} image={props.images[1]}></Image>
 <AwardeeContent>
 <h3>Maria Carilli</h3>
-<h4>[UNIVERSITY]</h4>
+<h4>California Institute of Technology</h4>
 
-[Maria][5] is a [BIO PLACEHOLDER]
+Maria Carilli is a PhD student in Biochemistry and Molecular Biophysics at the California Institute of Technology, advised by Dr. Lior Pachter.
+
+She researches how to gain deeper insight from single-cell omics data using statistical and machine-learning based approaches. She has worked on integrating multimodal data through biophysical modeling and is currently interested in understanding context dependent gene regulation at the level of individual cells and cell types. Away from the computer, she enjoys long trail runs, singing in choir, and playing gigs with her band. 
 
 </AwardeeContent>
 </Awardee>
@@ -42,9 +44,18 @@ Six genomics and data sciences graduate students from around the globe were awar
 <Awardee>
 <AwardeeContent>
 <h3>Sakuntha Gunarathna</h3>
-<h4>[UNIVERSITY]</h4>
+<h4>University of North Dakota</h4>
 
-[Sakuntha][6] is a [BIO PLACEHOLDER]
+Originally from the island nation of Sri Lanka, Sakuntha D. Gunarathna is a fourth-year Ph.D.
+candidate in the Graduate Program in Biomedical Sciences at the University of North Dakota
+School of Medicine and Health Sciences, working under the mentorship of Dr. Motoki Takaku.
+
+His research focuses on using machine learning to analyze cell-free DNA (cfDNA) for non-
+invasive cancer detection. By leveraging open chromatin signatures in cfDNA, he develops
+computational models that enhance cancer prediction and biomarker discovery. His work
+integrates epigenomics, bioinformatics, and artificial intelligence to improve the detection and
+characterization of breast cancer from liquid biopsies. Outside of academia, he enjoys exploring
+nature and astronomy, finding inspiration in both the microscopic and cosmic scales of science.
 
 </AwardeeContent>
 <Image alt={"Sakuntha"} image={props.images[2]}></Image>
@@ -57,9 +68,11 @@ Six genomics and data sciences graduate students from around the globe were awar
 <AwardeeContent>
 
 <h3>Betselot Zerihun Ayano</h3>
-<h4>[UNIVERSITY]</h4>
+<h4>Ethiopian Public Health Institute</h4>
 
-[Betselot][7] is a [BIO PLACEHOLDER]
+Betselot Zerihun Ayano is a Bioinformatician at the Ethiopian Public Health Institute (EPHI), specializing in pathogen genomics and bioinformatics. With expertise in advanced laboratory techniques and bioinformatics, he has made significant contributions to infectious disease research, particularly in tuberculosis and emerging viral and bacterial pathogens.
+
+Betselot is dedicated to advancing bioinformatics in Ethiopia. His work focuses on establishing integrated bacterial genomics by linking genomic and epidemiological data to enhance antimicrobial resistance (AMR) surveillance and inform public health interventions.
 
 </AwardeeContent>
 </Awardee>
@@ -67,9 +80,20 @@ Six genomics and data sciences graduate students from around the globe were awar
 <Awardee>
 <AwardeeContent>
 <h3>Elysia Chou</h3>
-<h4>[UNIVERSITY]</h4>
+<h4>University of Michigan</h4>
 
-[Elysia][8] is a [BIO PLACEHOLDER]
+Elysia is a Bioinformatics PhD candidate at the University of Michigan and is
+mentored by Dr. Maureen Sartor. Elysia's current research focuses on pinpointing
+cell type-specific gene regulatory mechanisms in psoriasis by building computational tools to link
+disease- associated variants or cis-regulatory elements to their target genes.
+Her methods have allowed her to work with a wide range of epigenomic data, from
+multimodal single cell ATAC-Seq and RNA-Seq to bulk eQTL. 
+
+Outside of research,
+Elysia leads the University of Michigan's chapter of Girls Who Code, where her
+team seeks to address local technology education inequities by providing a
+supportive and collaborative environment for high schoolers to learn how to
+code.
 
 </AwardeeContent>
 <Image alt={"Elysia"} image={props.images[4]}></Image>
@@ -79,9 +103,9 @@ Six genomics and data sciences graduate students from around the globe were awar
 <Image alt={"Amy"} image={props.images[5]}></Image>
 <AwardeeContent>
 <h3>Amy Longtin</h3>
-<h4>[UNIVERSITY]</h4>
+<h4>Vanderbilt University</h4>
 
-[Amy][9] is a [BIO PLACEHOLDER]
+Amy Longtin is a PhD student in Dr. Amanda Lea’s lab in the Department of Biological Sciences at Vanderbilt University. Her research focuses on genotype by environment interactions and epigenetics in human and non-human primate species through the lens of evolutionary medicine. She hopes to identify the genomic and epigenomic mechanisms that embed lived experiences into physiology. Outside of the lab, she enjoys connecting with friends, cooking, and attending yoga classes
 
 </AwardeeContent>
 </Awardee>
@@ -89,9 +113,15 @@ Six genomics and data sciences graduate students from around the globe were awar
 <Awardee>
 <AwardeeContent>
 <h3>William DeGroat</h3>
-<h4>[UNIVERSITY]</h4>
+<h4>Rutgers, The State University of New Jersey</h4>
 
-[William][10] is a [BIO PLACEHOLDER]
+William DeGroat is an undergraduate student at Rutgers, The State University of New Jersey, and a
+member of Dr. Anat Kreimer’s laboratory at the Center for Advanced Biotechnology and Medicine.
+His research focuses on the development of computational methods to understand cell type-specific
+networks of cis-regulatory interactions and their perturbations. William has presented his findings
+at Cold Spring Harbor Laboratory and the American Society of Human Genetics. He has published
+open-source software in Genome Biology and Bioinformatics. William is planning to pursue a Ph.D.
+in computational biology and genetics.
 
 </AwardeeContent>
 <Image alt={"William"} image={props.images[6]}></Image>
