@@ -3,12 +3,12 @@ description: "JXTX: The James P. Taylor Foundation for Open Science is pleased t
 image: ../_images/seo/newsroom.png
 images:
     - _images/2025-bog-awardees.png
-    - ../_images/2025-bog-awardees/maria-carilli.jpg
-    - ../_images/2025-bog-awardees/sakuntha-gunarathna.jpg
-    - ../_images/2025-bog-awardees/betselot-zerihun-ayano.jpg
-    - ../_images/2025-bog-awardees/elysia-chou.jpg
-    - ../_images/2025-bog-awardees/amy-longtin.jpg
-    - ../_images/2025-bog-awardees/william-degroat.jpg
+    - _images/2025-bog-awardees/maria-carilli.jpg
+    - _images/2025-bog-awardees/sakuntha-gunarathna.jpg
+    - _images/2025-bog-awardees/betselot-zerihun-ayano.jpg
+    - _images/2025-bog-awardees/elysia-chou.jpg
+    - _images/2025-bog-awardees/amy-longtin.jpg
+    - _images/2025-bog-awardees/william-degroat.jpg
 title: "JXTX Foundation Awards Scholarships for Biology of Genomes 2025"
 ---
 
@@ -33,9 +33,9 @@ Six genomics and data sciences graduate students from around the globe were awar
 <h3>Maria Carilli</h3>
 <h4>California Institute of Technology</h4>
 
-Maria Carilli is a PhD student in Biochemistry and Molecular Biophysics at the California Institute of Technology, advised by Dr. Lior Pachter.
+Maria is a PhD student in Biochemistry and Molecular Biophysics at the California Institute of Technology, advised by Dr. Lior Pachter.
 
-She researches how to gain deeper insight from single-cell omics data using statistical and machine-learning based approaches. She has worked on integrating multimodal data through biophysical modeling and is currently interested in understanding context dependent gene regulation at the level of individual cells and cell types. Away from the computer, she enjoys long trail runs, singing in choir, and playing gigs with her band. 
+She researches how to gain deeper insight from single-cell omics data using statistical and machine learning-based approaches. She has worked on integrating multimodal data through biophysical modeling and is currently interested in understanding context-dependent gene regulation at the level of individual cells and cell types. Away from the computer, she enjoys long trail runs, singing in choir, and playing gigs with her band.
 
 </AwardeeContent>
 </Awardee>
@@ -46,16 +46,9 @@ She researches how to gain deeper insight from single-cell omics data using stat
 <h3>Sakuntha Gunarathna</h3>
 <h4>University of North Dakota</h4>
 
-Originally from the island nation of Sri Lanka, Sakuntha D. Gunarathna is a fourth-year Ph.D.
-candidate in the Graduate Program in Biomedical Sciences at the University of North Dakota
-School of Medicine and Health Sciences, working under the mentorship of Dr. Motoki Takaku.
+Originally from the island nation of Sri Lanka, Sakuntha is a fourth-year Ph.D. candidate in the Graduate Program in Biomedical Sciences at the University of North Dakota School of Medicine and Health Sciences, working under the mentorship of Dr. Motoki Takaku.
 
-His research focuses on using machine learning to analyze cell-free DNA (cfDNA) for non-
-invasive cancer detection. By leveraging open chromatin signatures in cfDNA, he develops
-computational models that enhance cancer prediction and biomarker discovery. His work
-integrates epigenomics, bioinformatics, and artificial intelligence to improve the detection and
-characterization of breast cancer from liquid biopsies. Outside of academia, he enjoys exploring
-nature and astronomy, finding inspiration in both the microscopic and cosmic scales of science.
+His research focuses on using machine learning to analyze cell-free DNA (cfDNA) for non-invasive cancer detection. By leveraging open chromatin signatures in cfDNA, he develops computational models that enhance cancer prediction and biomarker discovery. His work integrates epigenomics, bioinformatics, and artificial intelligence to improve the detection and characterization of breast cancer from liquid biopsies. Outside of academia, he enjoys exploring nature and astronomy, finding inspiration in both the microscopic and cosmic scales of science.
 
 </AwardeeContent>
 <Image alt={"Sakuntha"} image={props.images[2]}></Image>
@@ -70,9 +63,9 @@ nature and astronomy, finding inspiration in both the microscopic and cosmic sca
 <h3>Betselot Zerihun Ayano</h3>
 <h4>Ethiopian Public Health Institute</h4>
 
-Betselot Zerihun Ayano is a Bioinformatician at the Ethiopian Public Health Institute (EPHI), specializing in pathogen genomics and bioinformatics. With expertise in advanced laboratory techniques and bioinformatics, he has made significant contributions to infectious disease research, particularly in tuberculosis and emerging viral and bacterial pathogens.
+Betselot is a Bioinformatician at the Ethiopian Public Health Institute (EPHI), specializing in pathogen genomics and bioinformatics. With expertise in advanced laboratory techniques and bioinformatics, he has made significant contributions to infectious disease research, particularly in tuberculosis and emerging viral and bacterial pathogens.
 
-Betselot is dedicated to advancing bioinformatics in Ethiopia. His work focuses on establishing integrated bacterial genomics by linking genomic and epidemiological data to enhance antimicrobial resistance (AMR) surveillance and inform public health interventions.
+He is dedicated to advancing bioinformatics in Ethiopia. His work focuses on establishing integrated bacterial genomics by linking genomic and epidemiological data to enhance antimicrobial resistance (AMR) surveillance and inform public health interventions.
 
 </AwardeeContent>
 </Awardee>
@@ -82,18 +75,9 @@ Betselot is dedicated to advancing bioinformatics in Ethiopia. His work focuses 
 <h3>Elysia Chou</h3>
 <h4>University of Michigan</h4>
 
-Elysia is a Bioinformatics PhD candidate at the University of Michigan and is
-mentored by Dr. Maureen Sartor. Elysia's current research focuses on pinpointing
-cell type-specific gene regulatory mechanisms in psoriasis by building computational tools to link
-disease- associated variants or cis-regulatory elements to their target genes.
-Her methods have allowed her to work with a wide range of epigenomic data, from
-multimodal single cell ATAC-Seq and RNA-Seq to bulk eQTL. 
+Elysia is a Bioinformatics PhD candidate at the University of Michigan and is mentored by Dr. Maureen Sartor. Her current research focuses on pinpointing cell type-specific gene regulatory mechanisms in psoriasis by building computational tools to link disease-associated variants or cis-regulatory elements to their target genes. Her methods have allowed her to work with a wide range of epigenomic data, from multimodal single cell ATAC-Seq and RNA-Seq to bulk eQTL.
 
-Outside of research,
-Elysia leads the University of Michigan's chapter of Girls Who Code, where her
-team seeks to address local technology education inequities by providing a
-supportive and collaborative environment for high schoolers to learn how to
-code.
+Outside of research, Elysia leads the University of Michigan's chapter of Girls Who Code, where her team seeks to address local technology education inequities by providing a supportive and collaborative environment for high schoolers to learn how to code.
 
 </AwardeeContent>
 <Image alt={"Elysia"} image={props.images[4]}></Image>
@@ -105,7 +89,7 @@ code.
 <h3>Amy Longtin</h3>
 <h4>Vanderbilt University</h4>
 
-Amy Longtin is a PhD student in Dr. Amanda Lea’s lab in the Department of Biological Sciences at Vanderbilt University. Her research focuses on genotype by environment interactions and epigenetics in human and non-human primate species through the lens of evolutionary medicine. She hopes to identify the genomic and epigenomic mechanisms that embed lived experiences into physiology. Outside of the lab, she enjoys connecting with friends, cooking, and attending yoga classes
+Amy is a PhD student in Dr. Amanda Lea's lab in the Department of Biological Sciences at Vanderbilt University. Her research focuses on genotype by environment interactions and epigenetics in human and non-human primate species through the lens of evolutionary medicine. She hopes to identify the genomic and epigenomic mechanisms that embed lived experiences into physiology. Outside of the lab, she enjoys connecting with friends, cooking, and attending yoga classes.
 
 </AwardeeContent>
 </Awardee>
@@ -115,13 +99,7 @@ Amy Longtin is a PhD student in Dr. Amanda Lea’s lab in the Department of Biol
 <h3>William DeGroat</h3>
 <h4>Rutgers, The State University of New Jersey</h4>
 
-William DeGroat is an undergraduate student at Rutgers, The State University of New Jersey, and a
-member of Dr. Anat Kreimer’s laboratory at the Center for Advanced Biotechnology and Medicine.
-His research focuses on the development of computational methods to understand cell type-specific
-networks of cis-regulatory interactions and their perturbations. William has presented his findings
-at Cold Spring Harbor Laboratory and the American Society of Human Genetics. He has published
-open-source software in Genome Biology and Bioinformatics. William is planning to pursue a Ph.D.
-in computational biology and genetics.
+William is an undergraduate student at Rutgers, The State University of New Jersey, and a member of Dr. Anat Kreimer's laboratory at the Center for Advanced Biotechnology and Medicine. His research focuses on the development of computational methods to understand cell type-specific networks of cis-regulatory interactions and their perturbations. William has presented his findings at Cold Spring Harbor Laboratory and the American Society of Human Genetics. He has published open-source software in Genome Biology and Bioinformatics. William is planning to pursue a Ph.D. in computational biology and genetics.
 
 </AwardeeContent>
 <Image alt={"William"} image={props.images[6]}></Image>
@@ -144,9 +122,3 @@ Please consider [making a donation][4] to support James Taylor's legacy.
 [2]: https://meetings.cshl.edu/meetings.aspx?meet=GENOME&year=25
 [3]: https://galaxyproject.org/jxtx/
 [4]: /donate
-[5]: #
-[6]: #
-[7]: #
-[8]: #
-[9]: #
-[10]: #
