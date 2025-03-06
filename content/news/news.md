@@ -60,7 +60,7 @@ Biology of Genomes Scholarship Awardees
 <TileBody>
 Meet the recipients of the JXTX Foundation and Cold Spring Harbor Laboratory Scholarships for the 2025 Biology of Genomes conference.
 </TileBody>
-<TileDate>February 4, 2025</TileDate>
+<TileDate>March 6, 2025</TileDate>
 </TileContent>
 </Tile>
 
