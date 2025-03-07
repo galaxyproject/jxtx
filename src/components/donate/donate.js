@@ -85,6 +85,41 @@ function Home() {
         </GridItem>
       </Section>
       <Section>
+        <ContentBlock scale={ContentBlockScale.LARGE}>
+          <ContentBlockHeading
+            scale={HeadingScale.MEDIUM}
+            theme={HeadingTheme.ORANGE}
+          >
+            Special Initiatives
+          </ContentBlockHeading>
+          <ContentBlockBody>
+            <p>
+              <strong>The James Johnson (JJ) Travel Fellowships</strong> - Help
+              bring new contributors into the Galaxy ecosystem while honoring
+              JJ's legacy as a contributor and mentor in the Galaxy and
+              University of Minnesota communities.
+            </p>
+            <ContentBlockCta scale={Scale.MEDIUM}>
+              <ButtonCta
+                attributeHREF={
+                  "https://www.zeffy.com/en-US/donation-form/the-james-johnson-jj-travel-fellowships"
+                }
+                buttonTheme={ButtonTheme.SECONDARY}
+                buttonType={ButtonType.UNELEVATED}
+              >
+                Donate to JJ Fund
+              </ButtonCta>
+              <Link
+                to="/scholarships/jj-fund"
+                className={compStyles.learnMoreLink}
+              >
+                Learn More
+              </Link>
+            </ContentBlockCta>
+          </ContentBlockBody>
+        </ContentBlock>
+      </Section>
+      <Section>
         <ContentBlock>
           <ContentBlockBody></ContentBlockBody>
         </ContentBlock>
