@@ -29,3 +29,15 @@ textarea {
 div.inline-donate-button {
   float: right;
 }
+
+.learnMoreLink {
+  display: inline-block;
+  margin-left: 1rem;
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.learnMoreLink:hover {
+  text-decoration: underline;
+}
