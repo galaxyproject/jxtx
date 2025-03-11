@@ -61,8 +61,6 @@ Multiple criteria will be used to select awardees. These criteria will include:
 
 Anyone who is in the early stages of their career can apply and will be considered for a fellowship. Awards will go to applicants who have the overall strongest application.
 
----
-
 Join us at the Galaxy and Bioconductor Community Conference June 23-26 at Cold Spring Harbor Lab!
 
 See [https://gbcc2025.org/](https://gbcc2025.org/)

@@ -39,10 +39,10 @@ title: "Scholarships"
 <TileThumbnail alt={"JXTX GBCC 2025 Scholarship"} image={props.images[8]}></TileThumbnail>
 <TileContent>
 <TileHeading>
-JXTX GBCC2025 Scholarship
+GBCC2025 Scholarships
 </TileHeading>
 <TileBody>
-The JXTX Foundation announces the 2025 Galaxy and Bioconductor Community Conference Scholarship.
+The JXTX Foundation and JJ Fund announce scholarships to the 2025 Galaxy and Bioconductor Community Conference.
 </TileBody>
 </TileContent>
 </Tile>
