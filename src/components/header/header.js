@@ -29,6 +29,7 @@ const about = "/about";
 const donate = "/donate";
 const home = "/";
 const james = "/james";
+const jj = "/scholarships/jj-fund";
 const jxtx = "../../../images/jxtx.png";
 const news = "/news";
 const scholarships = "/scholarships";
@@ -115,6 +116,15 @@ function Header(props) {
               to={james}
             >
               James
+            </Link>
+          </li>
+          <li className={compStyles.header__nav__item}>
+            <Link
+              activeClassName={compStyles.header__nav__link___active}
+              className={compStyles.header__nav__link}
+              to={jj}
+            >
+              JJ
             </Link>
           </li>
           <li className={compStyles.header__nav__item}>
