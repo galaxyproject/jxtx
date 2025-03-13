@@ -15,7 +15,6 @@ import Button from "../button/button";
 import { ButtonTheme } from "../button/button-theme.model";
 import { ButtonType } from "../button/button-type.model";
 import ButtonCTA from "../button-cta/button-cta";
-import { Target } from "../../utils/anchor/target.model";
 
 // Images
 import burger from "../../../images/header/burger.svg";

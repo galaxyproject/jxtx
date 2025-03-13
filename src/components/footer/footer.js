@@ -11,7 +11,6 @@ import React from "react";
 
 // App dependencies
 import ButtonSocial from "../button-social/button-social";
-import { Target } from "../../utils/anchor/target.model";
 
 // Images
 // import iFacebook from "../../../images/socials/facebook.png";
