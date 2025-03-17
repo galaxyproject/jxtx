@@ -42,11 +42,11 @@ In 2025, the JJ Travel Fellowships will sponsor up to two graduate students / po
 
 Applicants will need to write a:
 
-*   **one-page write-up** on a) their scientific interests, b) their interest in Galaxy platform and c) why they are interested in attending the GBCC 2025. The write-up can also include a synopsis of their abstract submitted for the conference.
+*   **one-page write-up** on a) their scientific interests, b) their interest in Galaxy platform and c) why they are interested in attending the GBCC 2025.
 *   **curriculum vitae** for the applicant.
 *   **Reference letter** from the advisor.
 
-**Application deadline: April 7, 2025**
+**Application deadline: April 1, 2025**
 
 Email all of the documents to: [jj-fund@jxtxfoundation.org](mailto:jj-fund@jxtxfoundation.org). Any submission that does not have all of the requested documents will not be considered.
 
