@@ -42,7 +42,7 @@ In 2025, the JJ Travel Fellowships will sponsor up to two graduate students / po
 
 Applicants will need to write a:
 
-*   **one-page write-up** on a) their scientific interests, b) their interest in Galaxy platform and c) why they are interested in attending the GBCC 2025.
+*   **one-page write-up** on a) their scientific interests, b) their interest in Galaxy platform and c) why they are interested in attending the GBCC 2025.  Applicants should have submitted an abstract to the conference and include the title in this write-up.
 *   **curriculum vitae** for the applicant.
 *   **Reference letter** from the advisor.
 
