@@ -34,7 +34,7 @@ James Johnson, or JJ as he was better known, worked as a senior software develop
 
 ## Travel Fellowships
 
-In 2025, the JJ Travel Fellowships will sponsor up to two graduate students / post-doctoral researchers to attend the Galaxy and Bioconductor Community Conference (GBCC 2025).
+In 2025, the JJ Travel Fellowships will sponsor up to two graduate students / post-doctoral researchers to attend the Galaxy and Bioconductor Community Conference (GBCC 2025).  The fellowship will cover the cost of travel, up to $500 for each recipient.
 
 ## About the Travel Fellowships:
 
@@ -49,6 +49,10 @@ Applicants will need to write a:
 **Application deadline: April 1, 2025**
 
 Email all of the documents to: [jj-fund@jxtxfoundation.org](mailto:jj-fund@jxtxfoundation.org). Any submission that does not have all of the requested documents will not be considered.
+
+### Award Notification
+
+Applicants will be notified of the results by April 10, 2025.
 
 ### Review Criteria
 
