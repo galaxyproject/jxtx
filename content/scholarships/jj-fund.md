@@ -52,7 +52,7 @@ Email all of the documents to: [jj-fund@jxtxfoundation.org](mailto:jj-fund@jxtxf
 
 ### Award Notification
 
-Applicants will be notified of the results by April 10, 2025.
+Applicants will be notified of the results by April 15, 2025.
 
 ### Review Criteria
 
