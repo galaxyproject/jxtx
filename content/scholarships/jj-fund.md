@@ -46,13 +46,13 @@ Applicants will need to write a:
 *   **curriculum vitae** for the applicant.
 *   **Reference letter** from the advisor.
 
-**Application deadline: April 1, 2025**
+**Application deadline: April 8, 2025**
 
 Email all of the documents to: [jj-fund@jxtxfoundation.org](mailto:jj-fund@jxtxfoundation.org). Any submission that does not have all of the requested documents will not be considered.
 
 ### Award Notification
 
-Applicants will be notified of the results by April 15, 2025.
+Applicants will be notified of the results by April 17, 2025.
 
 ### Review Criteria
 
