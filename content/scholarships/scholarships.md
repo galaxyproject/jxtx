@@ -24,7 +24,7 @@ links:
     - /news/2024-07-26-bds
     - /news/2025-2-4-bg
     - /news/2025-2-27-gbcc
-    - /scholarships/2025-genome-informatics
+    - /news/2025-4-15-gi
 slug: "/scholarships"
 title: "Scholarships"
 ---
