@@ -13,7 +13,7 @@ images:
     - _images/newsroom-hero-awardees-2021-gi.png
     - ../scholarships/_images/scholarships-hero-2023-bog.png
     - _images/2023-bog-awardees.png
-    - ../scholarships/_images/scholarships-hero-2023-gi.png
+    - ../scholarships/_images/scholarships-hero-2025-gi.png
     - ../scholarships/_images/scholarships-hero-2024-bog.png
     - _images/2024-bog-awardees.png
     - ../_images/gcc2024-banner.png
@@ -21,7 +21,7 @@ images:
     - _images/bds2024-awardees.png
     - ../scholarships/_images/scholarships-hero-2025-bog.png
     - _images/2025-bog-awardees.png
-    - ../scholarships/_images/scholarships-hero-2023-gi.png
+    - ../scholarships/_images/scholarships-hero-2025-gi.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman

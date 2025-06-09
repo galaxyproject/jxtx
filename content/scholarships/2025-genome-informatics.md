@@ -2,7 +2,7 @@
 description: "JXTX 2025 Genome Informatics Scholarship."
 image: ../_images/seo/scholarships.png
 images:
-    - _images/scholarships-hero-2023-gi.png
+    - _images/scholarships-hero-2025-gi.png
 title: "JXTX 2025 Genome Informatics Scholarship"
 ---
 
