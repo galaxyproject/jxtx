@@ -53,7 +53,24 @@ title: "Newsroom"
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[16]}>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[17]}>
+<TileThumbnail alt={"JXTX + CSHL 2025 Genome Informatics Scholarship"} image={props.images[18]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + CSHL 2025 Genome Informatics Scholarship
+</TileHeading>
+<TileBody>
+The James P. Taylor Foundation for Open Science is offering scholarships to outstanding graduate students to attend the Genome Informatics Meeting.
+</TileBody>
+<TileDate>April 15, 2025</TileDate>
+</TileContent>
+</Tile>
+
+</Grid>
+
+<Grid columns={3}>
+
+<Tile tileLink={props.links[16]}>
 <TileThumbnail alt={"JXTX + CSHL 2025 Biology of Genomes Scholarship"} image={props.images[17]}></TileThumbnail>
 <TileContent>
 <TileHeading>
@@ -63,23 +80,6 @@ Biology of Genomes Scholarship Awardees
 Meet the recipients of the JXTX Foundation and Cold Spring Harbor Laboratory Scholarships for the 2025 Biology of Genomes conference.
 </TileBody>
 <TileDate>March 6, 2025</TileDate>
-</TileContent>
-</Tile>
-
-</Grid>
-
-<Grid columns={3}>
-
-<Tile tileLink={props.links[17]}>
-<TileThumbnail alt={"JXTX + CSHL 2025 Genome Informatics Scholarship"} image={props.images[18]}></TileThumbnail>
-<TileContent>
-<TileHeading>
-JXTX + CSHL 2025 Genome Informatics Scholarship
-</TileHeading>
-<TileBody>
-The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2025 Genome Informatics Scholarship.
-</TileBody>
-<TileDate>April 15, 2025</TileDate>
 </TileContent>
 </Tile>
 

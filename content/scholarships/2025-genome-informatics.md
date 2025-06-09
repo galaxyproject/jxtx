@@ -13,12 +13,9 @@ title: "JXTX 2025 Genome Informatics Scholarship"
 <Image alt="JXTX 2025 Genome Informatics Scholarship" image={props.images[0]}></Image>
 <figcaption>JXTX 2025 Genome Informatics Scholarship</figcaption>
 
-The JXTX Foundation and [Cold Spring Harbor Laboratory](https://meetings.cshl.edu/) announce the 2025 Genome Informatics Scholarship. JXTX and CSHL will provide support to six outstanding graduate students in genomics and data sciences to attend the [2025 CSHL Genome Informatics Conference](https://meetings.cshl.edu/meetings.aspx?meet=info&year=25). The scholarship will be awarded in two tiers:
+The James P. Taylor Foundation for Open Science is offering scholarships to outstanding graduate students to attend the [2025 CSHL Genome Informatics Meeting](https://meetings.cshl.edu/meetings.aspx?meet=info&year=25). Scholarships will include full conference registration, with a limited number also covering reasonable travel expenses. 
 
--   The first tier will be awarded to three individuals and will cover conference registration + transportation to and from conference;
--   The second tier will be awarded to three individuals and will cover conference registration only.
-
-The deadline for applying is the end of Sunday, August 31.  You will be notified of your acceptance status on Friday, September 19, 2025.
+The application deadline is September 15, 2025.
 
 Applicants should be planning to present your work at the conference, either as a talk or as a poster.
 
