@@ -40,7 +40,7 @@ links:
     - /news/2024-11-jxtx-bds-awardees
     - /news/2025-2-4-bg
     - /news/2025-3-6-bg-awardees
-    - /news/2025-4-15-gi
+    - /news/2025-6-09-gi
 slug: "/news"
 title: "Newsroom"
 ---
