@@ -13,7 +13,7 @@ images:
     - _images/newsroom-hero-awardees-2021-gi.png
     - ../scholarships/_images/scholarships-hero-2023-bog.png
     - _images/2023-bog-awardees.png
-    - ../scholarships/_images/scholarships-hero-2023-gi.png
+    - ../scholarships/_images/scholarships-hero-2025-gi.png
     - ../scholarships/_images/scholarships-hero-2024-bog.png
     - _images/2024-bog-awardees.png
     - ../_images/gcc2024-banner.png
@@ -21,6 +21,7 @@ images:
     - _images/bds2024-awardees.png
     - ../scholarships/_images/scholarships-hero-2025-bog.png
     - _images/2025-bog-awardees.png
+    - ../scholarships/_images/scholarships-hero-2025-gi.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
@@ -39,6 +40,7 @@ links:
     - /news/2024-11-jxtx-bds-awardees
     - /news/2025-2-4-bg
     - /news/2025-3-6-bg-awardees
+    - /news/2025-4-15-gi
 slug: "/news"
 title: "Newsroom"
 ---
@@ -51,7 +53,24 @@ title: "Newsroom"
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[16]}>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[17]}>
+<TileThumbnail alt={"JXTX + CSHL 2025 Genome Informatics Scholarship"} image={props.images[18]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + CSHL 2025 Genome Informatics Scholarship
+</TileHeading>
+<TileBody>
+The James P. Taylor Foundation for Open Science is offering scholarships to outstanding graduate students to attend the Genome Informatics Meeting.
+</TileBody>
+<TileDate>April 15, 2025</TileDate>
+</TileContent>
+</Tile>
+
+</Grid>
+
+<Grid columns={3}>
+
+<Tile tileLink={props.links[16]}>
 <TileThumbnail alt={"JXTX + CSHL 2025 Biology of Genomes Scholarship"} image={props.images[17]}></TileThumbnail>
 <TileContent>
 <TileHeading>
@@ -63,10 +82,6 @@ Meet the recipients of the JXTX Foundation and Cold Spring Harbor Laboratory Sch
 <TileDate>March 6, 2025</TileDate>
 </TileContent>
 </Tile>
-
-</Grid>
-
-<Grid columns={3}>
 
 <Tile tileLink={props.links[15]}>
 <TileThumbnail alt={"JXTX + CSHL 2025 Biology of Genomes Scholarship"} image={props.images[16]}></TileThumbnail>

@@ -5,13 +5,14 @@ image: ../_images/seo/scholarships.png
 images:
     - _images/scholarships-hero-2021-gi.png
     - _images/scholarships-hero-2020-bds.png
-    - _images/scholarships-hero-2023-gi.png
+    - _images/scholarships-hero-2025-gi.png
     - _images/scholarships-hero-2023-bog.png
     - _images/scholarships-hero-2024-bog.png
     - ../_images/gcc2024-banner.png
     - _images/scholarships-hero-2024-bds.png
     - _images/scholarships-hero-2025-bog.png
     - _images/scholarships-2025-gbcc.png
+    - _images/scholarships-hero-2025-gi.png
 links:
     - /scholarships/2021-genome-informatics
     - /news/2020-10-jxtx-awardees
@@ -23,6 +24,7 @@ links:
     - /news/2024-07-26-bds
     - /news/2025-2-4-bg
     - /news/2025-2-27-gbcc
+    - /news/2025-4-15-gi
 slug: "/scholarships"
 title: "Scholarships"
 ---
@@ -32,6 +34,22 @@ title: "Scholarships"
 </Headline>
 
 <Newsroom>
+
+<Grid columns={1}>
+
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[10]}>
+<TileThumbnail alt={"JXTX + CSHL 2025 Genome Informatics Scholarship"} image={props.images[9]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + CSHL 2025 Genome Informatics Scholarship
+</TileHeading>
+<TileBody>
+The James P. Taylor Foundation for Open Science is offering scholarships to outstanding graduate students to attend the Genome Informatics Meeting. Application deadline is September 15, 2025.
+</TileBody>
+</TileContent>
+</Tile>
+
+</Grid>
 
 <Grid columns={1}>
 
