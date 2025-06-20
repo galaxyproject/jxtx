@@ -63,7 +63,7 @@ Sudipta is an MSc (Research) student at Teagasc and University College Cork, Ire
 
 <Awardee>
 <AwardeeContent>
-<h3>Nitin</h3>
+<h3>Nitin Narwade</h3>
 <h4>Institute of Neurosciences, Alicante, Spain</h4>
 
 Nitin is a Postdoctoral Research Fellow at the Institute of Neurosciences, Alicante, Spain. His research focuses on understanding the role of Epithelial-to-Mesenchymal Transition (EMT) in cancer progression. During his PhD, he identified two distinct cancer cell evolutionary trajectories during EMT-dependent cancer progression: one activating an inflammatory, anti-tumoral response, and the other promoting an invasive, pro-tumoral program that facilitates metastatic dissemination. His current project investigates how different stromal cells interact with tumor cells in an EMT-dependent manner and how these interactions influence cancer progression.
