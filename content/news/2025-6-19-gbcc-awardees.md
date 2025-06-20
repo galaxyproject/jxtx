@@ -7,7 +7,7 @@ images:
     - _images/awardee-gbcc-arish.jpg
     - _images/awardee-gbcc-sudipta.jpg
     - _images/awardee-gbcc-nitin.jpeg
-    - _images/awardee-gbcc-pariksheet.png
+    - _images/awardee-gbcc-pariksheet.jpg
 title: "JXTX Foundation Awards Scholarships for GBCC2025"
 ---
 
