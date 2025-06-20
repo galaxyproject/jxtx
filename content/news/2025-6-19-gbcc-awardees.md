@@ -3,10 +3,12 @@ description: "JXTX: The James P. Taylor Foundation for Open Science is pleased t
 image: ../_images/seo/newsroom.png
 images:
     - ../scholarships/_images/scholarships-2025-gbcc.png
-    - _images/awardee-gbcc-grace.jpg
-    - _images/awardee-gbcc-arish.jpg
     - _images/awardee-gbcc-sudipta.jpg
+    - _images/awardee-gbcc-grace.jpg
+    - _images/awardee-gbcc-negin.jpg
+    - _images/awardee-gbcc-mirela.jpg
     - _images/awardee-gbcc-nitin.jpeg
+    - _images/awardee-gbcc-arish.jpg
     - _images/awardee-gbcc-pariksheet.jpg
 title: "JXTX Foundation Awards Scholarships for GBCC2025"
 ---
@@ -21,7 +23,7 @@ title: "JXTX Foundation Awards Scholarships for GBCC2025"
 
 [JXTX: The James P. Taylor Foundation for Open Science][1] and the JJ Travel Fellowship are pleased to announce the recipients of the 2025 Galaxy and Bioconductor Community Conference (GBCC) Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
 
-Five outstanding graduate students and postdoctoral researchers from around the globe were awarded JXTX and JJ Fund scholarships. These awardees will present their work at the [Galaxy and Bioconductor Community Conference 2025][2] being held July 7-11. Awardees represent diverse institutions and are presenting a wide range of research at the meeting.
+Seven outstanding graduate students and postdoctoral researchers from around the globe were awarded JXTX and JJ Fund scholarships. These awardees will present their work at the [Galaxy and Bioconductor Community Conference 2025][2] being held July 7-11. Awardees represent diverse institutions and are presenting a wide range of research at the meeting.
 
 ## GBCC Scholarship Recipients
 
@@ -29,29 +31,7 @@ Five outstanding graduate students and postdoctoral researchers from around the 
 <GridUnus>
 
 <Awardee>
-<Image alt={"Grace"} image={props.images[1]}></Image>
-<AwardeeContent>
-<h3>Grace Kenney</h3>
-<h4>University of North Carolina-Chapel Hill</h4>
-
-Grace is a second year PhD student in Bioinformatics and Computational Biology and an NSF GRFP fellow at the University of North Carolina-Chapel Hill in the lab of Dr. Doug Phanstiel. She received her BS in Biology from Truman State University and her MS in Bioinformatics and Computational Biology from Saint Louis University. Before starting her PhD, she worked as a bioinformatician at the University of Michigan's Advanced Genomics Core analyzing data from various NGS, single-cell, and spatial -omics platforms. Her research interests broadly include developing and using software for the interpretation of genetic variation and epigenetic mechanisms contributing to genome regulation.
-
-</AwardeeContent>
-</Awardee>
-
-<Awardee>
-<AwardeeContent>
-<h3>Arish Shahab</h3>
-<h4>McMaster University</h4>
-
-Arish Shahab is an undergraduate researcher and biomedical engineering student at McMaster University, with research affiliations at Johns Hopkins University and Harvard Medical School. His work focuses on the intersection of AI, healthcare, and neurotechnology, with a particular interest in developing tools that enhance patient communication and diagnostic systems. He is currently exploring methods to objectively measure cognitive and articulatory focus using real-time visual tracking and EEG data to improve assistive communication technologies.
-
-</AwardeeContent>
-<Image alt={"Arish"} image={props.images[2]}></Image>
-</Awardee>
-
-<Awardee>
-<Image alt={"Sudipta"} image={props.images[3]}></Image>
+<Image alt={"Sudipta"} image={props.images[1]}></Image>
 <AwardeeContent>
 <h3>Sudipta Kumar Hazra</h3>
 <h4>Teagasc & University College Cork</h4>
@@ -63,13 +43,57 @@ Sudipta is an MSc (Research) student at Teagasc and University College Cork, Ire
 
 <Awardee>
 <AwardeeContent>
+<h3>Grace Kenney</h3>
+<h4>University of North Carolina-Chapel Hill</h4>
+
+Grace is a second year PhD student in Bioinformatics and Computational Biology and an NSF GRFP fellow at the University of North Carolina-Chapel Hill in the lab of Dr. Doug Phanstiel. She received her BS in Biology from Truman State University and her MS in Bioinformatics and Computational Biology from Saint Louis University. Before starting her PhD, she worked as a bioinformatician at the University of Michigan's Advanced Genomics Core analyzing data from various NGS, single-cell, and spatial -omics platforms. Her research interests broadly include developing and using software for the interpretation of genetic variation and epigenetic mechanisms contributing to genome regulation.
+
+</AwardeeContent>
+<Image alt={"Grace"} image={props.images[2]}></Image>
+</Awardee>
+
+<Awardee>
+<Image alt={"Negin"} image={props.images[3]}></Image>
+<AwardeeContent>
+<h3>Negin Kafee Hernashki</h3>
+<h4>University of Milan</h4>
+
+Negin Kafee Hernashki is originally from Kerman, Iran. She holds a Bachelor's degree in Biotechnology from Yazd University and earned her first Master's in Bioinformatics from the University of Wolverhampton, UK. She is currently pursuing a second Master's degree in Bioinformatics for Computational Genomics at the University of Milan, Italy, where her focus is on applying AI and machine learning to disease prediction and prevention. Her academic work includes a Master's thesis on cloning the BIG3 gene associated with secondary breast cancer in the brain and two publications on vaccine candidate discovery using in silico methods. Most recently, she has worked on predictive modeling for Alzheimer's disease using multi-modal data. She is a recipient of an excellence scholarship in Italy. Coming from a biology background, she saw how limited traditional approaches could be. Learning about AI and computational genomics opened up a whole new world. Her goal is to contribute to tools that make personalized medicine more accessible and predictive. Outside of academics, Negin was a professional fencer and a member of the Iranian national fencing team for 17 years.
+
+</AwardeeContent>
+</Awardee>
+
+<Awardee>
+<AwardeeContent>
+<h3>Mirela Minkova</h3>
+<h4>Utrecht University</h4>
+
+Mirela is a first-year Bioinformatics Master's student at Utrecht University in the Netherlands. She discovered her passion for bioinformatics during a minor project focused on prostate cancer analysis using Galaxy. This experience sparked her interest in the platform, leading her to pursue two internships where she developed Galaxy workflows for patients with cardiomyopathy. For her Bachelor's thesis, Mirela continued working on a local Galaxy instance, which she successfully set up behind a firewall. Her Galaxy work was nominated for the best Bachelor's thesis. Her enthusiasm for Galaxy eventually led her to join SURF Research Cloud, where she contributed to deploying on-demand, secure Galaxy and Pulsar instances for researchers in the Netherlands. Currently, next to maintaining Galaxy and Pulsar for SURF, Mirela is doing an internship in the group of Jeroen de Ridder at the University Medical Centre Utrecht (UMCU). There, she is expanding her bioinformatics skills further by developing a classifier for pediatric brain cancer.
+
+</AwardeeContent>
+<Image alt={"Mirela"} image={props.images[4]}></Image>
+</Awardee>
+
+<Awardee>
+<AwardeeContent>
 <h3>Nitin Narwade</h3>
 <h4>Institute of Neurosciences, Alicante, Spain</h4>
 
 Nitin is a Postdoctoral Research Fellow at the Institute of Neurosciences, Alicante, Spain. His research focuses on understanding the role of Epithelial-to-Mesenchymal Transition (EMT) in cancer progression. During his PhD, he identified two distinct cancer cell evolutionary trajectories during EMT-dependent cancer progression: one activating an inflammatory, anti-tumoral response, and the other promoting an invasive, pro-tumoral program that facilitates metastatic dissemination. His current project investigates how different stromal cells interact with tumor cells in an EMT-dependent manner and how these interactions influence cancer progression.
 
 </AwardeeContent>
-<Image alt={"Nitin"} image={props.images[4]}></Image>
+<Image alt={"Nitin"} image={props.images[5]}></Image>
+</Awardee>
+
+<Awardee>
+<AwardeeContent>
+<h3>Arish Shahab</h3>
+<h4>McMaster University</h4>
+
+Arish Shahab is an undergraduate researcher and biomedical engineering student at McMaster University, with research affiliations at Johns Hopkins University and Harvard Medical School. His work focuses on the intersection of AI, healthcare, and neurotechnology, with a particular interest in developing tools that enhance patient communication and diagnostic systems. He is currently exploring methods to objectively measure cognitive and articulatory focus using real-time visual tracking and EEG data to improve assistive communication technologies.
+
+</AwardeeContent>
+<Image alt={"Arish"} image={props.images[6]}></Image>
 </Awardee>
 
 </GridUnus>
@@ -81,7 +105,7 @@ Nitin is a Postdoctoral Research Fellow at the Institute of Neurosciences, Alica
 <GridUnus>
 
 <Awardee>
-<Image alt={"Pariksheet"} image={props.images[5]}></Image>
+<Image alt={"Pariksheet"} image={props.images[7]}></Image>
 <AwardeeContent>
 <h3>Pariksheet Nanda</h3>
 <h4>University of Pittsburgh</h4>
