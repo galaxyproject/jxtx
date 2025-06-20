@@ -3,11 +3,11 @@ description: "JXTX: The James P. Taylor Foundation for Open Science is pleased t
 image: ../_images/seo/newsroom.png
 images:
     - ../scholarships/_images/scholarships-2025-gbcc.png
-    - _images/grace.jpg
-    - _images/arish.jpg
-    - _images/sudipta.jpg
-    - _images/nitin.jpeg
-    - _images/pariksheet.png
+    - _images/awardee-gbcc-grace.jpg
+    - _images/awardee-gbcc-arish.jpg
+    - _images/awardee-gbcc-sudipta.jpg
+    - _images/awardee-gbcc-nitin.jpeg
+    - _images/awardee-gbcc-pariksheet.png
 title: "JXTX Foundation Awards Scholarships for GBCC2025"
 ---
 
