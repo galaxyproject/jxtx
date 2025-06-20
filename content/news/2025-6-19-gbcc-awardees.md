@@ -58,7 +58,7 @@ Grace is a second year PhD student in Bioinformatics and Computational Biology a
 <h3>Negin Kafee Hernashki</h3>
 <h4>University of Milan</h4>
 
-Negin Kafee Hernashki is originally from Kerman, Iran. She holds a Bachelor's degree in Biotechnology from Yazd University and earned her first Master's in Bioinformatics from the University of Wolverhampton, UK. She is currently pursuing a second Master's degree in Bioinformatics for Computational Genomics at the University of Milan, Italy, where her focus is on applying AI and machine learning to disease prediction and prevention. Her academic work includes a Master's thesis on cloning the BIG3 gene associated with secondary breast cancer in the brain and two publications on vaccine candidate discovery using in silico methods. Most recently, she has worked on predictive modeling for Alzheimer's disease using multi-modal data. She is a recipient of an excellence scholarship in Italy. Coming from a biology background, she saw how limited traditional approaches could be. Learning about AI and computational genomics opened up a whole new world. Her goal is to contribute to tools that make personalized medicine more accessible and predictive. Outside of academics, Negin was a professional fencer and a member of the Iranian national fencing team for 17 years.
+Negin Kafee Hernashki is originally from Kerman, Iran. She holds a Bachelor's degree in Biotechnology from Yazd University and earned her first Master's in Bioinformatics from the University of Wolverhampton, UK. She is currently pursuing a second Master's degree in Bioinformatics for Computational Genomics at the University of Milan, Italy, where her focus is on applying AI and machine learning to disease prediction and prevention. Her recent work includes predictive modeling for Alzheimer's disease using multi-modal data and publications on vaccine candidate discovery. She is a recipient of an excellence scholarship in Italy and was a professional fencer on the Iranian national team for 17 years.
 
 </AwardeeContent>
 </Awardee>
@@ -68,13 +68,14 @@ Negin Kafee Hernashki is originally from Kerman, Iran. She holds a Bachelor's de
 <h3>Mirela Minkova</h3>
 <h4>Utrecht University</h4>
 
-Mirela is a first-year Bioinformatics Master's student at Utrecht University in the Netherlands. She discovered her passion for bioinformatics during a minor project focused on prostate cancer analysis using Galaxy. This experience sparked her interest in the platform, leading her to pursue two internships where she developed Galaxy workflows for patients with cardiomyopathy. For her Bachelor's thesis, Mirela continued working on a local Galaxy instance, which she successfully set up behind a firewall. Her Galaxy work was nominated for the best Bachelor's thesis. Her enthusiasm for Galaxy eventually led her to join SURF Research Cloud, where she contributed to deploying on-demand, secure Galaxy and Pulsar instances for researchers in the Netherlands. Currently, next to maintaining Galaxy and Pulsar for SURF, Mirela is doing an internship in the group of Jeroen de Ridder at the University Medical Centre Utrecht (UMCU). There, she is expanding her bioinformatics skills further by developing a classifier for pediatric brain cancer.
+Mirela is a first-year Bioinformatics Master's student at Utrecht University in the Netherlands. She discovered her passion for bioinformatics during a project focused on prostate cancer analysis using Galaxy, leading her to pursue internships developing Galaxy workflows for cardiomyopathy patients. Her Bachelor's thesis work on Galaxy was nominated for best thesis. She currently works with SURF Research Cloud deploying secure Galaxy and Pulsar instances for Dutch researchers, while also doing an internship at UMCU developing a classifier for pediatric brain cancer.
 
 </AwardeeContent>
 <Image alt={"Mirela"} image={props.images[4]}></Image>
 </Awardee>
 
 <Awardee>
+<Image alt={"Nitin"} image={props.images[5]}></Image>
 <AwardeeContent>
 <h3>Nitin Narwade</h3>
 <h4>Institute of Neurosciences, Alicante, Spain</h4>
@@ -82,7 +83,6 @@ Mirela is a first-year Bioinformatics Master's student at Utrecht University in 
 Nitin is a Postdoctoral Research Fellow at the Institute of Neurosciences, Alicante, Spain. His research focuses on understanding the role of Epithelial-to-Mesenchymal Transition (EMT) in cancer progression. During his PhD, he identified two distinct cancer cell evolutionary trajectories during EMT-dependent cancer progression: one activating an inflammatory, anti-tumoral response, and the other promoting an invasive, pro-tumoral program that facilitates metastatic dissemination. His current project investigates how different stromal cells interact with tumor cells in an EMT-dependent manner and how these interactions influence cancer progression.
 
 </AwardeeContent>
-<Image alt={"Nitin"} image={props.images[5]}></Image>
 </Awardee>
 
 <Awardee>
