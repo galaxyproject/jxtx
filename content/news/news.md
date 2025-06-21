@@ -22,6 +22,7 @@ images:
     - ../scholarships/_images/scholarships-hero-2025-bog.png
     - _images/2025-bog-awardees.png
     - ../scholarships/_images/scholarships-hero-2025-gi.png
+    - ../scholarships/_images/scholarships-2025-gbcc.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
@@ -41,6 +42,7 @@ links:
     - /news/2025-2-4-bg
     - /news/2025-3-6-bg-awardees
     - /news/2025-6-09-gi
+    - /news/2025-6-19-gbcc-awardees
 slug: "/news"
 title: "Newsroom"
 ---
@@ -53,16 +55,16 @@ title: "Newsroom"
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[17]}>
-<TileThumbnail alt={"JXTX + CSHL 2025 Genome Informatics Scholarship"} image={props.images[18]}></TileThumbnail>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[18]}>
+<TileThumbnail alt={"JXTX Foundation Awards Scholarships for GBCC2025"} image={props.images[19]}></TileThumbnail>
 <TileContent>
 <TileHeading>
-JXTX + CSHL 2025 Genome Informatics Scholarship
+JXTX Foundation Awards Scholarships for GBCC2025
 </TileHeading>
 <TileBody>
-The James P. Taylor Foundation for Open Science is offering scholarships to outstanding graduate students to attend the Genome Informatics Meeting.
+JXTX and the JJ Travel Fellowship present the recipients of the 2025 Galaxy and Bioconductor Community Conference (GBCC) Scholarships.
 </TileBody>
-<TileDate>April 15, 2025</TileDate>
+<TileDate>June 19, 2025</TileDate>
 </TileContent>
 </Tile>
 
