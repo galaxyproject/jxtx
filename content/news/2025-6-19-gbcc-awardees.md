@@ -10,6 +10,7 @@ images:
     - _images/awardee-gbcc-nitin.jpeg
     - _images/awardee-gbcc-arish.jpg
     - _images/awardee-gbcc-pariksheet.jpg
+    - _images/awardee-gbcc-papawee.jpg
 title: "JXTX Foundation Awards Scholarships for GBCC2025"
 ---
 
@@ -99,7 +100,7 @@ Arish Shahab is an undergraduate researcher and biomedical engineering student a
 </GridUnus>
 </Awardees>
 
-## JJ Fund Travel Fellowship Recipient
+## JJ Fund Travel Fellowship Recipients
 
 <Awardees>
 <GridUnus>
@@ -113,6 +114,17 @@ Arish Shahab is an undergraduate researcher and biomedical engineering student a
 Pariksheet Nanda is a third year postdoctoral fellow at the Jason Shoemaker laboratory at the University of Pittsburgh. He studies pathogen-host interactions using computational immunology with network biology techniques. Pariksheet is passionate about maintaining scientific software infrastructure, supporting their users, and mentoring researchers who are also committed to reproducible, open access publications using free/libre and open source software.
 
 </AwardeeContent>
+</Awardee>
+
+<Awardee>
+<AwardeeContent>
+<h3>Papawee Sutthirat</h3>
+<h4>University of Minnesota-Rochester & Mayo Clinic</h4>
+
+Papawee is a Ph.D. student in Bioinformatics and Computational Biology at the University of Minnesota-Rochester and a Research Technologist at the Mayo Clinic. Her research integrates computational and experimental approaches to understand liver diseases, particularly Fontan-associated liver disease (FALD) and liver cancer. She uses advanced molecular biology techniques, single-cell and spatial transcriptomics, and data analysis methods to explore disease progression in both mouse models and human tissues. She is passionate about bridging computational and experimental biology to drive discoveries and therapeutic innovation.
+
+</AwardeeContent>
+<Image alt={"Papawee"} image={props.images[8]}></Image>
 </Awardee>
 
 </GridUnus>
