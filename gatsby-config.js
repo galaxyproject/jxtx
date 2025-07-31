@@ -20,7 +20,6 @@ module.exports = {
     image: "/images/hero.png",
     title: "JXTX Foundation",
     titleTemplate: "%s · James P. Taylor Foundation for Open Science.",
-    twitterUsername: "@jxtxFoundation",
     url: "https://jxtxfoundation.org",
   },
   plugins: [

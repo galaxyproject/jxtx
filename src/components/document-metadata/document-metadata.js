@@ -23,7 +23,6 @@ function DocumentMetadata(props) {
       description: siteDescription,
       image: siteImage,
       title: siteTitle,
-      twitterUsername,
       url: siteURL,
     } = siteMetadata || {};
   const seoImg = `${siteURL}${src || siteImage}`;
@@ -32,7 +31,6 @@ function DocumentMetadata(props) {
     description: description || siteDescription,
     image: seoImg,
     title: title || siteTitle,
-    twitterUsername: twitterUsername,
     url: seoURL,
   };
 
@@ -72,11 +70,6 @@ function DocumentMetadata(props) {
         key="twitter:description"
       />
       <meta name="twitter:image" content={seo.image} key="twitter:image" />
-      <meta
-        name="twitter:site"
-        content={seo.twitterUsername}
-        key="twitter:site"
-      />
       {seo.image && <meta name="image" content={seo.image} key="image" />}
     </Helmet>
   );
