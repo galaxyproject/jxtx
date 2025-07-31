@@ -16,7 +16,8 @@ import ButtonSocial from "../button-social/button-social";
 // import iFacebook from "../../../images/socials/facebook.png";
 // import iInstagram from "../../../images/socials/instagram.png";
 // import iSlack from "../../../images/socials/slack.png";
-import iTwitter from "../../../images/socials/twitter.png";
+import iLinkedIn from "../../../images/socials/linkedin.png";
+import iBluesky from "../../../images/socials/bluesky.png";
 
 // Styles
 import * as compStyles from "./footer.module.css";
@@ -33,7 +34,8 @@ const news = "/news";
 // const privacy = "/";
 const scholarships = "/scholarships";
 // const slack = "/";
-const twitter = "https://twitter.com/jxtxFoundation";
+const linkedin = "https://www.linkedin.com/company/99400120/";
+const bluesky = "https://bsky.app/profile/jxtxfoundation.bsky.social";
 
 function Footer() {
   return (
@@ -45,8 +47,11 @@ function Footer() {
         <div className={compStyles.footer__hero__socials}>
           {/*    <ButtonSocial attributeHREF={facebook} iconSize={32}>*/}
           {/*        <img alt={"facebook"} src={iFacebook}/></ButtonSocial>*/}
-          <ButtonSocial attributeHREF={twitter} iconSize={32}>
-            <img alt={"twitter"} src={iTwitter} />
+          <ButtonSocial attributeHREF={linkedin} iconSize={32}>
+            <img alt={"linkedin"} src={iLinkedIn} />
+          </ButtonSocial>
+          <ButtonSocial attributeHREF={bluesky} iconSize={32}>
+            <img alt={"bluesky"} src={iBluesky} />
           </ButtonSocial>
           {/*    <ButtonSocial attributeHREF={instagram} iconSize={32}>*/}
           {/*        <img alt={"instagram"} src={iInstagram}/></ButtonSocial>*/}
