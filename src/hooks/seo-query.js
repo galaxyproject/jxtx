@@ -10,7 +10,6 @@ export const SeoStaticQuery = () => {
             image
             title
             url
-            twitterUsername
           }
         }
       }
