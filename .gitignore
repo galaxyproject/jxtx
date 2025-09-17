@@ -76,4 +76,13 @@ pids
 # Typescript v1 declaration files
 typings/
 
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+tests/visual-regression.spec.js-snapshots/
 
+# Yarn (we use npm)
+yarn.lock
+yarn-error.log
+.yarn/

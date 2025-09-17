@@ -12,7 +12,12 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "format": "prettier --write src/**/*.{js,css}"
+    "format": "prettier --write src/**/*.{js,css}",
+    "test": "playwright test smoke-test.spec.js",
+    "test:all": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
@@ -37,6 +42,7 @@
     "typography": "^0.16.21"
   },
   "devDependencies": {
+    "@playwright/test": "^1.55.0",
     "prettier": "2.8.1"
   }
 }
