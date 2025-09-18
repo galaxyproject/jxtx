@@ -1,0 +1,98 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX awardee card component.
+ */
+
+/* Awardee Card */
+.awardeeCard {
+  background: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px var(--black12);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.awardeeCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px var(--black12);
+}
+
+/* Link */
+.awardeeCard__link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+/* Image Container */
+.awardeeCard__imageContainer {
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: var(--off-white);
+}
+
+.awardeeCard__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Content */
+.awardeeCard__content {
+  padding: 16px;
+}
+
+.awardeeCard__name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  color: var(--default-text);
+  line-height: 1.4;
+}
+
+.awardeeCard__institution {
+  font-size: 0.875rem;
+  color: var(--black54);
+  margin: 0 0 12px 0;
+  line-height: 1.4;
+}
+
+/* Meta */
+.awardeeCard__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.awardeeCard__conference {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--accent-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.awardeeCard__program {
+  font-size: 0.75rem;
+  color: var(--accent-orange);
+  font-weight: 500;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+  .awardeeCard__name {
+    font-size: 1.25rem;
+  }
+
+  .awardeeCard__institution {
+    font-size: 1rem;
+  }
+
+  .awardeeCard__content {
+    padding: 20px;
+  }
+}

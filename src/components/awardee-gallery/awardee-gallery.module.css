@@ -1,0 +1,115 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX awardee gallery component.
+ */
+
+/* Gallery Container */
+.awardeeGallery {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+  padding: 24px;
+  background: var(--off-white);
+  border-radius: 8px;
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filterLabel {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--default-text);
+}
+
+.filterSelect {
+  padding: 8px 12px;
+  border: 1px solid var(--black12);
+  border-radius: 4px;
+  font-size: 0.875rem;
+  background: var(--white);
+  color: var(--default-text);
+  cursor: pointer;
+}
+
+.filterSelect:focus {
+  outline: none;
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 2px rgba(32, 119, 179, 0.2);
+}
+
+/* Results Count */
+.resultsCount {
+  font-size: 0.875rem;
+  color: var(--black54);
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+/* No Results */
+.noResults {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--black54);
+}
+
+.noResults p {
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+  .awardeeGallery {
+    padding: 0 32px;
+  }
+
+  .filters {
+    flex-direction: row;
+    align-items: end;
+    gap: 32px;
+  }
+
+  .filterGroup {
+    flex: 1;
+    max-width: 200px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 32px;
+  }
+}
+
+/**
+ * 1024px - Medium (desktop).
+ */
+@media screen and (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+}

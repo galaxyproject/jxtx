@@ -13,6 +13,7 @@ const { createFilePath } = require("gatsby-source-filesystem");
 
 // Template variables
 const templateComponent = "./src/templates/article.js";
+const awardeeTemplateComponent = "./src/templates/awardee.js";
 
 /**
  * Create nodes.
@@ -45,6 +46,16 @@ exports.onCreateNode = ({ actions, getNode, node }) => {
       name: "slug",
       value: slug,
     });
+
+    /* Check if this is an awardee and create appropriate fields */
+    const filePath = createFilePath({ node, getNode, basePath: "content" });
+    const isAwardee = filePath.startsWith("/awardees/");
+
+    createNodeField({
+      node,
+      name: "isAwardee",
+      value: isAwardee,
+    });
   }
 };
 
@@ -58,7 +69,7 @@ exports.onCreateNode = ({ actions, getNode, node }) => {
 exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions;
 
-  /* Query the qraphql. */
+  /* Query the graphql. */
   const result = await graphql(`
     query {
       allMdx {
@@ -66,6 +77,7 @@ exports.createPages = async ({ actions, graphql }) => {
           node {
             fields {
               slug
+              isAwardee
             }
           }
         }
@@ -76,11 +88,13 @@ exports.createPages = async ({ actions, graphql }) => {
   /* For each MDX node type, create a page. */
   result.data.allMdx.edges.forEach(({ node }) => {
     const { fields } = node,
-      { slug } = fields;
+      { slug, isAwardee } = fields;
+
+    const template = isAwardee ? awardeeTemplateComponent : templateComponent;
 
     createPage({
       path: slug,
-      component: path.resolve(templateComponent),
+      component: path.resolve(template),
       context: {
         slug: slug,
       },
@@ -109,6 +123,12 @@ exports.createSchemaCustomization = ({ actions }) => {
         links: [String]
         slug: String
         title: String
+        name: String
+        institution: String
+        photo: File @fileByRelativePath
+        conference: String
+        year: Int
+        program: String
     }
   `);
 };

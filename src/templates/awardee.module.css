@@ -1,0 +1,119 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX awardee template.
+ */
+
+/* Awardee Profile */
+.awardeeProfile {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.awardeeHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--off-white);
+}
+
+/* Image */
+.awardeeImageContainer {
+  align-self: center;
+}
+
+.awardeeImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 16px var(--black12);
+}
+
+/* Info */
+.awardeeInfo {
+  text-align: center;
+}
+
+.awardeeName {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  color: var(--default-text);
+  line-height: 1.2;
+}
+
+.awardeeInstitution {
+  font-size: 1.25rem;
+  color: var(--black54);
+  margin: 0 0 16px 0;
+  line-height: 1.4;
+}
+
+/* Meta */
+.awardeeMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.awardeeConference {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.awardeeProgram {
+  font-size: 0.875rem;
+  color: var(--accent-orange);
+  font-weight: 500;
+}
+
+/**
+ * 768px - Small (tablet).
+ */
+@media screen and (min-width: 768px) {
+  .awardeeProfile {
+    padding: 0 32px;
+  }
+
+  .awardeeHeader {
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    text-align: left;
+  }
+
+  .awardeeImageContainer {
+    flex-shrink: 0;
+  }
+
+  .awardeeImage {
+    width: 250px;
+    height: 250px;
+  }
+
+  .awardeeInfo {
+    flex: 1;
+    text-align: left;
+  }
+
+  .awardeeName {
+    font-size: 2.5rem;
+  }
+
+  .awardeeInstitution {
+    font-size: 1.375rem;
+  }
+
+  .awardeeMeta {
+    align-items: flex-start;
+  }
+}
