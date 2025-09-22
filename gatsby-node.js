@@ -47,15 +47,7 @@ exports.onCreateNode = ({ actions, getNode, node }) => {
       value: slug,
     });
 
-    /* Check if this is an awardee and create appropriate fields */
-    const filePath = createFilePath({ node, getNode, basePath: "content" });
-    const isAwardee = filePath.startsWith("/awardees/");
-
-    createNodeField({
-      node,
-      name: "isAwardee",
-      value: isAwardee,
-    });
+    /* No additional awardee field needed - we'll filter in the component */
   }
 };
 
@@ -77,7 +69,10 @@ exports.createPages = async ({ actions, graphql }) => {
           node {
             fields {
               slug
-              isAwardee
+            }
+            frontmatter {
+              name
+              institution
             }
           }
         }
@@ -87,10 +82,15 @@ exports.createPages = async ({ actions, graphql }) => {
 
   /* For each MDX node type, create a page. */
   result.data.allMdx.edges.forEach(({ node }) => {
-    const { fields } = node,
-      { slug, isAwardee } = fields;
+    const { fields, frontmatter } = node;
+    const { slug } = fields;
 
-    const template = isAwardee ? awardeeTemplateComponent : templateComponent;
+    // Determine if this is an awardee page
+    const isAwardeeProfile = slug && slug.startsWith('/awardees/') &&
+                            slug !== '/awardees-content/' &&
+                            frontmatter?.name && frontmatter?.institution;
+
+    const template = isAwardeeProfile ? awardeeTemplateComponent : templateComponent;
 
     createPage({
       path: slug,
@@ -114,6 +114,10 @@ exports.createSchemaCustomization = ({ actions }) => {
   createTypes(`
     type Mdx implements Node {
         frontmatter: Frontmatter
+        fields: MdxFields
+    }
+    type MdxFields {
+        slug: String
     }
     type Frontmatter {
         description: String
