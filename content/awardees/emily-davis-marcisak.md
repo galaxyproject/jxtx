@@ -4,7 +4,7 @@ institution: "Johns Hopkins University"
 photo: "../news/_images/awardee-emily-davis-marcisak.png"
 conference: "Biological Data Science"
 year: 2020
-slug: "emily-davis-marcisak"
+slug: "/awardees/emily-davis-marcisak"
 program: "JTech"
 title: "Emily Davis-Marcisak"
 description: "JXTX Foundation Biological Data Science 2020 awardee from Johns Hopkins University"

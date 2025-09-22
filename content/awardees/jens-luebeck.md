@@ -4,7 +4,7 @@ institution: "Bioinformatics & Systems Biology, University of California, San Di
 photo: "../news/_images/awardee-jens-luebeck.png"
 conference: "Biological Data Science"
 year: 2020
-slug: "jens-luebeck"
+slug: "/awardees/jens-luebeck"
 program: "JTech"
 title: "Jens Luebeck"
 description: "JXTX Foundation Biological Data Science 2020 awardee from UC San Diego"

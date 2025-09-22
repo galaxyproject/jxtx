@@ -4,7 +4,7 @@ institution: "University of Milan"
 photo: "../news/_images/awardee-gbcc-negin.jpg"
 conference: "Galaxy and Bioconductor Community Conference"
 year: 2025
-slug: "negin-kafee-hernashki"
+slug: "/awardees/negin-kafee-hernashki"
 program: "JXTX+GBCC"
 title: "Negin Kafee Hernashki"
 description: "JXTX Foundation GBCC 2025 awardee from University of Milan"

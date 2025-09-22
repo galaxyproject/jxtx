@@ -4,7 +4,7 @@ institution: "New York Genome Center and New York University"
 photo: "../news/_images/awardee-yuhan-hao.png"
 conference: "Biological Data Science"
 year: 2020
-slug: "yuhan-hao"
+slug: "/awardees/yuhan-hao"
 program: "JTech"
 title: "Yuhan Hao"
 description: "JXTX Foundation Biological Data Science 2020 awardee from New York Genome Center and New York University"

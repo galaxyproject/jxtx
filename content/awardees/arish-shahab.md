@@ -4,7 +4,7 @@ institution: "McMaster University"
 photo: "../news/_images/awardee-gbcc-arish.jpg"
 conference: "Galaxy and Bioconductor Community Conference"
 year: 2025
-slug: "arish-shahab"
+slug: "/awardees/arish-shahab"
 program: "JXTX+GBCC"
 title: "Arish Shahab"
 description: "JXTX Foundation GBCC 2025 awardee from McMaster University"

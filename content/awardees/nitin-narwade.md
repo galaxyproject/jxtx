@@ -4,7 +4,7 @@ institution: "Institute of Neurosciences, Alicante, Spain"
 photo: "../news/_images/awardee-gbcc-nitin.jpeg"
 conference: "Galaxy and Bioconductor Community Conference"
 year: 2025
-slug: "nitin-narwade"
+slug: "/awardees/nitin-narwade"
 program: "JXTX+GBCC"
 title: "Nitin Narwade"
 description: "JXTX Foundation GBCC 2025 awardee from Institute of Neurosciences, Alicante, Spain"

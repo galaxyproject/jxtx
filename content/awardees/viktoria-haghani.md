@@ -4,7 +4,7 @@ institution: "University of California, Davis"
 photo: "../news/_images/awardee-victoria-haghani.jpg"
 conference: "Genome Informatics"
 year: 2021
-slug: "viktoria-haghani"
+slug: "/awardees/viktoria-haghani"
 program: "JXTX"
 title: "Viktoria Haghani"
 description: "JXTX Foundation Genome Informatics 2021 awardee from University of California, Davis"

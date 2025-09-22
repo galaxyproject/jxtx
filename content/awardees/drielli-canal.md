@@ -4,7 +4,7 @@ institution: "State University of Campinas, São Paulo"
 photo: "../news/_images/awardee-drielli.jpeg"
 conference: "Galaxy Community Conference"
 year: 2024
-slug: "drielli-canal"
+slug: "/awardees/drielli-canal"
 program: "JXTX+GCC"
 title: "Drielli Canal"
 description: "JXTX Foundation GCC 2024 awardee from State University of Campinas, São Paulo"

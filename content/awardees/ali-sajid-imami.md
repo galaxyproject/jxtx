@@ -4,7 +4,7 @@ institution: "Cognitive Disorders Research Lab, University of Toledo, OH"
 photo: "../news/_images/awardee-ali-sajid-imami.jpg"
 conference: "Genome Informatics"
 year: 2021
-slug: "ali-sajid-imami"
+slug: "/awardees/ali-sajid-imami"
 program: "JXTX"
 title: "Ali Sajid Imami"
 description: "JXTX Foundation Genome Informatics 2021 awardee from University of Toledo"

@@ -4,7 +4,7 @@ institution: "University of Minnesota Twin Cities"
 photo: "../_images/2024-bog-awardees/xiang-zhang.jpg"
 conference: "Biology of Genomes"
 year: 2024
-slug: "xiang-zhang"
+slug: "/awardees/xiang-zhang"
 program: "JXTX+CSHL"
 title: "Xiang Zhang"
 description: "JXTX Foundation Biology of Genomes 2024 awardee from University of Minnesota Twin Cities"

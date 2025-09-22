@@ -4,7 +4,7 @@ institution: "Johns Hopkins University"
 photo: "../news/_images/awardee-shinder.jpg"
 conference: "Biological Data Science"
 year: 2024
-slug: "ida-shinder"
+slug: "/awardees/ida-shinder"
 program: "JXTX+CSHL"
 title: "Ida Shinder"
 description: "JXTX Foundation Biological Data Science 2024 awardee from Johns Hopkins University"

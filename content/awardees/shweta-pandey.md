@@ -4,7 +4,7 @@ institution: "CSIR-IMTECH"
 photo: "../news/_images/awardee-shweta.jpeg"
 conference: "Galaxy Community Conference"
 year: 2024
-slug: "shweta-pandey"
+slug: "/awardees/shweta-pandey"
 program: "JXTX+GCC"
 title: "Shweta Pandey"
 description: "JXTX Foundation GCC 2024 awardee from CSIR-IMTECH"

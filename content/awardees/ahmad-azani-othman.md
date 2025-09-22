@@ -4,7 +4,7 @@ institution: "UiTM"
 photo: "../news/_images/awardee-ahmad.jpg"
 conference: "Galaxy Community Conference"
 year: 2024
-slug: "ahmad-azani-othman"
+slug: "/awardees/ahmad-azani-othman"
 program: "JXTX+GCC"
 title: "Ahmad Azani Othman"
 description: "JXTX Foundation GCC 2024 awardee from UiTM"

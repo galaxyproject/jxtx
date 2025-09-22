@@ -4,7 +4,7 @@ institution: "University of British Columbia"
 photo: "../news/_images/awardee-rafi.jpg"
 conference: "Biological Data Science"
 year: 2024
-slug: "abdul-muntakim-rafi"
+slug: "/awardees/abdul-muntakim-rafi"
 program: "JXTX+CSHL"
 title: "Abdul Muntakim Rafi"
 description: "JXTX Foundation Biological Data Science 2024 awardee from University of British Columbia"

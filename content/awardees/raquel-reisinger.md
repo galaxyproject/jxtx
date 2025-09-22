@@ -4,7 +4,7 @@ institution: "MD/PhD program, University of Utah"
 photo: "../news/_images/awardee-raquel-reisinger.jpg"
 conference: "Genome Informatics"
 year: 2021
-slug: "raquel-reisinger"
+slug: "/awardees/raquel-reisinger"
 program: "JXTX"
 title: "Raquel Reisinger"
 description: "JXTX Foundation Genome Informatics 2021 awardee from University of Utah"

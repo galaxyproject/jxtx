@@ -4,7 +4,7 @@ institution: "Teagasc & University College Cork"
 photo: "../news/_images/awardee-gbcc-sudipta.jpg"
 conference: "Galaxy and Bioconductor Community Conference"
 year: 2025
-slug: "sudipta-kumar-hazra"
+slug: "/awardees/sudipta-kumar-hazra"
 program: "JXTX+GBCC"
 title: "Sudipta Kumar Hazra"
 description: "JXTX Foundation GBCC 2025 awardee from Teagasc & University College Cork"

@@ -4,7 +4,7 @@ institution: "University of California Berkeley"
 photo: "../_images/2024-bog-awardees/chandler-sutherland.jpg"
 conference: "Biology of Genomes"
 year: 2024
-slug: "chandler-sutherland"
+slug: "/awardees/chandler-sutherland"
 program: "JXTX+CSHL"
 title: "Chandler Sutherland"
 description: "JXTX Foundation Biology of Genomes 2024 awardee from University of California Berkeley"

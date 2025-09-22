@@ -4,7 +4,7 @@ institution: "Sydney Brenner Institute for Molecular Bioscience, University of t
 photo: "../news/_images/awardee-david-twesigomwe.png"
 conference: "Biological Data Science"
 year: 2020
-slug: "david-twesigomwe"
+slug: "/awardees/david-twesigomwe"
 program: "JTech"
 title: "David Twesigomwe"
 description: "JXTX Foundation Biological Data Science 2020 awardee from University of the Witwatersrand"

@@ -4,7 +4,7 @@ institution: "University of North Carolina-Chapel Hill"
 photo: "../news/_images/awardee-gbcc-grace.jpg"
 conference: "Galaxy and Bioconductor Community Conference"
 year: 2025
-slug: "grace-kenney"
+slug: "/awardees/grace-kenney"
 program: "JXTX+GBCC"
 title: "Grace Kenney"
 description: "JXTX Foundation GBCC 2025 awardee from University of North Carolina-Chapel Hill"

@@ -1,7 +1,7 @@
 ---
 title: "JXTX Foundation Awardees"
 description: "Meet all the talented researchers who have received JXTX Foundation scholarships to attend conferences in computational biology and data science."
-slug: "/awardees-content"
+slug: "/awardees-content/"
 image: ../_images/seo/newsroom.png
 ---
 

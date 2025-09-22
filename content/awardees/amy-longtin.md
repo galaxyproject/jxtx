@@ -4,7 +4,7 @@ institution: "Vanderbilt University"
 photo: "../news/_images/2025-bog-awardees/amy-longtin.jpg"
 conference: "Biology of Genomes"
 year: 2025
-slug: "amy-longtin"
+slug: "/awardees/amy-longtin"
 program: "JXTX+CSHL"
 title: "Amy Longtin"
 description: "JXTX Foundation Biology of Genomes 2025 awardee from Vanderbilt University"

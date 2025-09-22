@@ -4,7 +4,7 @@ institution: "ASU"
 photo: "../_images/2023-bog-awardees/awardee-brianah-mccoy.png"
 conference: "Biology of Genomes"
 year: 2023
-slug: "brianah-mccoy"
+slug: "/awardees/brianah-mccoy"
 program: "JXTX+CSHL"
 title: "Brianah McCoy"
 description: "JXTX Foundation Biology of Genomes 2023 awardee from ASU"

@@ -4,7 +4,7 @@ institution: "University of Connecticut"
 photo: "../news/_images/awardee-sumaira-zaman.png"
 conference: "Biological Data Science"
 year: 2020
-slug: "sumaira-zaman"
+slug: "/awardees/sumaira-zaman"
 program: "JTech"
 title: "Sumaira Zaman"
 description: "JXTX Foundation Biological Data Science 2020 awardee from University of Connecticut"

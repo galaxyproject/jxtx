@@ -4,7 +4,7 @@ institution: "Harvard University and Broad Institute of MIT and Harvard"
 photo: "../news/_images/awardee-kambhampati.jpg"
 conference: "Biological Data Science"
 year: 2024
-slug: "sandeep-kambhampati"
+slug: "/awardees/sandeep-kambhampati"
 program: "JXTX+CSHL"
 title: "Sandeep Kambhampati"
 description: "JXTX Foundation Biological Data Science 2024 awardee from Harvard University and Broad Institute"

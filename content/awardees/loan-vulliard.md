@@ -4,7 +4,7 @@ institution: "Department of Biochemistry and Cell Biology, Max Perutz Labs, Univ
 photo: "../news/_images/awardee-loan-vulliard.png"
 conference: "Biological Data Science"
 year: 2020
-slug: "loan-vulliard"
+slug: "/awardees/loan-vulliard"
 program: "JTech"
 title: "Loan Vulliard"
 description: "JXTX Foundation Biological Data Science 2020 awardee from University of Vienna"

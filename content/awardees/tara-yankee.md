@@ -4,7 +4,7 @@ institution: "University of Connecticut School of Medicine Department of Genetic
 photo: "../news/_images/awardee-tara-yankee.jpg"
 conference: "Genome Informatics"
 year: 2021
-slug: "tara-yankee"
+slug: "/awardees/tara-yankee"
 program: "JXTX"
 title: "Tara N. Yankee"
 description: "JXTX Foundation Genome Informatics 2021 awardee from University of Connecticut School of Medicine"

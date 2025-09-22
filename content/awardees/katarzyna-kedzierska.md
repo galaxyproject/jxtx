@@ -4,7 +4,7 @@ institution: "Oxford"
 photo: "../_images/2023-bog-awardees/awardee-katarzyna-kedzierska.png"
 conference: "Biology of Genomes"
 year: 2023
-slug: "katarzyna-kedzierska"
+slug: "/awardees/katarzyna-kedzierska"
 program: "JXTX+CSHL"
 title: "Katarzyna Kedzierska"
 description: "JXTX Foundation Biology of Genomes 2023 awardee from Oxford"

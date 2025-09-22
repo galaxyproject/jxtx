@@ -4,7 +4,7 @@ institution: "University of California Santa Cruz"
 photo: "../_images/2024-bog-awardees/prajna-hebbar.jpg"
 conference: "Biology of Genomes"
 year: 2024
-slug: "prajna-hebbar"
+slug: "/awardees/prajna-hebbar"
 program: "JXTX+CSHL"
 title: "Prajna Hebbar"
 description: "JXTX Foundation Biology of Genomes 2024 awardee from University of California Santa Cruz"

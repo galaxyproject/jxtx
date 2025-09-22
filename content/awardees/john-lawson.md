@@ -4,7 +4,7 @@ institution: "Center for Public Health Genomics and Department of Biomedical Eng
 photo: "../news/_images/awardee-john-lawson.png"
 conference: "Biological Data Science"
 year: 2020
-slug: "john-lawson"
+slug: "/awardees/john-lawson"
 program: "JTech"
 title: "John Lawson"
 description: "JXTX Foundation Biological Data Science 2020 awardee from University of Virginia"

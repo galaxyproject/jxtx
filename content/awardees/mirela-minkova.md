@@ -4,7 +4,7 @@ institution: "Utrecht University"
 photo: "../news/_images/awardee-gbcc-mirela.jpg"
 conference: "Galaxy and Bioconductor Community Conference"
 year: 2025
-slug: "mirela-minkova"
+slug: "/awardees/mirela-minkova"
 program: "JXTX+GBCC"
 title: "Mirela Minkova"
 description: "JXTX Foundation GBCC 2025 awardee from Utrecht University"

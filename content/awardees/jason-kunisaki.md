@@ -4,7 +4,7 @@ institution: "University of Utah"
 photo: "../_images/2024-bog-awardees/jason-kunisaki.jpg"
 conference: "Biology of Genomes"
 year: 2024
-slug: "jason-kunisaki"
+slug: "/awardees/jason-kunisaki"
 program: "JXTX+CSHL"
 title: "Jason Kunisaki"
 description: "JXTX Foundation Biology of Genomes 2024 awardee from University of Utah"

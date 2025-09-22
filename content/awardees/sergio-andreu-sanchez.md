@@ -4,7 +4,7 @@ institution: "Department of Genetics, University Medical Center Groningen"
 photo: "../news/_images/awardee-andreu-sanchez.jpg"
 conference: "Genome Informatics"
 year: 2021
-slug: "sergio-andreu-sanchez"
+slug: "/awardees/sergio-andreu-sanchez"
 program: "JXTX"
 title: "Sergio Andreu Sánchez"
 description: "JXTX Foundation Genome Informatics 2021 awardee from University Medical Center Groningen"

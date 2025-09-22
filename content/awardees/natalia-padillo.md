@@ -4,7 +4,7 @@ institution: "University of Florida"
 photo: "../news/_images/awardee-natalia.jpg"
 conference: "Galaxy Community Conference"
 year: 2024
-slug: "natalia-padillo"
+slug: "/awardees/natalia-padillo"
 program: "JXTX+GCC"
 title: "Natalia E. Padillo-Anthemides"
 description: "JXTX Foundation GCC 2024 awardee from University of Florida"

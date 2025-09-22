@@ -4,7 +4,7 @@ institution: "Yale"
 photo: "../_images/2023-bog-awardees/awardee-chang-su.png"
 conference: "Biology of Genomes"
 year: 2023
-slug: "chang-su"
+slug: "/awardees/chang-su"
 program: "JXTX+CSHL"
 title: "Chang Su"
 description: "JXTX Foundation Biology of Genomes 2023 awardee from Yale"

@@ -4,7 +4,7 @@ institution: "Rutgers, The State University of New Jersey"
 photo: "../news/_images/2025-bog-awardees/william-degroat.jpg"
 conference: "Biology of Genomes"
 year: 2025
-slug: "william-degroat"
+slug: "/awardees/william-degroat"
 program: "JXTX+CSHL"
 title: "William DeGroat"
 description: "JXTX Foundation Biology of Genomes 2025 awardee from Rutgers, The State University of New Jersey"

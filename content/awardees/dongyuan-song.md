@@ -4,7 +4,7 @@ institution: "UCLA"
 photo: "../_images/2023-bog-awardees/awardee-dongyuan-song.png"
 conference: "Biology of Genomes"
 year: 2023
-slug: "dongyuan-song"
+slug: "/awardees/dongyuan-song"
 program: "JXTX+CSHL"
 title: "Dongyuan Song"
 description: "JXTX Foundation Biology of Genomes 2023 awardee from UCLA"

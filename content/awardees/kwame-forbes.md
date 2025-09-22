@@ -4,7 +4,7 @@ institution: "University of North Carolina Chapel Hill"
 photo: "../news/_images/awardee-kwame-forbes.png"
 conference: "Biological Data Science"
 year: 2020
-slug: "kwame-forbes"
+slug: "/awardees/kwame-forbes"
 program: "JTech"
 title: "Kwame Forbes"
 description: "JXTX Foundation Biological Data Science 2020 awardee from University of North Carolina Chapel Hill"

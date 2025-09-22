@@ -4,7 +4,7 @@ institution: "Weill Cornell Medicine"
 photo: "../news/_images/awardee-anoushka-joglekar.png"
 conference: "Biological Data Science"
 year: 2020
-slug: "anoushka-joglekar"
+slug: "/awardees/anoushka-joglekar"
 program: "JTech"
 title: "Anoushka Joglekar"
 description: "JXTX Foundation Biological Data Science 2020 awardee from Weill Cornell Medicine"

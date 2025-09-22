@@ -4,7 +4,7 @@ institution: "University of British Columbia"
 photo: "../news/_images/awardee-arjun-baghela.jpg"
 conference: "Genome Informatics"
 year: 2021
-slug: "arjun-baghela"
+slug: "/awardees/arjun-baghela"
 program: "JXTX"
 title: "Arjun Baghela"
 description: "JXTX Foundation Genome Informatics 2021 awardee from University of British Columbia"

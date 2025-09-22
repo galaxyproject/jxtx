@@ -4,7 +4,7 @@ institution: "University of Washington"
 photo: "../_images/2023-bog-awardees/awardee-robin-aguilar.png"
 conference: "Biology of Genomes"
 year: 2023
-slug: "robin-aguilar"
+slug: "/awardees/robin-aguilar"
 program: "JXTX+CSHL"
 title: "Robin Aguilar"
 description: "JXTX Foundation Biology of Genomes 2023 awardee from University of Washington"

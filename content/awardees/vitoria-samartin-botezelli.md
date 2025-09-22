@@ -4,7 +4,7 @@ institution: "Universidade de São Paulo"
 photo: "../news/_images/awardee-vitoria-samartin-botezelli.jpg"
 conference: "Genome Informatics"
 year: 2021
-slug: "vitoria-samartin-botezelli"
+slug: "/awardees/vitoria-samartin-botezelli"
 program: "JXTX"
 title: "Vitória Samartin Botezelli"
 description: "JXTX Foundation Genome Informatics 2021 awardee from Universidade de São Paulo"

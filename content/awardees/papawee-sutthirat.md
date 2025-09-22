@@ -4,7 +4,7 @@ institution: "University of Minnesota-Rochester & Mayo Clinic"
 photo: "../news/_images/awardee-gbcc-papawee.jpg"
 conference: "Galaxy and Bioconductor Community Conference"
 year: 2025
-slug: "papawee-sutthirat"
+slug: "/awardees/papawee-sutthirat"
 program: "JJ Fund"
 title: "Papawee Sutthirat"
 description: "JJ Fund GBCC 2025 awardee from University of Minnesota-Rochester & Mayo Clinic"

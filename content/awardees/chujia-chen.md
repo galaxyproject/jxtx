@@ -4,7 +4,7 @@ institution: "Virginia Tech, Interdisciplinary Ph.D. Program in Genetics, Bioinf
 photo: "../news/_images/awardee-chujia-chen.jpg"
 conference: "Genome Informatics"
 year: 2021
-slug: "chujia-chen"
+slug: "/awardees/chujia-chen"
 program: "JXTX"
 title: "Chujia Chen"
 description: "JXTX Foundation Genome Informatics 2021 awardee from Virginia Tech"

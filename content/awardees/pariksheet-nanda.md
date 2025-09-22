@@ -4,7 +4,7 @@ institution: "University of Pittsburgh"
 photo: "../news/_images/awardee-gbcc-pariksheet.jpg"
 conference: "Galaxy and Bioconductor Community Conference"
 year: 2025
-slug: "pariksheet-nanda"
+slug: "/awardees/pariksheet-nanda"
 program: "JJ Fund"
 title: "Pariksheet Nanda"
 description: "JJ Fund GBCC 2025 awardee from University of Pittsburgh"

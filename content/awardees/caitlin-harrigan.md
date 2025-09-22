@@ -4,7 +4,7 @@ institution: "Computer Science, University of Toronto"
 photo: "../news/_images/awardee-cait-harrigan.jpg"
 conference: "Genome Informatics"
 year: 2021
-slug: "caitlin-harrigan"
+slug: "/awardees/caitlin-harrigan"
 program: "JXTX"
 title: "Caitlin Harrigan"
 description: "JXTX Foundation Genome Informatics 2021 awardee from University of Toronto"

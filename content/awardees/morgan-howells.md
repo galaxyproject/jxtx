@@ -4,7 +4,7 @@ institution: "The Open University"
 photo: "../news/_images/awardee-morgan.jpg"
 conference: "Galaxy Community Conference"
 year: 2024
-slug: "morgan-howells"
+slug: "/awardees/morgan-howells"
 program: "JXTX+GCC"
 title: "Morgan Howells"
 description: "JXTX Foundation GCC 2024 awardee from The Open University"

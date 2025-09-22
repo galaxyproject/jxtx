@@ -4,7 +4,7 @@ institution: "Johns Hopkins University"
 photo: "../_images/2024-bog-awardees/omar-ahmed.jpg"
 conference: "Biology of Genomes"
 year: 2024
-slug: "omar-ahmed"
+slug: "/awardees/omar-ahmed"
 program: "JXTX+CSHL"
 title: "Omar Ahmed"
 description: "JXTX Foundation Biology of Genomes 2024 awardee from Johns Hopkins University"

@@ -4,7 +4,7 @@ institution: "University of Alabama-Birmingham"
 photo: "../news/_images/awardee-hutchins.jpg"
 conference: "Biological Data Science"
 year: 2024
-slug: "shaurita-hutchins"
+slug: "/awardees/shaurita-hutchins"
 program: "JXTX+CSHL"
 title: "Shaurita D. Hutchins"
 description: "JXTX Foundation Biological Data Science 2024 awardee from University of Alabama-Birmingham"

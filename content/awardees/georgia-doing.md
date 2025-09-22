@@ -4,7 +4,7 @@ institution: "Hogan Lab, Geisel School of Medicine at Dartmouth"
 photo: "../news/_images/awardee-georgia-doing.png"
 conference: "Biological Data Science"
 year: 2020
-slug: "georgia-doing"
+slug: "/awardees/georgia-doing"
 program: "JTech"
 title: "Georgia Doing"
 description: "JXTX Foundation Biological Data Science 2020 awardee from Geisel School of Medicine at Dartmouth"

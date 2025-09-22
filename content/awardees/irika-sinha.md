@@ -4,7 +4,7 @@ institution: "Johns Hopkins School of Medicine"
 photo: "../news/_images/awardee-sinha.jpg"
 conference: "Biological Data Science"
 year: 2024
-slug: "irika-sinha"
+slug: "/awardees/irika-sinha"
 program: "JXTX+CSHL"
 title: "Irika Sinha"
 description: "JXTX Foundation Biological Data Science 2024 awardee from Johns Hopkins School of Medicine"

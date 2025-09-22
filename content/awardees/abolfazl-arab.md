@@ -4,7 +4,7 @@ institution: "Pharmaceutical Sciences and Pharmacogenomics, UCSF"
 photo: "../news/_images/awardee-arab.jpg"
 conference: "Biological Data Science"
 year: 2024
-slug: "abolfazl-arab"
+slug: "/awardees/abolfazl-arab"
 program: "JXTX+CSHL"
 title: "Abolfazl Arab"
 description: "JXTX Foundation Biological Data Science 2024 awardee from UCSF"

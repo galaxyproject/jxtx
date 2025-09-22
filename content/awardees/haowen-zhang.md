@@ -4,7 +4,7 @@ institution: "Georgia Institute of Technology"
 photo: "../news/_images/awardee-haowen-zhang.jpg"
 conference: "Genome Informatics"
 year: 2021
-slug: "haowen-zhang"
+slug: "/awardees/haowen-zhang"
 program: "JXTX"
 title: "Haowen Zhang"
 description: "JXTX Foundation Genome Informatics 2021 awardee from Georgia Institute of Technology"

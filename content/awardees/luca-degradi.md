@@ -4,7 +4,7 @@ institution: "Università degli Studi di Milano"
 photo: "../news/_images/awardee-luca.jpg"
 conference: "Galaxy Community Conference"
 year: 2024
-slug: "luca-degradi"
+slug: "/awardees/luca-degradi"
 program: "JXTX+GCC"
 title: "Luca Degradi"
 description: "JXTX Foundation GCC 2024 awardee from Università degli Studi di Milano"
