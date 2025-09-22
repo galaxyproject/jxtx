@@ -3,20 +3,23 @@
  * https://www.jxtxfoundation.org
  *
  * Style definitions specific to JXTX awardee card component.
+ * Wall of faces design with hover tooltips.
  */
 
-/* Awardee Card */
+/* Awardee Card - Photo tile */
 .awardeeCard {
-  background: var(--white);
-  border-radius: 8px;
-  box-shadow: 0 2px 8px var(--black12);
+  position: relative;
+  aspect-ratio: 1;
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 4px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .awardeeCard:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 16px var(--black12);
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  z-index: 10;
 }
 
 /* Link */
@@ -24,11 +27,15 @@
   color: inherit;
   text-decoration: none;
   display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 /* Image Container */
 .awardeeCard__imageContainer {
-  aspect-ratio: 1;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   background: var(--off-white);
 }
@@ -37,62 +44,104 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: filter 0.3s ease;
 }
 
-/* Content */
-.awardeeCard__content {
-  padding: 16px;
+.awardeeCard:hover .awardeeCard__image {
+  filter: brightness(0.7);
 }
 
+/* Tooltip - Hidden by default */
+.awardeeCard__tooltip {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  color: white;
+  padding: 20px 12px 12px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+  z-index: 5;
+}
+
+.awardeeCard:hover .awardeeCard__tooltip {
+  transform: translateY(0);
+}
+
+.awardeeCard__tooltipContent {
+  text-align: center;
+}
+
+/* Tooltip Content */
 .awardeeCard__name {
-  font-size: 1.125rem;
+  font-size: 0.875rem;
   font-weight: 600;
   margin: 0 0 4px 0;
-  color: var(--default-text);
-  line-height: 1.4;
+  color: white;
+  line-height: 1.3;
 }
 
 .awardeeCard__institution {
-  font-size: 0.875rem;
-  color: var(--black54);
-  margin: 0 0 12px 0;
-  line-height: 1.4;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 8px 0;
+  line-height: 1.3;
 }
 
 /* Meta */
 .awardeeCard__meta {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
+  align-items: center;
 }
 
 .awardeeCard__conference {
-  font-size: 0.75rem;
+  font-size: 0.625rem;
   font-weight: 500;
-  color: var(--accent-blue);
+  color: #87CEEB;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 .awardeeCard__program {
-  font-size: 0.75rem;
-  color: var(--accent-orange);
+  font-size: 0.625rem;
+  color: #FFB366;
   font-weight: 500;
 }
 
 /**
- * 768px - Small (tablet).
+ * 768px - Small (tablet) and up.
  */
 @media screen and (min-width: 768px) {
   .awardeeCard__name {
-    font-size: 1.25rem;
+    font-size: 1rem;
+  }
+
+  .awardeeCard__institution {
+    font-size: 0.875rem;
+  }
+
+  .awardeeCard__conference,
+  .awardeeCard__program {
+    font-size: 0.75rem;
+  }
+
+  .awardeeCard__tooltip {
+    padding: 24px 16px 16px;
+  }
+}
+
+/**
+ * 1024px - Desktop and up.
+ */
+@media screen and (min-width: 1024px) {
+  .awardeeCard__name {
+    font-size: 1.125rem;
   }
 
   .awardeeCard__institution {
     font-size: 1rem;
-  }
-
-  .awardeeCard__content {
-    padding: 20px;
   }
 }

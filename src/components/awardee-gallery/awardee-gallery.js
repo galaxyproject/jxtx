@@ -24,13 +24,13 @@ function AwardeeGallery({ awardees }) {
   }, [awardees]);
 
   const conferences = useMemo(() => {
-    const uniqueConferences = [...new Set(awardees.map(a => a.conference))].sort();
+    const uniqueConferences = [...new Set(awardees.map(a => a.conference).filter(c => c))].sort();
     return uniqueConferences;
   }, [awardees]);
 
   const filteredAwardees = useMemo(() => {
     return awardees.filter(awardee => {
-      const yearMatch = selectedYear === "all" || awardee.year.toString() === selectedYear;
+      const yearMatch = selectedYear === "all" || (awardee.year && awardee.year.toString() === selectedYear);
       const conferenceMatch = selectedConference === "all" || awardee.conference === selectedConference;
       return yearMatch && conferenceMatch;
     });
@@ -51,7 +51,7 @@ function AwardeeGallery({ awardees }) {
             className={compStyles.filterSelect}
           >
             <option value="all">All Years</option>
-            {years.map(year => (
+            {years.filter(year => year !== null).map(year => (
               <option key={year} value={year.toString()}>{year}</option>
             ))}
           </select>

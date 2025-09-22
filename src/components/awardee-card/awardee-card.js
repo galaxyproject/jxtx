@@ -19,7 +19,7 @@ function AwardeeCard({ awardee }) {
 
   return (
     <div className={compStyles.awardeeCard}>
-      <Link to={`/awardees/${slug}`} className={compStyles.awardeeCard__link}>
+      <Link to={slug} className={compStyles.awardeeCard__link}>
         <div className={compStyles.awardeeCard__imageContainer}>
           {image && (
             <GatsbyImage
@@ -29,16 +29,18 @@ function AwardeeCard({ awardee }) {
             />
           )}
         </div>
-        <div className={compStyles.awardeeCard__content}>
-          <h3 className={compStyles.awardeeCard__name}>{name}</h3>
-          <p className={compStyles.awardeeCard__institution}>{institution}</p>
-          <div className={compStyles.awardeeCard__meta}>
-            <span className={compStyles.awardeeCard__conference}>
-              {conference} {year}
-            </span>
-            {program && (
-              <span className={compStyles.awardeeCard__program}>{program}</span>
-            )}
+        <div className={compStyles.awardeeCard__tooltip}>
+          <div className={compStyles.awardeeCard__tooltipContent}>
+            <h3 className={compStyles.awardeeCard__name}>{name}</h3>
+            <p className={compStyles.awardeeCard__institution}>{institution}</p>
+            <div className={compStyles.awardeeCard__meta}>
+              <span className={compStyles.awardeeCard__conference}>
+                {conference} {year}
+              </span>
+              {program && (
+                <span className={compStyles.awardeeCard__program}>{program}</span>
+              )}
+            </div>
           </div>
         </div>
       </Link>

@@ -18,13 +18,17 @@ import ContentBlockHeading from "../components/content-block-heading/content-blo
 import ContentBlockBody from "../components/content-block-body/content-block-body";
 import AwardeeGallery from "../components/awardee-gallery/awardee-gallery";
 
-export default function AwadeesPage({ data }) {
+export default function AwardeesPage({ data }) {
   const { site, allMdx, awardeeContent } = data;
   const { title, description } = awardeeContent.frontmatter;
 
   // Transform awardee data for the gallery
   const awardees = allMdx.edges
-    .filter(({ node }) => node.fields.isAwardee)
+    .filter(({ node }) => {
+      const slug = node.fields.slug;
+      const hasAwardeeFields = node.frontmatter.name && node.frontmatter.institution;
+      return slug && slug.startsWith('/awardees/') && slug !== '/awardees-content/' && hasAwardeeFields;
+    })
     .map(({ node }) => ({
       name: node.frontmatter.name,
       institution: node.frontmatter.institution,
@@ -102,12 +106,11 @@ export const query = graphql`
         }
       }
     }
-    allMdx(filter: { fields: { isAwardee: { eq: true } } }) {
+    allMdx {
       edges {
         node {
           fields {
             slug
-            isAwardee
           }
           frontmatter {
             name
