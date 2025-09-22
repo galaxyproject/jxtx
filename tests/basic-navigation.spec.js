@@ -58,7 +58,7 @@ test.describe('Basic Site Navigation', () => {
   });
 
   test('key internal pages load', async ({ page }) => {
-    const testPages = ['/about/', '/james/', '/scholarships/'];
+    const testPages = ['/about/', '/james/', '/scholarships/', '/awardees/'];
 
     for (const pagePath of testPages) {
       console.log(`Testing page: ${pagePath}`);

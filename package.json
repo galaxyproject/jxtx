@@ -7,8 +7,8 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "develop": "gatsby develop --port 5598",
+    "start": "gatsby develop --port 5598",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
