@@ -61,7 +61,7 @@ export default function AwardeesPage({ data }) {
         <div
           style={{ maxWidth: "1200px", margin: "0 auto", padding: "2rem 1rem" }}
         >
-          <ArticleH1>JXTX Foundation Awardees</ArticleH1>
+          <ArticleH1>Awardees</ArticleH1>
           <p
             style={{
               fontSize: "0.95rem",
@@ -70,12 +70,11 @@ export default function AwardeesPage({ data }) {
               color: "#333",
             }}
           >
-            Meet the talented researchers who have received JXTX Foundation
-            scholarships to attend conferences in computational biology and data
-            science. These awardees represent the next generation of
-            computational biologists and data scientists, making significant
-            contributions to their fields while carrying forward Professor James
-            P. Taylor's legacy of mentorship and open science.
+            The JXTX Foundation provides scholarships to graduate students and
+            postdoctoral researchers to attend conferences in computational
+            biology and data science. These scholarships enable the next
+            generation of researchers to present their work, build community
+            connections, and advance open science.
           </p>
           <p
             style={{
@@ -85,10 +84,9 @@ export default function AwardeesPage({ data }) {
               color: "#333",
             }}
           >
-            The JXTX Foundation provides support for students to attend
-            conferences where they can present their work, form connections with
-            other researchers, and advance their careers in computational
-            biology and data science.
+            Our awardees carry forward James Taylor's legacy through their
+            commitment to open, reproducible research and their contributions to
+            the computational biology community.
           </p>
         </div>
         <AwardeeGallery awardees={awardees} />
