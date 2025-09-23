@@ -17,6 +17,22 @@ function AwardeeCard({ awardee }) {
   const { name, institution, photo, conference, year, slug, program } = awardee;
   const image = getImage(photo);
 
+  // Create conference abbreviations
+  const getConferenceAbbr = (conf) => {
+    const abbreviations = {
+      "Biology of Genomes": "BOG",
+      "Biological Data Science": "BDS",
+      "Galaxy Community Conference": "GCC",
+      "Galaxy and Bioconductor Community Conference": "GBCC",
+      "Genome Informatics": "GI",
+    };
+    return abbreviations[conf] || conf;
+  };
+
+  const conferenceInfo = conference && year ?
+    `${getConferenceAbbr(conference)} ${year}` :
+    conference || year || "";
+
   return (
     <div className={compStyles.awardeeCard}>
       <Link to={slug} className={compStyles.awardeeCard__link}>
@@ -32,15 +48,9 @@ function AwardeeCard({ awardee }) {
         <div className={compStyles.awardeeCard__tooltip}>
           <div className={compStyles.awardeeCard__tooltipContent}>
             <h3 className={compStyles.awardeeCard__name}>{name}</h3>
-            <p className={compStyles.awardeeCard__institution}>{institution}</p>
-            <div className={compStyles.awardeeCard__meta}>
-              <span className={compStyles.awardeeCard__conference}>
-                {conference} {year}
-              </span>
-              {program && (
-                <span className={compStyles.awardeeCard__program}>{program}</span>
-              )}
-            </div>
+            {conferenceInfo && (
+              <p className={compStyles.awardeeCard__conference}>{conferenceInfo}</p>
+            )}
           </div>
         </div>
       </Link>
