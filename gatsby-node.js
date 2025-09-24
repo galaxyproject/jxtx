@@ -13,6 +13,7 @@ const { createFilePath } = require("gatsby-source-filesystem");
 
 // Template variables
 const templateComponent = "./src/templates/article.js";
+const awardeeTemplateComponent = "./src/templates/awardee.js";
 
 /**
  * Create nodes.
@@ -45,6 +46,8 @@ exports.onCreateNode = ({ actions, getNode, node }) => {
       name: "slug",
       value: slug,
     });
+
+    /* No additional awardee field needed - we'll filter in the component */
   }
 };
 
@@ -58,7 +61,7 @@ exports.onCreateNode = ({ actions, getNode, node }) => {
 exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions;
 
-  /* Query the qraphql. */
+  /* Query the graphql. */
   const result = await graphql(`
     query {
       allMdx {
@@ -66,6 +69,10 @@ exports.createPages = async ({ actions, graphql }) => {
           node {
             fields {
               slug
+            }
+            frontmatter {
+              name
+              institution
             }
           }
         }
@@ -75,12 +82,19 @@ exports.createPages = async ({ actions, graphql }) => {
 
   /* For each MDX node type, create a page. */
   result.data.allMdx.edges.forEach(({ node }) => {
-    const { fields } = node,
-      { slug } = fields;
+    const { fields, frontmatter } = node;
+    const { slug } = fields;
+
+    // Determine if this is an awardee page
+    const isAwardeeProfile = slug && slug.startsWith('/awardees/') &&
+                            slug !== '/awardees-content/' &&
+                            frontmatter?.name && frontmatter?.institution;
+
+    const template = isAwardeeProfile ? awardeeTemplateComponent : templateComponent;
 
     createPage({
       path: slug,
-      component: path.resolve(templateComponent),
+      component: path.resolve(template),
       context: {
         slug: slug,
       },
@@ -100,6 +114,10 @@ exports.createSchemaCustomization = ({ actions }) => {
   createTypes(`
     type Mdx implements Node {
         frontmatter: Frontmatter
+        fields: MdxFields
+    }
+    type MdxFields {
+        slug: String
     }
     type Frontmatter {
         description: String
@@ -109,6 +127,12 @@ exports.createSchemaCustomization = ({ actions }) => {
         links: [String]
         slug: String
         title: String
+        name: String
+        institution: String
+        photo: File @fileByRelativePath
+        conference: String
+        year: Int
+        program: String
     }
   `);
 };

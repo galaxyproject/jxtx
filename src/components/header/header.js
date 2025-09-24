@@ -25,6 +25,7 @@ const classNames = require("classnames");
 
 // Template variables
 const about = "/about";
+const awardees = "/awardees";
 const donate = "/donate";
 const home = "/";
 const james = "/james";
@@ -133,6 +134,15 @@ function Header(props) {
               to={scholarships}
             >
               Scholarships
+            </Link>
+          </li>
+          <li className={compStyles.header__nav__item}>
+            <Link
+              activeClassName={compStyles.header__nav__link___active}
+              className={compStyles.header__nav__link}
+              to={awardees}
+            >
+              Awardees
             </Link>
           </li>
           <li className={compStyles.header__nav__item}>

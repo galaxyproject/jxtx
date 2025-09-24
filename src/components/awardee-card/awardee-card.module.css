@@ -1,0 +1,133 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX awardee card component.
+ * Wall of faces design with hover tooltips.
+ */
+
+/* Awardee Card - Photo tile */
+.awardeeCard {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 4px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.awardeeCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+/* Link */
+.awardeeCard__link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Image Container */
+.awardeeCard__imageContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--off-white);
+}
+
+.awardeeCard__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+}
+
+.awardeeCard:hover .awardeeCard__image {
+  filter: brightness(0.7);
+}
+
+/* Tooltip - Hidden by default */
+.awardeeCard__tooltip {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+  color: white;
+  padding: 12px 8px 8px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+  z-index: 5;
+}
+
+.awardeeCard:hover .awardeeCard__tooltip {
+  transform: translateY(0);
+}
+
+.awardeeCard__tooltipContent {
+  text-align: center;
+}
+
+/* Tooltip Content */
+.awardeeCard__name {
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin: 0 0 2px 0;
+  color: white;
+  line-height: 1.2;
+}
+
+.awardeeCard__conference {
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: #87ceeb;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+
+.awardeeCard__program {
+  font-size: 0.625rem;
+  color: #ffb366;
+  font-weight: 500;
+}
+
+/**
+ * 768px - Small (tablet) and up.
+ */
+@media screen and (min-width: 768px) {
+  .awardeeCard__name {
+    font-size: 1rem;
+  }
+
+  .awardeeCard__institution {
+    font-size: 0.875rem;
+  }
+
+  .awardeeCard__conference,
+  .awardeeCard__program {
+    font-size: 0.75rem;
+  }
+
+  .awardeeCard__tooltip {
+    padding: 24px 16px 16px;
+  }
+}
+
+/**
+ * 1024px - Desktop and up.
+ */
+@media screen and (min-width: 1024px) {
+  .awardeeCard__name {
+    font-size: 1.125rem;
+  }
+
+  .awardeeCard__institution {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,51 @@
+/*
+ * JXTX Foundation
+ * https://www.jxtxfoundation.org
+ *
+ * Style definitions specific to JXTX awardee gallery component.
+ */
+
+/* Gallery Container */
+.awardeeGallery {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Grid - Wall of faces with 5 columns */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+  margin-bottom: 48px;
+}
+
+/**
+ * Responsive breakpoints
+ */
+
+/* Tablet - 4 columns */
+@media screen and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Small tablet - 3 columns */
+@media screen and (max-width: 768px) {
+  .awardeeGallery {
+    padding: 0 12px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mobile - 2 columns */
+@media screen and (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
