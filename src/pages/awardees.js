@@ -16,7 +16,7 @@ import ArticleH1 from "../components/article-typographies/article-h1";
 import AwardeeGallery from "../components/awardee-gallery/awardee-gallery";
 
 export default function AwardeesPage({ data }) {
-  const { site, allMdx, awardeeContent } = data;
+  const { allMdx, awardeeContent } = data;
   const { title, description } = awardeeContent.frontmatter;
 
   // Transform awardee data for the gallery

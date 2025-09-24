@@ -85,7 +85,7 @@
 .awardeeCard__conference {
   font-size: 0.6rem;
   font-weight: 500;
-  color: #87CEEB;
+  color: #87ceeb;
   text-transform: uppercase;
   letter-spacing: 0.3px;
   margin: 0;
@@ -93,7 +93,7 @@
 
 .awardeeCard__program {
   font-size: 0.625rem;
-  color: #FFB366;
+  color: #ffb366;
   font-weight: 500;
 }
 

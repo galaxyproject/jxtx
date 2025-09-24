@@ -14,7 +14,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import * as compStyles from "./awardee-card.module.css";
 
 function AwardeeCard({ awardee }) {
-  const { name, institution, photo, conference, year, slug, program } = awardee;
+  const { name, photo, conference, year, slug } = awardee;
   const image = getImage(photo);
 
   // Create conference abbreviations
@@ -29,9 +29,10 @@ function AwardeeCard({ awardee }) {
     return abbreviations[conf] || conf;
   };
 
-  const conferenceInfo = conference && year ?
-    `${getConferenceAbbr(conference)} ${year}` :
-    conference || year || "";
+  const conferenceInfo =
+    conference && year
+      ? `${getConferenceAbbr(conference)} ${year}`
+      : conference || year || "";
 
   return (
     <div className={compStyles.awardeeCard}>
@@ -49,7 +50,9 @@ function AwardeeCard({ awardee }) {
           <div className={compStyles.awardeeCard__tooltipContent}>
             <h3 className={compStyles.awardeeCard__name}>{name}</h3>
             {conferenceInfo && (
-              <p className={compStyles.awardeeCard__conference}>{conferenceInfo}</p>
+              <p className={compStyles.awardeeCard__conference}>
+                {conferenceInfo}
+              </p>
             )}
           </div>
         </div>
