@@ -18,7 +18,7 @@ title: "JXTX Foundation Awards Scholarships for GBCC2025"
 
 # JXTX GBCC2025 Awardees
 
-<Image alt="JXTX Foundation Awardees" image={props.images[0]}></Image>
+<Image alt="JXTX Foundation Awardees" image={props.images[0]} />
 
 <figcaption>JXTX + GBCC 2025 Scholarships</figcaption>
 
@@ -32,7 +32,7 @@ Seven outstanding graduate students and postdoctoral researchers from around the
 <GridUnus>
 
 <Awardee>
-<Image alt={"Sudipta"} image={props.images[1]}></Image>
+<Image alt={"Sudipta"} image={props.images[1]} />
 <AwardeeContent>
 <h3>Sudipta Kumar Hazra</h3>
 <h4>Teagasc & University College Cork</h4>
@@ -50,11 +50,11 @@ Sudipta is an MSc (Research) student at Teagasc and University College Cork, Ire
 Grace is a second year PhD student in Bioinformatics and Computational Biology and an NSF GRFP fellow at the University of North Carolina-Chapel Hill in the lab of Dr. Doug Phanstiel. She received her BS in Biology from Truman State University and her MS in Bioinformatics and Computational Biology from Saint Louis University. Before starting her PhD, she worked as a bioinformatician at the University of Michigan's Advanced Genomics Core analyzing data from various NGS, single-cell, and spatial -omics platforms. Her research interests broadly include developing and using software for the interpretation of genetic variation and epigenetic mechanisms contributing to genome regulation.
 
 </AwardeeContent>
-<Image alt={"Grace"} image={props.images[2]}></Image>
+<Image alt={"Grace"} image={props.images[2]} />
 </Awardee>
 
 <Awardee>
-<Image alt={"Negin"} image={props.images[3]}></Image>
+<Image alt={"Negin"} image={props.images[3]} />
 <AwardeeContent>
 <h3>Negin Kafee Hernashki</h3>
 <h4>University of Milan</h4>
@@ -72,11 +72,11 @@ Negin Kafee Hernashki is originally from Kerman, Iran. She holds a Bachelor's de
 Mirela is a first-year Bioinformatics Master's student at Utrecht University in the Netherlands. She discovered her passion for bioinformatics during a project focused on prostate cancer analysis using Galaxy, leading her to pursue internships developing Galaxy workflows for cardiomyopathy patients. Her Bachelor's thesis work on Galaxy was nominated for best thesis. She currently works with SURF Research Cloud deploying secure Galaxy and Pulsar instances for Dutch researchers, while also doing an internship at UMCU developing a classifier for pediatric brain cancer.
 
 </AwardeeContent>
-<Image alt={"Mirela"} image={props.images[4]}></Image>
+<Image alt={"Mirela"} image={props.images[4]} />
 </Awardee>
 
 <Awardee>
-<Image alt={"Nitin"} image={props.images[5]}></Image>
+<Image alt={"Nitin"} image={props.images[5]} />
 <AwardeeContent>
 <h3>Nitin Narwade</h3>
 <h4>Institute of Neurosciences, Alicante, Spain</h4>
@@ -94,7 +94,7 @@ Nitin is a Postdoctoral Research Fellow at the Institute of Neurosciences, Alica
 Arish Shahab is an undergraduate researcher and biomedical engineering student at McMaster University, with research affiliations at Johns Hopkins University and Harvard Medical School. His work focuses on the intersection of AI, healthcare, and neurotechnology, with a particular interest in developing tools that enhance patient communication and diagnostic systems. He is currently exploring methods to objectively measure cognitive and articulatory focus using real-time visual tracking and EEG data to improve assistive communication technologies.
 
 </AwardeeContent>
-<Image alt={"Arish"} image={props.images[6]}></Image>
+<Image alt={"Arish"} image={props.images[6]} />
 </Awardee>
 
 </GridUnus>
@@ -106,7 +106,7 @@ Arish Shahab is an undergraduate researcher and biomedical engineering student a
 <GridUnus>
 
 <Awardee>
-<Image alt={"Pariksheet"} image={props.images[7]}></Image>
+<Image alt={"Pariksheet"} image={props.images[7]} />
 <AwardeeContent>
 <h3>Pariksheet Nanda</h3>
 <h4>University of Pittsburgh</h4>
@@ -124,7 +124,7 @@ Pariksheet Nanda is a third year postdoctoral fellow at the Jason Shoemaker labo
 Papawee is a Ph.D. student in Bioinformatics and Computational Biology at the University of Minnesota-Rochester and a Research Technologist at the Mayo Clinic. Her research integrates computational and experimental approaches to understand liver diseases, particularly Fontan-associated liver disease (FALD) and liver cancer. She uses advanced molecular biology techniques, single-cell and spatial transcriptomics, and data analysis methods to explore disease progression in both mouse models and human tissues. She is passionate about bridging computational and experimental biology to drive discoveries and therapeutic innovation.
 
 </AwardeeContent>
-<Image alt={"Papawee"} image={props.images[8]}></Image>
+<Image alt={"Papawee"} image={props.images[8]} />
 </Awardee>
 
 </GridUnus>

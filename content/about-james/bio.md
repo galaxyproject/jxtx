@@ -11,12 +11,13 @@ title: "James Peter Taylor | 1979 - 2020"
 
 # James Peter Taylor | 1979 - 2020
 
-<Image alt="James Taylor" image={props.images[0]}></Image>
-<figcaption>James Taylor at the Galaxy Community Conference. July 8, 2019. Freiburg, Germany. Photo by Bérénice Batut.</figcaption>
+<Image alt="James Taylor" image={props.images[0]} />
+
+*James Taylor at the Galaxy Community Conference. July 8, 2019. Freiburg, Germany. Photo by Bérénice Batut.*
 
 *Good ideas don’t have owners—they belong to everyone (@jxtx)*
 
-James Taylor started his professional path at the University of Vermont, where he received a BS in Computer Science in 2000. In 2003, after working as a software engineer in the private sector, he found that his real purpose in life was elsewhere. That year he began his graduate studies in Computer Science at Penn State and joined the nascent Center for Comparative Genomics and Bioinformatics. He used to refer to the Center as ‘BX’—a contraction of BioinformatiX. The name stuck; ‘BX’ is still a part of many URLs (e.g. the original Galaxy URL at <http://g2.bx.psu.edu>) and is the origin for the name of the [bx-python software package][1]. The interdisciplinary faculty of the Center included Francesca Chiaromonte, Ross Hardison, Kateryna Makova, Webb Miller, and Anton Nekrutenko. This group became the core of James’ academic family, a family that has now lost its most brilliant and prolific child.
+James Taylor started his professional path at the University of Vermont, where he received a BS in Computer Science in 2000. In 2003, after working as a software engineer in the private sector, he found that his real purpose in life was elsewhere. That year he began his graduate studies in Computer Science at Penn State and joined the nascent Center for Comparative Genomics and Bioinformatics. He used to refer to the Center as 'BX'—a contraction of BioinformatiX. The name stuck; 'BX' is still a part of many URLs (e.g. the original Galaxy URL at http://g2.bx.psu.edu) and is the origin for the name of the [bx-python software package][1]. The interdisciplinary faculty of the Center included Francesca Chiaromonte, Ross Hardison, Kateryna Makova, Webb Miller, and Anton Nekrutenko. This group became the core of James' academic family, a family that has now lost its most brilliant and prolific child.
 
 James concluded his PhD work under the supervision of Webb Miller and Francesca Chiaromointe in just three years—during which he blossomed as a methods developer and as a scientist. He published extensively on comparative genome analysis, gene regulation and molecular evolution—a total of eleven papers<sup>1–11</sup> which were hugely instrumental in advancing the research of the Center. Ross Hardison, former head of the Center, remembers:
 
@@ -76,6 +77,3 @@ Enis Afgan, Dannon Baker, Francesca Chiaromonte, Dave Clements, Nate Coraor, Jer
 
 [1]: https://github.com/bxlab/bx-python
 [2]: https://support.bioconductor.org/p/129652/
-[3]: /
-[4]: /
-[5]: /

@@ -22,7 +22,7 @@ title: "JXTX Foundation Awards First Ten Scholarships"
 
 # JXTX Foundation Awards First Ten Scholarships
 
-<Image alt="JXTX Foundation Awardees" image={props.images[0]}></Image>
+<Image alt="JXTX Foundation Awardees" image={props.images[0]} />
 <figcaption>JXTX Foundation Awards First Ten Scholarships</figcaption>
 
 *Awardees will be attending Biological Data Science 2020*
@@ -37,7 +37,7 @@ In addition to covering conference registration, awardees will also be paired wi
 <GridUnus>
 
 <Awardee>
-<Image alt={"Emily"} image={props.images[1]}></Image>
+<Image alt={"Emily"} image={props.images[1]} />
 <AwardeeContent>
 <h3>Emily Davis-Marcisak</h3>
 <h4>Johns Hopkins University</h4>
@@ -55,15 +55,15 @@ Matrix factorization of single-cell RNA-sequencing identifies immune cell states
 De-noising autoencoder-derived gene expression signatures for Pseudomonas aeruginosa elucidate virulence-promoting characteristics of ex vivo sputum from persons with cystic fibrosis.
 
 <ButtonSocial attributeHREF={"https://sites.dartmouth.edu/hoganlab/"} iconSize={32}>
-<Image alt={"HoganLab"} image={props.images[12]}></Image>
+<Image alt={"HoganLab"} image={props.images[12]} />
 </ButtonSocial>
 
 </AwardeeContent>
-<Image alt={"Georgia"} image={props.images[2]}></Image>
+<Image alt={"Georgia"} image={props.images[2]} />
 </Awardee>
 
 <Awardee>
-<Image alt={"Kwame"} image={props.images[3]}></Image>
+<Image alt={"Kwame"} image={props.images[3]} />
 <AwardeeContent>
 <h3>Kwame Forbes</h3>
 <h4>University of North Carolina Chapel Hill</h4>
@@ -81,11 +81,11 @@ Integration of preprocessed single-cell datasets with bulk differential analysis
 Multi-modal representation and mapping of single-cell data.
 
 </AwardeeContent>
-<Image alt={"Yuhan"} image={props.images[4]}></Image>
+<Image alt={"Yuhan"} image={props.images[4]} />
 </Awardee>
 
 <Awardee>
-<Image alt={"Anoushka"} image={props.images[5]}></Image>
+<Image alt={"Anoushka"} image={props.images[5]} />
 <AwardeeContent>
 <h3>Anoushka Joglekar</h3>
 <h4>Weill Cornell Medicine</h4>
@@ -93,7 +93,7 @@ Multi-modal representation and mapping of single-cell data.
 Cell type signatures of brain-region specific splicing in postnatal development.
 
 <ButtonSocial attributeHREF={"https://twitter.com/noush_joglekar"} iconSize={32}>
-<Image alt={"Anoushka"} image={props.images[11]}></Image>
+<Image alt={"Anoushka"} image={props.images[11]} />
 </ButtonSocial>
 
 </AwardeeContent>
@@ -107,15 +107,15 @@ Cell type signatures of brain-region specific splicing in postnatal development.
 COCOA: coordinate covariation analysis to annotate epigenetic heterogeneity.
 
 <ButtonSocial attributeHREF={"https://j-lawson.github.io/"} iconSize={32}>
-<Image alt={"John"} image={props.images[12]}></Image>
+<Image alt={"John"} image={props.images[12]} />
 </ButtonSocial>
 
 </AwardeeContent>
-<Image alt={"John"} image={props.images[6]}></Image>
+<Image alt={"John"} image={props.images[6]} />
 </Awardee>
 
 <Awardee>
-<Image alt={"Jens"} image={props.images[7]}></Image>
+<Image alt={"Jens"} image={props.images[7]} />
 <AwardeeContent>
 <h3>Jens Luebeck</h3>
 <h4>Bioinformatics & Systems Biology, University of California, San Diego</h4>
@@ -123,7 +123,7 @@ COCOA: coordinate covariation analysis to annotate epigenetic heterogeneity.
 AmpliconReconstructor integrates NGS and optical mapping to resolve the complex structures of focal amplifications.
 
 <ButtonSocial attributeHREF={"https://jluebeck.github.io/"} iconSize={32}>
-<Image alt={"Jens"} image={props.images[12]}></Image>
+<Image alt={"Jens"} image={props.images[12]} />
 </ButtonSocial>
 
 </AwardeeContent>
@@ -137,15 +137,15 @@ AmpliconReconstructor integrates NGS and optical mapping to resolve the complex 
 CypGen: A Nextflow pipeline for calling star alleles in cytochrome P450 genes.
 
 <ButtonSocial attributeHREF={"https://about.me/twesidave"} iconSize={32}>
-<Image alt={"David"} image={props.images[12]}></Image>
+<Image alt={"David"} image={props.images[12]} />
 </ButtonSocial>
 
 </AwardeeContent>
-<Image alt={"David"} image={props.images[8]}></Image>
+<Image alt={"David"} image={props.images[8]} />
 </Awardee>
 
 <Awardee>
-<Image alt={"Loan"} image={props.images[9]}></Image>
+<Image alt={"Loan"} image={props.images[9]} />
 <AwardeeContent>
 <h3>Loan Vulliard</h3>
 <h4>Department of Biochemistry and Cell Biology, Max Perutz Labs, University of Vienna</h4>
@@ -153,7 +153,7 @@ CypGen: A Nextflow pipeline for calling star alleles in cytochrome P450 genes.
 Understanding Chemical-Genetic Interactions: Morphological screen of combined perturbations.
 
 <ButtonSocial attributeHREF={"http://vulliard.loan"} iconSize={32}>
-<Image alt={"Loan"} image={props.images[12]}></Image>
+<Image alt={"Loan"} image={props.images[12]} />
 </ButtonSocial>
 
 </AwardeeContent>
@@ -167,7 +167,7 @@ Understanding Chemical-Genetic Interactions: Morphological screen of combined pe
 EASEL: Efficient, Accurate, Scalable Eukaryotic modeLs for de novo Genome Annotation.
 
 </AwardeeContent>
-<Image alt={"Sumaira"} image={props.images[10]}></Image>
+<Image alt={"Sumaira"} image={props.images[10]} />
 </Awardee>
 </GridUnus>
 </Awardees>
