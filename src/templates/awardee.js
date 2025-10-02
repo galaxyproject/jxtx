@@ -19,9 +19,9 @@ import ArticleContent from "../components/article-content/article-content";
 // Styles
 import * as compStyles from "./awardee.module.css";
 
-export default function Awardee({ data }) {
+export default function Awardee({ data, children }) {
   const awardee = data.mdx,
-    { body: content, fields, frontmatter } = awardee || {},
+    { fields, frontmatter } = awardee || {},
     { slug } = fields,
     { name, institution, photo, conference, year, program } = frontmatter;
 
@@ -54,7 +54,9 @@ export default function Awardee({ data }) {
               </div>
             </div>
           </div>
-          <ArticleContent content={content} frontmatter={frontmatter} />
+          <ArticleContent frontmatter={frontmatter}>
+            {children}
+          </ArticleContent>
         </div>
       </ArticleMain>
     </Layout>
@@ -64,7 +66,6 @@ export default function Awardee({ data }) {
 export const query = graphql`
   query ($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
-      body
       fields {
         slug
       }

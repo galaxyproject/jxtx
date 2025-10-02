@@ -6,7 +6,6 @@
  */
 
 // Core dependencies
-import { MDXRenderer } from "gatsby-plugin-mdx";
 import { MDXProvider } from "@mdx-js/react";
 import React from "react";
 
@@ -61,15 +60,13 @@ const shortcodes = {
 };
 
 function Mdx(props) {
-  const { articleShortcodes, content, frontmatter } = props;
+  const { articleShortcodes, children, frontmatter } = props;
   const { images, links } = frontmatter || {};
   Object.assign(shortcodes, articleShortcodes); /* Merges article shortcodes. */
 
   return (
     <MDXProvider components={shortcodes}>
-      <MDXRenderer frontmatter={frontmatter} images={images} links={links}>
-        {content}
-      </MDXRenderer>
+      {children}
     </MDXProvider>
   );
 }
