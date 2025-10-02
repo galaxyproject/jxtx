@@ -74,6 +74,9 @@ exports.createPages = async ({ actions, graphql }) => {
               name
               institution
             }
+            internal {
+              contentFilePath
+            }
           }
         }
       }
@@ -82,8 +85,9 @@ exports.createPages = async ({ actions, graphql }) => {
 
   /* For each MDX node type, create a page. */
   result.data.allMdx.edges.forEach(({ node }) => {
-    const { fields, frontmatter } = node;
+    const { fields, frontmatter, internal } = node;
     const { slug } = fields;
+    const { contentFilePath } = internal;
 
     // Determine if this is an awardee page
     const isAwardeeProfile = slug && slug.startsWith('/awardees/') &&
@@ -94,7 +98,7 @@ exports.createPages = async ({ actions, graphql }) => {
 
     createPage({
       path: slug,
-      component: path.resolve(template),
+      component: `${path.resolve(template)}?__contentFilePath=${contentFilePath}`,
       context: {
         slug: slug,
       },
