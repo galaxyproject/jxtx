@@ -20,11 +20,23 @@ export default function Article({ data, children }) {
     { fields, frontmatter } = post || {},
     { slug } = fields;
 
+  // Create props object for MDX scope
+  const props = {
+    images: frontmatter?.images || [],
+    links: frontmatter?.links || [],
+    frontmatter: frontmatter || {},
+  };
+
+  // Clone children with props injected
+  const childrenWithProps = React.isValidElement(children)
+    ? React.cloneElement(children, props)
+    : children;
+
   return (
     <Layout frontmatter={frontmatter} headerMinor slug={slug}>
       <ArticleMain>
         <ArticleContent frontmatter={frontmatter}>
-          {children}
+          {childrenWithProps}
         </ArticleContent>
       </ArticleMain>
     </Layout>

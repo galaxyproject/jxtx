@@ -27,6 +27,18 @@ export default function Awardee({ data, children }) {
 
   const image = getImage(photo);
 
+  // Create props object for MDX scope
+  const props = {
+    images: frontmatter?.images || [],
+    links: frontmatter?.links || [],
+    frontmatter: frontmatter || {},
+  };
+
+  // Clone children with props injected
+  const childrenWithProps = React.isValidElement(children)
+    ? React.cloneElement(children, props)
+    : children;
+
   return (
     <Layout frontmatter={frontmatter} headerMinor slug={slug}>
       <ArticleMain>
@@ -55,7 +67,7 @@ export default function Awardee({ data, children }) {
             </div>
           </div>
           <ArticleContent frontmatter={frontmatter}>
-            {children}
+            {childrenWithProps}
           </ArticleContent>
         </div>
       </ArticleMain>
