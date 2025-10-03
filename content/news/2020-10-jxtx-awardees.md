@@ -23,7 +23,7 @@ title: "JXTX Foundation Awards First Ten Scholarships"
 # JXTX Foundation Awards First Ten Scholarships
 
 <Image alt="JXTX Foundation Awardees" image={props.images[0]} />
-<figcaption>JXTX Foundation Awards First Ten Scholarships</figcaption>
+<Figcaption>JXTX Foundation Awards First Ten Scholarships</Figcaption>
 
 *Awardees will be attending Biological Data Science 2020*
 

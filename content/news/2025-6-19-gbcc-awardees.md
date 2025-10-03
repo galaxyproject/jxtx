@@ -20,7 +20,7 @@ title: "JXTX Foundation Awards Scholarships for GBCC2025"
 
 <Image alt="JXTX Foundation Awardees" image={props.images[0]} />
 
-<figcaption>JXTX + GBCC 2025 Scholarships</figcaption>
+<Figcaption>JXTX + GBCC 2025 Scholarships</Figcaption>
 
 [JXTX: The James P. Taylor Foundation for Open Science][1] and the JJ Travel Fellowship are pleased to announce the recipients of the 2025 Galaxy and Bioconductor Community Conference (GBCC) Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
 

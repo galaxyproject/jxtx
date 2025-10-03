@@ -18,7 +18,7 @@ title: "JXTX Foundation Awards Scholarships for GCC2024"
 
 <Image alt="JXTX Foundation Awardees" image={props.images[0]} />
 
-<figcaption>JXTX + GCC 2024 Scholarship</figcaption>
+<Figcaption>JXTX + GCC 2024 Scholarship</Figcaption>
 
 [JXTX: The James P. Taylor Foundation for Open Science][1] is pleased to announce the recipients of the 2024 Galaxy Community Conference Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
 

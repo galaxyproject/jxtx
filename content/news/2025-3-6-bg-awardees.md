@@ -18,7 +18,7 @@ title: "JXTX Foundation Awards Scholarships for Biology of Genomes 2025"
 
 <Image alt="JXTX Foundation Awardees" image={props.images[0]} />
 
-<figcaption>JXTX Foundation Awards Scholarships for 2025 Biology of Genomes</figcaption>
+<Figcaption>JXTX Foundation Awards Scholarships for 2025 Biology of Genomes</Figcaption>
 
 [JXTX: The James P. Taylor Foundation for Open Science][1] is pleased to announce the recipients of the 2025 JXTX+CSHL Biology of Genomes Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
 

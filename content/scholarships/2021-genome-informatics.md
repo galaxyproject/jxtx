@@ -11,7 +11,7 @@ title: "JXTX 2021 Genome Informatics Scholarship"
 # JXTX 2021 Genome Informatics Scholarship
 
 <Image alt="JXTX 2021 Genome Informatics Scholarship" image={props.images[0]} />
-<figcaption>JXTX 2021 Genome Informatics Scholarship</figcaption>
+<Figcaption>JXTX 2021 Genome Informatics Scholarship</Figcaption>
 
 The JXTX Foundation and [Cold Spring Harbor Laboratory](https://meetings.cshl.edu/) announce the 2021 Genome Informatics Scholarship. JXTX and CSHL will provide support to 10 outstanding graduate students in genomics and data sciences to attend the [2021 CSHL Genome Informatics Conference](https://meetings.cshl.edu/meetings.aspx?meet=info&year=21). Scholarships will cover the full conference registration including lodging and meals.
 

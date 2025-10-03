@@ -31,7 +31,7 @@ Please help further the careers of junior researchers by making a contribution t
 <GridItemArticle gridArea="THUMBNAIL">
 
 <Image alt="David Twesigomwe" image={props.images[0]} />
-<figcaption>David Twesigomwe, a scholarship awardee and and a PhD candidate in Human Genetics at the University of the Witwatersrand, Johannesburg.</figcaption>
+<Figcaption>David Twesigomwe, a scholarship awardee and and a PhD candidate in Human Genetics at the University of the Witwatersrand, Johannesburg.</Figcaption>
 
 </GridItemArticle>
 
