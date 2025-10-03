@@ -39,6 +39,7 @@
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
     "react-typography": "^0.16.23",
+    "remark-gfm": "^3.0.1",
     "typography": "^0.16.24"
   },
   "devDependencies": {

@@ -5,6 +5,9 @@
  * JXTX configuration file.
  */
 
+// Core dependencies
+const remarkGfm = require('remark-gfm');
+
 // Template variables
 const contentPath = "./content";
 
@@ -39,6 +42,12 @@ module.exports = {
       resolve: "gatsby-plugin-mdx",
       options: {
         extensions: [".md", ".mdx"],
+        // Add remarkPlugins at top level for gatsby-plugin-mdx v5
+        remarkPlugins: [remarkGfm],
+        mdxOptions: {
+          remarkPlugins: [remarkGfm],
+          rehypePlugins: [],
+        },
         gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-images`,
