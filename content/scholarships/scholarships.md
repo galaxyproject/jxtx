@@ -131,9 +131,7 @@ The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2024 Biology 
 
 </Grid>
 
-<!--
-Past Scholarships
--->
+{/* Past Scholarships */}
 
 
 <Grid columns={1}>

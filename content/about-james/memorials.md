@@ -64,7 +64,6 @@ Here are some excerpts from the numerous memorials to James on the web.
 
 ![James][9]
 
-[1]: /
 [2]: https://support.bioconductor.org/p/129652/
 [3]: http://bioconductor.org/
 [4]: https://www.open-bio.org/2020/04/03/james-taylor-in-memoriam/

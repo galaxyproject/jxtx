@@ -26,7 +26,7 @@ import GridItem from "../grid-item/grid-item";
 import { HeadingScale } from "../heading/heading-scale.model";
 import { HeadingTheme } from "../heading/heading-theme.model";
 import SectionHero from "../section-hero/section-hero";
-import SectionNewsroom from "../section-newsroom/section-newsroom";
+// import SectionNewsroom from "../section-newsroom/section-newsroom"; // Removed: /news page is now standalone
 import Section from "../section/section";
 import { SectionType } from "../section/section-type.model";
 import { GridArea } from "../ui/grid-area/grid-area.model";
@@ -164,7 +164,8 @@ function Home() {
           </ContentBlock>
         </GridItem>
       </Section>
-      <SectionNewsroom />
+      {/* <SectionNewsroom /> */}
+      {/* Newsroom content is available at /news */}
     </main>
   );
 }

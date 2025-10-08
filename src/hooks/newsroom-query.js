@@ -4,8 +4,10 @@ export const NewsroomStaticQuery = () => {
   const { mdx } = useStaticQuery(
     graphql`
       query NewsroomStaticQuery {
-        mdx(fields: { slug: { eq: "/news" } }) {
-          body
+        mdx(fields: { slug: { eq: "/news/" } }) {
+          internal {
+            contentFilePath
+          }
           frontmatter {
             description
             fullWidth
@@ -17,7 +19,9 @@ export const NewsroomStaticQuery = () => {
             links
             title
           }
-          slug
+          fields {
+            slug
+          }
         }
       }
     `

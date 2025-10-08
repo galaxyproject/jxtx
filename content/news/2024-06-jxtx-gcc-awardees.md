@@ -16,9 +16,9 @@ title: "JXTX Foundation Awards Scholarships for GCC2024"
 
 # JXTX GCC2024 Awardees
 
-<Image alt="JXTX Foundation Awardees" image={props.images[0]}></Image>
+<Image alt="JXTX Foundation Awardees" image={props.images[0]} />
 
-<figcaption>JXTX + GCC 2024 Scholarship</figcaption>
+<Figcaption>JXTX + GCC 2024 Scholarship</Figcaption>
 
 [JXTX: The James P. Taylor Foundation for Open Science][1] is pleased to announce the recipients of the 2024 Galaxy Community Conference Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
 
@@ -33,17 +33,17 @@ title: "JXTX Foundation Awards Scholarships for GCC2024"
 <h4>CSIR-IMTECH</h4>
 
 Shweta Pandey is a research scholar at the CSIR-Institute of Microbial Technology (CSIR-IMTECH), Chandigarh, India. She has a background in Biotechnology and is currently pursuing her PhD in Bioinformatics with Dr. Anshu Bhardwaj in CSIR-IMTECH. Shweta's research focuses on investigating shared genetic components of comorbidities using data-driven approaches.
-<!-- Shweta has received several awards including the travel grant award from BHU, India, where she presented her work on mitochondria-driven comorbidities. More recently she also received recognition for being in the top three candidates in a bio quiz organised by the Genomics India Conference leading to a waiver on her registration fees. She has also been awarded a research grant towards understanding sleep-related comorbidities in collaboration with clinicians from DST-Chandigarh. 
-She has volunteered at the Good Air Summit in 2019. Shweta was also an ex-HR member of the Aashman Foundation. She is passionate about investigating circadian rhythm-associated comorbidities to gain insights into the underlying mechanisms of genetically associated comorbid conditions. She enjoys coding, experimenting with new recipes in the kitchen, singing her favourite tunes, and immersing herself in nature's beauty. -->
+{/*  Shweta has received several awards including the travel grant award from BHU, India, where she presented her work on mitochondria-driven comorbidities. More recently she also received recognition for being in the top three candidates in a bio quiz organised by the Genomics India Conference leading to a waiver on her registration fees. She has also been awarded a research grant towards understanding sleep-related comorbidities in collaboration with clinicians from DST-Chandigarh. 
+She has volunteered at the Good Air Summit in 2019. Shweta was also an ex-HR member of the Aashman Foundation. She is passionate about investigating circadian rhythm-associated comorbidities to gain insights into the underlying mechanisms of genetically associated comorbid conditions. She enjoys coding, experimenting with new recipes in the kitchen, singing her favourite tunes, and immersing herself in nature's beauty.  */}
 
 
 </AwardeeContent>
-<Image alt={"Shweta"} image={props.images[2]}></Image>
+<Image alt={"Shweta"} image={props.images[2]} />
 </Awardee>
 
 
 <Awardee>
-<Image alt={"Natalia"} image={props.images[1]}></Image>
+<Image alt={"Natalia"} image={props.images[1]} />
 <AwardeeContent>
 <h3>Natalia E. Padillo-Anthemides</h3>
 <h4>University of Florida</h4>
@@ -62,16 +62,16 @@ Natalia is a 2nd year Genetics and Genomics PhD student in the Ryan Lab at Unive
 <h4>Università degli Studi di Milano</h4>
 
 Luca Degradi is an Italian researcher and educator who is passionate about molecular biology and bioinformatics. He obtained a Bachelor&#39;s degree in Agricultural Science and Technology from the Università degli Studi di Milano in 2018. His thesis on GMO perception in Italy reflects his dedication to exploring scientific frontiers and their societal implications.
-<!-- Luca obtained a Master&#39;s degree in Biotechnology for the Bioeconomy, achieving an outstanding mark of 110/110 with honors. During his master&#39;s, he conducted groundbreaking research on fungal genomics, with a particular focus on Fusarium species, under the guidance of Prof. M. Pasquali. His work led to the publication of several groundbreaking papers, including the first telomere-to- telomere genome assembly of Fusarium musae, a pathogen that affects both bananas and humans. 
+{/*  Luca obtained a Master&#39;s degree in Biotechnology for the Bioeconomy, achieving an outstanding mark of 110/110 with honors. During his master&#39;s, he conducted groundbreaking research on fungal genomics, with a particular focus on Fusarium species, under the guidance of Prof. M. Pasquali. His work led to the publication of several groundbreaking papers, including the first telomere-to- telomere genome assembly of Fusarium musae, a pathogen that affects both bananas and humans. 
 Currently, Luca is pursuing a PhD at the Università degli Studi di Milano, researching Fusarium mycotoxins to improve food safety and quality. He is now working on the genomic differences and possible determinant of human infection in trans-kingdom pathogens like Fusarium sp. His research demonstrates his unwavering commitment to addressing real-world challenges through scientific inquiry. 
-Luca has proficiency in various technical domains, including bioinformatics, genome assembly and annotation, and data science. He is fluent in both Italian and English and contributes to interdisciplinary research with his collaborative spirit and problem-solving skills. Luca Degradi is an excellent scientist-educator who blends academic excellence with a profound commitment to societal impact and knowledge dissemination. -->
+Luca has proficiency in various technical domains, including bioinformatics, genome assembly and annotation, and data science. He is fluent in both Italian and English and contributes to interdisciplinary research with his collaborative spirit and problem-solving skills. Luca Degradi is an excellent scientist-educator who blends academic excellence with a profound commitment to societal impact and knowledge dissemination.  */}
 
 </AwardeeContent>
-<Image alt={"Luca"} image={props.images[3]}></Image>
+<Image alt={"Luca"} image={props.images[3]} />
 </Awardee>
 
 <Awardee>
-<Image alt={"Morgan"} image={props.images[4]}></Image>
+<Image alt={"Morgan"} image={props.images[4]} />
 <AwardeeContent>
 <h3>Morgan Howells</h3>
 <h4>The Open University</h4>
@@ -91,11 +91,11 @@ Drielli graduated from Federal University of Espírito Santo, Southeast Brazil, 
 
 
 </AwardeeContent>
-<Image alt={"Drielli"} image={props.images[5]}></Image>
+<Image alt={"Drielli"} image={props.images[5]} />
 </Awardee>
 
 <Awardee>
-<Image alt={"Ahmad"} image={props.images[6]}></Image>
+<Image alt={"Ahmad"} image={props.images[6]} />
 <AwardeeContent>
 <h3>Ahmad Azani Othman</h3>
 <h4>UiTM</h4>

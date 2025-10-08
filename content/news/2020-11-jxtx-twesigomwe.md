@@ -30,8 +30,8 @@ Please help further the careers of junior researchers by making a contribution t
 
 <GridItemArticle gridArea="THUMBNAIL">
 
-<Image alt="David Twesigomwe" image={props.images[0]}></Image>
-<figcaption>David Twesigomwe, a scholarship awardee and and a PhD candidate in Human Genetics at the University of the Witwatersrand, Johannesburg.</figcaption>
+<Image alt="David Twesigomwe" image={props.images[0]} />
+<Figcaption>David Twesigomwe, a scholarship awardee and and a PhD candidate in Human Genetics at the University of the Witwatersrand, Johannesburg.</Figcaption>
 
 </GridItemArticle>
 
@@ -43,4 +43,3 @@ Please help further the careers of junior researchers by making a contribution t
 [4]: https://www.wits.ac.za/research/sbimb/
 [5]: https://www.wits.ac.za/
 [6]: https://meetings.cshl.edu/meetings.aspx?meet=data&year=20
-[7]: /

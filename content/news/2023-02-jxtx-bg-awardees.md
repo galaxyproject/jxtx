@@ -16,9 +16,9 @@ title: "JXTX Foundation Awards Scholarships for Biology of Genomes 2023"
 
 # JXTX + CSHL 2023 Biology of Genomes Awardees
 
-<Image alt="JXTX Foundation Awardees" image={props.images[0]}></Image>
+<Image alt="JXTX Foundation Awardees" image={props.images[0]} />
 
-<figcaption>JXTX Foundation Awards Scholarships for 2023 Biology of Genomes</figcaption>
+<Figcaption>JXTX Foundation Awards Scholarships for 2023 Biology of Genomes</Figcaption>
 
 [JXTX: The James P. Taylor Foundation for Open Science][1] is pleased to announce the recipients of the 2023 JXTX+CSHL Biology of Genomes Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
 
@@ -28,7 +28,7 @@ Six genomics and data sciences graduate students from around the globe were awar
 <GridUnus>
 
 <Awardee>
-<Image alt={"Robin"} image={props.images[4]}></Image>
+<Image alt={"Robin"} image={props.images[4]} />
 <AwardeeContent>
 <h3>Robin Aguilar</h3>
 <h4>UW</h4>
@@ -47,13 +47,13 @@ Robin Aguilar is a PhD candidate and technology developer at the University of W
 Kasia Kedzierska is a computational biologist specializing in data science and machine learning for biological research. She is currently pursuing her PhD at the University of Oxford, where she studies the role of chromatin organization in the progression of endometrial cancer. In addition to her academic work, Kasia enjoys teaching and is also an active member of the NGSchool Society, which promotes science and bioinformatics research in Eastern Europe.
 
 </AwardeeContent>
-<Image alt={"Kasia"} image={props.images[2]}></Image>
+<Image alt={"Kasia"} image={props.images[2]} />
 </Awardee>
 
 
 
 <Awardee>
-<Image alt={"Laura"} image={props.images[5]}></Image>
+<Image alt={"Laura"} image={props.images[5]} />
 <AwardeeContent>
 
 <h3>Laura Luebbert</h3>
@@ -71,11 +71,11 @@ Laura is a German-Catalan Biology Ph.D. candidate at Caltech. After earning her 
 
 Brianah (Bri) McCoy is a 3rd year Molecular and Cellular Biology PhD Candidate at Arizona State University in the lab of Dr. Noah Snyder-Mackler. Bri is a trainee at The Dog Aging Project where her research is focused on understanding social environmental effects on gene regulation and aging in companion dogs.
 </AwardeeContent>
-<Image alt={"Brianah"} image={props.images[3]}></Image>
+<Image alt={"Brianah"} image={props.images[3]} />
 </Awardee>
 
 <Awardee>
-<Image alt={"Dongyuan"} image={props.images[1]}></Image>
+<Image alt={"Dongyuan"} image={props.images[1]} />
 <AwardeeContent>
 <h3>Dongyuan Song</h3>
 <h4>UCLA</h4>
@@ -93,7 +93,7 @@ Dongyuan is a Ph.D. candidate in Bioinformatics, UCLA, under the supervision of 
 Chang Su is a Ph.D. candidate in Biostatistics at Yale School of Public Health. She is co-advised by Dr. Hongyu Zhao and Dr. Zhou Fan. Her research interests lie in developing statistical methods for high-dimensional data from genomics and genetics. Her recent work focuses on statistical inference of cell-type-specific co-expression networks using single cell and bulk transcriptomics data, and the advancement of principal component analysis in high-dimensional settings with Empirical Bayes ideas.
 
 </AwardeeContent>
-<Image alt={"Chang"} image={props.images[6]}></Image>
+<Image alt={"Chang"} image={props.images[6]} />
 </Awardee>
 
 </GridUnus>

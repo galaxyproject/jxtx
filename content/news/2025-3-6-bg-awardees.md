@@ -16,9 +16,9 @@ title: "JXTX Foundation Awards Scholarships for Biology of Genomes 2025"
 
 # JXTX + CSHL 2025 Biology of Genomes Awardees
 
-<Image alt="JXTX Foundation Awardees" image={props.images[0]}></Image>
+<Image alt="JXTX Foundation Awardees" image={props.images[0]} />
 
-<figcaption>JXTX Foundation Awards Scholarships for 2025 Biology of Genomes</figcaption>
+<Figcaption>JXTX Foundation Awards Scholarships for 2025 Biology of Genomes</Figcaption>
 
 [JXTX: The James P. Taylor Foundation for Open Science][1] is pleased to announce the recipients of the 2025 JXTX+CSHL Biology of Genomes Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
 
@@ -28,7 +28,7 @@ Six genomics and data sciences graduate students from around the globe were awar
 <GridUnus>
 
 <Awardee>
-<Image alt={"Maria"} image={props.images[1]}></Image>
+<Image alt={"Maria"} image={props.images[1]} />
 <AwardeeContent>
 <h3>Maria Carilli</h3>
 <h4>California Institute of Technology</h4>
@@ -51,13 +51,13 @@ Originally from the island nation of Sri Lanka, Sakuntha is a fourth-year Ph.D. 
 His research focuses on using machine learning to analyze cell-free DNA (cfDNA) for non-invasive cancer detection. By leveraging open chromatin signatures in cfDNA, he develops computational models that enhance cancer prediction and biomarker discovery. His work integrates epigenomics, bioinformatics, and artificial intelligence to improve the detection and characterization of breast cancer from liquid biopsies. Outside of academia, he enjoys exploring nature and astronomy, finding inspiration in both the microscopic and cosmic scales of science.
 
 </AwardeeContent>
-<Image alt={"Sakuntha"} image={props.images[2]}></Image>
+<Image alt={"Sakuntha"} image={props.images[2]} />
 </Awardee>
 
 
 
 <Awardee>
-<Image alt={"Betselot"} image={props.images[3]}></Image>
+<Image alt={"Betselot"} image={props.images[3]} />
 <AwardeeContent>
 
 <h3>Betselot Zerihun Ayano</h3>
@@ -80,11 +80,11 @@ Elysia is a Bioinformatics PhD candidate at the University of Michigan and is me
 Outside of research, Elysia leads the University of Michigan's chapter of Girls Who Code, where her team seeks to address local technology education inequities by providing a supportive and collaborative environment for high schoolers to learn how to code.
 
 </AwardeeContent>
-<Image alt={"Elysia"} image={props.images[4]}></Image>
+<Image alt={"Elysia"} image={props.images[4]} />
 </Awardee>
 
 <Awardee>
-<Image alt={"Amy"} image={props.images[5]}></Image>
+<Image alt={"Amy"} image={props.images[5]} />
 <AwardeeContent>
 <h3>Amy Longtin</h3>
 <h4>Vanderbilt University</h4>
@@ -102,7 +102,7 @@ Amy is a PhD student in Dr. Amanda Lea's lab in the Department of Biological Sci
 William is an undergraduate student at Rutgers, The State University of New Jersey, and a member of Dr. Anat Kreimer's laboratory at the Center for Advanced Biotechnology and Medicine. His research focuses on the development of computational methods to understand cell type-specific networks of cis-regulatory interactions and their perturbations. William has presented his findings at Cold Spring Harbor Laboratory and the American Society of Human Genetics. He has published open-source software in Genome Biology and Bioinformatics. William is planning to pursue a Ph.D. in computational biology and genetics.
 
 </AwardeeContent>
-<Image alt={"William"} image={props.images[6]}></Image>
+<Image alt={"William"} image={props.images[6]} />
 </Awardee>
 
 </GridUnus>

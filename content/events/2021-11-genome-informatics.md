@@ -10,8 +10,8 @@ title: "Genome Informatics 2021"
 
 # Genome Informatics 2021
 
-<Image alt="Sumaira Zaman" image={props.images[0]}></Image>
-<figcaption>The next Cold Spring Harbor Laboratory conference on Genome Informatics will be held at Cold Spring Harbor, New York.</figcaption>
+<Image alt="Sumaira Zaman" image={props.images[0]} />
+<Figcaption>The next Cold Spring Harbor Laboratory conference on Genome Informatics will be held at Cold Spring Harbor, New York.</Figcaption>
 
 The next [Cold Spring Harbor Laboratory conference on Genome Informatics][1] will be held at Cold Spring Harbor, New York (this meeting has alternated with the Hinxton meeting started under the joint auspices of CSHL and the Wellcome Trust). The meeting will begin at 7:30 p.m. on Wednesday, November 3, and finish with lunch on Saturday, November 6, 2021.
 

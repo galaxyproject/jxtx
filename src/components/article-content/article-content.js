@@ -28,19 +28,22 @@ const shortcodeTypographies = {
 };
 
 function ArticleContent(props) {
-  const { content, frontmatter } = props,
+  const { children, frontmatter } = props,
     { fullWidth } = frontmatter || {};
   const articleShortcodes = { ...shortcodeElements, ...shortcodeTypographies };
 
   return fullWidth ? (
-    <Mdx content={content} frontmatter={frontmatter} />
+    <Mdx frontmatter={frontmatter}>
+      {children}
+    </Mdx>
   ) : (
     <Section type={SectionType.ARTICLE}>
       <Mdx
         articleShortcodes={articleShortcodes}
-        content={content}
         frontmatter={frontmatter}
-      />
+      >
+        {children}
+      </Mdx>
     </Section>
   );
 }

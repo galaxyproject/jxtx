@@ -37,21 +37,82 @@ In its later stages, the Foundation will sponsor in-person visits from students 
 
 The objectives and activities of the foundation are governed by the foundation board. The current board includes the following members:
 
-| Name                                                                                    | Affiliation                          | Role                  |
-| :-------------------------------------------------------------------------------------- | :----------------------------------- | :-------------------- |
-| [Dannon Baker](https://www.linkedin.com/in/dannonbaker/)                                | Johns Hopkins University             | Communication officer |
-| [Dan Blankenberg](https://www.lerner.ccf.org/computational-medicine/blankenberg/)       | Cleveland Clinic                     | Member                |
-| [Dave Clements](https://www.linkedin.com/in/clements)                                   | galaxyproject.org                    | Member                |
-| [Jeremy Goecks](https://www.goeckslab.org/)                                             | Moffitt Cancer Center                | Member                |
-| [Meredith Greif](https://soc.jhu.edu/directory/meredith-greif/)                         | Johns Hopkins University             | Member                |
-| [Björn Grüning](https://github.com/bgruening)                                           | University of Freiburg               | Member                |
-| [Ross Hardison](https://science.psu.edu/bmb/people/rch8)                                | Penn State                           | Member                |
-| [Ross Lazarus](https://www.linkedin.com/in/rosslazarus/?originalSubdomain=au)           | galaxyproject.org                    | Member                |
-| [Andrew Lonie](https://www.biocommons.org.au/lb-andrew)                                 | University of Melbourne              | Member                |
-| [Anton Nekrutenko](https://nekrut.github.io/lab_site/)                                  | Penn State University                | Director              |
-| [Francis Ouellette](https://www.linkedin.com/in/francisouellette/?originalSubdomain=ca) | bioinformatics.ca                    | Member                |
-| [Michael Schatz](https://schatz-lab.org/)                                               | Johns Hopkins University             | Member                |
-| [Jenn Vessio](https://www.linkedin.com/in/jennifer-vessio-a67522244/)                   | Johns Hopkins University             | Financial officer     |
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Affiliation</th>
+<th align="left">Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><A href="https://www.linkedin.com/in/dannonbaker/">Dannon Baker</A></td>
+<td>Johns Hopkins University</td>
+<td>Communication officer</td>
+</tr>
+<tr>
+<td><A href="https://www.lerner.ccf.org/computational-medicine/blankenberg/">Dan Blankenberg</A></td>
+<td>Cleveland Clinic</td>
+<td>Member</td>
+</tr>
+<tr>
+<td><A href="https://www.linkedin.com/in/clements">Dave Clements</A></td>
+<td>galaxyproject.org</td>
+<td>Member</td>
+</tr>
+<tr>
+<td><A href="https://www.goeckslab.org/">Jeremy Goecks</A></td>
+<td>Moffitt Cancer Center</td>
+<td>Member</td>
+</tr>
+<tr>
+<td><A href="https://soc.jhu.edu/directory/meredith-greif/">Meredith Greif</A></td>
+<td>Johns Hopkins University</td>
+<td>Member</td>
+</tr>
+<tr>
+<td><A href="https://github.com/bgruening">Björn Grüning</A></td>
+<td>University of Freiburg</td>
+<td>Member</td>
+</tr>
+<tr>
+<td><A href="https://science.psu.edu/bmb/people/rch8">Ross Hardison</A></td>
+<td>Penn State</td>
+<td>Member</td>
+</tr>
+<tr>
+<td><A href="https://www.linkedin.com/in/rosslazarus/?originalSubdomain=au">Ross Lazarus</A></td>
+<td>galaxyproject.org</td>
+<td>Member</td>
+</tr>
+<tr>
+<td><A href="https://www.biocommons.org.au/lb-andrew">Andrew Lonie</A></td>
+<td>University of Melbourne</td>
+<td>Member</td>
+</tr>
+<tr>
+<td><A href="https://nekrut.github.io/lab_site/">Anton Nekrutenko</A></td>
+<td>Penn State University</td>
+<td>Director</td>
+</tr>
+<tr>
+<td><A href="https://www.linkedin.com/in/francisouellette/?originalSubdomain=ca">Francis Ouellette</A></td>
+<td>bioinformatics.ca</td>
+<td>Member</td>
+</tr>
+<tr>
+<td><A href="https://schatz-lab.org/">Michael Schatz</A></td>
+<td>Johns Hopkins University</td>
+<td>Member</td>
+</tr>
+<tr>
+<td><A href="https://www.linkedin.com/in/jennifer-vessio-a67522244/">Jenn Vessio</A></td>
+<td>Johns Hopkins University</td>
+<td>Financial officer</td>
+</tr>
+</tbody>
+</table>
 
 **Please consider [contributing][1] to continue James Taylor's legacy.**
 
