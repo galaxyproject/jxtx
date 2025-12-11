@@ -13,6 +13,7 @@ images:
     - _images/scholarships-hero-2025-bog.png
     - _images/scholarships-2025-gbcc.png
     - _images/scholarships-hero-2025-gi.png
+    - ../_images/gcc2024-banner.png
 links:
     - /scholarships/2021-genome-informatics
     - /news/2020-10-jxtx-awardees
@@ -25,6 +26,7 @@ links:
     - /news/2025-2-4-bg
     - /news/2025-2-27-gbcc
     - /news/2025-6-09-gi
+    - /news/2025-12-gcc2026
 slug: "/scholarships"
 title: "Scholarships"
 ---
@@ -34,6 +36,22 @@ title: "Scholarships"
 </Headline>
 
 <Newsroom>
+
+<Grid columns={1}>
+
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[11]}>
+<TileThumbnail alt={"JXTX + GCC 2026 Scholarship"} image={props.images[10]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + GCC 2026 Scholarship
+</TileHeading>
+<TileBody>
+The JXTX Foundation and Galaxy Project announce the 2026 GCC Scholarship. Supporting graduate students to attend GCC2026 in Clermont-Ferrand, France.
+</TileBody>
+</TileContent>
+</Tile>
+
+</Grid>
 
 <Grid columns={1}>
 
