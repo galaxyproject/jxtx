@@ -24,6 +24,7 @@ images:
     - ../scholarships/_images/scholarships-hero-2025-gi.png
     - ../scholarships/_images/scholarships-2025-gbcc.png
     - _images/gi2025-awardees.png
+    - ../scholarships/_images/scholarships-hero-2026-bog.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
@@ -45,6 +46,7 @@ links:
     - /news/2025-6-09-gi
     - /news/2025-6-19-gbcc-awardees
     - /news/2025-01-jxtx-genome-informatics-awardees
+    - /news/2025-12-15-bg
 slug: "/news"
 title: "Newsroom"
 ---
@@ -57,7 +59,24 @@ title: "Newsroom"
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[19]}>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[20]}>
+<TileThumbnail alt={"JXTX + CSHL 2026 Biology of Genomes Scholarship"} image={props.images[21]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + CSHL 2026 Biology of Genomes Scholarship
+</TileHeading>
+<TileBody>
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2026 Biology of Genomes Scholarship.
+</TileBody>
+<TileDate>December 15, 2025</TileDate>
+</TileContent>
+</Tile>
+
+</Grid>
+
+<Grid columns={3}>
+
+<Tile tileLink={props.links[19]}>
 <TileThumbnail alt={"JXTX Foundation Awards Scholarships for CSHL Genome Informatics 2025"} image={props.images[20]}></TileThumbnail>
 <TileContent>
 <TileHeading>
@@ -69,10 +88,6 @@ Meet the three recipients of the JXTX Foundation and Cold Spring Harbor Laborato
 <TileDate>January 2025</TileDate>
 </TileContent>
 </Tile>
-
-</Grid>
-
-<Grid columns={3}>
 
 <Tile tileLink={props.links[18]}>
 <TileThumbnail alt={"JXTX Foundation Awards Scholarships for GBCC2025"} image={props.images[19]}></TileThumbnail>
