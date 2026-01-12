@@ -25,6 +25,7 @@ images:
     - ../scholarships/_images/scholarships-2025-gbcc.png
     - _images/gi2025-awardees.png
     - ../scholarships/_images/scholarships-hero-2026-bog.png
+    - ../scholarships/_images/scholarships-hero-2026-gcc.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
@@ -47,6 +48,7 @@ links:
     - /news/2025-6-19-gbcc-awardees
     - /news/2025-01-jxtx-genome-informatics-awardees
     - /news/2025-12-15-bg
+    - /news/2025-12-15-gcc
 slug: "/news"
 title: "Newsroom"
 ---
@@ -59,7 +61,24 @@ title: "Newsroom"
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[20]}>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[21]}>
+<TileThumbnail alt={"JXTX + JJ Fund GCC 2026 Scholarships"} image={props.images[22]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + JJ Fund GCC 2026 Scholarships
+</TileHeading>
+<TileBody>
+The JXTX Foundation and JJ Fund announce scholarships to the 2026 Galaxy Community Conference.
+</TileBody>
+<TileDate>December 15, 2025</TileDate>
+</TileContent>
+</Tile>
+
+</Grid>
+
+<Grid columns={3}>
+
+<Tile tileLink={props.links[20]}>
 <TileThumbnail alt={"JXTX + CSHL 2026 Biology of Genomes Scholarship"} image={props.images[21]}></TileThumbnail>
 <TileContent>
 <TileHeading>
@@ -71,10 +90,6 @@ The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2026 Biology 
 <TileDate>December 15, 2025</TileDate>
 </TileContent>
 </Tile>
-
-</Grid>
-
-<Grid columns={3}>
 
 <Tile tileLink={props.links[19]}>
 <TileThumbnail alt={"JXTX Foundation Awards Scholarships for CSHL Genome Informatics 2025"} image={props.images[20]}></TileThumbnail>

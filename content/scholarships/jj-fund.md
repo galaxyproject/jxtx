@@ -7,8 +7,6 @@ images:
     - ../_images/jj/jj-2.png
 ---
 
-<Date>March 5th, 2025</Date>
-
 # The James Johnson (JJ) Travel Fellowships
 
 ## Our Mission
@@ -34,7 +32,7 @@ James Johnson, or JJ as he was better known, worked as a senior software develop
 
 ## Travel Fellowships
 
-In 2025, the JJ Travel Fellowships will sponsor up to two graduate students / post-doctoral researchers to attend the Galaxy and Bioconductor Community Conference (GBCC 2025).  The fellowship will cover the cost of travel, up to $500 for each recipient.
+In 2026, the JJ Travel Fellowships will sponsor up to two graduate students / post-doctoral researchers to attend the Galaxy Community Conference (GCC 2026) in Clermont-Ferrand, France.  The fellowship will cover the cost of travel, up to $500 for each recipient.
 
 ## About the Travel Fellowships:
 
@@ -42,17 +40,17 @@ In 2025, the JJ Travel Fellowships will sponsor up to two graduate students / po
 
 Applicants will need to write a:
 
-*   **one-page write-up** on a) their scientific interests, b) their interest in Galaxy platform and c) why they are interested in attending the GBCC 2025.  Applicants should have submitted an abstract to the conference and include the title in this write-up.
+*   **one-page write-up** on a) their scientific interests, b) their interest in Galaxy platform and c) why they are interested in attending GCC 2026.  Applicants should have submitted an abstract to the conference and include the title in this write-up.
 *   **curriculum vitae** for the applicant.
 *   **Reference letter** from the advisor.
 
-**Application deadline: April 8, 2025**
+**Application deadline: TBD**
 
 Email all of the documents to: [jj-fund@jxtxfoundation.org](mailto:jj-fund@jxtxfoundation.org). Any submission that does not have all of the requested documents will not be considered.
 
 ### Award Notification
 
-Applicants will be notified of the results by April 17, 2025.
+Applicants will be notified of the results approximately one week after the application deadline.
 
 ### Review Criteria
 
@@ -65,13 +63,13 @@ Multiple criteria will be used to select awardees. These criteria will include:
 
 Anyone who is in the early stages of their career can apply and will be considered for a fellowship. Awards will go to applicants who have the overall strongest application.
 
-Join us at the Galaxy and Bioconductor Community Conference June 23-26 at Cold Spring Harbor Lab!
+Join us at the Galaxy Community Conference June 22-24, 2026 in Clermont-Ferrand, France!
 
-See [https://gbcc2025.org/](https://gbcc2025.org/)
+See [https://galaxyproject.org/events/gcc2026/](https://galaxyproject.org/events/gcc2026/)
 
 ## Support the JJ Travel Fellowships
 
-Your contribution to the James Johnson (JJ) Travel Fellowships will help bring new contributors into the Galaxy ecosystem while honoring JJ's legacy as a contributor and mentor. Donations will directly support graduate students and post-doctoral researchers in attending the Galaxy and Bioconductor Community Conference.
+Your contribution to the James Johnson (JJ) Travel Fellowships will help bring new contributors into the Galaxy ecosystem while honoring JJ's legacy as a contributor and mentor. Donations will directly support graduate students and post-doctoral researchers in attending the Galaxy Community Conference.
 
 <ButtonCta
     attributeHREF={"https://www.zeffy.com/en-US/donation-form/the-james-johnson-jj-travel-fellowships"}

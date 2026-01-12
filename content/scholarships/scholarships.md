@@ -14,6 +14,7 @@ images:
     - _images/scholarships-2025-gbcc.png
     - _images/scholarships-hero-2025-gi.png
     - _images/scholarships-hero-2026-bog.png
+    - _images/scholarships-hero-2026-gcc.png
 links:
     - /scholarships/2021-genome-informatics
     - /news/2020-10-jxtx-awardees
@@ -27,6 +28,7 @@ links:
     - /news/2025-2-27-gbcc
     - /news/2025-6-09-gi
     - /news/2025-12-15-bg
+    - /news/2025-12-15-gcc
 slug: "/scholarships"
 title: "Scholarships"
 ---
@@ -36,6 +38,22 @@ title: "Scholarships"
 </Headline>
 
 <Newsroom>
+
+<Grid columns={1}>
+
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[12]}>
+<TileThumbnail alt={"JXTX + JJ Fund GCC 2026 Scholarships"} image={props.images[11]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + JJ Fund GCC 2026 Scholarships
+</TileHeading>
+<TileBody>
+The JXTX Foundation and JJ Fund announce scholarships to the 2026 Galaxy Community Conference. Application deadline TBD.
+</TileBody>
+</TileContent>
+</Tile>
+
+</Grid>
 
 <Grid columns={1}>
 
