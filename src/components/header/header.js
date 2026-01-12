@@ -124,7 +124,7 @@ function Header(props) {
               className={compStyles.header__nav__link}
               to={jj}
             >
-              JJ
+              JJ Fund
             </Link>
           </li>
           <li className={compStyles.header__nav__item}>
