@@ -1,25 +1,21 @@
 ---
-description: "The James Johnson (JJ) Travel Fellowships."
+description: "The James Johnson (JJ) Fund"
 image: ../_images/seo/scholarships.png
-title: "The James Johnson (JJ) Travel Fellowships"
+title: "The JJ Fund"
 images:
     - ../_images/jj/jj-1.png
     - ../_images/jj/jj-2.png
 ---
 
-# The James Johnson (JJ) Travel Fellowships
+# The JJ Fund
 
-## Our Mission
+## About JJ
 
-The JJ Travel Fellowships will help bring new contributors into the Galaxy ecosystem. They also honor JJ’s legacy as a contributor and mentor in the Galaxy and University of Minnesota communities.
+**James Johnson (JJ)** (1952–2024) was a senior software developer at the Minnesota Supercomputing Institute at the University of Minnesota.
 
-JJ’s accomplishments are many and these fellowships highlight what he brought to the community, and help grow it.
+JJ was one of the earliest software developers to start using Galaxy and became a rock star in the Galaxy Proteomics community starting in 2014. He contributed in many ways to the growth of Galaxy, which is now used by thousands of people worldwide to advance a wide variety of research projects. JJ developed numerous Galaxy tools and workflows that continue to benefit researchers today, contributing significantly to Galaxy's ToolShed, the Intergalactic Tools Commission, and workflow development.
 
-## About JJ:
-
-**James Johnson (JJ)**
-
-James Johnson, or JJ as he was better known, worked as a senior software developer at the Minnesota Supercomputing Institute at the University of Minnesota. JJ was one of the earliest software developers to start using Galaxy. He contributed in many ways to the growth of Galaxy, which is now used by thousands of people worldwide to advance a wide variety of research projects, with many Galaxy users running the software that JJ developed. JJ always had a heart for training and mentoring students and other researchers who were new to Galaxy.
+JJ attended most Galaxy community conferences, including the very first one and GCC 2022. He is featured in the Galaxy Training Network Hall of Fame for his contributions to training and education. JJ always had a heart for training and mentoring students and other researchers who were new to Galaxy—everyone was seeking him out during the Galaxy Community Conferences.
 
 <div style={{display: 'flex', flexDirection: 'row', gap: '30px', marginLeft: 'auto', marginRight: 'auto', maxWidth: '80%', marginBottom: '2rem' }}>
     <div style={{width: '50%'}}>
@@ -30,46 +26,47 @@ James Johnson, or JJ as he was better known, worked as a senior software develop
     </div>
 </div>
 
-## Travel Fellowships
+## Remembering JJ
 
-In 2026, the JJ Travel Fellowships will sponsor up to two graduate students / post-doctoral researchers to attend the Galaxy Community Conference (GCC 2026) in Clermont-Ferrand, France.  The fellowship will cover the cost of travel, up to $500 for each recipient.
+JJ's colleagues remember him not just for his technical contributions, but for the kindness and generosity he brought to everyone around him.
 
-## About the Travel Fellowships:
+> "JJ was a steady and critical member of our team. Despite his deep expertise, he would always defer credit on his accomplishments and maintained focus on how the work could improve people's lives. He always kept an eye on the bigger picture reasons for the work we were doing together—to contribute to the scientific body of knowledge."
+>
+> — **Tim Griffin**, University of Minnesota
 
-### Application Process
+> "JJ was a rockstar software developer who created magic through software tools and workflows. He once told a struggling team member: 'There will come a day, not too distant—when you will be the one contributing the most.'"
+>
+> — **Pratik Jagtap**, University of Minnesota
 
-Applicants will need to write a:
+> "JJ demonstrated boundless generosity of his spirit and had a remarkable gift for lifting those around him. His impact extended far beyond the tools he developed to inspiring minds and offering encouragement."
+>
+> — **Subina Mehta**, University of Minnesota
 
-*   **one-page write-up** on a) their scientific interests, b) their interest in Galaxy platform and c) why they are interested in attending GCC 2026.  Applicants should have submitted an abstract to the conference and include the title in this write-up.
-*   **curriculum vitae** for the applicant.
-*   **Reference letter** from the advisor.
+> "JJ was a kind and gentle man who made people feel valued. His welcoming emails to nervous newcomers exemplified his character."
+>
+> — **Katherine Do**, University of Minnesota
 
-**Application deadline: TBD**
+> "JJ was prolific, talented, and committed, with character full of kind-heartedness, humor, and sincerity. He was warm and welcoming, inviting colleagues to visit him in Grand Marais. JJ was my mentor."
+>
+> — **Reid Wagner**, University of Minnesota
 
-Email all of the documents to: [jj-fund@jxtxfoundation.org](mailto:jj-fund@jxtxfoundation.org). Any submission that does not have all of the requested documents will not be considered.
+> "JJ has brought the true spirit of community tool development into Galaxy, with essential insights for the ToolShed and workflow development. Everyone was seeking him out during the Galaxy Community Conferences."
+>
+> — **Anton Nekrutenko**, Penn State
 
-### Award Notification
+> "JJ was so good-hearted and generous, even when circumstances were difficult."
+>
+> — **Bjoern Gruening**, University of Freiburg
 
-Applicants will be notified of the results approximately one week after the application deadline.
+## Our Mission
 
-### Review Criteria
+The JJ Fund supports travel fellowships that help bring new contributors into the Galaxy ecosystem. These fellowships honor JJ's legacy as a contributor and mentor in the Galaxy and University of Minnesota communities.
 
-Multiple criteria will be used to select awardees. These criteria will include:
+JJ's accomplishments are many, and these fellowships highlight what he brought to the community while helping it grow.
 
-*   **Quality of application** - should articulate a solid reasoning for why they want to attend a Galaxy conference and learn more about the platform and community
-*   **Early career stage**, with students and post-docs being preferred over staff and faculty.
-*   Favor applicants who are **new to the Galaxy community** and are eager to learn more.
-*   Applicants from **underrepresented groups** and applicants from the University of Minnesota or other upper Midwestern schools are particularly encouraged to apply.
+## Support the JJ Fund
 
-Anyone who is in the early stages of their career can apply and will be considered for a fellowship. Awards will go to applicants who have the overall strongest application.
-
-Join us at the Galaxy Community Conference June 22-24, 2026 in Clermont-Ferrand, France!
-
-See [https://galaxyproject.org/events/gcc2026/](https://galaxyproject.org/events/gcc2026/)
-
-## Support the JJ Travel Fellowships
-
-Your contribution to the James Johnson (JJ) Travel Fellowships will help bring new contributors into the Galaxy ecosystem while honoring JJ's legacy as a contributor and mentor. Donations will directly support graduate students and post-doctoral researchers in attending the Galaxy Community Conference.
+Your contribution to the JJ Fund will help bring new contributors into the Galaxy ecosystem while honoring JJ's legacy as a contributor and mentor. Donations directly support graduate students and post-doctoral researchers in attending the Galaxy Community Conference.
 
 <ButtonCta
     attributeHREF={"https://www.zeffy.com/en-US/donation-form/the-james-johnson-jj-travel-fellowships"}
