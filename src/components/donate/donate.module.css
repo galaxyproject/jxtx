@@ -2,42 +2,130 @@
  * JXTX Foundation
  * https://www.jxtxfoundation.org
  *
- * Style definitions specific to JXTX home component.
+ * Style definitions specific to JXTX donate component.
  */
 
-/* Home main. */
+/* Main container */
 .main {
   background-color: var(--white);
   margin: 0 auto;
   max-width: var(--maximum);
   width: 100%;
+  padding: 2rem 1rem;
 }
 
-label {
-  display: block;
-  position: relative;
-  width: 6em;
+/* Intro section */
+.intro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 2rem;
 }
 
-input,
-textarea {
-  position: absolute;
-  left: 7em;
-  width: 20em;
-}
-
-div.inline-donate-button {
-  float: right;
-}
-
-.learnMoreLink {
-  display: inline-block;
-  margin-left: 1rem;
-  color: var(--color-accent);
-  text-decoration: none;
+.introHeading {
+  font-size: 2rem;
+  color: var(--ink);
+  margin-bottom: 0.75rem;
   font-weight: 600;
 }
 
-.learnMoreLink:hover {
-  text-decoration: underline;
+.introText {
+  color: var(--ink);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 0 0.75rem;
 }
+
+.introSubtext {
+  color: var(--ink-light);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Donate grid - side by side cards */
+.donateGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .donateGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+
+  .main {
+    padding: 3rem 2rem;
+  }
+
+  .introHeading {
+    font-size: 2.5rem;
+  }
+}
+
+/* Individual donate card */
+.donateCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Card image container */
+.cardImage {
+  width: 100%;
+  max-width: 280px;
+  height: 220px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.cardImage > div {
+  width: 100%;
+  height: 100%;
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Card content */
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardHeading {
+  font-size: 1.5rem;
+  color: var(--ink);
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.cardHeading::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: var(--accent-orange);
+  margin: 0.5rem auto 0;
+}
+
+.cardText {
+  color: var(--ink-light);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  max-width: 350px;
+}
+

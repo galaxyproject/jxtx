@@ -2,11 +2,10 @@
  * JXTX Foundation
  * https://www.jxtxfoundation.org
  *
- * JXTX home page component.
+ * JXTX donate page component.
  */
 
 // Core dependencies
-import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 
@@ -14,19 +13,6 @@ import React from "react";
 import { ButtonTheme } from "../button/button-theme.model";
 import { ButtonType } from "../button/button-type.model";
 import ButtonCta from "../button-cta/button-cta";
-import ContentBlockCta from "../content-block-cta/content-block-cta";
-import ContentBlockBody from "../content-block-body/content-block-body";
-import { ContentBlockBodyScale } from "../content-block-body/content-block-body-scale.model";
-import ContentBlock from "../content-block/content-block";
-import { ContentBlockScale } from "../content-block/content-block-scale.model";
-import ContentBlockHeading from "../content-block-heading/content-block-heading";
-import GridItem from "../grid-item/grid-item";
-import { HeadingScale } from "../heading/heading-scale.model";
-import { HeadingTheme } from "../heading/heading-theme.model";
-import Section from "../section/section";
-import { SectionType } from "../section/section-type.model";
-import { GridArea } from "../ui/grid-area/grid-area.model";
-import { Scale } from "../ui/scale/scale.model";
 
 // Styles
 import * as compStyles from "./donate.module.css";
@@ -35,95 +21,76 @@ import * as compStyles from "./donate.module.css";
 const imgMentorship = "../../../images/home/mentorship.png";
 const imgJJ = "../../../content/_images/jj/jj-1.png";
 
-function Home() {
+function Donate() {
   return (
     <main className={compStyles.main}>
-      <Section type={SectionType.HERO_DUO}>
-        <GridItem gridArea={GridArea.BLOCK}>
-          <ContentBlock scale={ContentBlockScale.LARGE}>
-            <ContentBlockHeading
-              scale={HeadingScale.LARGE}
-              theme={HeadingTheme.ORANGE}
+      <div className={compStyles.intro}>
+        <h1 className={compStyles.introHeading}>Support Our Mission</h1>
+        <p className={compStyles.introText}>
+          The JXTX Foundation honors two mentors who shaped the Galaxy community
+          through dedicated scholarship funds. Your contribution helps
+          early-career researchers attend conferences, build connections, and
+          advance open science.
+        </p>
+        <p className={compStyles.introSubtext}>
+          As a registered 501(c)(3) non-profit, donations are tax-deductible to
+          the fullest extent permitted by law.
+        </p>
+      </div>
+      <div className={compStyles.donateGrid}>
+        <div className={compStyles.donateCard}>
+          <div className={compStyles.cardImage}>
+            <StaticImage
+              alt={"James Taylor"}
+              src={imgMentorship}
+              className={compStyles.cardImg}
+            />
+          </div>
+          <div className={compStyles.cardContent}>
+            <h2 className={compStyles.cardHeading}>Donate to JXTX</h2>
+            <p className={compStyles.cardText}>
+              Support graduate student scholarships, academic mentorship, and
+              student outreach programs that honor James Taylor's legacy.
+            </p>
+            <ButtonCta
+              attributeHREF={
+                "https://www.zeffy.com/en-US/donation-form/23234439-cf30-4d57-a12f-0cecb17df34c"
+              }
+              buttonTheme={ButtonTheme.PRIMARY}
+              buttonType={ButtonType.UNELEVATED}
             >
-              Donate to JXTX
-            </ContentBlockHeading>
-            <ContentBlockBody scale={ContentBlockBodyScale.MEDIUM}>
-              <p>
-                Your contribution will support the foundation's efforts
-                providing graduate student scholarships, academic mentorship,
-                and sponsoring student outreach.
-              </p>
-              <p>
-                As a registered 501(c)(3) non-profit organization, your
-                donations are tax-deductible to the fullest extent permitted by
-                law. Your support helps us continue our mission, and we are
-                grateful for your generosity and commitment to our cause.
-                <ContentBlockCta scale={Scale.MEDIUM}>
-                  <ButtonCta
-                    attributeHREF={
-                      "https://www.zeffy.com/en-US/donation-form/23234439-cf30-4d57-a12f-0cecb17df34c"
-                    }
-                    buttonTheme={ButtonTheme.PRIMARY}
-                    buttonType={ButtonType.UNELEVATED}
-                  >
-                    Donate Now
-                  </ButtonCta>
-                </ContentBlockCta>
-              </p>
-            </ContentBlockBody>
-          </ContentBlock>
-        </GridItem>
-        <GridItem gridArea={GridArea.THUMBNAIL}>
-          <StaticImage alt={"Academic Mentorship"} src={imgMentorship} />
-        </GridItem>
-      </Section>
-      <Section type={SectionType.HERO_DUO}>
-        <GridItem gridArea={GridArea.BLOCK}>
-          <ContentBlock scale={ContentBlockScale.LARGE}>
-            <ContentBlockHeading
-              scale={HeadingScale.MEDIUM}
-              theme={HeadingTheme.ORANGE}
+              Donate Now
+            </ButtonCta>
+          </div>
+        </div>
+        <div className={compStyles.donateCard}>
+          <div className={compStyles.cardImage}>
+            <StaticImage
+              alt={"James (JJ) Johnson"}
+              src={imgJJ}
+              className={compStyles.cardImg}
+            />
+          </div>
+          <div className={compStyles.cardContent}>
+            <h2 className={compStyles.cardHeading}>The JJ Fund</h2>
+            <p className={compStyles.cardText}>
+              Help bring new contributors into the Galaxy ecosystem while
+              honoring JJ's legacy as a mentor in the Galaxy community.
+            </p>
+            <ButtonCta
+              attributeHREF={
+                "https://www.zeffy.com/en-US/donation-form/the-james-johnson-jj-travel-fellowships"
+              }
+              buttonTheme={ButtonTheme.SECONDARY}
+              buttonType={ButtonType.UNELEVATED}
             >
-              Special Initiatives
-            </ContentBlockHeading>
-            <ContentBlockBody scale={ContentBlockBodyScale.MEDIUM}>
-              <p>
-                <strong>The James Johnson (JJ) Travel Fellowships</strong> -
-                Help bring new contributors into the Galaxy ecosystem while
-                honoring JJ's legacy as a contributor and mentor in the Galaxy
-                and University of Minnesota communities.
-              </p>
-              <ContentBlockCta scale={Scale.MEDIUM}>
-                <ButtonCta
-                  attributeHREF={
-                    "https://www.zeffy.com/en-US/donation-form/the-james-johnson-jj-travel-fellowships"
-                  }
-                  buttonTheme={ButtonTheme.SECONDARY}
-                  buttonType={ButtonType.UNELEVATED}
-                >
-                  Donate to JJ Fund
-                </ButtonCta>
-                <Link
-                  to="/scholarships/jj-fund"
-                  className={compStyles.learnMoreLink}
-                >
-                  Learn More
-                </Link>
-              </ContentBlockCta>
-            </ContentBlockBody>
-          </ContentBlock>
-        </GridItem>
-        <GridItem gridArea={GridArea.THUMBNAIL}>
-          <StaticImage alt={"Academic Mentorship"} src={imgJJ} />
-        </GridItem>
-      </Section>
-      <Section>
-        <ContentBlock>
-          <ContentBlockBody></ContentBlockBody>
-        </ContentBlock>
-      </Section>
+              Donate to JJ Fund
+            </ButtonCta>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
 
-export default Home;
+export default Donate;
