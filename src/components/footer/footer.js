@@ -95,6 +95,9 @@ function Footer() {
       </div>
       <div className={compStyles.footer__legal}>
         {/*<Link to={privacy}>Privacy</Link>*/}
+        <span className={compStyles.footer__legal__nonprofit}>
+          JXTX Foundation is a 501(c)(3) nonprofit organization. EIN: 93-1343317
+        </span>
         <span className={compStyles.footer__legal__copy}>@Copyright 2024</span>
       </div>
     </footer>

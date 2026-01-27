@@ -55,4 +55,12 @@ The objectives and activities of the foundation are governed by the foundation b
 
 **Please consider [contributing][1] to continue James Taylor's legacy.**
 
+---
+
+# Tax-Exempt Status
+
+The JXTX Foundation is a registered 501(c)(3) nonprofit organization. Donations are tax-deductible to the extent allowed by law.
+
+**EIN: 93-1343317**
+
 [1]: /donate

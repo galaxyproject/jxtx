@@ -33,8 +33,8 @@ function Donate() {
           advance open science.
         </p>
         <p className={compStyles.introSubtext}>
-          As a registered 501(c)(3) non-profit, donations are tax-deductible to
-          the fullest extent permitted by law.
+          As a registered 501(c)(3) non-profit (EIN: 93-1343317), donations are
+          tax-deductible to the fullest extent permitted by law.
         </p>
       </div>
       <div className={compStyles.donateGrid}>

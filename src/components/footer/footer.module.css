@@ -115,9 +115,15 @@
   padding: var(--vu___32) 0; /* Overrides f__s padding. */
 }
 
+/* Legal (nonprofit status). */
+.footer__legal__nonprofit {
+  font-weight: 400;
+  text-align: center;
+}
+
 /* Legal (copyright). */
 .footer__legal__copy {
-  margin-top: 32px;
+  margin-top: 16px;
 }
 
 /* Logo. */
