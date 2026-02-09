@@ -95,7 +95,7 @@ function Donate() {
           support makes a difference.
         </p>
         <ButtonCta
-          attributeHREF={"/prospectus-generated.pdf"}
+          attributeHREF={"/prospectus.pdf"}
           buttonTheme={ButtonTheme.PRIMARY}
           buttonType={ButtonType.UNELEVATED}
         >

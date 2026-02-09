@@ -88,7 +88,7 @@ function Footer() {
           </li>
           <li className={compStyles.footer__nav__item}>
             <a
-              href={"/prospectus-generated.pdf"}
+              href={"/prospectus.pdf"}
               className={compStyles.footer__nav__link}
               target={"_blank"}
               rel={"noopener noreferrer"}
