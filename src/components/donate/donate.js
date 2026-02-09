@@ -89,6 +89,19 @@ function Donate() {
           </div>
         </div>
       </div>
+      <div className={compStyles.prospectus}>
+        <p className={compStyles.prospectusText}>
+          Learn more about the JXTX Foundation's mission, impact, and how your
+          support makes a difference.
+        </p>
+        <ButtonCta
+          attributeHREF={"/prospectus-generated.pdf"}
+          buttonTheme={ButtonTheme.PRIMARY}
+          buttonType={ButtonType.UNELEVATED}
+        >
+          View Our Prospectus
+        </ButtonCta>
+      </div>
     </main>
   );
 }

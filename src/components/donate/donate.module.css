@@ -129,3 +129,19 @@
   max-width: 350px;
 }
 
+/* Prospectus section */
+.prospectus {
+  text-align: center;
+  margin: 3rem auto 0;
+  max-width: 700px;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.prospectusText {
+  color: var(--ink);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
