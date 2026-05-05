@@ -14,7 +14,7 @@ description: "JXTX Foundation Biology of Genomes 2026 awardee from Harvard Unive
 
 **Harvard University**
 
-Jakob Heinz is a third-year Ph.D. candidate in the Bioinformatics and Integrative Genomics program at Harvard University, co-advised by Dr. Heng Li and Dr. Matthew Meyerson. During his undergraduate research, he developed a strong interest in genome annotation and personal genome assembly. His current research uses recently resolved centromere sequences assembled by the Human Pangenome Research Consortium to develop computational methods for identifying novel centromere fusion events in cancer genomes and studying their recurrence across diverse cancer types. In his free time, Jakob enjoys playing chess, tennis, hiking, reading, and learning yoga.
+Jakob Heinz is a third-year Ph.D. candidate in the Bioinformatics and Integrative Genomics program at Harvard University, co-advised by Dr. Heng Li and Dr. Matthew Meyerson. His research uses recently resolved centromere sequences assembled by the Human Pangenome Research Consortium to develop computational methods for identifying novel centromere fusion events in cancer genomes and studying their recurrence across diverse cancer types. In his free time, Jakob enjoys playing chess, tennis, hiking, reading, and learning yoga.
 
 ## Conference
 JXTX+CSHL Biology of Genomes 2026

@@ -14,7 +14,7 @@ description: "JXTX Foundation Biology of Genomes 2026 awardee from Vanderbilt Un
 
 **Vanderbilt University**
 
-Layla Brassington is a PhD candidate in the Lea Lab in the Department of Biological Sciences at Vanderbilt University. She uses genomic approaches to understand how environmental experiences "get under the skin" to shape immune function and health in diverse human populations. Her research integrates transcriptomic and epigenomic data from populations undergoing rapid lifestyle change — spanning subsistence-based to industrialized environments — to examine how life course exposures influence gene regulation and immune responses. Ultimately, her work seeks to explain why individuals vary so widely in their biological responses to the same immune challenge. Outside the lab, Layla enjoys spending time with friends and family, going on walks, baking, and crafting.
+Layla Brassington is a PhD candidate in the Lea Lab in the Department of Biological Sciences at Vanderbilt University. She uses genomic approaches to understand how environmental experiences "get under the skin" to shape immune function and health in diverse human populations. Her research integrates transcriptomic and epigenomic data from populations undergoing rapid lifestyle change to examine why individuals vary so widely in their biological responses to the same immune challenge. Outside the lab, Layla enjoys spending time with friends and family, going on walks, baking, and crafting.
 
 ## Conference
 JXTX+CSHL Biology of Genomes 2026

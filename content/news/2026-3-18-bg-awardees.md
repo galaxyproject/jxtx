@@ -30,7 +30,7 @@ Three genomics and data sciences graduate students were awarded this set of JXTX
 <h3>Jakob Heinz</h3>
 <h4>Harvard University</h4>
 
-Jakob Heinz is a third-year Ph.D. candidate in the Bioinformatics and Integrative Genomics program at Harvard University, co-advised by Dr. Heng Li and Dr. Matthew Meyerson. During his undergraduate research, he developed a strong interest in genome annotation and personal genome assembly. His current research uses recently resolved centromere sequences assembled by the Human Pangenome Research Consortium to develop computational methods for identifying novel centromere fusion events in cancer genomes and studying their recurrence across diverse cancer types. In his free time, Jakob enjoys playing chess, tennis, hiking, reading, and learning yoga.
+Jakob Heinz is a third-year Ph.D. candidate in the Bioinformatics and Integrative Genomics program at Harvard University, co-advised by Dr. Heng Li and Dr. Matthew Meyerson. His research uses recently resolved centromere sequences assembled by the Human Pangenome Research Consortium to develop computational methods for identifying novel centromere fusion events in cancer genomes and studying their recurrence across diverse cancer types. In his free time, Jakob enjoys playing chess, tennis, hiking, reading, and learning yoga.
 
 </AwardeeContent>
 </Awardee>
@@ -41,7 +41,7 @@ Jakob Heinz is a third-year Ph.D. candidate in the Bioinformatics and Integrativ
 <h3>Layla Brassington</h3>
 <h4>Vanderbilt University</h4>
 
-Layla Brassington is a PhD candidate in the Lea Lab in the Department of Biological Sciences at Vanderbilt University. She uses genomic approaches to understand how environmental experiences "get under the skin" to shape immune function and health in diverse human populations. Her research integrates transcriptomic and epigenomic data from populations undergoing rapid lifestyle change — spanning subsistence-based to industrialized environments — to examine how life course exposures influence gene regulation and immune responses. Ultimately, her work seeks to explain why individuals vary so widely in their biological responses to the same immune challenge. Outside the lab, Layla enjoys spending time with friends and family, going on walks, baking, and crafting.
+Layla Brassington is a PhD candidate in the Lea Lab in the Department of Biological Sciences at Vanderbilt University. She uses genomic approaches to understand how environmental experiences "get under the skin" to shape immune function and health in diverse human populations. Her research integrates transcriptomic and epigenomic data from populations undergoing rapid lifestyle change to examine why individuals vary so widely in their biological responses to the same immune challenge. Outside the lab, Layla enjoys spending time with friends and family, going on walks, baking, and crafting.
 
 </AwardeeContent>
 <Image alt={"Layla"} image={props.images[2]}></Image>
@@ -54,7 +54,7 @@ Layla Brassington is a PhD candidate in the Lea Lab in the Department of Biologi
 <h3>Shloka Negi</h3>
 <h4>University of California, Santa Cruz</h4>
 
-Shloka Negi is a PhD candidate in Biomolecular Engineering at the University of California, Santa Cruz, where she is co-supervised by Dr. Benedict Paten and Dr. Karen Miga. Her work centers on advancing rare disease diagnostics by building scalable, cost-effective long-read sequencing and pangenomic methods. She is currently developing pangenome-guided approaches for faster genome assembly inference and improved variant detection. Her research aims to make advanced genomic technologies more accessible in clinical settings. Outside the lab, Shloka enjoys making music, cooking, and traveling.
+Shloka Negi is a PhD candidate in Biomolecular Engineering at the University of California, Santa Cruz, where she is co-supervised by Dr. Benedict Paten and Dr. Karen Miga. Her work centers on advancing rare disease diagnostics by building scalable, cost-effective long-read sequencing and pangenomic methods, including pangenome-guided approaches for faster genome assembly inference and improved variant detection. Her research aims to make advanced genomic technologies more accessible in clinical settings. Outside the lab, Shloka enjoys making music, cooking, and traveling.
 
 </AwardeeContent>
 </Awardee>
