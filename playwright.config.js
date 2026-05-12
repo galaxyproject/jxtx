@@ -61,6 +61,6 @@ module.exports = defineConfig({
     command: 'npm run build && npm run serve',
     url: 'http://localhost:5598',
     reuseExistingServer: !process.env.CI,
-    timeout: 120 * 1000,
+    timeout: 600 * 1000,
   },
 });
