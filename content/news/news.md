@@ -51,6 +51,7 @@ links:
     - /news/2025-12-15-bg
     - /news/2025-12-15-gcc
     - /news/2026-3-18-bg-awardees
+    - /news/2026-5-11-gcc-awardees
 slug: "/news"
 title: "Newsroom"
 ---
@@ -63,7 +64,24 @@ title: "Newsroom"
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[22]}>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[23]}>
+<TileThumbnail alt={"JXTX + JJ Fund 2026 GCC Awardees"} image={props.images[22]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + JJ Fund 2026 GCC Awardees
+</TileHeading>
+<TileBody>
+Meet the five recipients of the JXTX Foundation and JJ Fund Scholarships for the 2026 Galaxy Community Conference in Clermont-Ferrand, France.
+</TileBody>
+<TileDate>May 11, 2026</TileDate>
+</TileContent>
+</Tile>
+
+</Grid>
+
+<Grid columns={3}>
+
+<Tile tileLink={props.links[22]}>
 <TileThumbnail alt={"JXTX Foundation Awards Scholarships for Biology of Genomes 2026"} image={props.images[23]}></TileThumbnail>
 <TileContent>
 <TileHeading>
@@ -75,10 +93,6 @@ Meet the three recipients of the JXTX Foundation and Cold Spring Harbor Laborato
 <TileDate>March 18, 2026</TileDate>
 </TileContent>
 </Tile>
-
-</Grid>
-
-<Grid columns={3}>
 
 <Tile tileLink={props.links[21]}>
 <TileThumbnail alt={"JXTX + JJ Fund GCC 2026 Scholarships"} image={props.images[22]}></TileThumbnail>
