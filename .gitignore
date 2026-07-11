@@ -86,3 +86,13 @@ tests/visual-regression.spec.js-snapshots/
 yarn.lock
 yarn-error.log
 .yarn/
+
+# parity harness artifacts (scripts + routes.json ARE committed)
+parity/gatsby-build/
+parity/baseline/
+parity/candidate/
+parity/diff/
+parity/report.json
+# astro
+dist/
+.astro/
