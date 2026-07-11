@@ -3,6 +3,7 @@ import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
 import rehypeExternalLinks from "rehype-external-links";
 import rehypeExplicitOverrides from "./src/lib/rehype-explicit-overrides.mjs";
+import rehypeUnwrapSoleParagraph from "./src/lib/rehype-unwrap-sole-paragraph.mjs";
 
 export default defineConfig({
   site: "https://jxtxfoundation.org",
@@ -13,8 +14,12 @@ export default defineConfig({
   markdown: {
     // matches gatsby-remark-external-links defaults (target/rel on external links)
     rehypePlugins: [
-      [rehypeExternalLinks, { target: "_blank", rel: ["nofollow", "noopener", "noreferrer"] }],
+      [
+        rehypeExternalLinks,
+        { target: "_blank", rel: ["nofollow", "noopener", "noreferrer"] },
+      ],
       rehypeExplicitOverrides,
+      rehypeUnwrapSoleParagraph,
     ],
   },
 });
