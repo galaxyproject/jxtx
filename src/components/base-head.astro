@@ -19,7 +19,10 @@ const seo = {
   title: title || site.title,
   description: description || site.description,
   image: `${site.url}${image || site.image}`,
-  url: pathname ? `${site.url}${pathname}` : site.url,
+  // Gatsby's SEO component only appended a path when the page had a slug -- the homepage never
+  // passed one, so its og:url was the bare site URL. The Header still needs pathname="/" for its
+  // own nav-highlighting, so special-case it here rather than dropping it upstream.
+  url: pathname && pathname !== "/" ? `${site.url}${pathname}` : site.url,
 };
 ---
 <meta charset="utf-8" />
