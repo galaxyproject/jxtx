@@ -1,0 +1,23 @@
+---
+import BaseHead from "../components/base-head.astro";
+import Header from "../components/header/header";
+import Footer from "../components/footer/footer";
+import { resolveImage } from "../lib/images.js";
+import logoSrc from "../../images/jxtx.png";
+import * as layoutStyles from "../components/layout/layout.module.css";
+
+const { title, description, image, pathname, headerMinor = false } = Astro.props;
+const logo = await resolveImage(logoSrc, { placeholder: false });
+---
+<html lang="en">
+  <head>
+    <BaseHead {title} {description} {image} {pathname} />
+  </head>
+  <body>
+    <div class={layoutStyles.site}>
+      <Header client:load headerMinor={headerMinor} pathname={pathname} logo={logo} />
+      <slot />
+      <Footer />
+    </div>
+  </body>
+</html>
