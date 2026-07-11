@@ -1,0 +1,71 @@
+---
+// Port of document-metadata.js (react-helmet) + the head extras Gatsby plugins injected.
+// Reference for exactness: parity/gatsby-head.html
+import "../styles/typography.css";
+import "../styles/globals.css";
+import "../styles/vars.css";
+import "../styles/viewport-units.css";
+import "../styles/gatsby-image.css";
+
+const site = {
+  description: "James P. Taylor Foundation for Open Science.",
+  image: "/images/hero.png",
+  title: "JXTX Foundation",
+  url: "https://jxtxfoundation.org",
+};
+
+const { title, description, image, pathname } = Astro.props;
+const seo = {
+  title: title || site.title,
+  description: description || site.description,
+  image: `${site.url}${image || site.image}`,
+  url: pathname ? `${site.url}${pathname}` : site.url,
+};
+---
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title>{seo.title}</title>
+<meta name="description" content={seo.description} />
+<meta property="og:type" content="website" />
+<meta property="og:title" content={seo.title} />
+<meta property="og:description" content={seo.description} />
+<meta property="og:url" content={seo.url} />
+<meta property="og:site_name" content="JXTX Foundation" />
+<meta property="og:image" content={seo.image} />
+<meta property="og:image:width" content="1000" />
+<meta property="og:image:height" content="500" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={seo.title} />
+<meta name="twitter:description" content={seo.description} />
+<meta name="twitter:image" content={seo.image} />
+<meta name="image" content={seo.image} />
+<meta name="theme-color" content="#2077B3" />
+<link rel="preconnect" href="https://www.googletagmanager.com" />
+<link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+<link
+  href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Noto+Serif:400"
+  rel="stylesheet"
+  type="text/css"
+/>
+<link rel="icon" href="/favicon-32x32.png" type="image/png" />
+<link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous" />
+<link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png" />
+<link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png" />
+<link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png" />
+<link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png" />
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-FJCM7HH4RT"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  /* Gatsby set send_page_view:false and fired page_view from its client router. Astro has no
+     client router, so the default page_view-on-load restores identical behavior. */
+  gtag("config", "G-FJCM7HH4RT");
+</script>
