@@ -1,0 +1,36 @@
+/* gatsby-plugin-image layout CSS, extracted from the Gatsby build output. The
+   [data-main-image] opacity-0 fade-in rule is intentionally omitted -- CompatImage renders the
+   final frame directly. */
+.gatsby-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.gatsby-image-wrapper picture.object-fit-polyfill {
+  position: static !important;
+}
+.gatsby-image-wrapper img {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  max-width: none;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  object-fit: cover;
+}
+.gatsby-image-wrapper [data-placeholder-image] {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.gatsby-image-wrapper-constrained {
+  display: inline-block;
+  vertical-align: top;
+}

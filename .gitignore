@@ -1,6 +1,5 @@
 node_modules/
 .cache/
-public
 
 # Bower dependency directory (https://bower.io/)
 bower_components
@@ -25,12 +24,10 @@ lib-cov
 site/bundle.css
 site/style-bundle.js
 /.cache/
-/public/
 /node_modules_bak/
 
 # Gatsby files
 .cache/
-public
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
