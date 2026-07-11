@@ -1,0 +1,14 @@
+---
+// TEMPORARY placeholder -- replaced in Task 9. Forces the content collection to load so
+// `astro build` acts as a full-content parse gate, and prints entry ids for eyeballing.
+import { getCollection } from "astro:content";
+const entries = await getCollection("content");
+const ids = entries.map((e) => e.id).sort();
+---
+<html lang="en">
+  <head><title>content gate</title></head>
+  <body>
+    <p>{entries.length} entries</p>
+    <pre>{ids.join("\n")}</pre>
+  </body>
+</html>
