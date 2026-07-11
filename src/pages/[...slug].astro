@@ -3,6 +3,7 @@ import { getCollection, render } from "astro:content";
 import { getImage } from "astro:assets";
 import BaseLayout from "../layouts/base-layout.astro";
 import ArticleMain from "../components/article-main/article-main";
+import AwardeeProfile from "../components/awardee-profile/awardee-profile";
 import Section from "../components/section/section";
 import { SectionType } from "../components/section/section-type.model";
 import { shortcodes, articleShortcodes } from "../lib/shortcodes.js";
@@ -25,6 +26,10 @@ const images = entry.data.images
   ? await Promise.all(entry.data.images.map((img) => resolveImage(img)))
   : undefined;
 const links = entry.data.links;
+const awardee = isAwardeeProfile(entry);
+const photo = awardee && entry.data.photo
+  ? await resolveImage(entry.data.photo, { width: 300, height: 300, avif: true })
+  : null;
 const seoImage = entry.data.image
   ? (await getImage({ src: entry.data.image })).src
   : undefined;
@@ -40,7 +45,20 @@ const components = entry.data.fullWidth
   image={seoImage}
 >
   <ArticleMain>
-    {entry.data.fullWidth ? (
+    {awardee ? (
+      <AwardeeProfile
+        name={entry.data.name}
+        institution={entry.data.institution}
+        conference={entry.data.conference}
+        year={entry.data.year}
+        program={entry.data.program}
+        photo={photo}
+      >
+        <Section type={SectionType.ARTICLE}>
+          <Content components={{ ...shortcodes, ...articleShortcodes }} images={images} links={links} />
+        </Section>
+      </AwardeeProfile>
+    ) : entry.data.fullWidth ? (
       <Content components={components} images={images} links={links} />
     ) : (
       <Section type={SectionType.ARTICLE}>
