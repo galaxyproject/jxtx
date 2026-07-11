@@ -10,7 +10,7 @@ import React from "react";
 
 // Styles
 import * as compStyles from "./grid.module.css";
-const classNames = require("classnames");
+import classNames from "classnames";
 
 function Grid(props) {
   const { children, columns, grid } = props;

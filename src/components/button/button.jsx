@@ -13,7 +13,7 @@ import { ButtonClassname } from "./button-classname.model";
 
 // Styles
 import * as compStyles from "./button.module.css";
-const classNames = require("classnames");
+import classNames from "classnames";
 
 function Button(props) {
   const { buttonAction, buttonScale, buttonTheme, buttonType, children } =

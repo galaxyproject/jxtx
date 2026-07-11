@@ -7,7 +7,7 @@
  */
 
 // Core dependencies
-import Link from "gatsby-link";
+import Link from "../link/link";
 import React from "react";
 
 // App dependencies
@@ -15,7 +15,7 @@ import { ButtonClassname } from "../button/button-classname.model";
 
 // Styles
 import * as buttonStyles from "../button/button.module.css";
-const classNames = require("classnames");
+import classNames from "classnames";
 
 function ButtonCta(props) {
   const {

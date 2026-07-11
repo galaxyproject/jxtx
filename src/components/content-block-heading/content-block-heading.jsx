@@ -13,7 +13,7 @@ import { HeadingClassname } from "../heading/heading-classname.model";
 
 // Styles
 import * as headingStyles from "../heading/heading.module.css";
-const classNames = require("classnames");
+import classNames from "classnames";
 
 function ContentBlockHeading(props) {
   const { children, scale, theme } = props;

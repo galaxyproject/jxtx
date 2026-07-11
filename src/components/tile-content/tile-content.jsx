@@ -15,7 +15,7 @@ import { TileContentTheme } from "./tile-content-theme.model";
 // Styles
 import * as compStyles from "./tile-content.module.css";
 
-const classNames = require("classnames");
+import classNames from "classnames";
 
 function TileContent(props) {
   const { children, scale } = props;
@@ -26,13 +26,7 @@ function TileContent(props) {
     compStyles[classTheme]
   );
 
-  return (
-    <div className={classNamesTileContent}>
-      {React.Children.map(children, (child) =>
-        React.cloneElement(child, { scale: scale })
-      )}
-    </div>
-  );
+  return <div className={classNamesTileContent}>{children}</div>;
 }
 
 export default TileContent;

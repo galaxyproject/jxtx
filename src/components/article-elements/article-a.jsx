@@ -6,7 +6,7 @@
  */
 
 // Core dependencies
-import Link from "gatsby-link";
+import Link from "../link/link";
 import React from "react";
 
 // App dependencies

@@ -7,7 +7,7 @@
 
 // Core dependencies
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
+import CompatImage from "../compat-image/compat-image";
 
 // App dependencies
 import { ButtonScale } from "../button/button-scale.model";
@@ -22,12 +22,16 @@ import * as compStyles from "./section-hero.module.css";
 
 // Template variables
 const donate = "/donate";
-const hero = "../../../images/hero/hero.png";
 
-function SectionHero() {
+function SectionHero({ hero }) {
   return (
     <Section type={SectionType.HERO}>
-      <StaticImage alt="JXTX" className={compStyles.hero__image} src={hero} />
+      <CompatImage
+        alt="JXTX"
+        className={compStyles.hero__image}
+        image={hero}
+        loading="eager"
+      />
       <div className={compStyles.hero__headline}>
         <h1 className={compStyles.hero__headline__head}>
           James P. Taylor Foundation for Open Science.

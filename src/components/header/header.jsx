@@ -6,9 +6,9 @@
  */
 
 // Core dependencies
-import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
 import React, { useCallback, useEffect, useRef, useState } from "react";
+import Link from "../link/link";
+import CompatImage from "../compat-image/compat-image";
 
 // App dependencies
 import Button from "../button/button";
@@ -21,7 +21,7 @@ import burger from "../../../images/header/burger.svg";
 
 // Styles
 import * as compStyles from "./header.module.css";
-const classNames = require("classnames");
+import classNames from "classnames";
 
 // Template variables
 const about = "/about";
@@ -30,12 +30,11 @@ const donate = "/donate";
 const home = "/";
 const james = "/james";
 const jj = "/scholarships/jj-fund";
-const jxtx = "../../../images/jxtx.png";
 const news = "/news";
 const scholarships = "/scholarships";
 
 function Header(props) {
-  const { headerMinor } = props;
+  const { headerMinor, logo, pathname } = props;
   const bodyRef = useRef(null);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -86,11 +85,11 @@ function Header(props) {
       })}
     >
       <Link className={compStyles.header__logo} to={home}>
-        <StaticImage
+        <CompatImage
           alt={"JXTX"}
           className={compStyles.header__logo__img}
-          placeholder={"NONE"}
-          src={jxtx}
+          image={logo}
+          loading="eager"
         />
         <span className={compStyles.header__logo__title}>JXTX Foundation</span>
       </Link>
@@ -104,6 +103,7 @@ function Header(props) {
             <Link
               activeClassName={compStyles.header__nav__link___active}
               className={compStyles.header__nav__link}
+              currentPath={pathname}
               to={about}
             >
               Vision &amp; Values
@@ -113,6 +113,7 @@ function Header(props) {
             <Link
               activeClassName={compStyles.header__nav__link___active}
               className={compStyles.header__nav__link}
+              currentPath={pathname}
               to={james}
             >
               James
@@ -122,6 +123,7 @@ function Header(props) {
             <Link
               activeClassName={compStyles.header__nav__link___active}
               className={compStyles.header__nav__link}
+              currentPath={pathname}
               to={jj}
             >
               JJ Fund
@@ -131,6 +133,7 @@ function Header(props) {
             <Link
               activeClassName={compStyles.header__nav__link___active}
               className={compStyles.header__nav__link}
+              currentPath={pathname}
               to={scholarships}
             >
               Scholarships
@@ -140,6 +143,7 @@ function Header(props) {
             <Link
               activeClassName={compStyles.header__nav__link___active}
               className={compStyles.header__nav__link}
+              currentPath={pathname}
               to={awardees}
             >
               Awardees
@@ -149,6 +153,7 @@ function Header(props) {
             <Link
               activeClassName={compStyles.header__nav__link___active}
               className={compStyles.header__nav__link}
+              currentPath={pathname}
               to={news}
             >
               News

@@ -14,7 +14,7 @@ import { TileContentScale } from "../tile-content/tile-content-scale.model";
 
 // Styles
 import * as headingStyles from "../heading/heading.module.css";
-const classNames = require("classnames");
+import classNames from "classnames";
 
 function TileHeading(props) {
   const { children, scale } = props;

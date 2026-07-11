@@ -14,7 +14,7 @@ import { TileThumbnailClassname } from "./tile-thumbnail-classname.model";
 
 // Styles
 import * as compStyles from "./tile-thumbnail.module.css";
-const classNames = require("classnames");
+import classNames from "classnames";
 
 function TileThumbnail(props) {
   const { alt, image, scale } = props;

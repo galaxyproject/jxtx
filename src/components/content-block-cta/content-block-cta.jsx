@@ -14,7 +14,7 @@ import { ScaleClassname } from "../ui/scale/scale-classname.model";
 
 // Styles
 import * as compStyles from "./content-block-cta.module.css";
-const classNames = require("classnames");
+import classNames from "classnames";
 
 function ContentBlockCta(props) {
   const { children, scale } = props;

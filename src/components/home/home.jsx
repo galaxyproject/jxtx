@@ -6,8 +6,8 @@
  */
 
 // Core dependencies
-import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
+import Link from "../link/link";
+import CompatImage from "../compat-image/compat-image";
 import React from "react";
 
 // App dependencies
@@ -26,7 +26,6 @@ import GridItem from "../grid-item/grid-item";
 import { HeadingScale } from "../heading/heading-scale.model";
 import { HeadingTheme } from "../heading/heading-theme.model";
 import SectionHero from "../section-hero/section-hero";
-import SectionNewsroom from "../section-newsroom/section-newsroom";
 import Section from "../section/section";
 import { SectionType } from "../section/section-type.model";
 import { GridArea } from "../ui/grid-area/grid-area.model";
@@ -38,15 +37,12 @@ import * as compStyles from "./home.module.css";
 // Template variables
 const aboutFoundation = "about";
 const aboutJames = "/james";
-const imgJames = "../../../images/james/james.png";
-const imgMentorship = "../../../images/home/mentorship.png";
-const imgOutreach = "../../../images/home/outreach.png";
 const ourScholarships = "/scholarships";
 
-function Home() {
+function Home({ hero, mentorship, outreach, james, children }) {
   return (
     <main className={compStyles.main}>
-      <SectionHero />
+      <SectionHero hero={hero} />
       <Section type={SectionType.HERO_SUB}>
         <ContentBlockHeading
           scale={HeadingScale.LARGE}
@@ -98,7 +94,7 @@ function Home() {
           </ContentBlock>
         </GridItem>
         <GridItem gridArea={GridArea.THUMBNAIL}>
-          <StaticImage alt={"Academic Mentorship"} src={imgMentorship} />
+          <CompatImage alt={"Academic Mentorship"} image={mentorship} />
         </GridItem>
       </Section>
       <Section type={SectionType.HERO_DUO}>
@@ -106,7 +102,7 @@ function Home() {
           <Link to={aboutFoundation} />
         </GridItem>
         <GridItem gridArea={GridArea.THUMBNAIL}>
-          <StaticImage alt={"Student Outreach"} src={imgOutreach} />
+          <CompatImage alt={"Student Outreach"} image={outreach} />
         </GridItem>
         <GridItem gridArea={GridArea.BLOCK}>
           <ContentBlock
@@ -142,7 +138,7 @@ function Home() {
           <Link to={aboutJames} />
         </GridItem>
         <GridItem gridArea={GridArea.THUMBNAIL}>
-          <StaticImage alt={"James Taylor"} src={imgJames} />
+          <CompatImage alt={"James Taylor"} image={james} />
         </GridItem>
         <GridItem gridArea={GridArea.BLOCK}>
           <ContentBlock
@@ -164,7 +160,7 @@ function Home() {
           </ContentBlock>
         </GridItem>
       </Section>
-      <SectionNewsroom />
+      {children}
     </main>
   );
 }

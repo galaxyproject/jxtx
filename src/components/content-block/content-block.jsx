@@ -13,7 +13,7 @@ import { ContentBlockClassname } from "./content-block-classname.model";
 
 // Styles
 import * as compStyles from "./content-block.module.css";
-const classNames = require("classnames");
+import classNames from "classnames";
 
 function ContentBlock(props) {
   const { children, scale, theme } = props;

@@ -7,15 +7,14 @@
 
 // Core dependencies
 import React from "react";
-import { Link } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import Link from "../link/link";
+import CompatImage from "../compat-image/compat-image";
 
 // Styles
 import * as compStyles from "./awardee-card.module.css";
 
 function AwardeeCard({ awardee }) {
   const { name, photo, conference, year, slug } = awardee;
-  const image = getImage(photo);
 
   // Create conference abbreviations
   const getConferenceAbbr = (conf) => {
@@ -38,9 +37,9 @@ function AwardeeCard({ awardee }) {
     <div className={compStyles.awardeeCard}>
       <Link to={slug} className={compStyles.awardeeCard__link}>
         <div className={compStyles.awardeeCard__imageContainer}>
-          {image && (
-            <GatsbyImage
-              image={image}
+          {photo && (
+            <CompatImage
+              image={photo}
               alt={name}
               className={compStyles.awardeeCard__image}
             />

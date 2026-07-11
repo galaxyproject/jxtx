@@ -6,7 +6,7 @@
  */
 
 // Core dependencies
-import { StaticImage } from "gatsby-plugin-image";
+import CompatImage from "../compat-image/compat-image";
 import React from "react";
 
 // App dependencies
@@ -17,11 +17,7 @@ import ButtonCta from "../button-cta/button-cta";
 // Styles
 import * as compStyles from "./donate.module.css";
 
-// Template variables
-const imgMentorship = "../../../images/home/mentorship.png";
-const imgJJ = "../../../content/_images/jj/jj-1.png";
-
-function Donate() {
+function Donate({ mentorship, jj }) {
   return (
     <main className={compStyles.main}>
       <div className={compStyles.intro}>
@@ -40,9 +36,9 @@ function Donate() {
       <div className={compStyles.donateGrid}>
         <div className={compStyles.donateCard}>
           <div className={compStyles.cardImage}>
-            <StaticImage
+            <CompatImage
               alt={"James Taylor"}
-              src={imgMentorship}
+              image={mentorship}
               className={compStyles.cardImg}
             />
           </div>
@@ -65,9 +61,9 @@ function Donate() {
         </div>
         <div className={compStyles.donateCard}>
           <div className={compStyles.cardImage}>
-            <StaticImage
+            <CompatImage
               alt={"James (JJ) Johnson"}
-              src={imgJJ}
+              image={jj}
               className={compStyles.cardImg}
             />
           </div>

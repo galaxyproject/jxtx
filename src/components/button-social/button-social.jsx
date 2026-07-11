@@ -16,7 +16,7 @@ import { Target } from "../../utils/anchor/target.model";
 
 // Styles
 import * as buttonStyles from "../button/button.module.css";
-const classNames = require("classnames");
+import classNames from "classnames";
 
 function ButtonSocial(props) {
   const { attributeHREF, children, iconSize } = props;

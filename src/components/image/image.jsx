@@ -6,13 +6,16 @@
  */
 
 // Core dependencies
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import React from "react";
 
+// App dependencies
+import CompatImage from "../compat-image/compat-image";
+
+/* `image` arrives pre-resolved: pages resolve frontmatter images with resolveImage() and pass
+   the array into MDX scope, so content's image={props.images[N]} lands here as ResolvedImage. */
 function Image(props) {
   const { alt, image } = props;
-
-  return <GatsbyImage alt={alt} image={getImage(image)} />;
+  return <CompatImage alt={alt} image={image} />;
 }
 
 export default Image;
