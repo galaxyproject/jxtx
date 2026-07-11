@@ -2,6 +2,7 @@ import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
 import rehypeExternalLinks from "rehype-external-links";
+import rehypeExplicitOverrides from "./src/lib/rehype-explicit-overrides.mjs";
 
 export default defineConfig({
   site: "https://jxtxfoundation.org",
@@ -13,6 +14,7 @@ export default defineConfig({
     // matches gatsby-remark-external-links defaults (target/rel on external links)
     rehypePlugins: [
       [rehypeExternalLinks, { target: "_blank", rel: ["nofollow", "noopener", "noreferrer"] }],
+      rehypeExplicitOverrides,
     ],
   },
 });
