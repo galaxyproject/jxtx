@@ -1,0 +1,17 @@
+---
+// Matches gatsby's minimal 404 (no site chrome, no head component).
+// parity/gatsby-build/404/index.html has no <title> element at all -- the old NotFoundPage
+// component never rendered a Helmet/SEO block, so react-helmet never injected one and
+// gatsby's default html.js doesn't supply a fallback title. Confirmed by grepping the
+// captured build for <title (attribute-aware, e.g. data-react-helmet) -- zero matches.
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <main>
+      <h1>Page Not Found</h1>
+    </main>
+  </body>
+</html>
