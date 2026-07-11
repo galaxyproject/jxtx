@@ -180,7 +180,7 @@ function Header(props) {
           buttonAction={() => setMenuOpen((menuOpen) => !menuOpen)}
           buttonType={ButtonType.BURGER}
         >
-          <img src={burger} alt={"Burger"} />
+          <img src={burger.src} alt={"Burger"} />
         </Button>
       </div>
     </header>

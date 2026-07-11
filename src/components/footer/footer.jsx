@@ -48,10 +48,10 @@ function Footer() {
           {/*    <ButtonSocial attributeHREF={facebook} iconSize={32}>*/}
           {/*        <img alt={"facebook"} src={iFacebook}/></ButtonSocial>*/}
           <ButtonSocial attributeHREF={linkedin} iconSize={32}>
-            <img alt={"linkedin"} src={iLinkedIn} />
+            <img alt={"linkedin"} src={iLinkedIn.src} />
           </ButtonSocial>
           <ButtonSocial attributeHREF={bluesky} iconSize={32}>
-            <img alt={"bluesky"} src={iBluesky} />
+            <img alt={"bluesky"} src={iBluesky.src} />
           </ButtonSocial>
           {/*    <ButtonSocial attributeHREF={instagram} iconSize={32}>*/}
           {/*        <img alt={"instagram"} src={iInstagram}/></ButtonSocial>*/}
