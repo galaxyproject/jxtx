@@ -14,3 +14,26 @@
   padding: 0 var(--gutter-x);
   width: 100%; /* Site flex. */
 }
+
+/*
+ * Markdown-syntax images (`![alt](src)`). Gatsby ran these through gatsby-remark-images, which
+ * constrained them to max-width 650px (its default), centered, aspect-ratio preserved. Astro's
+ * MDX emits a bare <img> carrying the source's intrinsic width/height attributes with only
+ * typography.css's `max-width:100%` -- so the fixed height attribute is never overridden and the
+ * image renders wildly too tall (e.g. a 3024x3480 photo squished to container-width x 3480px).
+ * min(650px, 100%) caps like gatsby without overflowing narrow viewports, and never upscales
+ * sub-650px images (no `width:100%`) so it matches gatsby-remark-images' presentationWidth too.
+ * Component <Image>s render through <picture> inside a wrapper div, so `p > img` reaches only
+ * these markdown images; typography's `p *:last-child { margin-bottom: 0 }` already collapses the
+ * spacing to match gatsby's `<p><span>...</span></p>` wrapper.
+ */
+.main p > img {
+  display: block;
+  height: auto;
+  margin-bottom: 0; /* gatsby's resp-image wrappers carry no margin; spacing comes from the <p>.
+                       typography.css only zeroes the LAST child, so two stacked images in one
+                       paragraph (we-miss-you) otherwise keep a stray 1.5rem between them. */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: min(650px, 100%);
+}

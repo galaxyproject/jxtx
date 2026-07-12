@@ -29,6 +29,52 @@ function isWhitespaceText(node) {
   return node.type === "text" && /^\s*$/.test(node.value ?? "");
 }
 
+// A hast <p> whose entire content is whitespace -- `\s` matches `&nbsp;`/` ` too. In this
+// content that's a standalone `&nbsp;` line typed between two JSX siblings (the ButtonSocial
+// separators on news/2021-08-jxtx-awardees). Gatsby's MDX v1 rendered such a line as bare text
+// (`</a>&nbsp;<a>`); MDX v3 wraps it in `<p>&nbsp;</p>`, which then picks up typography.css's
+// global `p { margin-bottom: 1.5rem }` and inflates the awardee card. This is the same v1-vs-v3
+// unwrapping gap as the sole-paragraph case below, just for a whitespace paragraph that sits
+// among other siblings rather than being the element's only child.
+function isWhitespaceOnlyParagraph(node) {
+  return (
+    node &&
+    node.type === "element" &&
+    node.tagName === "p" &&
+    Array.isArray(node.children) &&
+    node.children.length > 0 &&
+    node.children.every(isWhitespaceText)
+  );
+}
+
+function isElement(node, tagName) {
+  return node && node.type === "element" && node.tagName === tagName;
+}
+
+// A `<br/>` typed literally in MDX is a JSX node (tag name on `.name`), not a plain hast element
+// (`.tagName`) -- same distinction rehype-explicit-overrides.mjs relies on -- so match both forms.
+function isBr(node) {
+  return (
+    node &&
+    ((node.type === "element" && node.tagName === "br") ||
+      ((node.type === "mdxJsxFlowElement" ||
+        node.type === "mdxJsxTextElement") &&
+        node.name === "br"))
+  );
+}
+
+// Gatsby's MDX v1 left a text "paragraph" unwrapped when a literal `<br/>` line immediately
+// followed it inside a JSX element -- the run of text + `<br/>` + trailing JSX stayed one loose
+// inline flow rather than a wrapped `<p>` plus a stray `<br/>`. MDX v3 wraps the text in `<p>`,
+// which then contributes a paragraph margin the original never had. The site's sole occurrence is
+// the Vitoria card on news/2021-08-jxtx-awardees, where `<br /><br />` sits between the bio line
+// and the social button. Unwrapping the `<p>` reproduces Gatsby's exact `...neurons<br/><br/><a>`.
+function nextSignificant(children, index) {
+  let j = index + 1;
+  while (j < children.length && isWhitespaceText(children[j])) j++;
+  return children[j];
+}
+
 function unwrapSoleParagraph(node) {
   if (
     node &&
@@ -44,6 +90,24 @@ function unwrapSoleParagraph(node) {
       significant[0].tagName === "p"
     ) {
       node.children = significant[0].children;
+    } else {
+      // Unwrap two more JSX-scoped paragraph cases that Gatsby left bare (real Markdown
+      // paragraphs are never reached, matching the rest of this plugin family):
+      //   1. whitespace-only <p> (the three `&nbsp;` button separators) -> bare text.
+      //   2. a text <p> immediately followed by a `<br/>` sibling (the Vitoria bio) -> unwrapped.
+      const kids = node.children;
+      const out = [];
+      for (let i = 0; i < kids.length; i++) {
+        const child = kids[i];
+        if (isWhitespaceOnlyParagraph(child)) {
+          out.push(...child.children);
+        } else if (isElement(child, "p") && isBr(nextSignificant(kids, i))) {
+          out.push(...child.children);
+        } else {
+          out.push(child);
+        }
+      }
+      node.children = out;
     }
   }
   if (node && Array.isArray(node.children)) {
