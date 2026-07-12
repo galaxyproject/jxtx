@@ -6,6 +6,7 @@ import { getImage } from "astro:assets";
 import sharp from "sharp";
 
 const FACTORS = [0.25, 0.5, 1, 2];
+const PLACEHOLDER_WIDTH = 20;
 
 async function dominantColor(src) {
   try {
@@ -16,8 +17,33 @@ async function dominantColor(src) {
   }
 }
 
+// Tiny (~20px-wide) preview for the "blurred" placeholder, returned as a data URI. Encodes
+// both jpeg and png and keeps whichever is smaller -- photos favor jpeg, flat/graphic images
+// (few colors) can come out smaller as a palette png.
+async function blurredPreview(src, width, height) {
+  try {
+    const previewWidth = Math.max(1, Math.min(PLACEHOLDER_WIDTH, width));
+    const previewHeight = Math.max(1, Math.round((previewWidth / width) * height));
+    const [jpeg, png] = await Promise.all([
+      sharp(src.fsPath)
+        .resize(previewWidth, previewHeight, { fit: "cover" })
+        .jpeg({ quality: 60 })
+        .toBuffer(),
+      sharp(src.fsPath)
+        .resize(previewWidth, previewHeight, { fit: "cover" })
+        .png({ compressionLevel: 9, palette: true })
+        .toBuffer(),
+    ]);
+    const [buffer, mime] =
+      jpeg.length <= png.length ? [jpeg, "image/jpeg"] : [png, "image/png"];
+    return `data:${mime};base64,${buffer.toString("base64")}`;
+  } catch {
+    return null; // placeholder is a loading-state nicety; never fail the build over it
+  }
+}
+
 export async function resolveImage(src, opts = {}) {
-  const { avif = false, placeholder = true } = opts;
+  const { avif = false, placeholder = "dominant" } = opts;
   const width = Math.min(opts.width ?? src.width, src.width);
   const height =
     opts.width && opts.height
@@ -67,6 +93,8 @@ export async function resolveImage(src, opts = {}) {
     sizes,
     fallback: { src: fallback.src, srcSet: fallback.srcSet.attribute },
     sources,
-    backgroundColor: placeholder ? await dominantColor(src) : null,
+    backgroundColor: placeholder === "none" ? null : await dominantColor(src),
+    placeholderSrc:
+      placeholder === "blurred" ? await blurredPreview(src, width, height) : null,
   };
 }

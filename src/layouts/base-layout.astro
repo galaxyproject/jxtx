@@ -7,7 +7,7 @@ import logoSrc from "../../images/jxtx.png";
 import * as layoutStyles from "../components/layout/layout.module.css";
 
 const { title, description, image, pathname, headerMinor = false } = Astro.props;
-const logo = await resolveImage(logoSrc, { placeholder: false });
+const logo = await resolveImage(logoSrc, { placeholder: "none" });
 ---
 <html lang="en">
   <head>
@@ -19,5 +19,65 @@ const logo = await resolveImage(logoSrc, { placeholder: false });
       <slot />
       <Footer />
     </div>
+    <script is:inline>
+      // Gatsby-style blur-up fade-in, minus gatsby's noscript hack: nothing here ever hides an
+      // image via CSS, so JS-disabled visitors just see the final image with no flash. By the
+      // time this script runs the wrappers are already in the DOM, so a still-loading image
+      // gets opacity 0 and fades in on load; a cache hit (already painted) drops its placeholder
+      // instantly with no fade; and any path -- including a broken image -- ends with the main
+      // image visible.
+      (function () {
+        var wrappers = document.querySelectorAll("[data-gatsby-image-wrapper]");
+
+        function processWrapper(wrapper) {
+          var img = wrapper.querySelector("[data-main-image]");
+          if (!img) return;
+          var placeholder = wrapper.querySelector("[data-placeholder-image]");
+
+          var reveal = function () {
+            img.style.transition = "opacity 250ms linear";
+            img.style.opacity = "1";
+            if (placeholder) {
+              placeholder.style.transition = "opacity 500ms linear";
+              placeholder.style.opacity = "0";
+            }
+          };
+
+          if (img.complete) {
+            if (img.naturalWidth > 0) {
+              // cache hit -- already painted, drop the placeholder instantly, no fade
+              if (placeholder) placeholder.style.opacity = "0";
+            } else {
+              // already complete but broken -- never leave it hidden
+              reveal();
+            }
+            return;
+          }
+
+          img.style.opacity = "0";
+          var proceed = function () {
+            if (img.decode) {
+              img.decode().catch(function () {}).then(reveal);
+            } else {
+              reveal();
+            }
+          };
+          img.addEventListener("load", proceed, { once: true });
+          img.addEventListener("error", reveal, { once: true });
+        }
+
+        // A lazy img's fetch doesn't start until the browser's own intersection check runs
+        // (after layout), so `img.complete` reads false at plain parse time even when the
+        // image is fully cached -- a same-page reload would always miss the cache-hit branch
+        // above and replay the fade for no reason. Giving that intersection check, and a cache
+        // read, a moment to land first (~100ms -- still "early" against any real network image
+        // load, which runs to hundreds of ms/seconds) lets a genuinely cached lazy image be
+        // caught too. Nothing here is visible yet either way, so this delay costs nothing: a
+        // still-loading image has no pixels to show regardless of its opacity.
+        setTimeout(function () {
+          wrappers.forEach(processWrapper);
+        }, 100);
+      })();
+    </script>
   </body>
 </html>

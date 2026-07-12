@@ -1,6 +1,7 @@
 /* gatsby-plugin-image layout CSS, extracted from the Gatsby build output. The
-   [data-main-image] opacity-0 fade-in rule is intentionally omitted -- CompatImage renders the
-   final frame directly. */
+   [data-main-image] opacity-0 fade-in rule is intentionally omitted here -- base-layout.astro's
+   inline script drives the fade via inline styles instead, so JS-disabled visitors never have
+   an image hidden by CSS. */
 .gatsby-image-wrapper {
   position: relative;
   overflow: hidden;

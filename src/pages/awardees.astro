@@ -17,7 +17,7 @@ const awardees = (
       name: entry.data.name,
       institution: entry.data.institution,
       photo: entry.data.photo
-        ? await resolveImage(entry.data.photo, { width: 400, height: 400, avif: true })
+        ? await resolveImage(entry.data.photo, { width: 400, height: 400, avif: true, placeholder: "blurred" })
         : null,
       conference: entry.data.conference,
       year: entry.data.year,

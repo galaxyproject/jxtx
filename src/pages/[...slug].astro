@@ -28,7 +28,7 @@ const images = entry.data.images
 const links = entry.data.links;
 const awardee = isAwardeeProfile(entry);
 const photo = awardee && entry.data.photo
-  ? await resolveImage(entry.data.photo, { width: 300, height: 300, avif: true })
+  ? await resolveImage(entry.data.photo, { width: 300, height: 300, avif: true, placeholder: "blurred" })
   : null;
 const seoImage = entry.data.image
   ? (await getImage({ src: entry.data.image })).src
