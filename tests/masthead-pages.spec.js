@@ -139,10 +139,14 @@ test.describe('Main Navigation and Content Pages', () => {
           if (h1Count > 0) {
             await expect(h1).toBeVisible();
 
-            // Check that h1 has the custom className from ArticleH1 component
+            // Check that h1 uses one of the site's custom heading components. Astro hashes
+            // CSS-module classes as `_name_hash` where Gatsby used `name-module--name--hash`,
+            // so match the stable semantic name both share. Also: listing pages (Scholarships,
+            // News) use Headline and awardee pages use AwardeeProfile's name -- not ArticleH1 --
+            // in BOTH builds, so accept those custom heading modules too.
             const className = await h1.getAttribute('class');
             if (className) {
-              expect(className).toContain('article');
+              expect(className).toMatch(/article__h1|headline__heading|awardeeName/);
             }
           }
         });
@@ -160,15 +164,23 @@ test.describe('Main Navigation and Content Pages', () => {
             const firstLink = mainLinks.first();
             const className = await firstLink.getAttribute('class');
 
-            // Check for custom link styling (article-a-module)
+            // First in-content link is an ArticleA on prose pages, but a Tile link (listing
+            // pages) or a ButtonCta (Apply Now / Donate) elsewhere -- all custom CSS-module
+            // components in both builds, none a bare unstyled anchor. (Astro `_name_hash` vs
+            // Gatsby `name-module--name--hash`; match the shared semantic name.)
             expect(className).toBeTruthy();
-            expect(className).toContain('article');
+            expect(className).toMatch(/article__link|tile__link|button/);
 
-            // Verify custom color (not default blue)
-            const color = await firstLink.evaluate((el) =>
-              window.getComputedStyle(el).color
-            );
-            expect(color).not.toBe('rgb(0, 0, 238)'); // Not default blue
+            // Only ArticleA prose links override the anchor colour to JXTX blue. A Tile link
+            // wraps its own styled children and leaves the <a> at the UA default -- true in both
+            // Gatsby and Astro (the /scholarships and /news listings diff 0px in the pixel sweep),
+            // so only enforce the non-default colour for actual ArticleA links.
+            if (/article__link/.test(className)) {
+              const color = await firstLink.evaluate((el) =>
+                window.getComputedStyle(el).color
+              );
+              expect(color).not.toBe('rgb(0, 0, 238)'); // Not default blue
+            }
           }
         });
       }
@@ -187,8 +199,9 @@ test.describe('Main Navigation and Content Pages', () => {
           const firstLink = tableLinks.first();
           const className = await firstLink.getAttribute('class');
 
-          // Table links should use ArticleA component via <A> tag
-          expect(className).toContain('article-a-module');
+          // Table links should use ArticleA component via <A> tag (semantic module name,
+          // shared by Gatsby's `article-a-module--article__link` and Astro's `_article__link_`)
+          expect(className).toContain('article__link');
 
           // Verify JXTX blue color
           const color = await firstLink.evaluate((el) =>
@@ -206,7 +219,9 @@ test.describe('Main Navigation and Content Pages', () => {
 
           if (await figcaption.count() > 0) {
             const className = await figcaption.getAttribute('class');
-            expect(className).toContain('article-figcaption-module');
+            // Semantic module name shared by Gatsby's `article-figcaption-module--article__figcaption`
+            // and Astro's `_article__figcaption_hash`.
+            expect(className).toContain('article__figcaption');
 
             // Verify orange leading line
             const beforePseudo = await figcaption.evaluate((el) => {
