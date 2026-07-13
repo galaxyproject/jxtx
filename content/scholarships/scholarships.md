@@ -50,7 +50,7 @@ title: "Scholarships"
 JXTX + CSHL 2026 Biological Data Science Scholarship
 </TileHeading>
 <TileBody>
-The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2026 Biological Data Science Scholarship. Application deadline is August 7, 2026.
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2026 Biological Data Science Scholarship. Application deadline is August 5, 2026.
 </TileBody>
 </TileContent>
 </Tile>
