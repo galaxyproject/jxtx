@@ -15,8 +15,7 @@ images:
     - _images/scholarships-hero-2025-gi.png
     - _images/scholarships-hero-2026-bog.png
     - _images/scholarships-hero-2026-gcc.png
-    # TODO: swap placeholder 2024 hero for scholarships-hero-2026-bds.png once ready
-    - _images/scholarships-hero-2024-bds.png
+    - _images/scholarships-hero-2026-bds.png
 links:
     - /scholarships/2021-genome-informatics
     - /news/2020-10-jxtx-awardees

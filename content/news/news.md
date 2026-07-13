@@ -27,8 +27,7 @@ images:
     - ../scholarships/_images/scholarships-hero-2026-bog.png
     - ../scholarships/_images/scholarships-hero-2026-gcc.png
     - _images/2026-bog-awardees.png
-    # TODO: swap placeholder 2024 hero for scholarships-hero-2026-bds.png once ready
-    - ../scholarships/_images/scholarships-hero-2024-bds.png
+    - ../scholarships/_images/scholarships-hero-2026-bds.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
