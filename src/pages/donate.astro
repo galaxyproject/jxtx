@@ -1,0 +1,13 @@
+---
+import BaseLayout from "../layouts/base-layout.astro";
+import Donate from "../components/donate/donate";
+import { resolveImage } from "../lib/images.js";
+import mentorshipSrc from "../../images/home/mentorship.png";
+import jjSrc from "../../content/_images/jj/jj-1.png";
+
+const mentorship = await resolveImage(mentorshipSrc);
+const jj = await resolveImage(jjSrc);
+---
+<BaseLayout pathname="/donate">
+  <Donate mentorship={mentorship} jj={jj} />
+</BaseLayout>

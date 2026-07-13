@@ -1,0 +1,32 @@
+---
+// Matches gatsby's minimal 404 (no site chrome, no <title>).
+// parity/gatsby-build/404/index.html has no <title> element at all -- the old NotFoundPage
+// component never rendered a Helmet/SEO block, so react-helmet never injected one and
+// gatsby's default html.js doesn't supply a fallback title. Confirmed by grepping the
+// captured build for <title (attribute-aware, e.g. data-react-helmet) -- zero matches.
+//
+// Gatsby *did* still inject the typography.js stylesheet + Google Fonts link into the 404 head,
+// so its bare `<h1>Page Not Found</h1>` rendered in the sans-serif heading font (Source Sans Pro,
+// weight 600). It did NOT pick up globals.css, whose `html { font-size: 112.5% }` (125% >=1240px)
+// bumps the fluid root every normal page uses -- so gatsby's 404 root stayed at typography's base
+// 16px, making its h1 a true 2rem = 32px, smaller than the 36-40px it is on chrome-bearing pages.
+// Import ONLY typography.css to reproduce that exactly (verified: baseline 404 heading bbox is
+// ~13% smaller than the fluid-root size). No globals/vars/viewport-units/gatsby-image: the 404 has
+// nothing but the heading, and pulling in the fluid root would oversize it.
+import "../styles/typography.css";
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Noto+Serif:400"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>Page Not Found</h1>
+    </main>
+  </body>
+</html>

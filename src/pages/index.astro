@@ -1,0 +1,26 @@
+---
+import { getEntry, render } from "astro:content";
+import BaseLayout from "../layouts/base-layout.astro";
+import Home from "../components/home/home";
+import { shortcodes } from "../lib/shortcodes.js";
+import { resolveImage } from "../lib/images.js";
+import heroSrc from "../../images/hero/hero.png";
+import mentorshipSrc from "../../images/home/mentorship.png";
+import outreachSrc from "../../images/home/outreach.png";
+import jamesSrc from "../../images/james/james.png";
+
+const [hero, mentorship, outreach, james] = await Promise.all(
+  [heroSrc, mentorshipSrc, outreachSrc, jamesSrc].map((src) => resolveImage(src))
+);
+
+const news = await getEntry("content", "/news");
+const { Content: NewsContent } = await render(news);
+const newsImages = news.data.images
+  ? await Promise.all(news.data.images.map((img) => resolveImage(img)))
+  : undefined;
+---
+<BaseLayout pathname="/">
+  <Home hero={hero} mentorship={mentorship} outreach={outreach} james={james}>
+    <NewsContent components={shortcodes} images={newsImages} links={news.data.links} />
+  </Home>
+</BaseLayout>
