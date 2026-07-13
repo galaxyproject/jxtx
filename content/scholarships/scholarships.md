@@ -15,6 +15,7 @@ images:
     - _images/scholarships-hero-2025-gi.png
     - _images/scholarships-hero-2026-bog.png
     - _images/scholarships-hero-2026-gcc.png
+    - _images/scholarships-hero-2026-bds.png
 links:
     - /scholarships/2021-genome-informatics
     - /news/2020-10-jxtx-awardees
@@ -29,6 +30,7 @@ links:
     - /news/2025-6-09-gi
     - /news/2025-12-15-bg
     - /news/2025-12-15-gcc
+    - /news/2026-06-22-bds
 slug: "/scholarships"
 title: "Scholarships"
 ---
@@ -38,6 +40,22 @@ title: "Scholarships"
 </Headline>
 
 <Newsroom>
+
+<Grid columns={1}>
+
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[13]}>
+<TileThumbnail alt={"JXTX + CSHL 2026 Biological Data Science Scholarship"} image={props.images[12]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + CSHL 2026 Biological Data Science Scholarship
+</TileHeading>
+<TileBody>
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2026 Biological Data Science Scholarship. Application deadline is August 5, 2026.
+</TileBody>
+</TileContent>
+</Tile>
+
+</Grid>
 
 <Grid columns={1}>
 

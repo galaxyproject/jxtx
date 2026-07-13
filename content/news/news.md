@@ -27,6 +27,7 @@ images:
     - ../scholarships/_images/scholarships-hero-2026-bog.png
     - ../scholarships/_images/scholarships-hero-2026-gcc.png
     - _images/2026-bog-awardees.png
+    - ../scholarships/_images/scholarships-hero-2026-bds.png
 links:
     - /news/2020-11-jxtx-joglekar
     - /news/2020-11-jxtx-zaman
@@ -52,6 +53,7 @@ links:
     - /news/2025-12-15-gcc
     - /news/2026-3-18-bg-awardees
     - /news/2026-5-11-gcc-awardees
+    - /news/2026-06-22-bds
 slug: "/news"
 title: "Newsroom"
 ---
@@ -64,7 +66,24 @@ title: "Newsroom"
 
 <Grid columns={1}>
 
-<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[23]}>
+<Tile orientation={"HORIZONTAL"} scale={"MEDIUM"} tileLink={props.links[24]}>
+<TileThumbnail alt={"JXTX + CSHL 2026 Biological Data Science Scholarship"} image={props.images[24]}></TileThumbnail>
+<TileContent>
+<TileHeading>
+JXTX + CSHL 2026 Biological Data Science Scholarship
+</TileHeading>
+<TileBody>
+The JXTX Foundation and Cold Spring Harbor Laboratory announce the 2026 Biological Data Science Scholarship. Application deadline is August 5, 2026.
+</TileBody>
+<TileDate>June 22, 2026</TileDate>
+</TileContent>
+</Tile>
+
+</Grid>
+
+<Grid columns={3}>
+
+<Tile tileLink={props.links[23]}>
 <TileThumbnail alt={"JXTX + JJ Fund 2026 GCC Awardees"} image={props.images[22]}></TileThumbnail>
 <TileContent>
 <TileHeading>
@@ -76,10 +95,6 @@ Meet the five recipients of the JXTX Foundation and JJ Fund Scholarships for the
 <TileDate>May 11, 2026</TileDate>
 </TileContent>
 </Tile>
-
-</Grid>
-
-<Grid columns={3}>
 
 <Tile tileLink={props.links[22]}>
 <TileThumbnail alt={"JXTX Foundation Awards Scholarships for Biology of Genomes 2026"} image={props.images[23]}></TileThumbnail>
