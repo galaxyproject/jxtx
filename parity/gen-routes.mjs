@@ -14,9 +14,13 @@ function walk(dir, routes) {
   for (const name of readdirSync(dir)) {
     const full = join(dir, name);
     if (statSync(full).isDirectory()) walk(full, routes);
-    else if (name === "index.html") {
+    else if (name.endsWith(".html")) {
+      // astro emits 404.html rather than 404/index.html, so match any .html,
+      // not just index.html -- otherwise /404/ silently drops out of the manifest
       const rel = relative(buildDir, dir).split(sep).join("/");
-      routes.push(rel === "" ? "/" : `/${rel}/`);
+      const base = name === "index.html" ? "" : name.slice(0, -".html".length);
+      const parts = [rel, base].filter(Boolean);
+      routes.push(parts.length ? `/${parts.join("/")}/` : "/");
     }
   }
 }
