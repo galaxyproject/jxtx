@@ -58,7 +58,9 @@ module.exports = defineConfig({
 
   /* Run your local dev server before starting the tests */
   webServer: {
-    command: 'npm run build && npm run serve',
+    // --ignore-lock: astro >= 7.4 backgrounds `preview` when an AI agent runs it, and the
+    // foreground process exiting makes Playwright give up on the server
+    command: 'npm run build && npm run serve -- --ignore-lock',
     url: 'http://localhost:5598',
     reuseExistingServer: !process.env.CI,
     timeout: 600 * 1000,
